@@ -158,7 +158,118 @@ Valores:
 ## Capítulo II: Requirements Elicitation & Analysis <a id="cap2"></a>
 
 ### 2.1. Competidores
+Identificamos tres competidores, cuyos productos son similares directamente o indirectamente a lo que nosotros queremos ofrecer.
+1. **Restaurant\.pe**: Es un software para restaurantes que optimiza la gestión del restaurante mediante funcionalidades como un menú online, una plataforma para pedidos y emisión de comprobantes, visualizar ventas y stock, facturación electrónica, entre otros. Ofrece una interfaz amigable, es multiplataforma y puede funcionar con o sin conexión a internet.<br>
+<img src="assets/Restaurant.pe_logo.png" alt="Logo Restaurant.pe" width="150"><br>
+
+2. **El Tenedor**:<br>
+<img src="assets/ElTenedor_logo.png" alt="Logo El Tenedor" width="150"><br>
+
+3. **Rest\.pe**:<br>
+<img src="assets/Rest.pe_logo.png" alt="Logo Rest.pe" width="150"><br>
+
 #### 2.1.1. Análisis competitivo
+<table border="2" style="text-align: center;">
+	<tbody>
+		<tr >
+			<td colspan="6">Competitive Analysis Landscape</td>
+		</tr>
+		<tr>
+			<td colspan="2">¿Por que llevar a cabo este análisis?</td>
+			<td colspan="4">El analizar nuestros competidores nos permite identificar qué estrategias debemos usar para poder desarrollar una aplicación que destaque en el mercado, analizando todos los detalles que diferencie nuestro producto de otros.
+            </td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td>FoodSuite</td>
+			<td>Restaurant.pe</td>
+			<td>El Tenedor</td>
+			<td>Rest.pe</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Perfil</td>
+			<td>Overview</td>
+			<td>Aplicación que ofrece funcionalidades de gestión para diversos áreas de un restaurante, como los pedidos. Permite la realización de actividades diarias en un restaurante que se pueda realizar en un dispositivo móvil o desde una aplicación web.</td>
+			<td>Aplicación que optimiza la gestión del restaurante proporcionando una interfaz amigable de pedidos, emisión de comprobantes y visualización de ventas. Presenta un conteo de stock e inventario en tiempo real, además de poder ser manejado desde múltiples dispositivos.</td>
+			<td>Aplicación que gestiona las mesas del restaurante de manera sencilla, además de un listado digital de reservas confirmadas. Estas reservas las permite la aplicación sin necesidad de llamar e incluye la opción de pago desde la misma app.</td>
+			<td>Aplicación customizada por un equipo para cada empresa cliente, cuyas funcionalidades incluyen una cocina smart, capacitación, estadísticas, búsqueda por voz, recetarios, publicidad local, entre otros.</td>
+		</tr>
+		<tr>
+			<td>Ventaja competitiva ¿Que valor ofrece a los clientes?</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="2">Perfil de Marketing</td>
+			<td>Mercado objetivo</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Estrategias de marketing</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="3">Perfil de Producto</td>
+			<td>Productos & Servicios</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Precios &amp; Costos</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Canales de distribución (Web y/o Móvil)</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="4">Análisis SWOT</td>
+			<td>Fortalezas</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Debilidades</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Oportunidades</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Amenazas</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 ### 2.2. Entrevistas.
 Las entrevistas siguientes nos sirven para conocer lo que los clientes esperan de un producto, qué experiencias tuvieron con productos similares y qué tipo de decisiones nosotros tenemos que tomar. Al analizar estas entrevistas, nosotros tendremos una idea de cómo desarrollar nuestro producto de manera que ésta se adapte a lo que el cliente desea.
@@ -189,10 +300,99 @@ El diseño de las entrevistas va acorde a la información que nosotros queremos 
 #### 2.2.2. Registro de entrevistas
 Registramos las entrevistas para recopilar y organizar la información que se nos ha proporcionado. Gracias a las entrevistas a los grupos objetivos, podremos analizar y recalcar las necesidades que el cliente espera que la aplicación cumpla.
 #### Administrador
+* **Entrevista 1** <br>
+Nombre completo: Verónica Astiguetta<br>
+Edad: 54 años<br>
+Papel desempeñado: Tesorera<br>
+Empresa: Bodega Queirolo S.A.C.<br>
+Distrito: Cercado de Lima<br><br>
+**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/Ef9uDA3S7HlLsJq592JxL4QBE5j06TO_wGRcUT0o6XHBFg?e=ZfwCRg">
+	<img src="assets/VeronicaEntrevista.png" alt="Entrevista 1" width="500"></a><br>
+Inicio de la entrevista: 0:28<br>
+Fin de la entrevista: 13:09<br>
+**Transcripción resumen de entrevista:**<br>
+Expresa satisfacción con una organización regulada mediante un sistema, ya que describe que cuando era manual hubo complicaciones. Indica que el sistema actual que usan les ayuda mucho en las actividades básica de la empresa; sin embargo, hay demasiadas funciones que no sacan el provecho máximo del sistema debido a falta de tiempo o son innecesarios. Muestra interés por permitir a los trabajadores usar sus dispositivos en vez de usar un solo dispositivo el cual sería el sistema principal, lo cual consideraría uno de los problemas de este sistema. Muestra interés por lograr almacenar todos los documentos relacionados a las finanzas en un solo lugar, en especial una página web donde pueda acceder desde cualquier lado. Muestra interés por aumentar la productividad de los trabajadores mediante un sistema de cálculo de rendimiento y por tanto establecer una competencia como motivación. Ve importante utilizar las estadísticas de platos más vendidos en cierta temporada para ajustar la carta. Ve posible el cambio de sistema, pues opina que las características proporcionadas son buenas para el negocio.
+
+* **Entrevista 2**
+Nombre completo: Iván Pacheco<br>
+Edad: 53 años<br>
+Papel desempeñado: Administración general<br>
+Empresa: Bodega Queirolo S.A.C.<br>
+Distrito: Cercado de Lima<br><br>
+**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EaUxlvOm90JDipzD8uZaatwBB3N7EGJ3H_QBojdNT-jMAw?e=pPpzKP">
+	<img src="assets/IvanEntrevista.png" alt="Entrevista 2" width="500"></a><br>
+Inicio de la entrevista: 0:19<br>
+Fin de la entrevista: 40:30<br>
+**Transcripción resumen de entrevista:**<br>
+Opina que la estructura actual que tiene el negocio es adecuado y todos respetan los roles, pero hubo problemas con trabajadores nuevos. El sistema que utiliza el negocio respeta estos roles: solo la administración utiliza esta aplicación, mientras que los trabajadores aún dependen de ciertos elementos materiales. Expresa satisfacción con el sistema actual, ya que cumple con los requisitos que la empresa exige que la aplicación tenga; sin embargo, hay varios problemas que experimenta con la aplicación. Se muestra indiferente con respecto a permitir a los trabajadores usar dispositivos para facilitar su labor, ya que es más eficiente usar el método del papel para recibir los pedidos, pero si el dispositivo logra ser eficiente para ahorrar tiempo, ve útil la funcionalidad propuesta. Ve conveniente que el sistema pueda manejar los reportes financieros desde la misma aplicación web. No ve necesario utilizar estadísticas para calcular el reporte de trabajadores, ya que es más verificable el observar al trabajador en comparación con otro durante el periodo laboral en comparación a depender de un sistema. Muestra totalmente útil la funcionalidad de mostrar estadísticas de, por ejemplo, los platos más vendidos, ya que podrá priorizar la salida de platos más pedidos y acelerar el servicio. Ve posible el cambio de sistema, pero tiene expectativas con respecto a que el sistema no caiga, sea fácil de usar, sea cómodo y el proveedor de servicio de atención tenga disponibilidad de tiempo larga (comparando con su sistema actual, que tiene estas desventajas).
+
+* **Entrevista 3**
+Nombre completo: Eduardo Aventura<br>
+Edad: 20<br>
+Papel desempeñado: Tesorero<br>
+Empresa: Emotiv<br>
+Distrito: San Juan de Gaucho<br><br>
+**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EUzrKMC_3sNJm875RKyHDH4B-9covRyvKBiMmQo0tZQfJw?e=gmwbWc">
+	<img src="assets/EduardoEntrevista.png" alt="Entrevista 3" width="500"></a><br>
+Inicio de la entrevista: 0:14<br>
+Fin de la entrevista: 10:55<br>
+**Transcripción resumen de entrevista:**<br>
+Expresa satisfacción con una organización regulada mediante un sistema, ya que describe que cuando era manual no era tan eficiente manejar papeles. A pesar de que el sistema que usa para manejar las finanzas es Excel, opina que la herramienta es suficiente para cumplir sus trabajos. Muestra interés por permitir a los trabajadores disponer de un sistema que les ayuda a realizar su labor de manera más rápida y que almacene pedidos para que él mismo pueda dar apoyo si hay muchas personas. Ve bien un sistema que almacene los reportes financieros, aunque el excel le satisface suficiente. No muestra tanto interés, pero le parece bien poder visualizar el rendimiento de los trabajadores mediante estadísticas. No muestra tanto interés, pero ve útil utilizar las estadísticas de platos más vendidos en cierta temporada para deshacerse de platos que no venden. Ve posible el cambio de sistema, pues opina que tener varias funciones automatizadas puede beneficiar al negocio.
 
 #### Trabajador
+* **Entrevista 4**
+
+<br>
+
+* **Entrevista 5**
+
+<br>
+
+* **Entrevista 6**
+
+<br>
 
 #### 2.2.3. Análisis de entrevistas
+Al analizar las entrevistas, podemos comprender las expectativas y necesidades que los usuarios piden, además de recibir feedback en cuanto a cómo debería ser su producto ideal. Con esto, recurriremos a la toma de decisiones para el desarrollo del producto.
+#### **Administrador**
+
+[//]: # (TODO: Trabajar en el formato de estadísticas)
+* ¿Has tenido problemas relacionados con el método de organización del negocio actual?<br>
+
+\- No.<br>
+\- Si.<br>
+\- Si<br>
+
+* ¿El sistema que el negocio usa actualmente cumple con sus expectativas?<br>
+
+\- Si<br>
+\- Parcialmente<br>
+\- Si<br>
+
+* ¿Favorecería un sistema que permita a trabajadores desde su dispositivo registrar las mesas que atienden?<br>
+
+\- Si<br>
+\- Indiferente<br>
+\- Si<br>
+
+* ¿Favorecería un sistema que almacene en una sección los reportes de inventario, gastos y ganancias del negocio además de una generación de estadísticas?<br>
+
+\- Si<br>
+\- Si<br>
+\- Si<br>
+
+* ¿Favorecería un sistema que muestre una comparación de productividad de un trabajador con respecto a fechas anteriores?<br>
+
+\- Si<br>
+\- No<br>
+\- Si<br>
+
+* ¿Cambiarías el sistema antiguo del negocio con uno nuevo si tuviera las funcionalidades dadas?<br>
+
+\- Si<br>
+\- Depende<br>
+\- Si<br>
+
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 #### 2.3.2. User Task Matrix
