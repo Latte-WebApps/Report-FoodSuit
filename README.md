@@ -166,8 +166,123 @@ Valores:
 #### 2.2.3. Análisis de entrevistas
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
+
+### User Persona Segmento Administrador
+<img src="assets/Eduardo Ventura.png" alt="UserPersona Eduardo" width="800"></a><br>
+<br>
+### User Persona Segmento Trabajador
+<img src="assets/Laura Martinez.png" alt="UserPersona Laura" width="800"></a><br>
+
 #### 2.3.2. User Task Matrix
+En esta sección se presentará el User Task Matrix, una herramienta que permite identificar las tareas más relevantes para cada segmento, así como la frecuencia e importancia de cada una de ellas.
+
+<table>
+  <tr>
+    <th rowspan="2" valign="top"><b><i>User Task Matrix</i></b></th>
+    <th colspan="2" valign="top"><b><i>Eduardo</i></b></th>
+    <th colspan="2" valign="top"><b><i>Laura Martínez</i></b></th>
+  </tr>
+  <tr>
+    <td valign="top"><b><i>Frecuencia</i></b></td>
+    <td valign="top"><b><i>Importancia</i></b></td>
+    <td valign="top"><b><i>Frecuencia</i></b></td>
+    <td valign="top"><b><i>Importancia</i></b></td>
+  </tr>
+  <tr>
+    <td>Registrar boletas y facturas</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Baja</i></b></td>
+  </tr>
+  <tr>
+    <td>Optimización de procesos internos</td>
+    <td><b><i>A menudo</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>A veces</i></b></td>
+    <td><b><i>Medio</i></b></td>
+  </tr>
+  <tr>
+    <td>Supervisión de flujo de ingresos y egresos</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>A veces</i></b></td>
+    <td><b><i>Alta</i></b></td>
+  </tr>
+  <tr>
+    <td>Adopción de nuevas tecnologías para la gestión</td>
+    <td><b><i>A menudo</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>A veces</i></b></td>
+    <td><b><i>Alta</i></b></td>
+  </tr>
+  <tr>
+    <td>Coordinación con el equipo de operaciones</td>
+    <td><b><i>A veces</i></b></td>
+    <td><b><i>Medio</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+  </tr>
+  <tr>
+    <td>Atención al cliente</td>
+    <td><b><i>A veces</i></b></td>
+    <td><b><i>Medio</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+  </tr>
+  <tr>
+    <td>Programación de servicios</td>
+    <td><b><i>A veces</i></b></td>
+    <td><b><i>Medio</i></b></td>
+    <td><b><i>A menudo</i></b></td>
+    <td><b><i>Alta</i></b></td>
+  </tr>
+  <tr>
+    <td>Manejo de pedidos</td>
+    <td><b><i>A veces</i></b></td>
+    <td><b><i>Medio</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+  </tr>
+  <tr>
+    <td>Resolución de problemas operativos</td>
+    <td><b><i>A menudo</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+  </tr>
+  <tr>
+    <td>Seguimiento de la satisfacción del cliente</td>
+    <td><b><i>A veces</i></b></td>
+    <td><b><i>Medio</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+  </tr>
+</table>
+
+### Explicación de la User Task Matrix
+
+- **Registrar boletas y facturas**: Eduardo lo hace siempre y es de alta importancia, ya que mediante a esto mantiene un flujo de caja organizado.
+- **Optimización de procesos internos**: Eduardo lo hace a menudo y es de alta importancia, ya que busca mejorar la eficiencia de su empresa.
+- **Supervisión de flujo de ingresos y egresos**: Eduardo lo hace siempre y es de alta importancia, ya que necesita tener un control de sus finanzas.
+- **Adopción de nuevas tecnologías para la gestión**: Eduardo lo hace a menudo y es de alta importancia, ya que busca mejorar la eficiencia de su empresa.
+- **Coordinación con el equipo de operaciones**: Laura lo hace siempre y es de alta importancia, ya que día a día necesita coordinarse con su equipo.
+- **Atención al cliente**: Laura lo hace siempre y es de alta importancia, ya que necesita mantener una buena relación con sus clientes.
+- **Programación de servicios**: Laura lo hace a menudo y es de alta importancia, y con esto mantiene un orden en su día de trabajo.
+- **Manejo de pedidos**: Laura lo hace siempre y es de alta importancia, ya que necesita mantener un control de los pedidos.
+- **Resolución de problemas operativos**: Laura lo hace siempre y es de alta importancia, ya que debe saber resolver estos casos con efectividad y rapidez para la
+  satisfacción de los clientes.
+
 #### 2.3.3. User Journey Mapping
+Mediante los User Journey Maps, se representa la situación (AS-Is) de la experiencia de los usuarios al interactuar desde la creación hasta la finalización
+del proyecto de gestión interna de un restaurante. Estos mapas permiten visualizar los puntos de contacto,
+emociones y acciones de los usuarios a lo largo de su recorrido, identificando oportunidades de mejora y optimización.
+
+#### **User Journey Map Administrador**
+<img src="assets/Eduardo%20Journey%20Map.png" alt="UserJourneyMap Eduardo" width="800"><br>
+#### ** User Journey Map Trabajador**
+
+<img src="assets/Laura%20Martinez%20Journey%20map.png" alt="UserJourneyMap Laura"><br>
 #### 2.3.4. Empathy Mapping
 #### 2.3.5. As-is Scenario Mapping
 ### 2.4. Ubiquitous Language
