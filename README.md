@@ -132,6 +132,7 @@ Velarde Luyo, Piero Alberto (U20211A620)<br>
 
 
 ### 1.1. Startup Profile
+En esta seccion presentaremos nuestra start-up, el sector que buscamos incursionar, la soluciona propuesta a la problematica escojida y demas informacion permitente para poder entender la vision del equipo con respecto al proyecto
 
 Descripcion
 
