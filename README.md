@@ -179,8 +179,191 @@ Hemos identificado dos segmentos distintos de usuarios:
 ## Capítulo II: Requirements Elicitation & Analysis <a id="cap2"></a>
 
 ### 2.1. Competidores
+Identificamos tres competidores, cuyos productos son similares directamente o indirectamente a lo que nosotros queremos ofrecer.
+1. **Restaurant\.pe**: Es un software para restaurantes que optimiza la gestión del restaurante mediante funcionalidades como un menú online, una plataforma para pedidos y emisión de comprobantes, visualizar ventas y stock, facturación electrónica, entre otros. Ofrece una interfaz amigable, es multiplataforma y puede funcionar con o sin conexión a internet.<br>
+<img src="assets/Restaurant.pe_logo.png" alt="Logo Restaurant.pe" width="150"><br>
+
+2. **El Tenedor**: Es un software para restaurantes y personas que buscan restaurantes donde comer. La aplicación almacena la carta del restaurante e información pública como reseñas, ubicación, etc. Permite a las personas reservar mesas del restaurante que disponga de esta aplicación para facilitar la atención.<br>
+<img src="assets/ElTenedor_logo.png" alt="Logo El Tenedor" width="150"><br>
+
+3. **Rest\.pe**: Es un software para restaurantes que optimiza la gestión del restaurante y capacita a los trabajadores para aumentar la eficacia del entorno laboral. Aparte de las funcionalidades básicas para un restaurante, presenta múltiples funcionalidades como publicidad local, recetarios, cocina smart, entre otros. Este software es customizable por empresa, por lo que se adapta a lo que la empresa desea según contrato.<br>
+<img src="assets/Rest.pe_logo.png" alt="Logo Rest.pe" width="150"><br>
+
 #### 2.1.1. Análisis competitivo
+<table border="2" style="text-align: center;">
+	<tbody>
+		<tr >
+			<td colspan="6">Competitive Analysis Landscape</td>
+		</tr>
+		<tr>
+			<td colspan="2">¿Por que llevar a cabo este análisis?</td>
+			<td colspan="4">El analizar nuestros competidores nos permite identificar qué estrategias debemos usar para poder desarrollar una aplicación que destaque en el mercado, analizando todos los detalles que diferencie nuestro producto de otros.
+            </td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td>FoodSuite</td>
+			<td>Restaurant.pe</td>
+			<td>El Tenedor</td>
+			<td>Rest.pe</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Perfil</td>
+			<td>Overview</td>
+			<td>Aplicación que ofrece funcionalidades de gestión para diversos áreas de un restaurante, como los pedidos. Permite la realización de actividades diarias en un restaurante que se pueda realizar en un dispositivo móvil o desde una aplicación web.</td>
+			<td>Aplicación que optimiza la gestión del restaurante proporcionando una interfaz amigable de pedidos, emisión de comprobantes y visualización de ventas. Presenta un conteo de stock e inventario en tiempo real, además de poder ser manejado desde múltiples dispositivos.</td>
+			<td>Aplicación que gestiona las mesas del restaurante de manera sencilla, además de un listado digital de reservas confirmadas. Estas reservas las permite la aplicación sin necesidad de llamar e incluye la opción de pago desde la misma app.</td>
+			<td>Aplicación customizada por un equipo para cada empresa cliente, cuyas funcionalidades incluyen una cocina smart, capacitación, estadísticas, búsqueda por voz, recetarios, publicidad local, entre otros.</td>
+		</tr>
+		<tr>
+			<td>Ventaja competitiva ¿Que valor ofrece a los clientes?</td>
+			<td>Optimiza la gestión del inventario de restaurantes mediante actualizaciones y alertas en tiempo real, lo que permite a los usuarios mantener el control del stock desde cualquier lugar.</td>
+			<td>Proporciona una solución para la gestión de restaurantes, que abarca desde el control de caja y la gestión de productos hasta la facturación electrónica y el delivery.</td>
+			<td>Facilita la visibilidad en línea de los restaurantes a través de su plataforma de reservas y descubrimiento, lo que ayuda a atraer nuevos clientes y aumentar las reservas tanto locales como internacionales. </td>
+			<td>Ofrece una solución integral y transparente para restaurantes, eliminando sobrecostos al proporcionar un sistema sin sorpresas, que es adaptable tanto para restaurantes pequeños como para cadenas medianas.</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Perfil de Marketing</td>
+			<td>Mercado objetivo</td>
+			<td>Restaurantes que buscan una solución especializada en la gestión administrativa</td>
+			<td>Desde pequeños restaurantes y foodtrucks hasta grandes cadenas de restaurantes</td>
+			<td>Restaurantes en Europa y Australia que desean mejorar su visibilidad en línea</td>
+			<td>Restaurantes de tamaño mediano a grande que buscan una solución de punto de venta completa y adaptable</td>
+		</tr>
+		<tr>
+			<td>Estrategias de marketing</td>
+			<td><ul>
+				<li>Optimización de Inventario</li>
+				<li>Automatización y Eficiencia</li>
+				<li>Informes y Análisis</li>
+			</ul></td>
+			<td><ul>
+				<li>Ahorro de Tiempo y Dinero</li>
+				<li>Multiplataforma y Flexibilidad</li>
+				<li>Precio Competitivo</li>
+			</ul></td>
+			<td><ul>
+				<li>Promociones y Descuentos</li>
+				<li>Visibilidad en Línea</li>
+				<li>Reducción de No-Shows</li>
+			</ul></td>
+			<td><ul>
+				<li>Eliminación de Costos Adicionales</li>
+				<li>Adaptabilidad y Soporte</li>
+				<li>Experiencia y Fiabilidad</li>
+			</ul></td>
+		</tr>
+		<tr>
+			<td rowspan="3">Perfil de Producto</td>
+			<td>Productos & Servicios</td>
+			<td><ul>
+				<li>Control y actualización del inventario en tiempo real</li>
+				<li>Sincronización de datos entre dispositivos</li>
+				<li>Generación de informes detallados</li>
+				<li>Automatización de tareas y procesos</li>
+			</ul></td>
+			<td><ul>
+				<li>Control de caja y gestión de productos</li>
+				<li>Control de insumos y stock</li>
+				<li>Facturación electrónica</li>
+				<li>Gestión de pedidos, delivery interno y externo</li>
+				<li>Registro de recetas y movimientos entre almacenes</li>
+				<li>Operación en línea y fuera de línea</li>
+			</ul></td>
+			<td><ul>
+				<li>Visibilidad en línea para restaurantes a través de una página personalizada</li>
+				<li>Sistema de reservas</li>
+				<li>Descuentos de hasta el 50% y programa de recompensas</li>
+				<li>Herramientas para reducir la inasistencia de clientes</li>
+				<li>Capacitación gratuita y soporte continuo</li>
+			</ul></td>
+			<td><ul>
+				<li>Gestión de ventas, delivery interno y externo, y mesas mapeadas</li>
+				<li>Carta QR funcional y aplicación/web propia para pedidos</li>
+				<li>Facturación electrónica</li>
+				<li>Control de inventario, estadísticas de ventas y cierre de caja</li>
+				<li>Automatización de procesos</li>
+			</ul></td>
+		</tr>
+		<tr>
+			<td>Precios &amp; Costos</td>
+			<td><ul>
+				<li>Basic: $99</li>
+				<li>Pro: $199</li>
+				<li>Enterprise: $399</li>
+			</ul></td>	
+			<td><ul>
+				<li>Para crecimiento: $94</li>
+				<li>Para total control: $440</li>
+			</ul></td>
+			<td><ul>
+				<li>Basic: $32</li>
+				<li>Pro: $57</li>
+				<li>Pro+: $113</li>
+			</ul></td>	
+			<td><ul>
+				<li>Básico: $53</li>
+				<li>Cadena: $120</li>
+				<li>Básico (anual): $534</li>
+				<li>Cadena (anual): $1334</li>
+			</ul></td>	
+		</tr>
+		<tr>
+			<td>Canales de distribución (Web y/o Móvil)</td>
+			<td>Web y móvil</td>
+			<td>Web y móvil</td>
+			<td>Web y móvil</td>
+			<td>Web y móvil</td>
+		</tr>
+		<tr>
+			<td rowspan="4">Análisis SWOT</td>
+			<td>Fortalezas</td>
+			<td>Se especializa en gestión de inventario, automatización e interfaz intuitiva.</td>
+			<td>Presenta una solución integral con una amplia gama de funciones cubriendo todas las áreas clave.</td>
+			<td>Proporciona a los restaurantes una plataforma sólida para aumentar su visibilidad.</td>
+			<td>Elimina sobrecostos y pagos adicionales, además de adaptarse a restaurantes de cualquier tamaño.</td>
+		</tr>
+		<tr>
+			<td>Debilidades</td>
+			<td>Tiene un enfoque limitado con respecto a trabajadores, no puede analizar roles que no necesitan de competencia.</td>
+			<td>El costo inicial, aunque sea competitivo, puede ser una limitación para pequeños negocios.</td>
+			<td>Su enfoque principal en un continente específico y algunos países puede limitar su alcance.</td>
+			<td>Aunque tengan experiencia nacional e internacional, hay una falta de presencia internacional.</td>
+		</tr>
+		<tr>
+			<td>Oportunidades</td>
+			<td>Puede encajar fácilmente en el crecimiento de mercados emergentes gracias a la digitalización de la gestión.</td>
+			<td>La digitalización de la gestión de restaurantes representa oportunidades para nuevos clientes, y tomó ventaja.</td>
+			<td>Colaborar con otras plataformas de gestión de restaurantes ofreciendo una solución más completa.</td>
+			<td>El desarrollo de funciones enfocados al análisis avanzado de datos o un marketing digital completo favorecería su crecimiento.</td>
+		</tr>
+		<tr>
+			<td>Amenazas</td>
+			<td>Podría perder mercado frente a software que presente una solución más completa y con más funciones.</td>
+			<td>Tiene mucha dependencia tecnológica, y su servicio al cliente es limitado, por lo que genera desconfianza.</td>
+			<td>Soluciones como éste tiene mucha competencia en el mercado, dificultando su dominio en el mismo.</td>
+			<td>La saturación del mercado con respecto a competencia en soluciones de punto de venta puede limitar su crecimiento.</td>
+		</tr>
+	</tbody>
+</table>
+
 #### 2.1.2. Estrategias y tácticas frente a competidores.
+Para destacar frente a los competidores, debemos establecer estrategias y tácticas que diferencie nuestro producto de otros. 
+1. **Propuesta de Valor Único**:
+* Estrategia: Diferenciación mediante una solución de gestión avanzado y específico.
+* Táctica: Desarrollar y promover las estrategias de marketing que nuestro producto proporciona
+2. **Experiencia del Usuario**:
+* Estrategia: Enfoque en una interfaz de usuario intuitiva y un flujo de trabajo eficiente.
+* Táctica: Implementar un soporte al cliente en la plataforma para resolver dudas.
+3. **Ampliación de Base de Usuarios**
+* Estrategia: Expandir la presencia en mercados emergentes y pequeños negocios.
+* Táctica: Presentar un producto demo que permita a los usuarios poder experimentar con lo que ofrecemos.
+4. **Marketing Digital Dirigido**
+* Estrategia: Enfocar en la segmentación precisa dirigidas al marketing digital.
+* Táctica: Utilizar estrategias de contenido público como redes sociales para promocionar a usuarios nuestro producto.
+5. **Colaboraciones Estratégicas**
+* Estrategia: Formar alianzas con empresas de mercado más relevantes para los restaurantes.
+* Táctica: Colaborar con centros de suministros que proporcionen su contacto para que el usuario pueda tener contactos según su distrito.
 ### 2.2. Entrevistas.
 Las entrevistas siguientes nos sirven para conocer lo que los clientes esperan de un producto, qué experiencias tuvieron con productos similares y qué tipo de decisiones nosotros tenemos que tomar. Al analizar estas entrevistas, nosotros tendremos una idea de cómo desarrollar nuestro producto de manera que ésta se adapte a lo que el cliente desea.
 #### 2.2.1. Diseño de entrevistas
