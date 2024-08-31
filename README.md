@@ -293,8 +293,42 @@ emociones y acciones de los usuarios a lo largo de su recorrido, identificando o
 
 
 #### 2.3.5. As-is Scenario Mapping
+
+**As-Is Scenario Mapping Administrador**
+#### Preparación de la actividad
+Graficamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
+<img src="assets/As-Is inicio.png" alt="As-is inicio"><br>
+#### Brainstorming
+ Luego de la lluvia de ideas, se obtuvo el siguiente resultado:
+<img src="assets/As-Is brain.png" alt="Brainstorming Administradores"><br>
+#### As-Is Scenario Mapping Administrador
+Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente resultado:
+<img src="assets/As-Is admin.png" alt="As-Is Admin completo"><br>
+
+**As-Is Scenario Mapping Trabajador**
+#### Preparación de la actividad
+Graficamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
+<img src="assets/As-Is inicio.png" alt="As-is inicio"><br>
+#### Brainstorming
+Luego de la lluvia de ideas, se obtuvo el siguiente resultado:
+<img src="assets/As-is brainT.png" alt="Brainstorming Trabajador"><br>
+#### As-Is Scenario Mapping Administrador
+Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente resultado:
+<img src="assets/As-Is trabajador.png" alt="As-Is Trabajador completo"><br>
 ### 2.4. Ubiquitous Language
 
+En esta sección se presentará el lenguaje ubicuo, una herramienta que permite establecer un vocabulario común y preciso para la comunicación entre los miembros del equipo de desarrollo y los stakeholders.
+Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y términos clave del proyecto.
+
+- **Admin:** Usuario que tiene acceso a la gestión de la empresa.
+- **Trabajador:** Usuario que tiene acceso a la gestión de los pedidos.
+- **Gestión:** Acción de administrar y organizar los recursos de la empresa.
+- **Pedidos:** Solicitud de un cliente para adquirir un producto o servicio.
+- **Facturas:** Documento que detalla la venta de un producto o servicio.
+- **Boletas:** Documento que detalla la venta de un producto o servicio.
+- **Ingresos:** Dinero que entra a la empresa.
+- **Egresos:** Dinero que sale de la empresa.
+- **Clientes:** Personas que adquieren productos o servicios de la empresa.
 
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 
