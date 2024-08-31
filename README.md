@@ -2,7 +2,7 @@
 
 ## Universidad Peruana de Ciencias Aplicadas
 
-![logo](assets/upc_logo.png)
+![logo](assets/logos/upc_logo.png)
 
 #### Nombre del curso: Aplicaciones Web
 ##### Carrera: Ingeniería de Software
@@ -181,13 +181,13 @@ Hemos identificado dos segmentos distintos de usuarios:
 ### 2.1. Competidores
 Identificamos tres competidores, cuyos productos son similares directamente o indirectamente a lo que nosotros queremos ofrecer.
 1. **Restaurant\.pe**: Es un software para restaurantes que optimiza la gestión del restaurante mediante funcionalidades como un menú online, una plataforma para pedidos y emisión de comprobantes, visualizar ventas y stock, facturación electrónica, entre otros. Ofrece una interfaz amigable, es multiplataforma y puede funcionar con o sin conexión a internet.<br>
-<img src="assets/Restaurant.pe_logo.png" alt="Logo Restaurant.pe" width="150"><br>
+<img src="assets/logos/Restaurant.pe_logo.png" alt="Logo Restaurant.pe" width="150"><br>
 
 2. **El Tenedor**: Es un software para restaurantes y personas que buscan restaurantes donde comer. La aplicación almacena la carta del restaurante e información pública como reseñas, ubicación, etc. Permite a las personas reservar mesas del restaurante que disponga de esta aplicación para facilitar la atención.<br>
-<img src="assets/ElTenedor_logo.png" alt="Logo El Tenedor" width="150"><br>
+<img src="assets/logos/ElTenedor_logo.png" alt="Logo El Tenedor" width="150"><br>
 
 3. **Rest\.pe**: Es un software para restaurantes que optimiza la gestión del restaurante y capacita a los trabajadores para aumentar la eficacia del entorno laboral. Aparte de las funcionalidades básicas para un restaurante, presenta múltiples funcionalidades como publicidad local, recetarios, cocina smart, entre otros. Este software es customizable por empresa, por lo que se adapta a lo que la empresa desea según contrato.<br>
-<img src="assets/Rest.pe_logo.png" alt="Logo Rest.pe" width="150"><br>
+<img src="assets/logos/Rest.pe_logo.png" alt="Logo Rest.pe" width="150"><br>
 
 #### 2.1.1. Análisis competitivo
 <table border="2" style="text-align: center;">
