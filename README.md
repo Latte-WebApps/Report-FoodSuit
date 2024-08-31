@@ -170,7 +170,11 @@ Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administra
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 ##### 1.2.2.4. Lean UX Canvas
 ### 1.3. Segmentos objetivo
+Hemos identificado dos segmentos distintos de usuarios:
 
+- Administrador: Se trata de usuarios de 25 años o mas, se trata de la persona que cubre el rol de de gerente o encargado del local, tiene que llevar en orden el inventariado, los ingresos, la cantidad de horas de trabajo de cada empleado, etc.
+
+- Empleado: Este usuario puede encargarse de diversas areas del local, como la cocina, la atencion al cliente, caja, etc. Este sector cuenta con 18 años o mas.
 
 ## Capítulo II: Requirements Elicitation & Analysis <a id="cap2"></a>
 
