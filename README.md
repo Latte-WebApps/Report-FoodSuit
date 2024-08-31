@@ -388,18 +388,19 @@ El diseño de las entrevistas va acorde a la información que nosotros queremos 
 4. ¿Qué consideras que es importante que una aplicación de gestión de restaurante tenga para los trabajadores?
 5. ¿Qué pensarías de una aplicación que te permitiera acceder a un sistema de pedidos y poder ingresar productos de la carta con mayor eficiencia?
 6. ¿Qué pensarías de una aplicación que pueda calcular tu rendimiento laboral semanal y así poder insertar un sistema de recompensa si mantienes ese rendimiento alto?
-7. ¿Qué consideras que es importante que una aplicación de gestión de restaurante tenga para los trabajadores?
-8. Si la aplicación tuviera las funcionalidades mencionadas, ¿cómo crees que mejoraría tu rendimiento laboral? ¿Sería más eficiente?
+7. Si la aplicación tuviera las funcionalidades mencionadas, ¿cómo crees que mejoraría tu rendimiento laboral? ¿Sería más eficiente?
 #### 2.2.2. Registro de entrevistas.
 Registramos las entrevistas para recopilar y organizar la información que se nos ha proporcionado. Gracias a las entrevistas a los grupos objetivos, podremos analizar y recalcar las necesidades que el cliente espera que la aplicación cumpla.
+Link a las entrevistas: https://tinyurl.com/55rja6hb
+*Las imágenes de las entrevistas pueden redireccionar al timestamp indicado.*
 #### Administrador
 * **Entrevista 1** <br>
 Nombre completo: Verónica Astiguetta<br>
 Edad: 54 años<br>
 Papel desempeñado: Tesorera<br>
 Empresa: Bodega Queirolo S.A.C.<br>
-Distrito: Cercado de Lima<br><br>
-**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/Ef9uDA3S7HlLsJq592JxL4QBE5j06TO_wGRcUT0o6XHBFg?e=ZfwCRg">
+Distrito: Centro de Lima<br><br>
+**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D">
 	<img src="assets/VeronicaEntrevista.png" alt="Entrevista 1" width="500"></a><br>
 Inicio de la entrevista: 0:28<br>
 Fin de la entrevista: 13:09<br>
@@ -411,80 +412,79 @@ Nombre completo: Iván Pacheco<br>
 Edad: 53 años<br>
 Papel desempeñado: Administración general<br>
 Empresa: Bodega Queirolo S.A.C.<br>
-Distrito: Cercado de Lima<br><br>
-**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EaUxlvOm90JDipzD8uZaatwBB3N7EGJ3H_QBojdNT-jMAw?e=pPpzKP">
+Distrito: Centro de Lima<br><br>
+**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsB9Vt7BVp_S8q5iqMpo1n9MQ?e=6YqTRa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODE1LjMxfX0%3D">
 	<img src="assets/IvanEntrevista.png" alt="Entrevista 2" width="500"></a><br>
-Inicio de la entrevista: 0:19<br>
-Fin de la entrevista: 40:30<br>
+Inicio de la entrevista: 13:35<br>
+Fin de la entrevista: 53:43<br>
 **Transcripción resumen de entrevista:**<br>
 Opina que la estructura actual que tiene el negocio es adecuado y todos respetan los roles, pero hubo problemas con trabajadores nuevos. El sistema que utiliza el negocio respeta estos roles: solo la administración utiliza esta aplicación, mientras que los trabajadores aún dependen de ciertos elementos materiales. Expresa satisfacción con el sistema actual, ya que cumple con los requisitos que la empresa exige que la aplicación tenga; sin embargo, hay varios problemas que experimenta con la aplicación. Se muestra indiferente con respecto a permitir a los trabajadores usar dispositivos para facilitar su labor, ya que es más eficiente usar el método del papel para recibir los pedidos, pero si el dispositivo logra ser eficiente para ahorrar tiempo, ve útil la funcionalidad propuesta. Ve conveniente que el sistema pueda manejar los reportes financieros desde la misma aplicación web. No ve necesario utilizar estadísticas para calcular el reporte de trabajadores, ya que es más verificable el observar al trabajador en comparación con otro durante el periodo laboral en comparación a depender de un sistema. Muestra totalmente útil la funcionalidad de mostrar estadísticas de, por ejemplo, los platos más vendidos, ya que podrá priorizar la salida de platos más pedidos y acelerar el servicio. Ve posible el cambio de sistema, pero tiene expectativas con respecto a que el sistema no caiga, sea fácil de usar, sea cómodo y el proveedor de servicio de atención tenga disponibilidad de tiempo larga (comparando con su sistema actual, que tiene estas desventajas).
 
 * **Entrevista 3**
-Nombre completo: Eduardo Aventura<br>
+Nombre completo: Eduardo Ventura<br>
 Edad: 20<br>
 Papel desempeñado: Tesorero<br>
 Empresa: Emotiv<br>
 Distrito: San Juan de Gaucho<br><br>
-**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EUzrKMC_3sNJm875RKyHDH4B-9covRyvKBiMmQo0tZQfJw?e=gmwbWc">
+**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=FWZ6fA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzI2MS40Mn19">
 	<img src="assets/EduardoEntrevista.png" alt="Entrevista 3" width="500"></a><br>
-Inicio de la entrevista: 0:14<br>
-Fin de la entrevista: 10:55<br>
+Inicio de la entrevista: 54:21<br>
+Fin de la entrevista: 1:04:49<br>
 **Transcripción resumen de entrevista:**<br>
 Expresa satisfacción con una organización regulada mediante un sistema, ya que describe que cuando era manual no era tan eficiente manejar papeles. A pesar de que el sistema que usa para manejar las finanzas es Excel, opina que la herramienta es suficiente para cumplir sus trabajos. Muestra interés por permitir a los trabajadores disponer de un sistema que les ayuda a realizar su labor de manera más rápida y que almacene pedidos para que él mismo pueda dar apoyo si hay muchas personas. Ve bien un sistema que almacene los reportes financieros, aunque el excel le satisface suficiente. No muestra tanto interés, pero le parece bien poder visualizar el rendimiento de los trabajadores mediante estadísticas. No muestra tanto interés, pero ve útil utilizar las estadísticas de platos más vendidos en cierta temporada para deshacerse de platos que no venden. Ve posible el cambio de sistema, pues opina que tener varias funciones automatizadas puede beneficiar al negocio.
 
 #### Trabajador
 * **Entrevista 4**
-
-<br>
+Nombre completo: Janaira Toledo<br>
+Edad: 22<br>
+Papel desempeñado: Cajera<br>
+Distrito: San Miguel<br><br>
+**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=OKfD05&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mzg5OS43fX0%3D">
+	<img src="assets/JanairaEntrevista.png" alt="Entrevista 4" width="300"></a><br>
+Inicio de la entrevista: 1:04:59<br>
+Fin de la entrevista: 1:06:59<br>
+**Transcripción resumen de entrevista:**<br>
+Prefiere que el restaurante tenga un nuevo sistema, ya que el actual presenta muchas fallas con respecto a asistencia y otros. Le parece buena idea el introducir un sistema que les permita registrar los pedidos desde sus dispositivos. Piensa que sería beneficioso un sistema que calcule el rendimiento de los trabajadores para impulsar el esfuerzo laboral que cada uno proporciona.
 
 * **Entrevista 5**
-
-<br>
+Nombre completo: Fabricio Sánchez<br>
+Edad: 20<br>
+Papel desempeñado: Cocinero/Mozo<br>
+Distrito: Chorrillos<br><br>
+**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=GC0CnC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDAzMC4zM319">
+	<img src="assets/FabricioEntrevista.png" alt="Entrevista 5" width="500"></a><br>
+Inicio de la entrevista: 1:07:10<br>
+Fin de la entrevista: 1:09:56<br>
+**Transcripción resumen de entrevista:**<br>
+Se encuentra satisfecho con el sistema actual que usa la empresa, aunque suele ser lento en cuanto al rendimiento. Quiere que la aplicación sea rápida y permita a los trabajadores poder registrar los pedidos y ver el rendimiento laboral semanal. Le parece motivador tener funciones como ésta para que pueda desempeñar mejor ya que facilita la comunicación de los trabajadores.
 
 * **Entrevista 6**
-
-<br>
+Nombre completo: Gonzalo Velarde<br>
+Edad: 20<br>
+Papel desempeñado: Cocinero/Mozo<br>
+Distrito: Pueblo Libre<br><br>
+**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=CVrdRi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDIzMC40NX19">
+	<img src="assets/GonzaloEntrevista.png" alt="Entrevista 6" width="500"></a><br>
+Inicio de la entrevista: 1:10:30<br>
+Fin de la entrevista: 1:09:56<br>
+**Transcripción resumen de entrevista:**<br>
+El sistema actual que el restaurante usa no es sencillo para principiantes, tuvo que acostumbrarse al sistema y piensa que puede mejorar en algunos aspectos. Sugiere que lo mejor que puede tener la aplicación es una sección donde vea en qué puede mejorar. Se enfoca en el sector de atención al cliente, las sugerencias que se proporcionaron como el cálculo del rendimiento laboral y similares puede incentivar a los trabajadores a ser reconocidos por su esfuerzo y por tanto ser premiados.
 
 #### 2.2.3. Análisis de entrevistas
 Al analizar las entrevistas, podemos comprender las expectativas y necesidades que los usuarios piden, además de recibir feedback en cuanto a cómo debería ser su producto ideal. Con esto, recurriremos a la toma de decisiones para el desarrollo del producto.
 #### **Administrador**
+<img src="assets/piecharts/Analysis1.png" alt="analysis1"><br>
+<img src="assets/piecharts/Analysis2.png" alt="analysis2"><br>
+<img src="assets/piecharts/Analysis3.png" alt="analysis3"><br>
+<img src="assets/piecharts/Analysis4.png" alt="analysis4"><br>
+<img src="assets/piecharts/Analysis5.png" alt="analysis5"><br>
+<img src="assets/piecharts/Analysis6.png" alt="analysis6"><br>
 
-[//]: # (TODO: Trabajar en el formato de estadísticas)
-* ¿Has tenido problemas relacionados con el método de organización del negocio actual?<br>
+#### **Trabajador**
+<img src="assets/piecharts/Analysis7.png" alt="analysis7"><br>
+<img src="assets/piecharts/Analysis8.png" alt="analysis8"><br>
+<img src="assets/piecharts/Analysis9.png" alt="analysis9">
 
-\- No.<br>
-\- Si.<br>
-\- Si<br>
-
-* ¿El sistema que el negocio usa actualmente cumple con sus expectativas?<br>
-
-\- Si<br>
-\- Parcialmente<br>
-\- Si<br>
-
-* ¿Favorecería un sistema que permita a trabajadores desde su dispositivo registrar las mesas que atienden?<br>
-
-\- Si<br>
-\- Indiferente<br>
-\- Si<br>
-
-* ¿Favorecería un sistema que almacene en una sección los reportes de inventario, gastos y ganancias del negocio además de una generación de estadísticas?<br>
-
-\- Si<br>
-\- Si<br>
-\- Si<br>
-
-* ¿Favorecería un sistema que muestre una comparación de productividad de un trabajador con respecto a fechas anteriores?<br>
-
-\- Si<br>
-\- No<br>
-\- Si<br>
-
-* ¿Cambiarías el sistema antiguo del negocio con uno nuevo si tuviera las funcionalidades dadas?<br>
-
-\- Si<br>
-\- Depende<br>
-\- Si<br>
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
 #### 2.3.2. User Task Matrix
