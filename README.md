@@ -390,8 +390,8 @@ El diseño de las entrevistas va acorde a la información que nosotros queremos 
 6. ¿Qué pensarías de una aplicación que pueda calcular tu rendimiento laboral semanal y así poder insertar un sistema de recompensa si mantienes ese rendimiento alto?
 7. Si la aplicación tuviera las funcionalidades mencionadas, ¿cómo crees que mejoraría tu rendimiento laboral? ¿Sería más eficiente?
 #### 2.2.2. Registro de entrevistas.
-Registramos las entrevistas para recopilar y organizar la información que se nos ha proporcionado. Gracias a las entrevistas a los grupos objetivos, podremos analizar y recalcar las necesidades que el cliente espera que la aplicación cumpla.
-Link a las entrevistas: https://tinyurl.com/55rja6hb
+Registramos las entrevistas para recopilar y organizar la información que se nos ha proporcionado. Gracias a las entrevistas a los grupos objetivos, podremos analizar y recalcar las necesidades que el cliente espera que la aplicación cumpla.<br>
+Link a las entrevistas: https://tinyurl.com/55rja6hb<br>
 *Las imágenes de las entrevistas pueden redireccionar al timestamp indicado.*
 #### Administrador
 * **Entrevista 1** <br>
