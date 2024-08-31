@@ -284,6 +284,14 @@ emociones y acciones de los usuarios a lo largo de su recorrido, identificando o
 
 <img src="assets/Laura%20Martinez%20Journey%20map.png" alt="UserJourneyMap Laura"><br>
 #### 2.3.4. Empathy Mapping
+
+- Empathy Map Administrador
+<img src="assets/Empathy map Admin.png" alt="EmpathyMap Eduardo" width="800"><br>
+
+- Empathy Map Trabajador
+<img src="assets/Empathy map Laura.png" alt="EmpathyMap Laura"><br>
+
+
 #### 2.3.5. As-is Scenario Mapping
 ### 2.4. Ubiquitous Language
 
