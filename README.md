@@ -166,9 +166,60 @@ Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administra
 |How much?| Cuanto?|Segun el INE cerca del 60% de restaurantes cierran en su primer año de vida y el 70% no pasa de los 5 años, estas son estadisticas preocupantes si tomamos en cuenta la gran cantidad de inversion que requiere un negocio de este estilo|
 #### 1.2.2 Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
+Al momento de gestionar un restaurante, los gerentes o encargados requieren de toda la información posible para poder realizar una óptima administración de los recursos para aumentar la eficiencia del establecimiento. No obstante, durante este proceso existes múltiples datos complejos de tener un seguimiento, los cuales, son vitales para una buena toma de decisiones. 
+
+¿Cómo se puede mejorar la eficiencia de obtención de dichos datos y obtener una claridad para mejorar el desempeño general de un restaurante ?
 ##### 1.2.2.2. Lean UX Assumptions
+**Business Assumptions** 
+
+1. Creo que mis clientes necesitan graficos que simplifiquen la vista de la información vital para la gestión de su estableciemiento.
+2. Mis clientes necesitan que sus trabajadores pertenecientes al área de cocina puedan hacer un registro del inventario de la misma.
+3. Mis clientes requieren de una alerta que le advierta sobre la escacez de los productos en el inventario de la cocina.
+4. El valor primordial que un encargado de restaurante busca de mi servicio es que la información que este le brinda sea confiable e intuitiva.
+5. El valor primordial que un trabajador de restaurante busca de mi servicio es su fácil uso y rapidez para que estos puedan agilizar su labor.
+6. Se obtendrá dinero desde el momento que la aplicación esté abierta al publico por su modelo de suscripción.
+7. Atraeremos a la mayoría de nuestros clientes por medio de publicidads en redes sociales como Facebook, TikTok e Instagram.
+8. Mi principal competencia en el mercado serán otras aplicaciones que también se encargan de la gestión de restaurantes.
+9. Los venceremos debido a la intuitibidad y eficacia de mostrar la información relevante en nuestra aplicación, lo que le brindará más tiempo aprobechable al encargado del restaurante.
+10. Mi mayor riesgo de servicio es la cantidad de información que se necesita almacenar en la base de datos.
+11. Resolveremos el riesgo por medio de la implementación de más discos de capacidad, al igual que la optimización en el almacenaje de los datos.
+
+**User Assumptions**
+
+1. ¿Quién es el usuario? Los usuarios son los encargados o gerentes de restaurantes y sus trabajadores.
+2. ¿Dónde encaja nuestro servicio? ¿En su trabajo o vida? Nuestro servicio encaja en su trabajo.
+3. ¿Qué problemas resuelve nuestro servicio para el usuario? Reduce el esfuerzo y tiempo requerido al momento de administrar un restaurante, brindando con total fácilidad la información necesaria.
+4. ¿En qué contexto utiliza el usuario nuestro producto? Nuestro servicio es usado diariamente por el gerente o encargado para monitorizar el desempeño del resturante, al igual que ciertas caracteristicas reservadas para el uso de los empleados.
+5. ¿Qué características son importantes para el usuario? Las características que encontramos son de vital importancia para nuestro servicio es que sea fácil de usar, que genere gráfico con respecto a la información primordial para un encargado , sea esta el desempeño de los empleados, el flujo de dinero diaro, entre otros, que brinde alertas automáticas con respecto a los insumos utilizados por el personal de cocina y que permita registrar el horario de ingreso y salida de los empleados.
+6. ¿Cómo debe verse nuestro servicio y cómo debe comportarse? Nuestro servicio debe mostrar toda la información del desempeño diario y general del restaurante de forma intuitiva, al igual que ofrecer una claridad de estos datos.
+
+**User Outcomes**
+
+1. El encargado del restaurante desea visualizar con claridad todos los datos respecto a la gestión del establecimiento, con el fin de poder ejercer una mejor toma de decisiones.
+2. El encargado del restaurante desea tener la información en tiempo real con respecto al registro del inventario por parte del personal de la cocina, para así poder adquirir los productos faltantes a tiempo y no perjudicar el optimo funcionamiento del establecimiento.
+3. El encargado del restaurante desea visualizar un registro del ingreso diario de caja para de esta manera saber el desempeño con respecto a los días o meses anteriores.
+4. El personal del restaurante desea que la plataforma tenga una interfaz para el registro de pedidos de los clientes.
+5. El personal del restaurante desea que la plataforma registre su horario de ingreso y salida para de esta manera hacer un seguimiento de su tiempo de trabajo.
+
+**Business Outcomes**
+
+1. El encargado del restaurante podrá realizar un mejor trabajo al momento de mejorar el desempeño de su establecimiento si este tiene acceso de fomra sencilla a toda la información necesaria.
+2. El encargado del restaurante podrá evaluar el desempeño en lo que respecta a ingresos diarios del restaurante en un amplio rango de tiempo para poder analizar los días en los que más clientes asisten.
+3. El encargado del restaurante podrá estar al tanto, en tiempo real, con respecto a los insumos utilizados en la cocina, así como recibir alertas si es que uno de estos empieza a escasear para no perjudicar la labor de sus empleados.
+4. El encargado del restaurante podrá hacer un seguimiento sobre la eficiencia de sus empleados en el trabajo, al igual que establecer sus horarios de trabajo y visualizar el cumplimiento de estos mismos.
+5. El personal del restaurante podrá aumentar trabajar sin complicación alguna si este mantiene un control diario del inventario de insumos de la cocina.
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+- Creemos que conseguiremos una mejora en la eficiencia de la gestión del restaurante si los encargados del restaurante logran visualizar de forma fácil y clara la información indispensable con los gráficos y tablas presentes en la aplicación.
+
+- Creemos que conseguiremos evitar problemas en la elaboración de platillos si el personal encargado de la cocina logra registrar cada insumo que ingresa o es utilizado en la cocina con la opción de registro de inventario.
+
+- Creemos que conseguiremos monitorear el desempeño laboral si los empleados logran agilizar sus tareas con la plataforma de registro de pedidos.
+
 ##### 1.2.2.4. Lean UX Canvas
+<img src="assets/LeanUXCanvas.png" alt="Lean UX Canvas">
+
 ### 1.3. Segmentos objetivo
 Hemos identificado dos segmentos distintos de usuarios:
 
