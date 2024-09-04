@@ -669,6 +669,7 @@ emociones y acciones de los usuarios a lo largo de su recorrido, identificando o
 **As-Is Scenario Mapping Administrador**
 #### Preparación de la actividad
 Graficamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
+<br>
 <img src="assets/As-Is inicio.png" alt="As-is inicio"><br>
 #### Brainstorming
  Luego de la lluvia de ideas, se obtuvo el siguiente resultado:
@@ -680,10 +681,10 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 **As-Is Scenario Mapping Trabajador**
 #### Preparación de la actividad
 Graficamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
-<img src="assets/As-Is inicio.png" alt="As-is inicio"><br>
+<br><img src="assets/As-Is inicio.png" alt="As-is inicio"><br>
 #### Brainstorming
 Luego de la lluvia de ideas, se obtuvo el siguiente resultado:
-<img src="assets/As-is brainT.png" alt="Brainstorming Trabajador"><br>
+<img src="assets/As-Is brainT.png" alt="Brainstorming Trabajador"><br>
 #### As-Is Scenario Mapping Administrador
 Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente resultado:
 <img src="assets/As-Is trabajador.png" alt="As-Is Trabajador completo"><br>
@@ -705,6 +706,38 @@ Este lenguaje facilita la comprensión y el consenso en torno a los conceptos y 
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 
 ### 3.1. To-Be Scenario Mapping
+
+**To-Be Scenario Mapping Administrador**
+
+#### Preparación de la actividad
+Graficamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
+<br>
+<img src="assets/As-Is inicio.png" alt="Inicio del To-be scenario map"> <br>
+
+#### Brainstorming
+Luego de la lluvia de ideas, se obtuvo el siguiente resultado:
+<img src="assets/tobe-brain.png" alt="Brainstorming Administrador"><br>
+
+#### To-Be Scenario Mapping Administrador
+Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente resultado:
+
+<img src="assets/tobe.png" alt="To-Be Scenario Map Admin completo"><br>
+
+**To-Be Scenario Mapping Trabajador**
+
+#### Preparación de la actividad
+Graficamos el cuadro y lo dividimos en fases: Steps, Doing, Thinking y Feeling
+<br>
+<img src="assets/As-Is inicio.png" alt="Inicio del To-be scenario map"> <br>
+
+#### Brainstorming
+Luego de la lluvia de ideas, se obtuvo el siguiente resultado:
+<img src="assets/tobe-braint.png" alt="Brainstorming Trabajador"><br>
+
+#### To-Be Scenario Mapping Trabajador
+Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente resultado:
+<img src="assets/tobe-trabajador.png" alt="To-Be Scenario map Trabajador completo"><br>
+
 ### 3.2. User stories
 
 ###### User Epics
