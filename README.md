@@ -799,8 +799,6 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 ### 3.3. Impact Mapping
 ### 3.4. Product Backlog
 
-# Product Backlog
-
 | # Orden | User Story Id | Título                              | Descripción                                                                                | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|---------------|-------------------------------------|--------------------------------------------------------------------------------------------|---------------------------------|
 | 1       | US-18         | Presentación del Producto           | Como visitante, quiero ver una presentación clara del producto de administración de restaurantes en la landing page para entender sus características y beneficios. | 1                               |
