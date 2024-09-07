@@ -922,9 +922,77 @@ Para mejorar la experiencia del usuario, se ha incluido un sistema de búsqueda 
 
 #### 4.2.5. Navigation Systems
 Se ha implementado un sistema de navegación claro y accesible que permite a los usuarios desplazarse fácilmente por el sitio. La navegación principal incluye enlaces a las secciones clave: ``Home``, ``Features`` y ``Pricing``. Además, se ha añadido una barra de navegación fija (sticky navigation) para que los usuarios siempre tengan acceso al menú de secciones, independientemente de su posición en la página.
-### 4.3. Landing Page UI Design
-#### 4.3.1. Landing Page Wireframe
-#### 4.3.2. Landing Page Mock-up
+### 4.3 Landing Page UI Design
+#### 4.3.1 Introducción al Diseño de la Landing Page
+
+El diseño de la Landing Page de Food Suit se enfoca en proporcionar una experiencia intuitiva y clara para los propietarios de restaurantes que buscan mejorar la eficiencia en la gestión de sus negocios. Utilizamos principios de jerarquía visual y diseño inclusivo para facilitar la navegación, asegurando que la información más relevante esté al alcance de los usuarios sin sobrecargar visualmente la página.
+
+El diseño se ha traducido en una interfaz que presenta los beneficios clave del producto de manera concisa, incluyendo una llamada a la acción destacada para captar la atención de los usuarios rápidamente. Además, se aplicó un sistema de diseño coherente para garantizar una experiencia uniforme en todos los dispositivos.
+
+#### 4.3.2 Wireframe de la Landing Page
+
+El Wireframe refleja la estructura básica y el flujo de la landing page tanto para **Desktop** como para **Mobile**. Se divide en varias secciones clave:
+- **Encabezado**: Incluye el logotipo, navegación y un botón destacado de "Try Now".
+- **Sección Hero**: Muestra una introducción al producto con un CTA claro. Se utilizan imágenes o gráficos para hacer la propuesta más atractiva visualmente.
+- **Sección de Problemas y Soluciones**: Expone los problemas comunes que enfrentan los propietarios de restaurantes y cómo la solución los resuelve.
+- **Sección de Beneficios Clave**: Presenta de forma clara las características y beneficios del producto.
+- **Tabla de Precios**: Muestra los distintos planes disponibles con información relevante para cada uno de ellos.
+- **Pie de Página**: Incluye información sobre la empresa, links a redes sociales y contacto.
+
+| Wireframe - Desktop Web Browser | Wireframe - Mobile Web Browser |
+|---------------------------------|-------------------------------|
+| ![Wireframe Desktop](./wireframe-desktop.png) | ![Wireframe Mobile](./wireframe-mobile.png) |
+
+### 4.3.3 Mock-up de la Landing Page
+
+El Mock-up final del diseño se basa en los wireframes previos, pero añade colores, tipografías e imágenes que fortalecen la identidad de la marca. La elección de colores se centra en tonos modernos y profesionales que reflejan la confianza y eficiencia del producto.
+
+Se incluyen los siguientes detalles visuales:
+- **Color Primario**: Se utiliza para destacar los botones y llamadas a la acción, dirigiendo la atención de los usuarios a los elementos interactivos más importantes.
+- **Tipografías**: Se escoge una tipografía legibles y modernas, manteniendo la coherencia en toda la página.
+- **Imágenes e Ilustraciones**: Refuerzan el mensaje clave y añaden un toque visual agradable sin distraer al usuario de la información principal.
+
+El diseño también es adaptable a dispositivos móviles, asegurando una experiencia de usuario consistente y optimizada.
+### 4.3 Landing Page UI Design
+#### 4.3.1 Introducción al Diseño de la Landing Page
+
+El diseño de la Landing Page de Food Suit se enfoca en proporcionar una experiencia intuitiva y clara para los propietarios de restaurantes que buscan mejorar la eficiencia en la gestión de sus negocios. Utilizamos principios de jerarquía visual y diseño inclusivo para facilitar la navegación, asegurando que la información más relevante esté al alcance de los usuarios sin sobrecargar visualmente la página.
+
+El diseño se ha traducido en una interfaz que presenta los beneficios clave del producto de manera concisa, incluyendo una llamada a la acción destacada para captar la atención de los usuarios rápidamente. Además, se aplicó un sistema de diseño coherente para garantizar una experiencia uniforme en todos los dispositivos.
+
+
+#### 4.3.2 Wireframe de la Landing Page
+
+El Wireframe refleja la estructura básica y el flujo de la landing page tanto para **Desktop** como para **Mobile**. Se divide en varias secciones clave:
+- **Encabezado**: Incluye el logotipo, navegación y un botón destacado de "Try Now".
+- **Sección Hero**: Muestra una introducción al producto con un CTA claro. Se utilizan imágenes o gráficos para hacer la propuesta más atractiva visualmente.
+- **Sección de Problemas y Soluciones**: Expone los problemas comunes que enfrentan los propietarios de restaurantes y cómo la solución los resuelve.
+- **Sección de Beneficios Clave**: Presenta de forma clara las características y beneficios del producto.
+- **Tabla de Precios**: Muestra los distintos planes disponibles con información relevante para cada uno de ellos.
+- **Pie de Página**: Incluye información sobre la empresa, links a redes sociales y contacto.
+
+<br>
+
+<img src="assets/landing-page-design/Landing page Wireframe.svg" alt="landing page wireframe" width="500">
+
+
+
+### 4.3.3 Mock-up de la Landing Page
+
+El Mock-up final del diseño se basa en los wireframes previos, pero añade colores, tipografías e imágenes que fortalecen la identidad de la marca. La elección de colores se centra en tonos modernos y profesionales que reflejan la confianza y eficiencia del producto.
+
+Se incluyen los siguientes detalles visuales:
+- **Color Primario**: Se utiliza para destacar los botones y llamadas a la acción, dirigiendo la atención de los usuarios a los elementos interactivos más importantes.
+- **Tipografías**: Se escoge una tipografía legibles y modernas, manteniendo la coherencia en toda la página.
+- **Imágenes e Ilustraciones**: Refuerzan el mensaje clave y añaden un toque visual agradable sin distraer al usuario de la información principal.
+
+El diseño también es adaptable a dispositivos móviles, asegurando una experiencia de usuario consistente y optimizada.
+
+<br>
+
+<img src="assets/landing-page-design/mockup.png" alt="landing page mock-up" width="500">
+
+
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
 #### 4.4.2. Web Applications Wireflow Diagrams
