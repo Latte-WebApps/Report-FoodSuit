@@ -24,10 +24,91 @@ Velarde Luyo, Piero Alberto (U20211A620)<br>
 </div>
 
 # Registro de Versiones del Informe
-
-| Versión | Fecha | Autores | Descripción de modificación |
-| - | - | - | - |
-| 1 | 20/08/2024 | | |
+<table BORDER>
+    <tr>
+        <td>VERSION</td>
+        <td>FECHA</td>
+        <td> AUTOR </td>
+        <td>DESCRIPCION DE MODIFICACION</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>17/08/2024</td>
+        <td> Sebastian Pacheco Astiguetta </td>
+        <td>Formato del documento</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>20/08/2024</td>
+        <td>Josue Paiva Quispe</td>
+        <td>Antecedentes y problematicas</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>20/08/2024</td>
+        <td>Josue Paiva Quispe</td>
+        <td>Lean UX Hypothesis Statements</td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td>21/08/24</td>
+        <td>Sebastian Pacheco Astiguetta</td>
+        <td>Desarrollo del descipción de la StartUp y segmentos Objetivos</td>
+    </tr>
+    <tr>
+        <td>05</td>
+        <td>21/08/24</td>
+        <td>Piero Velarde</td>
+        <td>Desarrollo del Lean UX Canvas</td>
+    </tr>
+    <tr>
+        <td>06</td>
+        <td>27/08/24</td>
+        <td>Jean Grandez Mansilla</td>
+        <td>Desarrollo del Needfinding e Impact Mapping</td>
+    </tr>
+    <tr>
+        <td>07</td>
+        <td>29/08/24</td>
+        <td>Sebatian Pacheco Astiguetta</td>
+        <td>Desarrollo del Análisis competitivo, Estrategias y tácticas frente a competidores, entrevistasy análisis</td>
+    </tr>
+    <tr>
+        <td>08</td>
+        <td>30/08/24</td>
+        <td>Andre Bernaola</td>
+        <td>Desarrollo de las User Stories y Product Backlog </td>
+    </tr>
+    <tr>
+        <td>09</td>
+        <td>04/09/24</td>
+        <td>Piero Velarde</td>
+        <td>>Desarrollo Information Arquitecture y Application Wireframes</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>06/09/24</td>
+        <td>Andre Bernaola</td>
+        <td>Desarrollo del Style Guidelines y Landing Page</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>07/09/24</td>
+        <td>Sebastian Pacheco Astiguetta</td>
+        <td>Domain Driven Software Architecture, Software Object Oriented Design y Database Design</td>
+    <tr>
+        <td>12</td>
+        <td>07/09/24</td>
+        <td>Josue Paiva Quispe</td>
+        <td>Desarrollo de Application Mockups</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>07/09/24</td>
+        <td>Jean Grandez Mansilla</td>
+        <td>Desarrollo de Software Configuration Management</td>
+    </tr>
+</table>
 
 ## Contenido
 
@@ -124,6 +205,66 @@ Velarde Luyo, Piero Alberto (U20211A620)<br>
 - [Anexos](#anexos)
 
 ## Student Outcome
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC - Student Outcome 5**
+Criterio: *La capacidad de funcionar efectivamente en un equipo cuyos miembros
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
+establecen objetivos, planifican tareas y cumplen objetivos.*
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 5.
+
+<table>
+	<tbody>
+		<tr>
+			<td>Criterio específico</td>
+			<td>Acciones realizadas</td>
+			<td>Conclusiones</td>
+		</tr>
+		<tr>
+			<td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+			<td>
+                Bernaola Pérez, André Arturo<br>
+                TB1<br>
+                Desarrollé y analicé las historias de usuario, además de participar en la creación del prototipo de nuestro producto mediante el desarrollo de guías de estilo y la landing page, así como en la elaboración de un prototipo.<br>
+                Grandez Mansilla, Jean Pierre<br>
+                TB1<br>
+                Realicé el análisis del needfinding, impact mapping y el desarrollo de software. Además, supervisé y participé en el desarrollo del prototipo de la solución.<br>
+                Pacheco Astiguetta, Sebastian<br>
+                TB1<br>
+                Desarrollé el análisis de competidores, estrategias y tácticas frente a competidores, entrevistas y análisis, además del diseño de la arquitectura de software.<br>
+                Paiva Quispe, Josue Gonzalo<br>
+                TB1<br>
+                Realicé el análisis de la startup, el perfil de la solución, el lean UX process y participé en la elaboración del prototipo, especialmente en la elaboración de la landing page como mockup.<br>
+                Velarde Luyo, Piero Alberto<br>
+                TB1<br>
+                Desarrollé el Lean UX Canvas, participé en los wireframes del prototipo y supervisé la información de la arquitectura, asegurando su correcto diseño.<br>
+            </td>
+			<td>Al analizar todos los segmentos importantes de un proyecto de este nivel, y recibir todo tipo de retroalimentación, es posible poder fijar la base de lo que se desea del producto y por tanto se logra definir un producto confiable y con las suficientes funcionalidades para solventar la problemática.</td>
+		</tr>
+		<tr>
+			<td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+			<td>
+                Bernaola Pérez, André Arturo<br>
+                TB1<br>
+                Formé parte del avance como equipo, supervisando las actividades de todos y planificando actividades futuras, cumpliendo los objetivos propuestos.<br>
+                Grandez Mansilla, Jean Pierre<br>
+                TB1<br>
+                Incentivé al resto a realizar sus objetivos mientras cumplía con los míos, además de llevar a cabo un seguimiento de las actividades a desarrollar.<br>
+                Pacheco Astiguetta, Sebastian<br>
+                TB1<br>
+                Establecí los objetivos a alcanzar del equipo y supervisé el avance de todos los integrantes.<br>
+                Paiva Quispe, Josue Gonzalo<br>
+                TB1<br>
+                Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
+                Velarde Luyo, Piero Alberto<br>
+                TB1<br>
+                Planifiqué los objetivos que se asignaron, desarrollándolos con eficiencia y respetando las decisiones que mis compañeros realizaron.<br>
+            </td>
+			<td>Al establecer metas claras y planificar las tareas de manera eficiente, se logra cumplir con los objetivos propuestos y se mantiene un ambiente de trabajo colaborativo e inclusivo, lo que permite alcanzar los objetivos propuestos.</td>
+		</tr>
+	</tbody>
+</table>
 
 ## Project Report Collaboration Insights
 
