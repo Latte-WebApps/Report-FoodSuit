@@ -913,9 +913,65 @@ Las pautas de estilo web están específicamente orientadas a la usabilidad y ac
 #### 4.4.4. Web Applications User Flow Diagrams
 ### 4.5. Web Applications Prototyping
 ### 4.6. Domain-Driven Software Architecture
+La arquitectura de software orientada al dominio proporciona una imagen de lo que se quiere en la estructura de software de nuestro producto. Tal imagen refleja lo que nosotros, Latte, planteamos para FoodSuit: identificar las funcionalidades de la solución y cómo se van a estructurar adaptándose a los elementos a usar.
 #### 4.6.1. Software Architecture Context Diagram
+Los elementos presentes son:
+
+- Visitor (Visitante): Visualiza el landing page.
+- Business Administrator (Administrador de Negocio): Accede a la aplicación web.
+- Worker (Trabajador): Accede a la aplicacion móvil
+- System Administrator (Administrador de Sistema): Supervisa el funcionamiento de las aplicaciones.
+- FoodSuit: Software que los usuarios utilizarán.
+  ![Context](assets/c4model/structurizr-SystemContext-001.png)
+
 #### 4.6.2. Software Architecture Container Diagrams
+Los elementos presentes son:
+
+- Landing Page: Página que presenta el producto.
+- Web App: Frontend donde los administradores de empresa interactúan con la aplicación web.
+- Mobile App: Frontend donde los trabajadores de empresa interactúan con la aplicación móvil.
+- API: Conexión entre el frontend y backend.
+- Bounded Contexts: Las funcionalidades que el sistema proporciona a los usuarios.
+- Bases de datos: Almacenará datos como inventario y toda la logística de la empresa.
+  ![Container](assets/c4model/structurizr-Container-001.png)
+
 #### 4.6.3. Software Architecture Components Diagrams
+**Order and Inventory**<br>
+Los elementos presentes son:
+- Controllers: Controlan un conjunto de funcionalidades.
+- Managers: Realizan una secuencia para llevar a cabo una acción.
+- Repositories: Permiten el acceso a una base de datos o un servicio externo.
+  ![Container](assets/c4model/structurizr-Component-001.png)
+
+**Finance Monitoring**<br>
+Los elementos presentes son:
+- Controller: Controla un conjunto de funcionalidades.
+- Manager: Realiza una secuencia para llevar a cabo una acción.
+- Generator: Realiza una generación de un archivo en base a datos proporcionados.
+- Calculador: Realiza una serie de cálculos en base a datos proporcionados.
+  ![Container](assets/c4model/structurizr-Component-002.png)
+
+**Business Optimization**<br>
+Los elementos presentes son:
+- Controller: Controla un conjunto de funcionalidades.
+- Manager: Realiza una secuencia para llevar a cabo una acción.
+- Generator: Realiza una generación de un archivo en base a datos proporcionados.
+- Evaluator: Genera una evaluación en base a datos proporcionados
+  ![Container](assets/c4model/structurizr-Component-003.png)
+
+**Menu Optimization**<br>
+Los elementos presentes son:
+- Controller: Controla un conjunto de funcionalidades.
+- Analyzers: Analiza datos proporcionados para devolver un resultado.
+- Adjuster: Ajusta un dato.
+- Visualizer: Permite la visualización de un análisis.
+  ![Container](assets/c4model/structurizr-Component-004.png)
+
+**Client Management**<br>
+Los elementos presentes son:
+- Controller: Controla un conjunto de funcionalidades.
+- Manager: Realiza una secuencia para llevar a cabo una acción.
+  ![Container](assets/c4model/structurizr-Component-005.png)
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1. Class Diagrams
 #### 4.7.2. Class Dictionary
