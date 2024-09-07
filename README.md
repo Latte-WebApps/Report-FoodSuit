@@ -836,21 +836,21 @@ Las pautas generales de estilo están diseñadas para asegurar una identidad de 
 
 - **Branding**: Utilizamos una paleta de colores que equilibra el profesionalismo, la modernidad y la seriedad, en consonancia con la funcionalidad de un administrador de restaurantes. El color primario `#00141A` es un tono profundo y elegante que representa profesionalismo, confiabilidad, y estabilidad. Este tono oscuro permite un contraste fuerte con los elementos secundarios y resaltados, asegurando la legibilidad y una jerarquía visual clara. El color secundario, un vibrante tono rojo/naranja `#FF3800`, introduce un toque de dinamismo y urgencia, ideal para destacar acciones importantes o llamadas a la acción dentro de la interfaz.
 	<br>
-	![Color Pallette](assets/style-guidelines/landing-color-pallette.png)
+	<img src="assets/style-guidelines/landing-color-pallette.png" alt="Color Pallette">
 	<br>
 
 - **Typography**: Se ha elegido la tipografía `Poppins` debido a su claridad, modernidad y legibilidad en todos los tamaños de pantalla. Las diferentes variaciones de peso `(ExtraBold, SemiBold, Medium, Regular)` permiten crear una jerarquía clara y aseguran que los usuarios puedan navegar fácilmente por la interfaz.
 
   	<br>
 
-  ![Typography](assets/style-guidelines/typography.png)
+  <img src="style-guidelines/typography.png" alt="Typography">
 
 	<br>
 - **Icons**: Los íconos lineales y minimalistas se utilizan para asegurar una comunicación rápida y efectiva. Son lo suficientemente distintivos para ser reconocidos rápidamente y se alinean con el estilo moderno de la aplicación.
   
   <br>
 
-  ![Icons](assets/style-guidelines/icons.png)
+  <img src="assets/style-guidelines/icons.png" alt="Icons">
 
   <br>
 
@@ -860,7 +860,7 @@ Las pautas generales de estilo están diseñadas para asegurar una identidad de 
 
   <br>
   
-  ![Icons](assets/style-guidelines/buttons.png)
+  <img src="style-guidelines/buttons.png" alt="Buttons">
 
   <br>
   
@@ -877,14 +877,14 @@ Las pautas de estilo web están específicamente orientadas a la usabilidad y ac
 
   <br>
 
-	![Color Pallette](assets/style-guidelines/web-guidelines/web-color-pallette.png)
+	<img src="assets/style-guidelines/web-guidelines/web-color-pallette.png" alt="Web Color Pallette">
   
   <br>
 
 - **Hover and Active States**: Los botones, enlaces e iconos incluyen estados de "hover" y "active" claramente definidos para proporcionar retroalimentación visual a los usuarios. Esto es esencial para mejorar la experiencia de usuario y reducir errores.
  <br>
 
-  ![Estados Hover y Active](assets/style-guidelines/web-guidelines/buttons.png)
+  <img src="assets/style-guidelines/web-guidelines/buttons.png" alt="Web Buttons">
 
  <br>
 
