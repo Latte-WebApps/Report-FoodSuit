@@ -907,8 +907,55 @@ Los elementos presentes son:
 ![Container](assets/c4model/structurizr-Component-005.png)
 
 ### 4.7. Software Object-Oriented Design
+El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de negocio para poder crear componentes que puedan ser entendibles para su desarrollo en un sistema real, y sean fáciles de modificar para nosotros.
 #### 4.7.1. Class Diagrams
+![Class Diagram](assets/OOdiagrams/classDiagram.png)
 #### 4.7.2. Class Dictionary
+**Business**<br>
+- Attributes: name, inventory, sales.
+- Methods: newWorker, getSales, getWorkersReport, newOrder.
+**Employee**<br>
+- Attributes: id, name, productivityRate.
+- Methods: visualizeProductivity, compareProductivity.
+**Period**<br>
+- Attributes: id, employees, datePeriod.
+- Methods: assignNewEmployee, modifyPeriod.
+**AssistanceRegister**<br>
+- Attributes: dateRegister, dateExit.
+- Methods: registerAssistance.
+**ProductivityAnalysis**<br>
+- Attributes: period, hoursWorked, performanceRate.
+- Methods: calculateProductivity.
+**SalesReport**<br>
+- Attributes: dateStart, dateEnd, dishesSold.
+- Methods: generateReport, optimizeMenu.
+**Expense**<br>
+- Attributes: id, dateDone, amount, category.
+- Methods: registerExpense.
+**Inventory**<br>
+- Attributes: id, resource, quantity, minimum.
+- Methods: updateInventory, verifyAlert.
+**Menu**<br>
+- Attributes: dishes, dateMade.
+- Methods: changeMenu.
+**Dish**<br>
+- Attributes: name, price, quantity.
+- Methods: calculateTotal.
+**Items**<br>
+- Attributes: name, price, quantity.
+- Methods: calculateTotal.
+**Order**<br>
+- Attributes: id, dateCreated, items, total.
+- Methods: registerOrder, cancelOrder.
+**OrderItem**<br>
+- Attributes: name, price, quantity.
+- Methods: calculateTotal.
+**Table**<br>
+- Attributes: tableNum, capacity, available
+- Methods: assignTable, freeUpTable.
+**Client**<br>
+- Attributes: id, name, tableAssigned.
+- Methods: registerClient.
 ### 4.8. Database Design
 #### 4.8.1. Database Diagram
 
