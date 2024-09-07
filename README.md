@@ -844,7 +844,7 @@ Las pautas generales de estilo están diseñadas para asegurar una identidad de 
 
   	<br>
 
-  <img src="style-guidelines/typography.png" alt="Typography">
+  <img src="assets/style-guidelines/typography.png" alt="Typography">
 
 	<br>
 - **Icons**: Los íconos lineales y minimalistas se utilizan para asegurar una comunicación rápida y efectiva. Son lo suficientemente distintivos para ser reconocidos rápidamente y se alinean con el estilo moderno de la aplicación.
@@ -861,7 +861,7 @@ Las pautas generales de estilo están diseñadas para asegurar una identidad de 
 
   <br>
   
-  <img src="style-guidelines/buttons.png" alt="Buttons">
+  <img src="assets/style-guidelines/buttons.png" alt="Buttons">
 
   <br>
   
