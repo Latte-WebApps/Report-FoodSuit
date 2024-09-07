@@ -826,7 +826,7 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | 20      | US-11         | Informe de Ventas de Platos         | Como administrador, quiero recibir informes sobre los platos más y menos vendidos para ajustar el menú. | 5                               |
 | 21      | US-12         | Optimización del Menú               | Como administrador, quiero recibir sugerencias basadas en datos de ventas para optimizar la carta del restaurante. | 5                               |
 
-
+Link del Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2716645
 
 ## Capítulo IV: Product Design <a id="cap4"></a>
 
@@ -925,14 +925,13 @@ Se ha implementado un sistema de navegación claro y accesible que permite a los
 
 
 ### 4.3 Landing Page UI Design
-#### 4.3.1 Introducción al Diseño de la Landing Page
 
 El diseño de la Landing Page de Food Suit se enfoca en proporcionar una experiencia intuitiva y clara para los propietarios de restaurantes que buscan mejorar la eficiencia en la gestión de sus negocios. Utilizamos principios de jerarquía visual y diseño inclusivo para facilitar la navegación, asegurando que la información más relevante esté al alcance de los usuarios sin sobrecargar visualmente la página.
 
 El diseño se ha traducido en una interfaz que presenta los beneficios clave del producto de manera concisa, incluyendo una llamada a la acción destacada para captar la atención de los usuarios rápidamente. Además, se aplicó un sistema de diseño coherente para garantizar una experiencia uniforme en todos los dispositivos.
 
 
-#### 4.3.2 Wireframe de la Landing Page
+#### 4.3.1 Landing Page Wireframe
 
 El Wireframe refleja la estructura básica y el flujo de la landing page tanto para **Desktop** como para **Mobile**. Se divide en varias secciones clave:
 - **Encabezado**: Incluye el logotipo, navegación y un botón destacado de "Try Now".
@@ -946,7 +945,7 @@ El Wireframe refleja la estructura básica y el flujo de la landing page tanto p
 
 <img src="assets/landing-page-design/Landing page Wireframe.svg" alt="landing page wireframe" width="500">
 
-### 4.3.3 Mock-up de la Landing Page
+### 4.3.2 Landing Page Mock-up
 
 El Mock-up final del diseño se basa en los wireframes previos, pero añade colores, tipografías e imágenes que fortalecen la identidad de la marca. La elección de colores se centra en tonos modernos y profesionales que reflejan la confianza y eficiencia del producto.
 
