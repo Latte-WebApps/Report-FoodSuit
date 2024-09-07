@@ -868,7 +868,6 @@ Las pautas generales de estilo están diseñadas para asegurar una identidad de 
 - **Spacing and Layout**: Se establece un sistema de espaciado uniforme que garantiza la claridad visual y un flujo de contenido organizado. El espacio adecuado entre los elementos ayuda a los usuarios a enfocarse en las tareas y facilita la navegación en pantallas táctiles. 
 
 #### 4.1.2. Web Style Guidelines
-
 Las pautas de estilo web están específicamente orientadas a la usabilidad y accesibilidad en plataformas digitales, especialmente en dispositivos utilizados en entornos de trabajo rápidos como los restaurantes.
 
 - **Responsive Design**: Todo el diseño está optimizado para ser completamente responsive, asegurando que los elementos sean accesibles y fáciles de interactuar en cualquier tamaño de pantalla, desde dispositivos móviles hasta tablets y desktops.
@@ -898,12 +897,31 @@ Las pautas de estilo web están específicamente orientadas a la usabilidad y ac
 
 
 
+
 ### 4.2. Information Architecture
+En esta sección, el equipo plantea las decisiones y sustento que dirigen la manera en la que se organizará el contenido en las experiencias web y móvil, incluyendo el Landing Page y las Aplicaciones. Dichas propuestas deben estar orientadas a que los visitantes y usuarios se adapten con facilidad a la funcionalidad de cada producto y puedan encontrar todo aquello que necesiten sin esfuerzo. Se incluyen las decisiones sobre los Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems.
 #### 4.2.1. Organization Systems
+En esta sección, se describen las estructuras de organización utilizadas en el contenido de la aplicación web y móvil. Se ha optado por un sistema jerárquico para la mayoría de las secciones, dado que facilita la navegación desde lo general a lo específico. Las secciones principales incluyen: ``Home``, ``Features``, ``Pricing`` y ``Footer``. Además, se aplican organizaciones secuenciales en la sección de precios, donde los usuarios siguen un proceso paso a paso para seleccionar un plan de suscripción. Finalmente, se utiliza una organización matricial en las secciones de reportes y análisis, donde los datos se presentan de manera cruzada para brindar comparaciones útiles.
+
 #### 4.2.2. Labeling Systems
+Las etiquetas dentro de la aplicación han sido diseñadas para ser simples, claras y concisas, evitando confusiones para los usuarios.
+
+
 #### 4.2.3. SEO Tags and Meta Tags
+Se ha implementado una estrategia de SEO para asegurar una mejor visibilidad en los motores de búsqueda. A continuación, se presentan las etiquetas utilizadas en las principales páginas de la aplicación:
+
+- **Title**: Food Suit - Gestión Integral de Restaurantes
+- **Meta Description**: Food Suite es una solución completa para la gestión de restaurantes, permitiendo optimizar el flujo de trabajo, controlar el inventario y mejorar la eficiencia con una interfaz intuitiva.
+- **Meta Keywords**: gestión de restaurantes, control de inventario, soluciones para restaurantes, Food Suit, eficiencia en restaurantes
+- **Meta Author**: Latte Company
+
+Estas etiquetas ayudan a mejorar el posicionamiento del sitio en los motores de búsqueda y a atraer al público objetivo.
+
 #### 4.2.4. Searching Systems
+Para mejorar la experiencia del usuario, se ha incluido un sistema de búsqueda en la barra de navegación, lo que permite a los usuarios buscar fácilmente contenido dentro del sitio. El sistema de búsqueda incluye filtros que permiten moverse entre las secciones `home`, `features`, y `pricing`. Adicionalmente usamos CTOs ubicados estratégicamente en diversas secciones, la cual dirige al usuario a contactarnos por una demo. 
+
 #### 4.2.5. Navigation Systems
+Se ha implementado un sistema de navegación claro y accesible que permite a los usuarios desplazarse fácilmente por el sitio. La navegación principal incluye enlaces a las secciones clave: ``Home``, ``Features`` y ``Pricing``. Además, se ha añadido una barra de navegación fija (sticky navigation) para que los usuarios siempre tengan acceso al menú de secciones, independientemente de su posición en la página.
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 #### 4.3.2. Landing Page Mock-up
@@ -974,8 +992,55 @@ Los elementos presentes son:
 - Manager: Realiza una secuencia para llevar a cabo una acción.
   ![Container](assets/c4model/structurizr-Component-005.png)
 ### 4.7. Software Object-Oriented Design
+El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de negocio para poder crear componentes que puedan ser entendibles para su desarrollo en un sistema real, y sean fáciles de modificar para nosotros.
 #### 4.7.1. Class Diagrams
+![Class Diagram](assets/OOdiagrams/classDiagram.png)
 #### 4.7.2. Class Dictionary
+**Business**<br>
+- Attributes: name, inventory, sales.
+- Methods: newWorker, getSales, getWorkersReport, newOrder.
+**Employee**<br>
+- Attributes: id, name, productivityRate.
+- Methods: visualizeProductivity, compareProductivity.
+**Period**<br>
+- Attributes: id, employees, datePeriod.
+- Methods: assignNewEmployee, modifyPeriod.
+**AssistanceRegister**<br>
+- Attributes: dateRegister, dateExit.
+- Methods: registerAssistance.
+**ProductivityAnalysis**<br>
+- Attributes: period, hoursWorked, performanceRate.
+- Methods: calculateProductivity.
+**SalesReport**<br>
+- Attributes: dateStart, dateEnd, dishesSold.
+- Methods: generateReport, optimizeMenu.
+**Expense**<br>
+- Attributes: id, dateDone, amount, category.
+- Methods: registerExpense.
+**Inventory**<br>
+- Attributes: id, resource, quantity, minimum.
+- Methods: updateInventory, verifyAlert.
+**Menu**<br>
+- Attributes: dishes, dateMade.
+- Methods: changeMenu.
+**Dish**<br>
+- Attributes: name, price, quantity.
+- Methods: calculateTotal.
+**Items**<br>
+- Attributes: name, price, quantity.
+- Methods: calculateTotal.
+**Order**<br>
+- Attributes: id, dateCreated, items, total.
+- Methods: registerOrder, cancelOrder.
+**OrderItem**<br>
+- Attributes: name, price, quantity.
+- Methods: calculateTotal.
+**Table**<br>
+- Attributes: tableNum, capacity, available
+- Methods: assignTable, freeUpTable.
+**Client**<br>
+- Attributes: id, name, tableAssigned.
+- Methods: registerClient.
 ### 4.8. Database Design
 #### 4.8.1. Database Diagram
 
