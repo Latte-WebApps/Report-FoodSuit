@@ -828,11 +828,305 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 
 ## Capítulo V: Product Implementation, Validation & Deployment <a id="cap5"></a>
 
-### 5.1. Software Configuration Management
-#### 5.1.1. Software Development Environment Configuration
+## 5.1. Software Configuration Management
+La gestión de la configuración del software es crucial para nuestro trabajo, ya que nos permite mantener un control preciso sobre los elementos de nuestro proyecto, como el código fuente, los documentos de diseño y los activos digitales. Esto garantiza que todos los miembros del equipo estén trabajando con la misma versión de los archivos y facilita la colaboración entre desarrolladores.
+
+### 5.1.1. Software Development Environment Configuration
+
+#### Project Management:
+
+- [Google Meet](https://meet.google.com/):
+
+  Se utilizó Google Meet para realizar reuniones virtuales con el equipo, permitiendo la comunicación en tiempo real y la colaboración en el proyecto.
+
+- [Trello](https://trello.com/login):
+  Trello es una aplicación de gestión de proyectos basada en tableros que permite organizar y asignar tareas a los miembros del equipo de manera visual y sencilla. Facilita el seguimiento de tareas individuales y en grupo mediante listas, tarjetas y tableros.  
+  
+  <img src="assets/trello.png"><br>
+
+#### Requirement Management:
+- [Miro](https://miro.com/):
+  Utilizamos Miro para desarrollar nuestros As-Is Scenario Mapping, To-Be Scenario Mapping, User Journey Maps y Empathy Maps, lo que nos permitió visualizar y analizar la experiencia de los usuarios y los procesos actuales y futuros del proyecto.
+    <img src="assets/As-Is admin.png"><br>
+
+- [UXPressia](https://uxpressia.com/):  
+  Utilizamos UXPressia para crear mapas de empatía, user journey maps y user personas, lo que nos permitió comprender mejor las necesidades y expectativas de los usuarios finales. 
+   <img src="assets/Eduardo Ventura.png"><br>
+    
+- [Structurizr](https://structurizr.com/):  
+    Utilizamos Structurizr para crear diagramas de arquitectura de software, lo que nos permitió visualizar y documentar la estructura de nuestro sistema y sus componentes. 
+
+#### Product UX/UI Design:
+- [Figma](https://www.figma.com/):  
+  Figma es una herramienta de diseño colaborativo que permite a equipos de diseño trabajar juntos en tiempo real en la creación de wireframes, prototipos y mockups, facilitando el feedback y la iteración de ideas.  
+
+- [LucidChart](https://www.lucidchart.com/pages/):  
+  LucidChart es una herramienta de diagramación y colaboración visual en línea que permite la de diagramas de clase y modelado UML, lo que nos permitió diseñar la arquitectura de nuestro sistema y documentar las relaciones entre los componentes.
+#### Software Development:
+- [HTML5](https://developer.mozilla.org/es/docs/Web/HTML):  
+  HTML5 es el estándar actual para la estructura de páginas web. Nos permite incluir componentes multimedia y gráficos, mejorando la interactividad y accesibilidad del contenido web.   
+
+
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS):  
+  CSS es el lenguaje de diseño utilizado para definir la presentación visual de documentos HTML. Se usa para estilizar elementos y asegurar una experiencia de usuario atractiva y uniforme.  
+
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript):  
+  JavaScript es un lenguaje de programación que permite implementar interactividad en páginas web. Es fundamental para añadir lógica dinámica a nuestros sitios web.  
+ 
+
+- [WebStorm](https://www.jetbrains.com/webstorm/):  
+  WebStorm es un entorno de desarrollo integrado (IDE) que ofrece soporte para JavaScript, TypeScript, HTML y CSS, mejorando la productividad de los desarrolladores mediante características avanzadas como la detección de errores en tiempo real y el autocompletado de código.  
+
+#### Software Testing:
+- **Lenguaje Gherkin**:  
+  Gherkin es un Lenguaje Específico de Dominio (DSL) que permite escribir pruebas funcionales en un lenguaje accesible para todos los miembros del equipo. Se basa en la estructura **Given-When-Then** para definir escenarios de comportamiento esperado.
+
+#### Software Documentation:
+- [GitHub](http://github.com):  
+  GitHub es una plataforma que facilita el versionado y la colaboración en el desarrollo de código. Proporciona herramientas para la revisión de código, seguimiento de problemas y documentación, asegurando que todos los miembros del equipo estén sincronizados.  
+
+#### Software Deployment:
+- **GitHub Pages**:
+  GitHub Pages nos permite desplegar sitios web estáticos directamente desde un repositorio GitHub, lo que facilita el lanzamiento de versiones simples de productos sin necesidad de un entorno de servidor complejo.  
+ 
+
 #### 5.1.2. Source Code Management
-#### 5.1.3. Source Code Style Guide & Conventions
+
+##### Landing Page Repository: [GitHub](https://github.com/Latte-WebApps/FoodSuiteLandingPage.git)
+
+- **GitFlow Implementation:**<br>
+    Utilizamos el flujo de trabajo GitFlow para organizar y gestionar las ramas de nuestro repositorio. Nos basamos en el flujo de trabajo tomando como referencia "A successful Git branching model" de Vincent Driessen.
+    Este enfoque nos permite mantener un flujo de trabajo estructurado y colaborativo, con ramas dedicadas para nuevas características, correcciones de errores y lanzamientos estables.
+    <br><img src="assets/gitflow.png"><br>
+
+- **Master o Main branch**:  
+  La rama principal de desarrollo del proyecto es la `Master branch`. En esta rama reside el código que actualmente se encuentra en producción.  
+  **Notación**: `master` o `main`.
+
+- **Develop branch**:  
+  La rama `Develop` albergará las más recientes actualizaciones y cambios que serán incluidos en la próxima versión del proyecto. Esta rama sirve como un espacio para la integración y prueba continua de los cambios antes de ser fusionados con la rama `Master` para su despliegue en producción.  
+  **Notación**: `develop`.
+
+- **Release branch**:  
+  La `Release branch` facilita la preparación de una nueva versión del producto. Esta rama permite la corrección de errores y la adición de mejoras, mientras que la rama `Develop` continúa recibiendo actualizaciones.
+    - Debe derivarse de la rama `Develop`.
+    - Debe fusionarse con las ramas `Develop` y `Master`.  
+      **Notación**: `release`.
+
+- **Feature branch**:  
+  Las ramas de características (`Feature branches`) serán empleadas para desarrollar nuevas funcionalidades que se agregarán en la siguiente versión o en versiones futuras.
+    - Debe derivarse de la rama `Develop`.
+    - Debe fusionarse de vuelta a la rama `Develop`.  
+      **Notación**: `feature`.
+
+- **Hotfix branch**:  
+  La `Hotfix branch` se emplea para resolver errores en la versión en producción del producto de manera inmediata.
+    - Debe derivarse de la rama `Master`.
+    - Debe fusionarse con las ramas `Develop` y `Master`.  
+      **Notación**: `hotfix`.
+
+- **Support branch**:  
+  Se utiliza para tareas de mantenimiento prolongado, como soporte de versiones anteriores.
+
+#### Conventional Commits:
+[**Conventional Commits**](https://www.conventionalcommits.org/en/v1.0.0/) es una convención que estructura los mensajes de confirmación (commits) en un formato estándar y semántico. Este formato ayuda a comunicar claramente los cambios realizados en el código y facilita la generación automática de registros de cambios.
+
+La estructura de un commit debe seguir las siguientes pautas:
+
+```bash
+git commit -m "<type>[optional scope]: <title>" -m "<description>"
+```
+
+**Tipos de Conventional Commits:**
+
+```bash
+1. feat: Describe una nueva funcionalidad o característica añadida al código.
+2. fix: Indica una solución a un bug o problema.
+3. docs: Se utiliza para cambios o mejoras en la documentación del código.
+4. : Cambios relacionados con el formato del código, como espacios en blanco o sangría, sin afectar su funcionalidad.
+5. refactor: Modificaciones en el código que no corrigen errores ni agregan nuevas características, sino que mejoran la estructura o legibilidad.
+6. test: Indica la adición o modificación de pruebas unitarias o funcionales.
+7. chore: Se utiliza para cambios en el proceso de construcción o tareas de mantenimiento que no están directamente relacionadas con el código.
+8. perf: Describe mejoras de rendimiento en el código.
+```
+
+### 5.1.3. Source Code Style Guide & Conventions
+Para el desarrollo del proyecto se utilizó como guideline de estilo  [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) y [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html), 
+garantiando un código limpio, legible y consistente.
+
+#### HTML
+- **Use Lowercase Element Names**:  
+  Es recomendable utilizar minúsculas para los nombres de los elementos HTML.
+  ~~~
+  <body>
+      <p>This is a paragraph</p>
+  </body>
+  ~~~
+- **Use Lowercase Attribute Names**:  
+  Los nombres de los atributos HTML deben estar en minúsculas.
+  ~~~
+  <a href="https://www.example.com">Link</a>
+  ~~~
+- **Use Double Quotes for Attribute Values**:<br>
+    Se recomienda utilizar comillas dobles para los valores de los atributos.
+    ~~~
+    <img src="image.jpg" alt="Image">
+    ~~~
+- **Omit Type Attributes for Style Sheets and Scripts**:<br>
+    No es necesario incluir el atributo `type` para las hojas de estilo y los scripts.
+    ~~~
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    ~~~
+#### CSS
+- **Use Lowercase and Hyphens for Property Names**:<br>
+    Los nombres de las propiedades CSS deben estar en minúsculas y separados por guiones.
+    ~~~
+    .example-class {
+        background-color: red;
+        font-size: 16px;
+    }
+    ~~~
+- **ID and Class Name Style**:<br>
+    Utilice nombres descriptivos y significativos para las clases y los IDs.
+    ~~~
+    #nav{}
+    .header{}
+    ~~~
+- **Use Shorthand Properties**:<br>
+    Se recomienda utilizar propiedades abreviadas para reducir la redundancia en el código.
+    Por ejemplo CSS nos ofrece la propiedad `font` que nos permite definir en una sola línea el tamaño de la fuente, el tipo de fuente y el color.
+    ~~~
+    border-top: 0;
+    font: 100%/1.6 palatino, georgia, serif;
+    padding: 0 1em 2em;
+    ~~~
+
+#### JavaScript
+
+- **Use Semicolons**:  
+  Es recomendable utilizar punto y coma al final de cada instrucción en JavaScript.
+  ~~~
+  var x = 5;
+  ~~~
+- **Use `const` and `let`**:
+    Se recomienda utilizar `const` para variables que no cambiarán su valor y `let` para variables que sí lo harán.
+    ~~~
+    const PI = 3.14159;
+    let count = 0;
+    ~~~
+- **Declaring Variables**:  
+  Es recomendable declarar todas las variables al principio de la función o bloque de código.
+  ~~~
+    const myName = 'Chris';
+    console.log(myName);
+    let myAge = '40';
+    myAge++;
+    console.log('Happy birthday!');
+  ~~~
+#### C#
+- **Use PascalCase for Class Names**:  
+  Los nombres de las clases deben seguir la convención PascalCase.
+  ~~~
+  public class MyClass
+  {
+      // Class members
+  }
+  ~~~
+- **Use CamelCase for Method Names**:  
+  Los nombres de los métodos deben seguir la convención camelCase.
+  ~~~
+  public void myMethod()
+  {
+      // Method body
+  }
+  ~~~
+- **Use Explicit Access Modifiers**:
+    Es recomendable utilizar modificadores de acceso explícitos en lugar de depender de los valores predeterminados.
+    ~~~
+    public class MyClass
+    {
+        private int myField;
+        public void MyMethod()
+        {
+            // Method body
+        }
+    }
+    ~~~
+- **Comments and Documentation**:
+    Es recomendable incluir comentarios descriptivos en el código para explicar su funcionamiento y propósito.
+    ~~~
+    // This method calculates the sum of two numbers
+    public int CalculateSum(int a, int b)
+    {
+        return a + b;
+    }
+    ~~~
+#### Language GHERKIN
+- **Use Given-When-Then Structure**:  
+  Es recomendable seguir la estructura Given-When-Then para escribir escenarios de prueba.
+  ~~~
+  Feature: Login
+  Scenario: Successful Login
+    Given the user is on the login page
+    When the user enters valid credentials
+    Then the user is redirected to the dashboard
+  ~~~
+- **Use Scenario Outlines for Data-Driven Tests**:
+    Se recomienda utilizar Scenario Outlines para escribir pruebas basadas en datos.
+    ~~~
+    Feature: Login
+    Scenario Outline: Invalid Login
+      Given the user is on the login page
+      When the user enters "<username>" and "<password>"
+      Then an error message is displayed
+      Examples:
+        | username | password |
+        | user1    | pass1    |
+        | user2    | pass2    |
+    ~~~
+- **Use Tags for Categorization**:
+    Es recomendable utilizar etiquetas para categorizar y organizar los escenarios de prueba.
+    ~~~
+    @login
+    Feature: Login
+    Scenario: Successful Login
+      Given the user is on the login page
+      When the user enters valid credentials
+      Then the user is redirected to the dashboard
+    ~~~
+- **Add Comments for Clarity**:
+    Se recomienda incluir comentarios en los archivos Gherkin para explicar el propósito y el contexto de los escenarios de prueba.
+    ~~~
+    # This scenario tests the login functionality
+    Feature: Login
+    Scenario: Successful Login
+      Given the user is on the login page
+      When the user enters valid credentials
+      Then the user is redirected to the dashboard
+    ~~~
+
 #### 5.1.4. Software Deployment Configuration
+
+En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
+
+Para configurar el despliegue de la landing page en GitHub Pages, seguimos los siguientes pasos:
+
+1. **Crear un Repositorio de GitHub**:  
+  Creamos un repositorio de GitHub para el proyecto de la landing page.
+2. **Clonar el Repositorio**:  
+  Clonamos el repositorio en nuestra máquina local utilizando Git.
+3. **Crear la Estructura del Proyecto**:  
+  Creamos la estructura de archivos y carpetas para la landing page, incluyendo el archivo `index.html` y los archivos CSS y JavaScript necesarios.
+4. **Desplegar en GitHub Pages**:  
+  Para desplegar la landing page en GitHub Pages, seguimos estos pasos:
+    - Navegamos a la pestaña `Settings` del repositorio en GitHub.
+    - En la sección `GitHub Pages`, seleccionamos la rama `master` como fuente para el despliegue.
+    - Guardamos la configuración y esperamos a que GitHub Pages publique la landing page.
+    - Una vez publicada, accedemos a la URL proporcionada por GitHub Pages para ver la landing page en línea.
+
+
+
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
 ##### 5.2.1.1. Sprint Planning 1
