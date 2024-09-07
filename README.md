@@ -24,10 +24,91 @@ Velarde Luyo, Piero Alberto (U20211A620)<br>
 </div>
 
 # Registro de Versiones del Informe
-
-| Versión | Fecha | Autores | Descripción de modificación |
-| - | - | - | - |
-| 1 | 20/08/2024 | | |
+<table BORDER>
+    <tr>
+        <td>VERSION</td>
+        <td>FECHA</td>
+        <td> AUTOR </td>
+        <td>DESCRIPCION DE MODIFICACION</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>17/08/2024</td>
+        <td> Sebastian Pacheco Astiguetta </td>
+        <td>Formato del documento</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>20/08/2024</td>
+        <td>Josue Paiva Quispe</td>
+        <td>Antecedentes y problematicas</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>20/08/2024</td>
+        <td>Josue Paiva Quispe</td>
+        <td>Lean UX Hypothesis Statements</td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td>21/08/24</td>
+        <td>Sebastian Pacheco Astiguetta</td>
+        <td>Desarrollo del descipción de la StartUp y segmentos Objetivos</td>
+    </tr>
+    <tr>
+        <td>05</td>
+        <td>21/08/24</td>
+        <td>Piero Velarde</td>
+        <td>Desarrollo del Lean UX Canvas</td>
+    </tr>
+    <tr>
+        <td>06</td>
+        <td>27/08/24</td>
+        <td>Jean Grandez Mansilla</td>
+        <td>Desarrollo del Needfinding e Impact Mapping</td>
+    </tr>
+    <tr>
+        <td>07</td>
+        <td>29/08/24</td>
+        <td>Sebatian Pacheco Astiguetta</td>
+        <td>Desarrollo del Análisis competitivo, Estrategias y tácticas frente a competidores, entrevistasy análisis</td>
+    </tr>
+    <tr>
+        <td>08</td>
+        <td>30/08/24</td>
+        <td>Andre Bernaola</td>
+        <td>Desarrollo de las User Stories y Product Backlog </td>
+    </tr>
+    <tr>
+        <td>09</td>
+        <td>04/09/24</td>
+        <td>Piero Velarde</td>
+        <td>>Desarrollo Information Arquitecture y Application Wireframes</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>06/09/24</td>
+        <td>Andre Bernaola</td>
+        <td>Desarrollo del Style Guidelines y Landing Page</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>07/09/24</td>
+        <td>Sebastian Pacheco Astiguetta</td>
+        <td>Domain Driven Software Architecture, Software Object Oriented Design y Database Design</td>
+    <tr>
+        <td>12</td>
+        <td>07/09/24</td>
+        <td>Josue Paiva Quispe</td>
+        <td>Desarrollo de Application Mockups</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>07/09/24</td>
+        <td>Jean Grandez Mansilla</td>
+        <td>Desarrollo de Software Configuration Management</td>
+    </tr>
+</table>
 
 ## Contenido
 
