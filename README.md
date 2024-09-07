@@ -800,6 +800,8 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 <br><img src="assets/Impact%20map.png"><br>
 ### 3.4. Product Backlog
 
+# Product Backlog
+
 | # Orden | User Story Id | Título                              | Descripción                                                                                | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|---------------|-------------------------------------|--------------------------------------------------------------------------------------------|---------------------------------|
 | 1       | US-18         | Presentación del Producto           | Como visitante, quiero ver una presentación clara del producto de administración de restaurantes en la landing page para entender sus características y beneficios. | 1                               |
@@ -829,8 +831,72 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 ## Capítulo IV: Product Design <a id="cap4"></a>
 
 ### 4.1. Style Guidelines
+Esta sección define las pautas de estilo para garantizar consistencia visual y funcional en todo el producto. Se centra en la identidad visual de la marca, la tipografía, los colores, los iconos, los botones, y la experiencia del usuario. 
 #### 4.1.1. General Style Guidelines
+Las pautas generales de estilo están diseñadas para asegurar una identidad de marca cohesiva que transmita profesionalismo, modernidad y eficiencia, especialmente orientada a aplicaciones como la nuestra, que mejoran los flujos de trabajo en restaurantes de diversos tipos.
+
+- **Branding**: Utilizamos una paleta de colores que equilibra el profesionalismo, la modernidad y la seriedad, en consonancia con la funcionalidad de un administrador de restaurantes. El color primario `#00141A` es un tono profundo y elegante que representa profesionalismo, confiabilidad, y estabilidad. Este tono oscuro permite un contraste fuerte con los elementos secundarios y resaltados, asegurando la legibilidad y una jerarquía visual clara. El color secundario, un vibrante tono rojo/naranja `#FF3800`, introduce un toque de dinamismo y urgencia, ideal para destacar acciones importantes o llamadas a la acción dentro de la interfaz.
+	<br>
+	<img src="assets/style-guidelines/landing-color-pallette.png" alt="Color Pallette">
+	<br>
+
+- **Typography**: Se ha elegido la tipografía `Poppins` debido a su claridad, modernidad y legibilidad en todos los tamaños de pantalla. Las diferentes variaciones de peso `(ExtraBold, SemiBold, Medium, Regular)` permiten crear una jerarquía clara y aseguran que los usuarios puedan navegar fácilmente por la interfaz.
+
+  	<br>
+
+  <img src="assets/style-guidelines/typography.png" alt="Typography">
+
+	<br>
+- **Icons**: Los íconos lineales y minimalistas se utilizan para asegurar una comunicación rápida y efectiva. Son lo suficientemente distintivos para ser reconocidos rápidamente y se alinean con el estilo moderno de la aplicación.
+  
+  <br>
+
+  <img src="assets/style-guidelines/icons.png" alt="Icons">
+
+  <br>
+
+
+
+- **Buttons**: Los botones están diseñados para ser altamente visibles y accesibles. Se utilizan colores de alta visibilidad como el naranja y el rojo para las acciones principales, mientras que los bordes redondeados mejoran la usabilidad en dispositivos táctiles. 
+
+  <br>
+  
+  <img src="assets/style-guidelines/buttons.png" alt="Buttons">
+
+  <br>
+  
+- **Spacing and Layout**: Se establece un sistema de espaciado uniforme que garantiza la claridad visual y un flujo de contenido organizado. El espacio adecuado entre los elementos ayuda a los usuarios a enfocarse en las tareas y facilita la navegación en pantallas táctiles. 
+
 #### 4.1.2. Web Style Guidelines
+Las pautas de estilo web están específicamente orientadas a la usabilidad y accesibilidad en plataformas digitales, especialmente en dispositivos utilizados en entornos de trabajo rápidos como los restaurantes.
+
+- **Responsive Design**: Todo el diseño está optimizado para ser completamente responsive, asegurando que los elementos sean accesibles y fáciles de interactuar en cualquier tamaño de pantalla, desde dispositivos móviles hasta tablets y desktops.
+
+
+- **Color Accessibility**: Los colores están seleccionados con criterios de contraste adecuados para cumplir con los estándares de accesibilidad como Web Content Accessibility Guidelines (WCAG), asegurando que todo el texto sea fácilmente legible contra su fondo respectivo. Se incluyen alternativas de alto contraste para usuarios con discapacidades visuales.
+
+  <br>
+
+	<img src="assets/style-guidelines/web-guidelines/web-color-pallette.png" alt="Web Color Pallette">
+  
+  <br>
+
+- **Hover and Active States**: Los botones, enlaces e iconos incluyen estados de "hover" y "active" claramente definidos para proporcionar retroalimentación visual a los usuarios. Esto es esencial para mejorar la experiencia de usuario y reducir errores.
+ <br>
+
+  <img src="assets/style-guidelines/web-guidelines/buttons.png" alt="Web Buttons">
+
+ <br>
+
+- **Performance Optimization**: Se priorizan los diseños ligeros que cargan rápidamente y utilizan imágenes y recursos optimizados. La eficiencia en la carga es crucial para mantener la fluidez en el entorno de uso rápido de un restaurante.
+  
+- **Navigation and Interactivity**: La navegación está diseñada para ser intuitiva, con accesos directos a funciones clave y un uso mínimo de submenús. Los elementos interactivos tienen retroalimentación visual y táctil para mejorar la experiencia del usuario.
+
+
+- **Consistent Component Usage**: Se utilizan componentes reutilizables y consistentes a lo largo de la interfaz web, como botones, tarjetas, y formularios, lo que garantiza una experiencia de usuario cohesiva y facilita el mantenimiento y la escalabilidad del código.
+
+
+
 
 ### 4.2. Information Architecture
 En esta sección, el equipo plantea las decisiones y sustento que dirigen la manera en la que se organizará el contenido en las experiencias web y móvil, incluyendo el Landing Page y las Aplicaciones. Dichas propuestas deben estar orientadas a que los visitantes y usuarios se adapten con facilidad a la funcionalidad de cada producto y puedan encontrar todo aquello que necesiten sin esfuerzo. Se incluyen las decisiones sobre los Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems.
@@ -875,7 +941,7 @@ Los elementos presentes son:
 - Worker (Trabajador): Accede a la aplicacion móvil
 - System Administrator (Administrador de Sistema): Supervisa el funcionamiento de las aplicaciones.
 - FoodSuit: Software que los usuarios utilizarán.
-![Context](assets/c4model/structurizr-SystemContext-001.png)
+  ![Context](assets/c4model/structurizr-SystemContext-001.png)
 
 #### 4.6.2. Software Architecture Container Diagrams
 Los elementos presentes son:
@@ -886,7 +952,7 @@ Los elementos presentes son:
 - API: Conexión entre el frontend y backend.
 - Bounded Contexts: Las funcionalidades que el sistema proporciona a los usuarios.
 - Bases de datos: Almacenará datos como inventario y toda la logística de la empresa.
-![Container](assets/c4model/structurizr-Container-001.png)
+  ![Container](assets/c4model/structurizr-Container-001.png)
 
 #### 4.6.3. Software Architecture Components Diagrams
 **Order and Inventory**<br>
@@ -894,7 +960,7 @@ Los elementos presentes son:
 - Controllers: Controlan un conjunto de funcionalidades.
 - Managers: Realizan una secuencia para llevar a cabo una acción.
 - Repositories: Permiten el acceso a una base de datos o un servicio externo.
-![Container](assets/c4model/structurizr-Component-001.png)
+  ![Container](assets/c4model/structurizr-Component-001.png)
 
 **Finance Monitoring**<br>
 Los elementos presentes son:
@@ -902,7 +968,7 @@ Los elementos presentes son:
 - Manager: Realiza una secuencia para llevar a cabo una acción.
 - Generator: Realiza una generación de un archivo en base a datos proporcionados.
 - Calculador: Realiza una serie de cálculos en base a datos proporcionados.
-![Container](assets/c4model/structurizr-Component-002.png)
+  ![Container](assets/c4model/structurizr-Component-002.png)
 
 **Business Optimization**<br>
 Los elementos presentes son:
@@ -910,7 +976,7 @@ Los elementos presentes son:
 - Manager: Realiza una secuencia para llevar a cabo una acción.
 - Generator: Realiza una generación de un archivo en base a datos proporcionados.
 - Evaluator: Genera una evaluación en base a datos proporcionados
-![Container](assets/c4model/structurizr-Component-003.png)
+  ![Container](assets/c4model/structurizr-Component-003.png)
 
 **Menu Optimization**<br>
 Los elementos presentes son:
@@ -918,14 +984,13 @@ Los elementos presentes son:
 - Analyzers: Analiza datos proporcionados para devolver un resultado.
 - Adjuster: Ajusta un dato.
 - Visualizer: Permite la visualización de un análisis.
-![Container](assets/c4model/structurizr-Component-004.png)
+  ![Container](assets/c4model/structurizr-Component-004.png)
 
 **Client Management**<br>
 Los elementos presentes son:
 - Controller: Controla un conjunto de funcionalidades.
 - Manager: Realiza una secuencia para llevar a cabo una acción.
-![Container](assets/c4model/structurizr-Component-005.png)
-
+  ![Container](assets/c4model/structurizr-Component-005.png)
 ### 4.7. Software Object-Oriented Design
 El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de negocio para poder crear componentes que puedan ser entendibles para su desarrollo en un sistema real, y sean fáciles de modificar para nosotros.
 #### 4.7.1. Class Diagrams
