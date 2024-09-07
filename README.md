@@ -830,12 +830,31 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 ### 4.1. Style Guidelines
 #### 4.1.1. General Style Guidelines
 #### 4.1.2. Web Style Guidelines
+
 ### 4.2. Information Architecture
+En esta sección, el equipo plantea las decisiones y sustento que dirigen la manera en la que se organizará el contenido en las experiencias web y móvil, incluyendo el Landing Page y las Aplicaciones. Dichas propuestas deben estar orientadas a que los visitantes y usuarios se adapten con facilidad a la funcionalidad de cada producto y puedan encontrar todo aquello que necesiten sin esfuerzo. Se incluyen las decisiones sobre los Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems.
 #### 4.2.1. Organization Systems
+En esta sección, se describen las estructuras de organización utilizadas en el contenido de la aplicación web y móvil. Se ha optado por un sistema jerárquico para la mayoría de las secciones, dado que facilita la navegación desde lo general a lo específico. Las secciones principales incluyen: ``Home``, ``Features``, ``Pricing`` y ``Footer``. Además, se aplican organizaciones secuenciales en la sección de precios, donde los usuarios siguen un proceso paso a paso para seleccionar un plan de suscripción. Finalmente, se utiliza una organización matricial en las secciones de reportes y análisis, donde los datos se presentan de manera cruzada para brindar comparaciones útiles.
+
 #### 4.2.2. Labeling Systems
+Las etiquetas dentro de la aplicación han sido diseñadas para ser simples, claras y concisas, evitando confusiones para los usuarios.
+
+
 #### 4.2.3. SEO Tags and Meta Tags
+Se ha implementado una estrategia de SEO para asegurar una mejor visibilidad en los motores de búsqueda. A continuación, se presentan las etiquetas utilizadas en las principales páginas de la aplicación:
+
+- **Title**: Food Suit - Gestión Integral de Restaurantes
+- **Meta Description**: Food Suite es una solución completa para la gestión de restaurantes, permitiendo optimizar el flujo de trabajo, controlar el inventario y mejorar la eficiencia con una interfaz intuitiva.
+- **Meta Keywords**: gestión de restaurantes, control de inventario, soluciones para restaurantes, Food Suit, eficiencia en restaurantes
+- **Meta Author**: Latte Company
+
+Estas etiquetas ayudan a mejorar el posicionamiento del sitio en los motores de búsqueda y a atraer al público objetivo.
+
 #### 4.2.4. Searching Systems
+Para mejorar la experiencia del usuario, se ha incluido un sistema de búsqueda en la barra de navegación, lo que permite a los usuarios buscar fácilmente contenido dentro del sitio. El sistema de búsqueda incluye filtros que permiten moverse entre las secciones `home`, `features`, y `pricing`. Adicionalmente usamos CTOs ubicados estratégicamente en diversas secciones, la cual dirige al usuario a contactarnos por una demo. 
+
 #### 4.2.5. Navigation Systems
+Se ha implementado un sistema de navegación claro y accesible que permite a los usuarios desplazarse fácilmente por el sitio. La navegación principal incluye enlaces a las secciones clave: ``Home``, ``Features`` y ``Pricing``. Además, se ha añadido una barra de navegación fija (sticky navigation) para que los usuarios siempre tengan acceso al menú de secciones, independientemente de su posición en la página.
 ### 4.3. Landing Page UI Design
 #### 4.3.1. Landing Page Wireframe
 #### 4.3.2. Landing Page Mock-up
