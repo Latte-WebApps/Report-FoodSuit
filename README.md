@@ -964,6 +964,82 @@ El diseño también es adaptable a dispositivos móviles, asegurando una experie
 
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
+
+Esta es la página principal que ve el administrador.
+
+![Mock Up - Home](https://github.com/user-attachments/assets/3b535871-a64f-4636-8a53-641809ba75a6)
+
+En esta sección podrá ver el desempeño del restaurante.
+
+![Wireframe - Finance](https://github.com/user-attachments/assets/ac2b8402-6f76-4d87-94ec-eb812ccba306)
+
+También podrá editar los valores si este lo desea.
+
+![Wireframe - Finance (1)](https://github.com/user-attachments/assets/16627a96-5fa7-4e78-bf11-ead075d70ba4)
+
+En este apartado se visualizará el desempeño de cada empleado.
+
+![Wireframe - Employees](https://github.com/user-attachments/assets/dcf75a64-247d-4a2f-8fe3-b5f422772599)
+
+Esta sección es para agregar un empleado más.
+
+![Wireframe - Employees (1)](https://github.com/user-attachments/assets/6f29b75b-6714-4e8e-8b49-93d42a911fd2)
+
+En esta página el administrador podrá editar la horas de trabajo de cada empleado.
+
+![Wireframe - Employees (2)](https://github.com/user-attachments/assets/7d05112a-1f90-4b26-93ad-9904f6c42837)
+
+Esta sección es para la visualización de los insumos de cocina restantes.
+
+![Wireframe - Inventory](https://github.com/user-attachments/assets/48d35a54-2ed3-418a-9a3d-6c342d6df6e7)
+
+
+Este apartado es para los meseros, es esta podrán agregar pedidos.
+
+![Wireframe - Add Order](https://github.com/user-attachments/assets/d0de4f3e-e63e-4d82-8e47-689ff53dafe0)
+
+En esta sección se podrá seleccionar el tipo de platillo para agragar a la orden
+
+![Wireframe - Add Order (1)](https://github.com/user-attachments/assets/76fb82dc-8f7c-4d17-afe3-1691828a144e)
+
+En esta página se podrá agregar un platillo de entrada.
+
+![Wireframe - Add Order (2)](https://github.com/user-attachments/assets/d57c8ab7-11d1-44f9-a36e-4b75b93a1754)
+
+Asimismo, en este apartado se podrá agregar un plato principal.
+
+![Wireframe - Add Order (3)](https://github.com/user-attachments/assets/94b5b1ef-7068-464d-bdee-e5a4a5c30887)
+
+En esta sección se podrá agregar un platillo especial a la orden.
+
+![Wireframe - Add Order (4)](https://github.com/user-attachments/assets/1f17206e-ac65-4fa3-acc2-0adfdf0b2d6a)
+
+Este apartado es para la selección de un postre a la orden.
+
+![Wireframe - Add Order (5)](https://github.com/user-attachments/assets/c1a73b0e-1a61-4e66-8182-f794c98b44f7)
+
+Esta sección es para agregar bebidas a la orden.
+
+![Wireframe - Add Order (6)](https://github.com/user-attachments/assets/23076034-9c72-4bf6-9aed-50c0bc296c6d)
+
+En este apartado se podrá editar las ordenes existentes.
+
+![Wireframe - Add Order (7)](https://github.com/user-attachments/assets/214434f5-a52e-43ac-85db-cc8967911b85)
+
+
+Este apartado es para los cocineros, en esta página podrán observar los pedidos pendientes.
+
+![Wireframe - Order](https://github.com/user-attachments/assets/f0972e2a-bde0-459a-a30f-3641f8465895)
+
+
+En esta sección podrán observar los insumos restantes de cocina.
+
+![Wireframe - Inventory (1)](https://github.com/user-attachments/assets/051e0386-992e-42fb-853b-63875aa654c2)
+
+Y en esta editarlos.
+
+![Wireframe - Edit Inventory](https://github.com/user-attachments/assets/02d83e47-21e3-4529-a5df-6b522d3595af)
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 #### 4.4.4. Web Applications User Flow Diagrams
