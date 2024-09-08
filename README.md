@@ -24,10 +24,91 @@ Velarde Luyo, Piero Alberto (U20211A620)<br>
 </div>
 
 # Registro de Versiones del Informe
-
-| Versión | Fecha | Autores | Descripción de modificación |
-| - | - | - | - |
-| 1 | 20/08/2024 | | |
+<table BORDER>
+    <tr>
+        <td>VERSION</td>
+        <td>FECHA</td>
+        <td> AUTOR </td>
+        <td>DESCRIPCION DE MODIFICACION</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>17/08/2024</td>
+        <td> Sebastian Pacheco Astiguetta </td>
+        <td>Formato del documento</td>
+    </tr>
+    <tr>
+        <td>02</td>
+        <td>20/08/2024</td>
+        <td>Josue Paiva Quispe</td>
+        <td>Antecedentes y problematicas</td>
+    </tr>
+    <tr>
+        <td>03</td>
+        <td>20/08/2024</td>
+        <td>Josue Paiva Quispe</td>
+        <td>Lean UX Hypothesis Statements</td>
+    </tr>
+    <tr>
+        <td>04</td>
+        <td>21/08/24</td>
+        <td>Sebastian Pacheco Astiguetta</td>
+        <td>Desarrollo del descipción de la StartUp y segmentos Objetivos</td>
+    </tr>
+    <tr>
+        <td>05</td>
+        <td>21/08/24</td>
+        <td>Piero Velarde</td>
+        <td>Desarrollo del Lean UX Canvas</td>
+    </tr>
+    <tr>
+        <td>06</td>
+        <td>27/08/24</td>
+        <td>Jean Grandez Mansilla</td>
+        <td>Desarrollo del Needfinding e Impact Mapping</td>
+    </tr>
+    <tr>
+        <td>07</td>
+        <td>29/08/24</td>
+        <td>Sebatian Pacheco Astiguetta</td>
+        <td>Desarrollo del Análisis competitivo, Estrategias y tácticas frente a competidores, entrevistasy análisis</td>
+    </tr>
+    <tr>
+        <td>08</td>
+        <td>30/08/24</td>
+        <td>Andre Bernaola</td>
+        <td>Desarrollo de las User Stories y Product Backlog </td>
+    </tr>
+    <tr>
+        <td>09</td>
+        <td>04/09/24</td>
+        <td>Piero Velarde</td>
+        <td>>Desarrollo Information Arquitecture y Application Wireframes</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>06/09/24</td>
+        <td>Andre Bernaola</td>
+        <td>Desarrollo del Style Guidelines y Landing Page</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>07/09/24</td>
+        <td>Sebastian Pacheco Astiguetta</td>
+        <td>Domain Driven Software Architecture, Software Object Oriented Design y Database Design</td>
+    <tr>
+        <td>12</td>
+        <td>07/09/24</td>
+        <td>Josue Paiva Quispe</td>
+        <td>Desarrollo de Application Mockups</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>07/09/24</td>
+        <td>Jean Grandez Mansilla</td>
+        <td>Desarrollo de Software Configuration Management</td>
+    </tr>
+</table>
 
 ## Contenido
 
@@ -124,6 +205,66 @@ Velarde Luyo, Piero Alberto (U20211A620)<br>
 - [Anexos](#anexos)
 
 ## Student Outcome
+El curso contribuye al cumplimiento del Student Outcome ABET:
+**ABET – EAC - Student Outcome 5**
+Criterio: *La capacidad de funcionar efectivamente en un equipo cuyos miembros
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
+establecen objetivos, planifican tareas y cumplen objetivos.*
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 5.
+
+<table>
+	<tbody>
+		<tr>
+			<td>Criterio específico</td>
+			<td>Acciones realizadas</td>
+			<td>Conclusiones</td>
+		</tr>
+		<tr>
+			<td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+			<td>
+                Bernaola Pérez, André Arturo<br>
+                TB1<br>
+                Desarrollé y analicé las historias de usuario, además de participar en la creación del prototipo de nuestro producto mediante el desarrollo de guías de estilo y la landing page, así como en la elaboración de un prototipo.<br>
+                Grandez Mansilla, Jean Pierre<br>
+                TB1<br>
+                Realicé el análisis del needfinding, impact mapping y el desarrollo de software. Además, supervisé y participé en el desarrollo del prototipo de la solución.<br>
+                Pacheco Astiguetta, Sebastian<br>
+                TB1<br>
+                Desarrollé el análisis de competidores, estrategias y tácticas frente a competidores, entrevistas y análisis, además del diseño de la arquitectura de software.<br>
+                Paiva Quispe, Josue Gonzalo<br>
+                TB1<br>
+                Realicé el análisis de la startup, el perfil de la solución, el lean UX process y participé en la elaboración del prototipo, especialmente en la elaboración de la landing page como mockup.<br>
+                Velarde Luyo, Piero Alberto<br>
+                TB1<br>
+                Desarrollé el Lean UX Canvas, participé en los wireframes del prototipo y supervisé la información de la arquitectura, asegurando su correcto diseño.<br>
+            </td>
+			<td>Al analizar todos los segmentos importantes de un proyecto de este nivel, y recibir todo tipo de retroalimentación, es posible poder fijar la base de lo que se desea del producto y por tanto se logra definir un producto confiable y con las suficientes funcionalidades para solventar la problemática.</td>
+		</tr>
+		<tr>
+			<td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+			<td>
+                Bernaola Pérez, André Arturo<br>
+                TB1<br>
+                Formé parte del avance como equipo, supervisando las actividades de todos y planificando actividades futuras, cumpliendo los objetivos propuestos.<br>
+                Grandez Mansilla, Jean Pierre<br>
+                TB1<br>
+                Incentivé al resto a realizar sus objetivos mientras cumplía con los míos, además de llevar a cabo un seguimiento de las actividades a desarrollar.<br>
+                Pacheco Astiguetta, Sebastian<br>
+                TB1<br>
+                Establecí los objetivos a alcanzar del equipo y supervisé el avance de todos los integrantes.<br>
+                Paiva Quispe, Josue Gonzalo<br>
+                TB1<br>
+                Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
+                Velarde Luyo, Piero Alberto<br>
+                TB1<br>
+                Planifiqué los objetivos que se asignaron, desarrollándolos con eficiencia y respetando las decisiones que mis compañeros realizaron.<br>
+            </td>
+			<td>Al establecer metas claras y planificar las tareas de manera eficiente, se logra cumplir con los objetivos propuestos y se mantiene un ambiente de trabajo colaborativo e inclusivo, lo que permite alcanzar los objetivos propuestos.</td>
+		</tr>
+	</tbody>
+</table>
 
 ## Project Report Collaboration Insights
 
@@ -797,7 +938,10 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | TS-03           | Implementación de Accesibilidad Web | Como desarrolador, quiero asegurar que la landing page cumpla con los estándares de accesibilidad web (WCAG) para usuarios con discapacidades. | - **Escenario 1: Navegación con Teclado**<br>**Dado* que la landing page está cargada<br>**Cuando** un usuario navega utilizando solo el teclado<br>**Entonces** todos los elementos interactivos deben ser accesibles y enfocados correctamente.<br><br>- **Escenario 2: Uso con Lectores de Pantalla**<br>**Dado que** la landing page está cargada<br>**Cuando** un usuario utiliza un lector de pantalla<br>**Entonces** el contenido debe ser legible y navegable con el lector de pantalla. | EP005                  |
 
 ### 3.3. Impact Mapping
+<br><img src="assets/Impact%20map.png"><br>
 ### 3.4. Product Backlog
+
+# Product Backlog
 
 | # Orden | User Story Id | Título                              | Descripción                                                                                | Story Points (1 / 2 / 3 / 5 / 8) |
 |---------|---------------|-------------------------------------|--------------------------------------------------------------------------------------------|---------------------------------|
@@ -823,13 +967,77 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | 20      | US-11         | Informe de Ventas de Platos         | Como administrador, quiero recibir informes sobre los platos más y menos vendidos para ajustar el menú. | 5                               |
 | 21      | US-12         | Optimización del Menú               | Como administrador, quiero recibir sugerencias basadas en datos de ventas para optimizar la carta del restaurante. | 5                               |
 
-
+Link del Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2716645
 
 ## Capítulo IV: Product Design <a id="cap4"></a>
 
 ### 4.1. Style Guidelines
+Esta sección define las pautas de estilo para garantizar consistencia visual y funcional en todo el producto. Se centra en la identidad visual de la marca, la tipografía, los colores, los iconos, los botones, y la experiencia del usuario. 
 #### 4.1.1. General Style Guidelines
+Las pautas generales de estilo están diseñadas para asegurar una identidad de marca cohesiva que transmita profesionalismo, modernidad y eficiencia, especialmente orientada a aplicaciones como la nuestra, que mejoran los flujos de trabajo en restaurantes de diversos tipos.
+
+- **Branding**: Utilizamos una paleta de colores que equilibra el profesionalismo, la modernidad y la seriedad, en consonancia con la funcionalidad de un administrador de restaurantes. El color primario `#00141A` es un tono profundo y elegante que representa profesionalismo, confiabilidad, y estabilidad. Este tono oscuro permite un contraste fuerte con los elementos secundarios y resaltados, asegurando la legibilidad y una jerarquía visual clara. El color secundario, un vibrante tono rojo/naranja `#FF3800`, introduce un toque de dinamismo y urgencia, ideal para destacar acciones importantes o llamadas a la acción dentro de la interfaz.
+	<br>
+	<img src="assets/style-guidelines/landing-color-pallette.png" alt="Color Pallette">
+	<br>
+
+- **Typography**: Se ha elegido la tipografía `Poppins` debido a su claridad, modernidad y legibilidad en todos los tamaños de pantalla. Las diferentes variaciones de peso `(ExtraBold, SemiBold, Medium, Regular)` permiten crear una jerarquía clara y aseguran que los usuarios puedan navegar fácilmente por la interfaz.
+
+  	<br>
+
+  <img src="assets/style-guidelines/typography.png" alt="Typography">
+
+	<br>
+- **Icons**: Los íconos lineales y minimalistas se utilizan para asegurar una comunicación rápida y efectiva. Son lo suficientemente distintivos para ser reconocidos rápidamente y se alinean con el estilo moderno de la aplicación.
+  
+  <br>
+
+  <img src="assets/style-guidelines/icons.png" alt="Icons">
+
+  <br>
+
+
+
+- **Buttons**: Los botones están diseñados para ser altamente visibles y accesibles. Se utilizan colores de alta visibilidad como el naranja y el rojo para las acciones principales, mientras que los bordes redondeados mejoran la usabilidad en dispositivos táctiles. 
+
+  <br>
+  
+  <img src="assets/style-guidelines/buttons.png" alt="Buttons">
+
+  <br>
+  
+- **Spacing and Layout**: Se establece un sistema de espaciado uniforme que garantiza la claridad visual y un flujo de contenido organizado. El espacio adecuado entre los elementos ayuda a los usuarios a enfocarse en las tareas y facilita la navegación en pantallas táctiles. 
+
 #### 4.1.2. Web Style Guidelines
+Las pautas de estilo web están específicamente orientadas a la usabilidad y accesibilidad en plataformas digitales, especialmente en dispositivos utilizados en entornos de trabajo rápidos como los restaurantes.
+
+- **Responsive Design**: Todo el diseño está optimizado para ser completamente responsive, asegurando que los elementos sean accesibles y fáciles de interactuar en cualquier tamaño de pantalla, desde dispositivos móviles hasta tablets y desktops.
+
+
+- **Color Accessibility**: Los colores están seleccionados con criterios de contraste adecuados para cumplir con los estándares de accesibilidad como Web Content Accessibility Guidelines (WCAG), asegurando que todo el texto sea fácilmente legible contra su fondo respectivo. Se incluyen alternativas de alto contraste para usuarios con discapacidades visuales.
+
+  <br>
+
+	<img src="assets/style-guidelines/web-guidelines/web-color-pallette.png" alt="Web Color Pallette">
+  
+  <br>
+
+- **Hover and Active States**: Los botones, enlaces e iconos incluyen estados de "hover" y "active" claramente definidos para proporcionar retroalimentación visual a los usuarios. Esto es esencial para mejorar la experiencia de usuario y reducir errores.
+ <br>
+
+  <img src="assets/style-guidelines/web-guidelines/buttons.png" alt="Web Buttons">
+
+ <br>
+
+- **Performance Optimization**: Se priorizan los diseños ligeros que cargan rápidamente y utilizan imágenes y recursos optimizados. La eficiencia en la carga es crucial para mantener la fluidez en el entorno de uso rápido de un restaurante.
+  
+- **Navigation and Interactivity**: La navegación está diseñada para ser intuitiva, con accesos directos a funciones clave y un uso mínimo de submenús. Los elementos interactivos tienen retroalimentación visual y táctil para mejorar la experiencia del usuario.
+
+
+- **Consistent Component Usage**: Se utilizan componentes reutilizables y consistentes a lo largo de la interfaz web, como botones, tarjetas, y formularios, lo que garantiza una experiencia de usuario cohesiva y facilita el mantenimiento y la escalabilidad del código.
+
+
+
 
 ### 4.2. Information Architecture
 En esta sección, el equipo plantea las decisiones y sustento que dirigen la manera en la que se organizará el contenido en las experiencias web y móvil, incluyendo el Landing Page y las Aplicaciones. Dichas propuestas deben estar orientadas a que los visitantes y usuarios se adapten con facilidad a la funcionalidad de cada producto y puedan encontrar todo aquello que necesiten sin esfuerzo. Se incluyen las decisiones sobre los Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems y Navigation Systems.
@@ -855,13 +1063,213 @@ Para mejorar la experiencia del usuario, se ha incluido un sistema de búsqueda 
 
 #### 4.2.5. Navigation Systems
 Se ha implementado un sistema de navegación claro y accesible que permite a los usuarios desplazarse fácilmente por el sitio. La navegación principal incluye enlaces a las secciones clave: ``Home``, ``Features`` y ``Pricing``. Además, se ha añadido una barra de navegación fija (sticky navigation) para que los usuarios siempre tengan acceso al menú de secciones, independientemente de su posición en la página.
-### 4.3. Landing Page UI Design
-#### 4.3.1. Landing Page Wireframe
-#### 4.3.2. Landing Page Mock-up
+
+
+### 4.3 Landing Page UI Design
+
+El diseño de la Landing Page de Food Suit se enfoca en proporcionar una experiencia intuitiva y clara para los propietarios de restaurantes que buscan mejorar la eficiencia en la gestión de sus negocios. Utilizamos principios de jerarquía visual y diseño inclusivo para facilitar la navegación, asegurando que la información más relevante esté al alcance de los usuarios sin sobrecargar visualmente la página.
+
+El diseño se ha traducido en una interfaz que presenta los beneficios clave del producto de manera concisa, incluyendo una llamada a la acción destacada para captar la atención de los usuarios rápidamente. Además, se aplicó un sistema de diseño coherente para garantizar una experiencia uniforme en todos los dispositivos.
+
+
+#### 4.3.1 Landing Page Wireframe
+
+El Wireframe refleja la estructura básica y el flujo de la landing page tanto para **Desktop** como para **Mobile**. Se divide en varias secciones clave:
+- **Encabezado**: Incluye el logotipo, navegación y un botón destacado de "Try Now".
+- **Sección Hero**: Muestra una introducción al producto con un CTA claro. Se utilizan imágenes o gráficos para hacer la propuesta más atractiva visualmente.
+- **Sección de Problemas y Soluciones**: Expone los problemas comunes que enfrentan los propietarios de restaurantes y cómo la solución los resuelve.
+- **Sección de Beneficios Clave**: Presenta de forma clara las características y beneficios del producto.
+- **Tabla de Precios**: Muestra los distintos planes disponibles con información relevante para cada uno de ellos.
+- **Pie de Página**: Incluye información sobre la empresa, links a redes sociales y contacto.
+
+<br>
+
+<img src="assets/landing-page-design/Landing page Wireframe.svg" alt="landing page wireframe" width="500">
+
+### 4.3.2 Landing Page Mock-up
+
+El Mock-up final del diseño se basa en los wireframes previos, pero añade colores, tipografías e imágenes que fortalecen la identidad de la marca. La elección de colores se centra en tonos modernos y profesionales que reflejan la confianza y eficiencia del producto.
+
+Se incluyen los siguientes detalles visuales:
+- **Color Primario**: Se utiliza para destacar los botones y llamadas a la acción, dirigiendo la atención de los usuarios a los elementos interactivos más importantes.
+- **Tipografías**: Se escoge una tipografía legibles y modernas, manteniendo la coherencia en toda la página.
+- **Imágenes e Ilustraciones**: Refuerzan el mensaje clave y añaden un toque visual agradable sin distraer al usuario de la información principal.
+
+El diseño también es adaptable a dispositivos móviles, asegurando una experiencia de usuario consistente y optimizada.
+
+<br>
+
+<img src="assets/landing-page-design/mockup.png" alt="landing page mock-up" width="500">
+
+
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
+
+Esta es la página principal que ve el administrador.
+
+![Mock Up - Home](https://github.com/user-attachments/assets/3b535871-a64f-4636-8a53-641809ba75a6)
+
+En esta sección podrá ver el desempeño del restaurante.
+
+![Wireframe - Finance](https://github.com/user-attachments/assets/ac2b8402-6f76-4d87-94ec-eb812ccba306)
+
+También podrá editar los valores si este lo desea.
+
+![Wireframe - Finance (1)](https://github.com/user-attachments/assets/16627a96-5fa7-4e78-bf11-ead075d70ba4)
+
+En este apartado se visualizará el desempeño de cada empleado.
+
+![Wireframe - Employees](https://github.com/user-attachments/assets/dcf75a64-247d-4a2f-8fe3-b5f422772599)
+
+Esta sección es para agregar un empleado más.
+
+![Wireframe - Employees (1)](https://github.com/user-attachments/assets/6f29b75b-6714-4e8e-8b49-93d42a911fd2)
+
+En esta página el administrador podrá editar la horas de trabajo de cada empleado.
+
+![Wireframe - Employees (2)](https://github.com/user-attachments/assets/7d05112a-1f90-4b26-93ad-9904f6c42837)
+
+Esta sección es para la visualización de los insumos de cocina restantes.
+
+![Wireframe - Inventory](https://github.com/user-attachments/assets/48d35a54-2ed3-418a-9a3d-6c342d6df6e7)
+
+
+Este apartado es para los meseros, es esta podrán agregar pedidos.
+
+![Wireframe - Add Order](https://github.com/user-attachments/assets/d0de4f3e-e63e-4d82-8e47-689ff53dafe0)
+
+En esta sección se podrá seleccionar el tipo de platillo para agragar a la orden
+
+![Wireframe - Add Order (1)](https://github.com/user-attachments/assets/76fb82dc-8f7c-4d17-afe3-1691828a144e)
+
+En esta página se podrá agregar un platillo de entrada.
+
+![Wireframe - Add Order (2)](https://github.com/user-attachments/assets/d57c8ab7-11d1-44f9-a36e-4b75b93a1754)
+
+Asimismo, en este apartado se podrá agregar un plato principal.
+
+![Wireframe - Add Order (3)](https://github.com/user-attachments/assets/94b5b1ef-7068-464d-bdee-e5a4a5c30887)
+
+En esta sección se podrá agregar un platillo especial a la orden.
+
+![Wireframe - Add Order (4)](https://github.com/user-attachments/assets/1f17206e-ac65-4fa3-acc2-0adfdf0b2d6a)
+
+Este apartado es para la selección de un postre a la orden.
+
+![Wireframe - Add Order (5)](https://github.com/user-attachments/assets/c1a73b0e-1a61-4e66-8182-f794c98b44f7)
+
+Esta sección es para agregar bebidas a la orden.
+
+![Wireframe - Add Order (6)](https://github.com/user-attachments/assets/23076034-9c72-4bf6-9aed-50c0bc296c6d)
+
+En este apartado se podrá editar las ordenes existentes.
+
+![Wireframe - Add Order (7)](https://github.com/user-attachments/assets/214434f5-a52e-43ac-85db-cc8967911b85)
+
+
+Este apartado es para los cocineros, en esta página podrán observar los pedidos pendientes.
+
+![Wireframe - Order](https://github.com/user-attachments/assets/f0972e2a-bde0-459a-a30f-3641f8465895)
+
+
+En esta sección podrán observar los insumos restantes de cocina.
+
+![Wireframe - Inventory (1)](https://github.com/user-attachments/assets/051e0386-992e-42fb-853b-63875aa654c2)
+
+Y en esta editarlos.
+
+![Wireframe - Edit Inventory](https://github.com/user-attachments/assets/02d83e47-21e3-4529-a5df-6b522d3595af)
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
+
+Esta es la página principal que ve el administrador.
+
+![Mock Up - Home (1)](https://github.com/user-attachments/assets/e1f0acac-6298-4faa-8b9e-ddb9b76e3488)
+
+En esta sección podrá ver el desempeño del restaurante.
+
+![Wireframe - Finance (2)](https://github.com/user-attachments/assets/950f0f25-40a3-4623-b58a-df0d43319c42)
+
+
+También podrá editar los valores si este lo desea.
+
+![Wireframe - Finance (3)](https://github.com/user-attachments/assets/e54e6307-df0f-4048-a6c1-422f6ac3bc9d)
+
+
+En este apartado se visualizará el desempeño de cada empleado.
+
+![Wireframe - Employees (3)](https://github.com/user-attachments/assets/c773106d-8d50-414e-bef6-947607cf4058)
+
+
+Esta sección es para agregar un empleado más.
+
+![Wireframe - Employees (4)](https://github.com/user-attachments/assets/bc9eb5db-1898-4c4e-a9b5-b6f29cbdc380)
+
+
+En esta página el administrador podrá editar la horas de trabajo de cada empleado.
+
+![Wireframe - Employees (5)](https://github.com/user-attachments/assets/d9f9e8b4-9925-4e6f-a446-4abebde0b8ed)
+
+
+Esta sección es para la visualización de los insumos de cocina restantes.
+
+![Wireframe - Inventory (2)](https://github.com/user-attachments/assets/27aa5a08-45bf-48b5-a41d-f2bfe43bc412)
+
+
+Este apartado es para los meseros, es esta podrán agregar pedidos.
+
+![Wireframe - Add Order (8)](https://github.com/user-attachments/assets/bb299acd-c9ef-4ca6-9497-f28d11eb02a7)
+
+En esta sección se podrá seleccionar el tipo de platillo para agragar a la orden 
+
+![Wireframe - Add Order (9)](https://github.com/user-attachments/assets/215c047c-00e7-4ce8-bc08-03613539516f)
+
+
+En esta página se podrá agregar un platillo de entrada.
+
+![Wireframe - Add Order (10)](https://github.com/user-attachments/assets/62b38ed4-ee26-4f65-b877-ac2df92a817a)
+
+ 
+Asimismo, en este apartado se podrá agregar un plato principal.
+
+![Wireframe - Add Order (11)](https://github.com/user-attachments/assets/8377c15d-7a26-4605-8c4c-0ce1d7386a1a)
+
+
+En esta sección se podrá agregar un platillo especial a la orden.
+
+![Wireframe - Add Order (12)](https://github.com/user-attachments/assets/7d1018ac-1eff-4427-8d47-fdb24e28bfc8)
+
+
+Este apartado es para la selección de un postre a la orden.
+
+![Wireframe - Add Order (13)](https://github.com/user-attachments/assets/a13b02cd-7710-44c8-a0c9-372888572812)
+
+
+Esta sección es para agregar bebidas a la orden.
+
+![Wireframe - Add Order (14)](https://github.com/user-attachments/assets/4c8495b2-acf1-4775-8355-d4591a9c426d)
+
+En este apartado se podrá editar las ordenes existentes.
+
+![Wireframe - Add Order (15)](https://github.com/user-attachments/assets/28a4649e-1361-4df6-a5a5-b2804744caff)
+
+
+Este apartado es para los cocineros, en esta página podrán observar los pedidos pendientes.
+
+![Wireframe - Order (1)](https://github.com/user-attachments/assets/01198a2c-2b7a-4933-93c8-cd1bf4fcbc8e)
+
+
+En esta sección podrán observar los insumos restantes de cocina.
+
+![Wireframe - Inventory (3)](https://github.com/user-attachments/assets/9e90c444-8975-4610-bc47-03b9c566c51e)
+
+
+Y en esta editarlos.
+
+![Wireframe - Edit Inventory (1)](https://github.com/user-attachments/assets/de5926fd-7e4d-406d-831c-2906451567cc)
+
+
 #### 4.4.4. Web Applications User Flow Diagrams
 ### 4.5. Web Applications Prototyping
 ### 4.6. Domain-Driven Software Architecture
@@ -874,7 +1282,7 @@ Los elementos presentes son:
 - Worker (Trabajador): Accede a la aplicacion móvil
 - System Administrator (Administrador de Sistema): Supervisa el funcionamiento de las aplicaciones.
 - FoodSuit: Software que los usuarios utilizarán.
-![Context](assets/c4model/structurizr-SystemContext-001.png)
+  ![Context](assets/c4model/structurizr-SystemContext-001.png)
 
 #### 4.6.2. Software Architecture Container Diagrams
 Los elementos presentes son:
@@ -885,7 +1293,7 @@ Los elementos presentes son:
 - API: Conexión entre el frontend y backend.
 - Bounded Contexts: Las funcionalidades que el sistema proporciona a los usuarios.
 - Bases de datos: Almacenará datos como inventario y toda la logística de la empresa.
-![Container](assets/c4model/structurizr-Container-001.png)
+  ![Container](assets/c4model/structurizr-Container-001.png)
 
 #### 4.6.3. Software Architecture Components Diagrams
 **Order and Inventory**<br>
@@ -893,7 +1301,7 @@ Los elementos presentes son:
 - Controllers: Controlan un conjunto de funcionalidades.
 - Managers: Realizan una secuencia para llevar a cabo una acción.
 - Repositories: Permiten el acceso a una base de datos o un servicio externo.
-![Container](assets/c4model/structurizr-Component-001.png)
+  ![Container](assets/c4model/structurizr-Component-001.png)
 
 **Finance Monitoring**<br>
 Los elementos presentes son:
@@ -901,7 +1309,7 @@ Los elementos presentes son:
 - Manager: Realiza una secuencia para llevar a cabo una acción.
 - Generator: Realiza una generación de un archivo en base a datos proporcionados.
 - Calculador: Realiza una serie de cálculos en base a datos proporcionados.
-![Container](assets/c4model/structurizr-Component-002.png)
+  ![Container](assets/c4model/structurizr-Component-002.png)
 
 **Business Optimization**<br>
 Los elementos presentes son:
@@ -909,7 +1317,7 @@ Los elementos presentes son:
 - Manager: Realiza una secuencia para llevar a cabo una acción.
 - Generator: Realiza una generación de un archivo en base a datos proporcionados.
 - Evaluator: Genera una evaluación en base a datos proporcionados
-![Container](assets/c4model/structurizr-Component-003.png)
+  ![Container](assets/c4model/structurizr-Component-003.png)
 
 **Menu Optimization**<br>
 Los elementos presentes son:
@@ -917,14 +1325,13 @@ Los elementos presentes son:
 - Analyzers: Analiza datos proporcionados para devolver un resultado.
 - Adjuster: Ajusta un dato.
 - Visualizer: Permite la visualización de un análisis.
-![Container](assets/c4model/structurizr-Component-004.png)
+  ![Container](assets/c4model/structurizr-Component-004.png)
 
 **Client Management**<br>
 Los elementos presentes son:
 - Controller: Controla un conjunto de funcionalidades.
 - Manager: Realiza una secuencia para llevar a cabo una acción.
-![Container](assets/c4model/structurizr-Component-005.png)
-
+  ![Container](assets/c4model/structurizr-Component-005.png)
 ### 4.7. Software Object-Oriented Design
 El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de negocio para poder crear componentes que puedan ser entendibles para su desarrollo en un sistema real, y sean fáciles de modificar para nosotros.
 #### 4.7.1. Class Diagrams
@@ -976,7 +1383,9 @@ El diseño orientado a objetos del software será esencial para nuestro proyecto
 - Attributes: id, name, tableAssigned.
 - Methods: registerClient.
 ### 4.8. Database Design
+El diseño de la base de datos será fundamental para nuestro proyecto, ya que proporcionará la estructura subyacente para almacenar y gestionar los datos de manera eficiente y segura. Esto nos permitirá organizar los datos de manera lógica y coherente, facilitando su recuperación y manipulación en respuesta a las solicitudes de los usuarios.
 #### 4.8.1. Database Diagram
+![Database Diagram](assets/OOdiagrams/latteDB.png)
 
 
 ## Capítulo V: Product Implementation, Validation & Deployment <a id="cap5"></a>
