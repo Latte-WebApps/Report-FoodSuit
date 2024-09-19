@@ -1337,56 +1337,59 @@ El diseño orientado a objetos del software será esencial para nuestro proyecto
 #### 4.7.1. Class Diagrams
 ![Class Diagram](assets/OOdiagrams/classDiagram.png)
 #### 4.7.2. Class Dictionary
-**Business**<br>
-- Attributes: name, inventory, sales.
-- Methods: newWorker, getSales, getWorkersReport, newOrder.
-**Employee**<br>
-- Attributes: id, name, productivityRate.
-- Methods: visualizeProductivity, compareProductivity.
-**Period**<br>
-- Attributes: id, employees, datePeriod.
-- Methods: assignNewEmployee, modifyPeriod.
-**AssistanceRegister**<br>
-- Attributes: dateRegister, dateExit.
-- Methods: registerAssistance.
-**ProductivityAnalysis**<br>
-- Attributes: period, hoursWorked, performanceRate.
-- Methods: calculateProductivity.
-**SalesReport**<br>
-- Attributes: dateStart, dateEnd, dishesSold.
-- Methods: generateReport, optimizeMenu.
-**Expense**<br>
-- Attributes: id, dateDone, amount, category.
-- Methods: registerExpense.
-**Inventory**<br>
-- Attributes: id, resource, quantity, minimum.
-- Methods: updateInventory, verifyAlert.
-**Menu**<br>
-- Attributes: dishes, dateMade.
-- Methods: changeMenu.
-**Dish**<br>
-- Attributes: name, price, quantity.
-- Methods: calculateTotal.
-**Items**<br>
-- Attributes: name, price, quantity.
-- Methods: calculateTotal.
-**Order**<br>
-- Attributes: id, dateCreated, items, total.
-- Methods: registerOrder, cancelOrder.
-**OrderItem**<br>
-- Attributes: name, price, quantity.
-- Methods: calculateTotal.
-**Table**<br>
-- Attributes: tableNum, capacity, available
-- Methods: assignTable, freeUpTable.
-**Client**<br>
-- Attributes: id, name, tableAssigned.
-- Methods: registerClient.
+| **Clase**            | **Nombre de Atributo** | **Descripción**                    | **Tipo de Dato** |
+|----------------------|------------------------|------------------------------------|------------------|
+| Business             | name                   | Nombre del negocio                 | String           |
+| Business             | inventory              | Inventario del negocio             | Inventory        |
+| Business             | sales                  | Ventas del negocio                 | Sales            |
+| Employee             | id                     | Identificador del empleado         | String           |
+| Employee             | name                   | Nombre del empleado                | String           |
+| Employee             | productivityRate       | Tasa de productividad del empleado | Float            |
+| AssistanceRegister   | dateRegister           | Fecha de registro de asistencia    | Date             |
+| AssistanceRegister   | dateExit               | Fecha de salida de asistencia      | Date             |
+| ProductivityAnalysis | period                 | Período de análisis                | String           |
+| ProductivityAnalysis | hoursWorked            | Horas trabajadas                   | Float            |
+| ProductivityAnalysis | performanceRate        | Tasa de rendimiento                | Float            |
+| Period               | id                     | Identificador del periodo          | String           |
+| Period               | employees              | Empleados del periodo              | Array            |
+| Period               | datePeriod             | Fecha del periodo                  | Date             |
+| SalesReport          | dateStart              | Fecha de inicio del reporte        | Date             |
+| SalesReport          | dateEnd                | Fecha de fin del reporte           | Date             |
+| SalesReport          | dishesSold             | Platos vendidos                    | Array            |
+| Expense              | id                     | Identificador del gasto            | String           |
+| Expense              | dateDone               | Fecha del gasto                    | Date             |
+| Expense              | amount                 | Monto del gasto                    | Float            |
+| Expense              | category               | Categoría del gasto                | String           |
+| Menu                 | dishes                 | Platos del menú                    | Array            |
+| Menu                 | dateMade               | Fecha de creación del menú         | Date             |
+| Dish                 | name                   | Nombre del plato                   | String           |
+| Dish                 | price                  | Precio del plato                   | Float            |
+| Dish                 | quantity               | Cantidad de platos                 | Integer          |
+| Inventory            | id                     | Identificador del inventario       | String           |
+| Inventory            | resources              | Recursos del inventario            | Array            |
+| Inventory            | quantity               | Cantidad de recursos               | Integer          |
+| Inventory            | minimum                | Cantidad mínima de recursos fijado | Integer          |
+| Items                | id                     | Identificador del item             | String           |
+| Items                | name                   | Nombre del item                    | String           |
+| Items                | quantity               | Cantidad del item                  | Integer          |
+| Order                | id                     | Identificador de la orden          | String           |
+| Order                | dateCreated            | Fecha de creación de la orden      | Date             |
+| Order                | items                  | Items de la orden                  | Array            |
+| Order                | total                  | Total de la orden                  | Float            |
+| OrderItem            | name                   | Nombre del item de la orden        | String           |
+| OrderItem            | price                  | Precio del item de la orden        | Float            |
+| OrderItem            | quantity               | Cantidad del item de la orden      | Integer          |
+| Table                | tableNumber            | Número de mesa                     | Integer          |
+| Table                | capacity               | Capacidad de la mesa               | Integer          |
+| Table                | available              | Disponibilidad de la mesa          | Boolean          |
+| Client               | id                     | Identificador del cliente          | String           |
+| Client               | name                   | Nombre del cliente                 | String           |
+| Client               | tableAsssigned         | Mesa asignada al cliente           | int              |
+
 ### 4.8. Database Design
 El diseño de la base de datos será fundamental para nuestro proyecto, ya que proporcionará la estructura subyacente para almacenar y gestionar los datos de manera eficiente y segura. Esto nos permitirá organizar los datos de manera lógica y coherente, facilitando su recuperación y manipulación en respuesta a las solicitudes de los usuarios.
 #### 4.8.1. Database Diagram
 ![Database Diagram](assets/OOdiagrams/latteDB.png)
-
 
 ## Capítulo V: Product Implementation, Validation & Deployment <a id="cap5"></a>
 
@@ -1701,7 +1704,9 @@ Para configurar el despliegue de la landing page en GitHub Pages, seguimos los s
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 ## Conclusiones
-
+* En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
+* El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
+* Al evaluar los competidores, pudimos identificar las fortalezas y debilidades de sus productos, lo que nos permitió identificar oportunidades para mejorar y diferenciar FoodSuit. Esto nos ayudó a definir una propuesta de valor única y atractiva para nuestro producto, que destaca sus características clave y beneficios para los usuarios.
 ## Bibliografía
 
 ## Anexos
