@@ -1692,88 +1692,13 @@ Para configurar el despliegue de la landing page en GitHub Pages, seguimos los s
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
 ##### 5.2.1.1. Sprint Planning 1
-| **Sprint #** | **Date**  | **Time** | **Location**          | **Prepared by** | **Attendees (to planning meeting)**                                                | **Sprint 1 Review Summary**                                                                                                                                      | **Sprint 1 Retrospective Summary**                                 | **Sprint 1 Goal**                                                                                                                                                                                         | **Sprint 1 Velocity** | **Sum of Story Points**  |
-|--------------|-----------|----------|-----------------------|-----------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------|
-| 1            | 2024-08-20 | 10:00 AM | Virtual - Google Meet | André Bernaola  | André Bernaola, Jean Pierre Grandez, Sebastian Pacheco, Josue Paiva, Piero Velarde | Se realizó la Landing Page del producto, implementado usando HTML y CSS en base al Figma del diseño de los mockups y wireframes, siguiendo los style guidelines. | Coordinar mejor las ideas para el producto y explicarlas al grupo. | Implementar la Landing Page y preparar el ambiente de desarrollo para presentar un producto con el que los visitantes logren captar la idea. Esto ayuda a que los visitantes se interesen en el producto. | 5 Story Points        | 5 Story Points atendidos |
 ##### 5.2.1.2. Sprint Backlog 1
-<table>
-  <tr>
-    <td colspan="1"><strong>Sprint #</strong></td>
-    <td colspan="7"><strong>Sprint 1</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>User Story</strong></td>
-    <td colspan="6"><strong>Work-Item/task</strong></td>
-  </tr>
-  <tr>
-    <td colspan="1"><strong>Id</strong></td>
-    <td colspan="1"><strong>Title</strong></td>
-    <td colspan="1"><strong>Id</strong></td>
-    <td colspan="1"><strong>Title</strong></td>
-    <td colspan="1"><strong>Description</strong></td>
-    <td colspan="1"><strong>Estimation(Hrs)</strong></td>
-    <td colspan="1"><strong>Assigned To</strong></td>
-    <td colspan="1"><strong>Status</strong></td>
-  </tr>
-  <tr>
-    <td colspan="1">US-18</td>
-    <td colspan="1">Presentación del Producto</td>
-    <td colspan="1">T01</td>
-    <td colspan="1">Crear la presentación base del producto.</td>
-    <td colspan="1">Se creará la landing page del producto, usando las herramientas necesarias siguiendo el modelo establecido.</td>
-    <td colspan="1">0.5</td>
-    <td colspan="1">André Bernaola, Josué Paiva</td>
-    <td colspan="1">Done</td>
-  </tr>
-  <tr>
-    <td colspan="1">US-19</td>
-    <td colspan="1">Características Principales</td>
-    <td colspan="1">T02</td>
-    <td colspan="1">Agregar las características principales del producto.</td>
-    <td colspan="1">La Landing Page debe informar sobre las características principales del producto.</td>
-    <td colspan="1">0.5</td>
-    <td colspan="1">André Bernaola</td>
-    <td colspan="1">Done</td>
-  </tr>
-  <tr>
-    <td colspan="1">US-20</td>
-    <td colspan="1">Llamada a la Acción</td>
-    <td colspan="1">T03</td>
-    <td colspan="1">Agregar un botón de llamada a la acción.</td>
-    <td colspan="1">Se agregará un botón de llamada a la acción en la Landing Page, el cual ofrece un demo del producto o contacta con el equipo detrás del producto.</td>
-    <td colspan="1">0.5</td>
-    <td colspan="1">André Bernaola</td>
-    <td colspan="1">Done</td>
-  </tr>
-  <tr>
-    <td colspan="1">US-21</td>
-    <td colspan="1">Accesibilidad en Dispositivos Móviles</td>
-    <td colspan="1">T04</td>
-    <td colspan="1">Asegurar la accesibilidad en dispositivos móviles.</td>
-    <td colspan="1">Se asegurará que la Landing Page sea accesible y se visualice correctamente en dispositivos móviles.</td>
-    <td colspan="1">2</td>
-    <td colspan="1">André Bernaola</td>
-    <td colspan="1">Done</td>
-  </tr>
-</table>
-
 ##### 5.2.1.3. Development Evidence for Sprint Review
-| **Repository**                     | **Branch** | **Commit ID** | **Commit Message**   | **Commit Message Body** | **Commited on (Date)** |
-|------------------------------------|------------|---------------|----------------------|-------------------------|------------------------|
-| Latte-WebApps/FoodSuiteLandingPage | main       | 0f2f857       | Add files via upload | -                       | 20/08/2024             |
 ##### 5.2.1.4. Testing Suite Evidence for Sprint Review
-Se omite esta sección, dado que aún no se tiene el conocimiento necesario para realizar pruebas automatizadas. Esto se llevara a cabo en futuros sprints.
 ##### 5.2.1.5. Execution Evidence for Sprint Review
-En esta entrega, nuestro equipo ha desplegado con éxito la landing page.
-![Landing Page](assets/execution-foodsuit-landing.png)
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-Se omite esta sección ya que aún no contamos con Web Application, la cual se desarrollará en Sprints futuros.
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Se omite esta sección ya que actualmente no contamos con una Front End App, ya que esta se implementará en Sprints futuros.
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
-A continuación, se muestra la página de insights proporcionada por Github.
-![General Insights](assets/general-insights.png)
-![Team Collaboration Insights](assets/teamcollab-insights.png)
 
 ## Conclusiones
 
