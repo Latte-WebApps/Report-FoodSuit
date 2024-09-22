@@ -268,7 +268,6 @@ del ABET – EAC - Student Outcome 5.
 
 ## Project Report Collaboration Insights
 
-
 ## Capítulo I: Introducción <a id="cap1"></a>
 
 
@@ -307,9 +306,8 @@ Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administra
 |How much?| Cuanto?|Segun el INE cerca del 60% de restaurantes cierran en su primer año de vida y el 70% no pasa de los 5 años, estas son estadisticas preocupantes si tomamos en cuenta la gran cantidad de inversion que requiere un negocio de este estilo|
 #### 1.2.2 Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
-Al momento de gestionar un restaurante, los gerentes o encargados requieren de toda la información posible para poder realizar una óptima administración de los recursos para aumentar la eficiencia del establecimiento. No obstante, durante este proceso existes múltiples datos complejos de tener un seguimiento, los cuales, son vitales para una buena toma de decisiones. 
+Nuestro producto busca ser una herramienta que facilite el flujo de trabajo en un restaurante u negocio similar, mediante nuestro producto tanto administradores como empleados encontraran un espacio donde consultar informacion pertinente para sus funciones del día. Mediante investigación hemos observado como los administradores tienen dificultades para llevar una logistica ordenada de su inventario, horarios de trabajo, etc. Asi como los empleados que muchas veces no cuentan con un sistema de marcado de ingreso y salida, no tienen acceso a información importante como inventariado, etc. Como podremos facilitar el flujo de trabajo de un restaurante, para poder mejorar el desempeño de todo el personal?
 
-¿Cómo se puede mejorar la eficiencia de obtención de dichos datos y obtener una claridad para mejorar el desempeño general de un restaurante ?
 ##### 1.2.2.2. Lean UX Assumptions
 **Business Assumptions** 
 
@@ -592,10 +590,11 @@ Edad: 54 años<br>
 Papel desempeñado: Tesorera<br>
 Empresa: Bodega Queirolo S.A.C.<br>
 Distrito: Centro de Lima<br><br>
-**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D">
-	<img src="assets/VeronicaEntrevista.png" alt="Entrevista 1" width="500"></a><br>
-Inicio de la entrevista: 0:28<br>
-Fin de la entrevista: 13:09<br>
+**Detalles de la entrevista:** <br>
+	<img src="assets/VeronicaEntrevista.png" alt="Entrevista 1" width="500"></a>
+[URL de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D)
+Inicio de la entrevista: 0:28
+Duración de la entrevista: 12:41<br>
 **Transcripción resumen de entrevista:**<br>
 Expresa satisfacción con una organización regulada mediante un sistema, ya que describe que cuando era manual hubo complicaciones. Indica que el sistema actual que usan les ayuda mucho en las actividades básica de la empresa; sin embargo, hay demasiadas funciones que no sacan el provecho máximo del sistema debido a falta de tiempo o son innecesarios. Muestra interés por permitir a los trabajadores usar sus dispositivos en vez de usar un solo dispositivo el cual sería el sistema principal, lo cual consideraría uno de los problemas de este sistema. Muestra interés por lograr almacenar todos los documentos relacionados a las finanzas en un solo lugar, en especial una página web donde pueda acceder desde cualquier lado. Muestra interés por aumentar la productividad de los trabajadores mediante un sistema de cálculo de rendimiento y por tanto establecer una competencia como motivación. Ve importante utilizar las estadísticas de platos más vendidos en cierta temporada para ajustar la carta. Ve posible el cambio de sistema, pues opina que las características proporcionadas son buenas para el negocio.
 
@@ -605,10 +604,11 @@ Edad: 53 años<br>
 Papel desempeñado: Administración general<br>
 Empresa: Bodega Queirolo S.A.C.<br>
 Distrito: Centro de Lima<br><br>
-**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsB9Vt7BVp_S8q5iqMpo1n9MQ?e=6YqTRa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODE1LjMxfX0%3D">
-	<img src="assets/IvanEntrevista.png" alt="Entrevista 2" width="500"></a><br>
-Inicio de la entrevista: 13:35<br>
-Fin de la entrevista: 53:43<br>
+**Detalles de la entrevista:** <br>
+	<img src="assets/IvanEntrevista.png" alt="Entrevista 2" width="500"></a>
+  [URL de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D)
+Inicio de la entrevista: 13:35
+Duración de la entrevista: 40:08<br>
 **Transcripción resumen de entrevista:**<br>
 Opina que la estructura actual que tiene el negocio es adecuado y todos respetan los roles, pero hubo problemas con trabajadores nuevos. El sistema que utiliza el negocio respeta estos roles: solo la administración utiliza esta aplicación, mientras que los trabajadores aún dependen de ciertos elementos materiales. Expresa satisfacción con el sistema actual, ya que cumple con los requisitos que la empresa exige que la aplicación tenga; sin embargo, hay varios problemas que experimenta con la aplicación. Se muestra indiferente con respecto a permitir a los trabajadores usar dispositivos para facilitar su labor, ya que es más eficiente usar el método del papel para recibir los pedidos, pero si el dispositivo logra ser eficiente para ahorrar tiempo, ve útil la funcionalidad propuesta. Ve conveniente que el sistema pueda manejar los reportes financieros desde la misma aplicación web. No ve necesario utilizar estadísticas para calcular el reporte de trabajadores, ya que es más verificable el observar al trabajador en comparación con otro durante el periodo laboral en comparación a depender de un sistema. Muestra totalmente útil la funcionalidad de mostrar estadísticas de, por ejemplo, los platos más vendidos, ya que podrá priorizar la salida de platos más pedidos y acelerar el servicio. Ve posible el cambio de sistema, pero tiene expectativas con respecto a que el sistema no caiga, sea fácil de usar, sea cómodo y el proveedor de servicio de atención tenga disponibilidad de tiempo larga (comparando con su sistema actual, que tiene estas desventajas).
 
@@ -618,10 +618,11 @@ Edad: 20<br>
 Papel desempeñado: Tesorero<br>
 Empresa: Emotiv<br>
 Distrito: San Juan de Gaucho<br><br>
-**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=FWZ6fA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzI2MS40Mn19">
-	<img src="assets/EduardoEntrevista.png" alt="Entrevista 3" width="500"></a><br>
-Inicio de la entrevista: 54:21<br>
-Fin de la entrevista: 1:04:49<br>
+**Detalles de la entrevista:** <br>
+	<img src="assets/EduardoEntrevista.png" alt="Entrevista 3" width="500"></a>
+  [URL de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D)
+Inicio de la entrevista: 54:21
+Duración de la entrevista: 10:28<br>
 **Transcripción resumen de entrevista:**<br>
 Expresa satisfacción con una organización regulada mediante un sistema, ya que describe que cuando era manual no era tan eficiente manejar papeles. A pesar de que el sistema que usa para manejar las finanzas es Excel, opina que la herramienta es suficiente para cumplir sus trabajos. Muestra interés por permitir a los trabajadores disponer de un sistema que les ayuda a realizar su labor de manera más rápida y que almacene pedidos para que él mismo pueda dar apoyo si hay muchas personas. Ve bien un sistema que almacene los reportes financieros, aunque el excel le satisface suficiente. No muestra tanto interés, pero le parece bien poder visualizar el rendimiento de los trabajadores mediante estadísticas. No muestra tanto interés, pero ve útil utilizar las estadísticas de platos más vendidos en cierta temporada para deshacerse de platos que no venden. Ve posible el cambio de sistema, pues opina que tener varias funciones automatizadas puede beneficiar al negocio.
 
@@ -631,10 +632,11 @@ Nombre completo: Janaira Toledo<br>
 Edad: 22<br>
 Papel desempeñado: Cajera<br>
 Distrito: San Miguel<br><br>
-**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=OKfD05&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mzg5OS43fX0%3D">
-	<img src="assets/JanairaEntrevista.png" alt="Entrevista 4" width="300"></a><br>
-Inicio de la entrevista: 1:04:59<br>
-Fin de la entrevista: 1:06:59<br>
+**Detalles de la entrevista:** <br>
+	<img src="assets/JanairaEntrevista.png" alt="Entrevista 4" width="300"></a>
+  [URL de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D)
+Inicio de la entrevista: 1:04:59
+Duración de la entrevista: 02:00<br>
 **Transcripción resumen de entrevista:**<br>
 Prefiere que el restaurante tenga un nuevo sistema, ya que el actual presenta muchas fallas con respecto a asistencia y otros. Le parece buena idea el introducir un sistema que les permita registrar los pedidos desde sus dispositivos. Piensa que sería beneficioso un sistema que calcule el rendimiento de los trabajadores para impulsar el esfuerzo laboral que cada uno proporciona.
 
@@ -643,10 +645,11 @@ Nombre completo: Fabricio Sánchez<br>
 Edad: 20<br>
 Papel desempeñado: Cocinero/Mozo<br>
 Distrito: Chorrillos<br><br>
-**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=GC0CnC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDAzMC4zM319">
-	<img src="assets/FabricioEntrevista.png" alt="Entrevista 5" width="500"></a><br>
-Inicio de la entrevista: 1:07:10<br>
-Fin de la entrevista: 1:09:56<br>
+**Detalles de la entrevista:** <br>
+	<img src="assets/FabricioEntrevista.png" alt="Entrevista 5" width="500"></a>
+  [URL de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D)
+Inicio de la entrevista: 1:07:10
+Duración de la entrevista: 02:46<br>
 **Transcripción resumen de entrevista:**<br>
 Se encuentra satisfecho con el sistema actual que usa la empresa, aunque suele ser lento en cuanto al rendimiento. Quiere que la aplicación sea rápida y permita a los trabajadores poder registrar los pedidos y ver el rendimiento laboral semanal. Le parece motivador tener funciones como ésta para que pueda desempeñar mejor ya que facilita la comunicación de los trabajadores.
 
@@ -655,27 +658,28 @@ Nombre completo: Gonzalo Velarde<br>
 Edad: 20<br>
 Papel desempeñado: Cocinero/Mozo<br>
 Distrito: Pueblo Libre<br><br>
-**Detalles de la entrevista:** <br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=CVrdRi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDIzMC40NX19">
-	<img src="assets/GonzaloEntrevista.png" alt="Entrevista 6" width="500"></a><br>
-Inicio de la entrevista: 1:10:30<br>
-Fin de la entrevista: 1:09:56<br>
+**Detalles de la entrevista:** <br>
+	<img src="assets/GonzaloEntrevista.png" alt="Entrevista 6" width="500"></a>
+  [URL de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D)
+Inicio de la entrevista: 1:10:30
+Duración de la entrevista: 07:46<br>
 **Transcripción resumen de entrevista:**<br>
 El sistema actual que el restaurante usa no es sencillo para principiantes, tuvo que acostumbrarse al sistema y piensa que puede mejorar en algunos aspectos. Sugiere que lo mejor que puede tener la aplicación es una sección donde vea en qué puede mejorar. Se enfoca en el sector de atención al cliente, las sugerencias que se proporcionaron como el cálculo del rendimiento laboral y similares puede incentivar a los trabajadores a ser reconocidos por su esfuerzo y por tanto ser premiados.
 
 #### 2.2.3. Análisis de entrevistas
 Al analizar las entrevistas, podemos comprender las expectativas y necesidades que los usuarios piden, además de recibir feedback en cuanto a cómo debería ser su producto ideal. Con esto, recurriremos a la toma de decisiones para el desarrollo del producto.
 #### **Administrador**
-<img src="assets/piecharts/Analysis1.png" alt="analysis1"><br>
-<img src="assets/piecharts/Analysis2.png" alt="analysis2"><br>
-<img src="assets/piecharts/Analysis3.png" alt="analysis3"><br>
-<img src="assets/piecharts/Analysis4.png" alt="analysis4"><br>
-<img src="assets/piecharts/Analysis5.png" alt="analysis5"><br>
-<img src="assets/piecharts/Analysis6.png" alt="analysis6"><br>
+<img src="assets/piecharts/Analysis1.png" alt="analysis1" width="400" height="300"><br>
+<img src="assets/piecharts/Analysis2.png" alt="analysis2" width="400" height="300"><br>
+<img src="assets/piecharts/Analysis3.png" alt="analysis3" width="400" height="300"><br>
+<img src="assets/piecharts/Analysis4.png" alt="analysis4" width="400" height="300"><br>
+<img src="assets/piecharts/Analysis5.png" alt="analysis5" width="400" height="300"><br>
+<img src="assets/piecharts/Analysis6.png" alt="analysis6" width="400" height="300"><br>
 
 #### **Trabajador**
-<img src="assets/piecharts/Analysis7.png" alt="analysis7"><br>
-<img src="assets/piecharts/Analysis8.png" alt="analysis8"><br>
-<img src="assets/piecharts/Analysis9.png" alt="analysis9">
+<img src="assets/piecharts/Analysis7.png" alt="analysis7" width="400" height="300"><br>
+<img src="assets/piecharts/Analysis8.png" alt="analysis8" width="400" height="300"><br>
+<img src="assets/piecharts/Analysis9.png" alt="analysis9" width="400" height="300">
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
