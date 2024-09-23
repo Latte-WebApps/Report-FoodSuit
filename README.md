@@ -284,6 +284,45 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
 “Nuestra visión es la de apoyar el crecimiento de diversos negocios emergentes y ya establecidos en nuestro país, con el fin de promover el crecimiento económico de pequeños empresarios que buscan incursionar en este sector empresarial”
 
 #### 1.1.2. Perfiles de integrantes del equipo
+<table>
+  <tr>
+    <th colspan="2">Integrante 1</th>
+  </tr>
+  <tr>
+    <td>FOTO</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th colspan="2">Integrante 2</th>
+  </tr>
+  <tr>
+    <td>FOTO</td>
+    <td> </td>
+  </tr>
+<tr>
+    <th colspan="2"> Sebastian Pacheco Astiguetta </th>
+  </tr>
+  <tr>
+    <td></td>
+    <td> Soy Sebastian Pacheco, tengo 21 años y soy alumno de Ingeniería de Software en la UPC. Me considero una persona trabajadora y activa, priorizando las responsabilidades ante todo, pero también destaco en trabajo en equipo, permitiendo a todos que participen. Tengo conocimiento de C++ y Python, los cuales pongo en práctica mediante proyectos personales. </td>
+  </tr>
+<tr>
+    <th colspan="2"> Integrante 3</th>
+  </tr>
+  <tr>
+    <td>FOTO</td>
+    <td></td>
+  </tr>
+<tr>
+    <th colspan="2">Josue Paiva</th>
+  </tr>
+  <tr>
+    <td>
+    <img src="assets/profile-pics/JosuePaiva.jpeg" style="width:300px">
+    </td>
+    <td> Soy Josue Paiva, tengo 21 años y soy de la carrera de Ingenieria de Software, tengo conocimiento de C++, Python y SQL, me gusta mantener buena comunicación con mis commpañeros de equipo, cumplir con mis tareas y apoyar al resto cuando se requiera. </td>
+  </tr>
+</table>
 ### 1.2. Solution Profile
 Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administracion de un restaurante proporcionando diversas herramientas y caracteristicas que detallamos a continuacion:
 
