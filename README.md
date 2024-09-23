@@ -1286,7 +1286,7 @@ Los elementos presentes son:
 - Worker (Trabajador): Accede a la aplicacion móvil
 - System Administrator (Administrador de Sistema): Supervisa el funcionamiento de las aplicaciones.
 - FoodSuit: Software que los usuarios utilizarán.
-  ![Context](assets/c4model/structurizr-SystemContext-001.png)
+  ![Context](assets/c4model/structurizr-82875-SystemContext-001.png)
 
 #### 4.6.2. Software Architecture Container Diagrams
 Los elementos presentes son:
@@ -1295,47 +1295,16 @@ Los elementos presentes son:
 - Web App: Frontend donde los administradores de empresa interactúan con la aplicación web.
 - Mobile App: Frontend donde los trabajadores de empresa interactúan con la aplicación móvil.
 - API: Conexión entre el frontend y backend.
-- Bounded Contexts: Las funcionalidades que el sistema proporciona a los usuarios.
 - Bases de datos: Almacenará datos como inventario y toda la logística de la empresa.
-  ![Container](assets/c4model/structurizr-Container-001.png)
+  ![Container](assets/c4model/structurizr-82875-Container-001.png)
 
 #### 4.6.3. Software Architecture Components Diagrams
-**Order and Inventory**<br>
 Los elementos presentes son:
 - Controllers: Controlan un conjunto de funcionalidades.
-- Managers: Realizan una secuencia para llevar a cabo una acción.
+- Services: Realizan una secuencia para llevar a cabo una acción.
 - Repositories: Permiten el acceso a una base de datos o un servicio externo.
-  ![Container](assets/c4model/structurizr-Component-001.png)
+  ![Container](assets/c4model/structurizr-82875-Component-001.png)
 
-**Finance Monitoring**<br>
-Los elementos presentes son:
-- Controller: Controla un conjunto de funcionalidades.
-- Manager: Realiza una secuencia para llevar a cabo una acción.
-- Generator: Realiza una generación de un archivo en base a datos proporcionados.
-- Calculador: Realiza una serie de cálculos en base a datos proporcionados.
-  ![Container](assets/c4model/structurizr-Component-002.png)
-
-**Business Optimization**<br>
-Los elementos presentes son:
-- Controller: Controla un conjunto de funcionalidades.
-- Manager: Realiza una secuencia para llevar a cabo una acción.
-- Generator: Realiza una generación de un archivo en base a datos proporcionados.
-- Evaluator: Genera una evaluación en base a datos proporcionados
-  ![Container](assets/c4model/structurizr-Component-003.png)
-
-**Menu Optimization**<br>
-Los elementos presentes son:
-- Controller: Controla un conjunto de funcionalidades.
-- Analyzers: Analiza datos proporcionados para devolver un resultado.
-- Adjuster: Ajusta un dato.
-- Visualizer: Permite la visualización de un análisis.
-  ![Container](assets/c4model/structurizr-Component-004.png)
-
-**Client Management**<br>
-Los elementos presentes son:
-- Controller: Controla un conjunto de funcionalidades.
-- Manager: Realiza una secuencia para llevar a cabo una acción.
-  ![Container](assets/c4model/structurizr-Component-005.png)
 ### 4.7. Software Object-Oriented Design
 El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de negocio para poder crear componentes que puedan ser entendibles para su desarrollo en un sistema real, y sean fáciles de modificar para nosotros.
 #### 4.7.1. Class Diagrams
@@ -1386,9 +1355,9 @@ El diseño orientado a objetos del software será esencial para nuestro proyecto
 | Table                | tableNumber            | Número de mesa                     | Integer          |
 | Table                | capacity               | Capacidad de la mesa               | Integer          |
 | Table                | available              | Disponibilidad de la mesa          | Boolean          |
-| Client               | id                     | Identificador del cliente          | String           |
-| Client               | name                   | Nombre del cliente                 | String           |
-| Client               | tableAsssigned         | Mesa asignada al cliente           | int              |
+| Customer             | id                     | Identificador del cliente          | String           |
+| Customer             | name                   | Nombre del cliente                 | String           |
+| Customer             | tableAssigned          | Mesa asignada al cliente           | int              |
 
 ### 4.8. Database Design
 El diseño de la base de datos será fundamental para nuestro proyecto, ya que proporcionará la estructura subyacente para almacenar y gestionar los datos de manera eficiente y segura. Esto nos permitirá organizar los datos de manera lógica y coherente, facilitando su recuperación y manipulación en respuesta a las solicitudes de los usuarios.
