@@ -1124,7 +1124,7 @@ También podrá editar los valores si este lo desea.
 
 ![Wireframe - Finance (1)](https://github.com/user-attachments/assets/16627a96-5fa7-4e78-bf11-ead075d70ba4)
 
-En este apartado se visualizará el desempeño de cada empleado.
+En esta sección se visualizará el desempeño de cada empleado.
 
 ![Wireframe - Employees](https://github.com/user-attachments/assets/dcf75a64-247d-4a2f-8fe3-b5f422772599)
 
@@ -1141,7 +1141,7 @@ Esta sección es para la visualización de los insumos de cocina restantes.
 ![Wireframe - Inventory](https://github.com/user-attachments/assets/48d35a54-2ed3-418a-9a3d-6c342d6df6e7)
 
 
-Este apartado es para los meseros, es esta podrán agregar pedidos.
+Esta sección es para los meseros, es esta podrán agregar pedidos.
 
 ![Wireframe - Add Order](https://github.com/user-attachments/assets/d0de4f3e-e63e-4d82-8e47-689ff53dafe0)
 
@@ -1153,7 +1153,7 @@ En esta página se podrá agregar un platillo de entrada.
 
 ![Wireframe - Add Order (2)](https://github.com/user-attachments/assets/d57c8ab7-11d1-44f9-a36e-4b75b93a1754)
 
-Asimismo, en este apartado se podrá agregar un plato principal.
+Asimismo, en esta sección se podrá agregar un plato principal.
 
 ![Wireframe - Add Order (3)](https://github.com/user-attachments/assets/94b5b1ef-7068-464d-bdee-e5a4a5c30887)
 
@@ -1161,7 +1161,7 @@ En esta sección se podrá agregar un platillo especial a la orden.
 
 ![Wireframe - Add Order (4)](https://github.com/user-attachments/assets/1f17206e-ac65-4fa3-acc2-0adfdf0b2d6a)
 
-Este apartado es para la selección de un postre a la orden.
+Esta sección es para la selección de un postre a la orden.
 
 ![Wireframe - Add Order (5)](https://github.com/user-attachments/assets/c1a73b0e-1a61-4e66-8182-f794c98b44f7)
 
@@ -1169,12 +1169,12 @@ Esta sección es para agregar bebidas a la orden.
 
 ![Wireframe - Add Order (6)](https://github.com/user-attachments/assets/23076034-9c72-4bf6-9aed-50c0bc296c6d)
 
-En este apartado se podrá editar las ordenes existentes.
+En esta sección se podrá editar las ordenes existentes.
 
 ![Wireframe - Add Order (7)](https://github.com/user-attachments/assets/214434f5-a52e-43ac-85db-cc8967911b85)
 
 
-Este apartado es para los cocineros, en esta página podrán observar los pedidos pendientes.
+Esta sección es para los cocineros, en esta página podrán observar los pedidos pendientes.
 
 ![Wireframe - Order](https://github.com/user-attachments/assets/f0972e2a-bde0-459a-a30f-3641f8465895)
 
@@ -1204,7 +1204,7 @@ También podrá editar los valores si este lo desea.
 ![Wireframe - Finance (3)](https://github.com/user-attachments/assets/e54e6307-df0f-4048-a6c1-422f6ac3bc9d)
 
 
-En este apartado se visualizará el desempeño de cada empleado.
+En esta sección se visualizará el desempeño de cada empleado.
 
 ![Wireframe - Employees (3)](https://github.com/user-attachments/assets/c773106d-8d50-414e-bef6-947607cf4058)
 
@@ -1224,7 +1224,7 @@ Esta sección es para la visualización de los insumos de cocina restantes.
 ![Wireframe - Inventory (2)](https://github.com/user-attachments/assets/27aa5a08-45bf-48b5-a41d-f2bfe43bc412)
 
 
-Este apartado es para los meseros, es esta podrán agregar pedidos.
+Esta sección es para los meseros, es esta podrán agregar pedidos.
 
 ![Wireframe - Add Order (8)](https://github.com/user-attachments/assets/bb299acd-c9ef-4ca6-9497-f28d11eb02a7)
 
@@ -1238,7 +1238,7 @@ En esta página se podrá agregar un platillo de entrada.
 ![Wireframe - Add Order (10)](https://github.com/user-attachments/assets/62b38ed4-ee26-4f65-b877-ac2df92a817a)
 
  
-Asimismo, en este apartado se podrá agregar un plato principal.
+Asimismo, en esta sección se podrá agregar un plato principal.
 
 ![Wireframe - Add Order (11)](https://github.com/user-attachments/assets/8377c15d-7a26-4605-8c4c-0ce1d7386a1a)
 
@@ -1248,7 +1248,7 @@ En esta sección se podrá agregar un platillo especial a la orden.
 ![Wireframe - Add Order (12)](https://github.com/user-attachments/assets/7d1018ac-1eff-4427-8d47-fdb24e28bfc8)
 
 
-Este apartado es para la selección de un postre a la orden.
+Esta sección es para la selección de un postre a la orden.
 
 ![Wireframe - Add Order (13)](https://github.com/user-attachments/assets/a13b02cd-7710-44c8-a0c9-372888572812)
 
@@ -1257,12 +1257,12 @@ Esta sección es para agregar bebidas a la orden.
 
 ![Wireframe - Add Order (14)](https://github.com/user-attachments/assets/4c8495b2-acf1-4775-8355-d4591a9c426d)
 
-En este apartado se podrá editar las ordenes existentes.
+En esta sección se podrá editar las ordenes existentes.
 
 ![Wireframe - Add Order (15)](https://github.com/user-attachments/assets/28a4649e-1361-4df6-a5a5-b2804744caff)
 
 
-Este apartado es para los cocineros, en esta página podrán observar los pedidos pendientes.
+Esta sección es para los cocineros, en esta página podrán observar los pedidos pendientes.
 
 ![Wireframe - Order (1)](https://github.com/user-attachments/assets/01198a2c-2b7a-4933-93c8-cd1bf4fcbc8e)
 
