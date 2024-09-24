@@ -616,8 +616,8 @@ Opina que la estructura actual que tiene el negocio es adecuado y todos respetan
 Nombre completo: Eduardo Ventura<br>
 Edad: 20<br>
 Papel desempeñado: Tesorero<br>
-Empresa: Emotiv<br>
-Distrito: San Juan de Gaucho<br><br>
+Empresa: Motif<br>
+Distrito: San Juan de Lurigancho<br><br>
 **Detalles de la entrevista:** <br>
 	<img src="assets/EduardoEntrevista.png" alt="Entrevista 3" width="500"></a>
   [URL de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D)
@@ -683,12 +683,12 @@ Al analizar las entrevistas, podemos comprender las expectativas y necesidades q
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
-
+En esta sección se presentarán las User Personas, una herramienta que permite identificar las características y necesidades de los usuarios, así como sus comportamientos y motivaciones. En este caso, se han creado dos User Personas para los segmentos de Administrador y Trabajador.
 ### User Persona Segmento Administrador
-<img src="assets/Eduardo Ventura.png" alt="UserPersona Eduardo" width="800"></a><br>
+<img src="assets/Eduardo Ventura.png" alt="UserPersona Eduardo" width="600"></a><br>
 <br>
 ### User Persona Segmento Trabajador
-<img src="assets/Laura Martinez.png" alt="UserPersona Laura" width="800"></a><br>
+<img src="assets/Laura Martinez.png" alt="UserPersona Laura" width="600"></a><br>
 
 #### 2.3.2. User Task Matrix
 En esta sección se presentará el User Task Matrix, una herramienta que permite identificar las tareas más relevantes para cada segmento, así como la frecuencia e importancia de cada una de ellas.
@@ -696,7 +696,7 @@ En esta sección se presentará el User Task Matrix, una herramienta que permite
 <table>
   <tr>
     <th rowspan="2" valign="top"><b><i>User Task Matrix</i></b></th>
-    <th colspan="2" valign="top"><b><i>Eduardo</i></b></th>
+    <th colspan="2" valign="top"><b><i>Eduardo Ventura</i></b></th>
     <th colspan="2" valign="top"><b><i>Laura Martínez</i></b></th>
   </tr>
   <tr>
@@ -727,13 +727,6 @@ En esta sección se presentará el User Task Matrix, una herramienta que permite
     <td><b><i>Alta</i></b></td>
   </tr>
   <tr>
-    <td>Adopción de nuevas tecnologías para la gestión</td>
-    <td><b><i>A menudo</i></b></td>
-    <td><b><i>Alta</i></b></td>
-    <td><b><i>A veces</i></b></td>
-    <td><b><i>Alta</i></b></td>
-  </tr>
-  <tr>
     <td>Coordinación con el equipo de operaciones</td>
     <td><b><i>A veces</i></b></td>
     <td><b><i>Medio</i></b></td>
@@ -755,7 +748,7 @@ En esta sección se presentará el User Task Matrix, una herramienta que permite
     <td><b><i>Alta</i></b></td>
   </tr>
   <tr>
-    <td>Manejo de pedidos</td>
+    <td>Recepción y atención de mesas</td>
     <td><b><i>A veces</i></b></td>
     <td><b><i>Medio</i></b></td>
     <td><b><i>Siempre</i></b></td>
@@ -796,12 +789,13 @@ del proyecto de gestión interna de un restaurante. Estos mapas permiten visuali
 emociones y acciones de los usuarios a lo largo de su recorrido, identificando oportunidades de mejora y optimización.
 
 #### **User Journey Map Administrador**
-<img src="assets/Eduardo%20Journey%20Map.png" alt="UserJourneyMap Eduardo" width="800"><br>
-#### ** User Journey Map Trabajador**
-
-<img src="assets/Laura%20Martinez%20Journey%20map.png" alt="UserJourneyMap Laura"><br>
+Para el segmento de Administrador, tomamos en cuenta las necesidades y expectativas de Eduardo Ventura, un administrador de 20 años del restobar Motiv. A continuación, se presenta el User Journey Map de Eduardo Ventura.
+<img src="assets/Eduardo Journey Map.png" alt="UserJourneyMap Eduardo" width="800"><br>
+#### **User Journey Map Trabajador** 
+Para el segmento de Trabajador, tomamos en cuenta las necesidades y expectativas de Laura Martínez, una mesera de 25 años.
+<img src="assets/Laura Martinez Journey map.png" alt="UserJourneyMap Laura"><br>
 #### 2.3.4. Empathy Mapping
-
+En esta sección se presentarán los Empathy Maps, una herramienta que permite identificar las necesidades, expectativas, emociones y comportamientos de los usuarios, así como sus pensamientos y percepciones. En este caso, se han creado dos Empathy Maps para los segmentos de Administrador y Trabajador.
 - Empathy Map Administrador
 <img src="assets/Empathy map Admin.png" alt="EmpathyMap Eduardo" width="800"><br>
 
@@ -942,7 +936,7 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | TS-03           | Implementación de Accesibilidad Web | Como desarrolador, quiero asegurar que la landing page cumpla con los estándares de accesibilidad web (WCAG) para usuarios con discapacidades. | - **Escenario 1: Navegación con Teclado**<br>**Dado* que la landing page está cargada<br>**Cuando** un usuario navega utilizando solo el teclado<br>**Entonces** todos los elementos interactivos deben ser accesibles y enfocados correctamente.<br><br>- **Escenario 2: Uso con Lectores de Pantalla**<br>**Dado que** la landing page está cargada<br>**Cuando** un usuario utiliza un lector de pantalla<br>**Entonces** el contenido debe ser legible y navegable con el lector de pantalla. | EP005                  |
 
 ### 3.3. Impact Mapping
-<br><img src="assets/Impact%20map.png"><br>
+<br><img src="assets/Impact map.png"><br>
 ### 3.4. Product Backlog
 
 # Product Backlog
