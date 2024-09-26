@@ -1261,90 +1261,147 @@ Y en esta editarlos.
 
 Esta es la página principal que ve el administrador.
 
-![Mock Up - Home (1)](https://github.com/user-attachments/assets/e1f0acac-6298-4faa-8b9e-ddb9b76e3488)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Home.png" alt="Mock-Up Home">
+
+<br>
 
 En esta sección podrá ver el desempeño del restaurante.
 
-![Wireframe - Finance (2)](https://github.com/user-attachments/assets/950f0f25-40a3-4623-b58a-df0d43319c42)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Finance.png" alt="Mock-Up Finance">
 
+<br>
 
 También podrá editar los valores si este lo desea.
 
-![Wireframe - Finance (3)](https://github.com/user-attachments/assets/e54e6307-df0f-4048-a6c1-422f6ac3bc9d)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Finance 1.png" alt="Mock-Up Finance 1">
 
+<br>
 
 En esta sección se visualizará el desempeño de cada empleado.
 
-![Wireframe - Employees (3)](https://github.com/user-attachments/assets/c773106d-8d50-414e-bef6-947607cf4058)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Employees.png" alt="Mock-Up Employees">
 
+<br>
 
 Esta sección es para agregar un empleado más.
 
-![Wireframe - Employees (4)](https://github.com/user-attachments/assets/bc9eb5db-1898-4c4e-a9b5-b6f29cbdc380)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up- Employees 1.png" alt="Mock-Up Employees 1">
 
+<br>
 
 En esta página el administrador podrá editar la horas de trabajo de cada empleado.
 
-![Wireframe - Employees (5)](https://github.com/user-attachments/assets/d9f9e8b4-9925-4e6f-a446-4abebde0b8ed)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Employees 2.png" alt="Mock-Up Employees 2">
 
+<br>
 
 Esta sección es para la visualización de los insumos de cocina restantes.
 
-![Wireframe - Inventory (2)](https://github.com/user-attachments/assets/27aa5a08-45bf-48b5-a41d-f2bfe43bc412)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Inventory.png" alt="Mock-Up Inventory">
 
+<br>
 
 Esta sección es para los meseros, es esta podrán agregar pedidos.
 
-![Wireframe - Add Order (8)](https://github.com/user-attachments/assets/bb299acd-c9ef-4ca6-9497-f28d11eb02a7)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order.png" alt="Mock-Up Add Order">
+
+<br>
 
 En esta sección se podrá seleccionar el tipo de platillo para agragar a la orden 
 
-![Wireframe - Add Order (9)](https://github.com/user-attachments/assets/215c047c-00e7-4ce8-bc08-03613539516f)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 1.png" alt="Mock-Up Add Order 1">
 
+<br>
 
 En esta página se podrá agregar un platillo de entrada.
 
-![Wireframe - Add Order (10)](https://github.com/user-attachments/assets/62b38ed4-ee26-4f65-b877-ac2df92a817a)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 2.png" alt="Mock-Up Add Order 2">
 
+<br>
  
 Asimismo, en esta sección se podrá agregar un plato principal.
 
-![Wireframe - Add Order (11)](https://github.com/user-attachments/assets/8377c15d-7a26-4605-8c4c-0ce1d7386a1a)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 3.png" alt="Mock-Up Add Order 3">
 
+<br>
 
 En esta sección se podrá agregar un platillo especial a la orden.
 
-![Wireframe - Add Order (12)](https://github.com/user-attachments/assets/7d1018ac-1eff-4427-8d47-fdb24e28bfc8)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 4.png" alt="Mock-Up Add Order 4">
 
+<br>
 
 Esta sección es para la selección de un postre a la orden.
 
-![Wireframe - Add Order (13)](https://github.com/user-attachments/assets/a13b02cd-7710-44c8-a0c9-372888572812)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 5.png" alt="Mock-Up Add Order 5">
 
+<br>
 
 Esta sección es para agregar bebidas a la orden.
 
-![Wireframe - Add Order (14)](https://github.com/user-attachments/assets/4c8495b2-acf1-4775-8355-d4591a9c426d)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 6.png" alt="Mock-Up Add Order 6">
+
+<br>
 
 En esta sección se podrá editar las ordenes existentes.
 
-![Wireframe - Add Order (15)](https://github.com/user-attachments/assets/28a4649e-1361-4df6-a5a5-b2804744caff)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 7.png" alt="Mock-Up Add Order 7">
 
+<br>
 
 Esta sección es para los cocineros, en esta página podrán observar los pedidos pendientes.
 
-![Wireframe - Order (1)](https://github.com/user-attachments/assets/01198a2c-2b7a-4933-93c8-cd1bf4fcbc8e)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Order.png" alt="Mock-Up Order">
 
+<br>
 
 En esta sección podrán observar los insumos restantes de cocina.
 
-![Wireframe - Inventory (3)](https://github.com/user-attachments/assets/9e90c444-8975-4610-bc47-03b9c566c51e)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Inventory 1.png" alt="Mock-Up Inventory 1">
 
+<br>
 
 Y en esta editarlos.
 
-![Wireframe - Edit Inventory (1)](https://github.com/user-attachments/assets/de5926fd-7e4d-406d-831c-2906451567cc)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Edit Inventory.png" alt="Mock-Up Edit Inventory">
 
+<br>
 
 #### 4.4.4. Web Applications User Flow Diagrams
 ### 4.5. Web Applications Prototyping
