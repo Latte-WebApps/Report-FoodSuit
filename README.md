@@ -1925,6 +1925,67 @@ A continuación, se muestra la página de insights proporcionada por Github.
 ![General Insights](assets/general-insights.png)
 ![Team Collaboration Insights](assets/teamcollab-insights.png)
 
+#### 5.2.2. Sprint 2
+##### 5.2.2.1. Sprint Planning 2
+| Sprint #                           | Sprint 2                                                                                                                                                                                                                              |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                           | 2024-09-26                                                                                                                                                                                                                            |
+| **Time**                           | 6:00 PM                                                                                                                                                                                                                               |
+| **Location**                       | Virtual - Google Meet                                                                                                                                                                                                                 |
+| Prepared By                        | Sebastian Pacheco                                                                                                                                                                                                                     |
+| Attendees (to planning meeting)    | Sebastian Pacheco, Andre Bernaola, Josue Paiva, Jean Grandez, Piero Velarde                                                                                                                                                           |
+| Sprint 2 - 1 Review Summary        | Se ha mejorado varios puntos con respecto al reporte con los cambios que el profesor sugirió, además de crear una primera versión y desarrollo de nuestra aplicación Front End, el cual se seguirá desarrollando en futuras entregas. |
+| Sprint 2 - 1 Retrospective Summary | Tuvimos complicaciones con respecto a la coordinación, por lo que tuvimos que corregir colisiones durante los merges. Esto es un punto a mejorar entre todos y servirá como punto de reflexión.                                       |
+| Sprint 2 Goal                      | Mejoramiento de información del reporte e implementar la primera versión de la aplicación Front End, con las funcionalidades básicas y el diseño visual de la aplicación.                                                             |
+| Sprint 2 Velocity                  | 16 User Stories                                                                                                                                                                                                                       |
+| Sum of Story Points                | 10 Story Points Atendidos                                                                                                                                                                                                             |
+
+##### 5.2.2.2. Sprint Backlog 2
+En el Sprint 2 el equipo se ha enfocado en las correcciones del reporte y la implementación del Front End Application. Se presenta el backlog de tareas para las correcciones del reporte en el Sprint 2.
+![Sprint Backlog 2](assets/sprint-2/sprint-2-trello.png)
+
+##### 5.2.2.3. Development Evidence for Sprint Review
+En la tabla a continuación se muestran los commits realizados en el Sprint 2.
+
+| Repository                    | Branch                                       | Commit ID | Commit Message                                                                         | Commit Message Body | Commited on (Date) |
+|-------------------------------|----------------------------------------------|-----------|----------------------------------------------------------------------------------------|---------------------|--------------------|
+| Latte-WebApps/Report-FoodSuit | fix/chapter2                                 | 4acc5f5   | Merge pull request #38 from Latte-WebApps/fix/chapter2                                 |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | fix/software-architecture-container-diagram  | 2a621db   | Merge pull request #39 from Latte-WebApps/fix/software-architecture-container-diagram  |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | feature/user-stories                         | 5fb27f2   | Merge pull request #40 from Latte-WebApps/feature/user-stories                         |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | feature/product-backlog                      | a25b196   | Merge pull request #41 from Latte-WebApps/feature/product-backlog                      |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | fix/web-applications-wireframes-and-mock-ups | 18586fe   | Merge pull request #42 from Latte-WebApps/fix/web-applications-wireframes-and-mock-ups |                     | 2024-09-23         |
+| Latte-WebApps/Report-FoodSuit | fix/web-applications-wireframes              | 723fd40   | Merge pull request #47 from Latte-WebApps/fix/web-applications-wireframes              |                     | 2024-09-19         |
+
+##### 5.2.2.4. Testing Suite Evidence for Sprint Review
+Se omite esta sección, dado que aún no se tiene el conocimiento necesario para realizar pruebas automatizadas. Esto se llevara a cabo en futuros sprints.
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+En esta entrega, no se realizaron cambios con relación al Landing Page. Por el momento, la Landing Page queda igual a la versión realizada en el Sprint 2.
+Se ha desarrollado un avance con respecto al Frontend.
+![Execution-Evidence-Frontend-1](assets/sprint-2/testing-1.png)
+![Execution-Evidence-Frontend-2](assets/sprint-2/testing-2.png)
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
+
+Para configurar el despliegue de la landing page en GitHub Pages, seguimos los siguientes pasos:
+
+1. **Crear un Repositorio de GitHub**:  
+   Creamos un repositorio de GitHub para el proyecto de la landing page.
+2. **Clonar el Repositorio**:  
+   Clonamos el repositorio en nuestra máquina local utilizando Git.
+3. **Crear la Estructura del Proyecto**:  
+   Creamos la estructura de archivos y carpetas para la landing page, incluyendo el archivo `index.html` y los archivos CSS y JavaScript necesarios.
+4. **Desplegar en GitHub Pages**:  
+   Para desplegar la landing page en GitHub Pages, seguimos estos pasos:
+    - Navegamos a la pestaña `Settings` del repositorio en GitHub.
+    - En la sección `GitHub Pages`, seleccionamos la rama `master` como fuente para el despliegue.
+    - Guardamos la configuración y esperamos a que GitHub Pages publique la landing page.
+    - Una vez publicada, accedemos a la URL proporcionada por GitHub Pages para ver la landing page en línea.
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
+![Sprint 2 Insights](assets/sprint-2/sprint2-insights.png)
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
