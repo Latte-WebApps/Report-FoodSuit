@@ -303,7 +303,7 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
     <th colspan="2"> Sebastian Pacheco Astiguetta </th>
   </tr>
   <tr>
-    <td></td>
+    <td><img src="assets/profile-pics/SebastianPacheco.jpg" alt="Sebastian Pacheco" style="width: 300px"></td>
     <td> Soy Sebastian Pacheco, tengo 21 años y soy alumno de Ingeniería de Software en la UPC. Me considero una persona trabajadora y activa, priorizando las responsabilidades ante todo, pero también destaco en trabajo en equipo, permitiendo a todos que participen. Tengo conocimiento de C++ y Python, los cuales pongo en práctica mediante proyectos personales. </td>
   </tr>
 <tr>
