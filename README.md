@@ -293,11 +293,11 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
     <td></td>
   </tr>
   <tr>
-    <th colspan="2">Integrante 2</th>
+    <th colspan="2">André Arturo Bernaola Pérez</th>
   </tr>
   <tr>
-    <td>FOTO</td>
-    <td> </td>
+    <td><img src="assets/profile-pics/bernaola.JPG" alt="team member profile photo" style="width: 300px"></td>
+    <td> Soy Andre Bernaola, estoy cursando la carrera de Ingeniería de Software, me gusta jugar videojuegos y aprender cosas nuevas en mis ratos libres. Aspiro a trabajar como desarrollador fullstack.</td>
   </tr>
 <tr>
     <th colspan="2"> Sebastian Pacheco Astiguetta </th>
