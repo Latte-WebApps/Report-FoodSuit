@@ -284,6 +284,45 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
 “Nuestra visión es la de apoyar el crecimiento de diversos negocios emergentes y ya establecidos en nuestro país, con el fin de promover el crecimiento económico de pequeños empresarios que buscan incursionar en este sector empresarial”
 
 #### 1.1.2. Perfiles de integrantes del equipo
+<table>
+  <tr>
+    <th colspan="2">Integrante 1</th>
+  </tr>
+  <tr>
+    <td>FOTO</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th colspan="2">André Arturo Bernaola Pérez</th>
+  </tr>
+  <tr>
+    <td><img src="assets/profile-pics/bernaola.JPG" alt="team member profile photo" style="width: 300px"></td>
+    <td> Soy Andre Bernaola, estoy cursando la carrera de Ingeniería de Software, me gusta jugar videojuegos y aprender cosas nuevas en mis ratos libres. Aspiro a trabajar como desarrollador fullstack.</td>
+  </tr>
+<tr>
+    <th colspan="2"> Sebastian Pacheco Astiguetta </th>
+  </tr>
+  <tr>
+    <td><img src="assets/profile-pics/SebastianPacheco.jpg" alt="Sebastian Pacheco" style="width: 300px"></td>
+    <td> Soy Sebastian Pacheco, tengo 21 años y soy alumno de Ingeniería de Software en la UPC. Me considero una persona trabajadora y activa, priorizando las responsabilidades ante todo, pero también destaco en trabajo en equipo, permitiendo a todos que participen. Tengo conocimiento de C++ y Python, los cuales pongo en práctica mediante proyectos personales. </td>
+  </tr>
+<tr>
+    <th colspan="2"> Integrante 3</th>
+  </tr>
+  <tr>
+    <td>FOTO</td>
+    <td></td>
+  </tr>
+<tr>
+    <th colspan="2">Josue Paiva</th>
+  </tr>
+  <tr>
+    <td>
+    <img src="assets/profile-pics/JosuePaiva.jpeg" style="width:300px">
+    </td>
+    <td> Soy Josue Paiva, tengo 21 años y soy de la carrera de Ingenieria de Software, tengo conocimiento de C++, Python y SQL, me gusta mantener buena comunicación con mis commpañeros de equipo, cumplir con mis tareas y apoyar al resto cuando se requiera. </td>
+  </tr>
+</table>
 ### 1.2. Solution Profile
 Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administracion de un restaurante proporcionando diversas herramientas y caracteristicas que detallamos a continuacion:
 
@@ -325,12 +364,18 @@ Nuestro producto busca ser una herramienta que facilite el flujo de trabajo en u
 
 **User Assumptions**
 
-1. ¿Quién es el usuario? Los usuarios son los encargados o gerentes de restaurantes y sus trabajadores.
-2. ¿Dónde encaja nuestro servicio? ¿En su trabajo o vida? Nuestro servicio encaja en su trabajo.
-3. ¿Qué problemas resuelve nuestro servicio para el usuario? Reduce el esfuerzo y tiempo requerido al momento de administrar un restaurante, brindando con total fácilidad la información necesaria.
-4. ¿En qué contexto utiliza el usuario nuestro producto? Nuestro servicio es usado diariamente por el gerente o encargado para monitorizar el desempeño del resturante, al igual que ciertas caracteristicas reservadas para el uso de los empleados.
-5. ¿Qué características son importantes para el usuario? Las características que encontramos son de vital importancia para nuestro servicio es que sea fácil de usar, que genere gráfico con respecto a la información primordial para un encargado , sea esta el desempeño de los empleados, el flujo de dinero diaro, entre otros, que brinde alertas automáticas con respecto a los insumos utilizados por el personal de cocina y que permita registrar el horario de ingreso y salida de los empleados.
-6. ¿Cómo debe verse nuestro servicio y cómo debe comportarse? Nuestro servicio debe mostrar toda la información del desempeño diario y general del restaurante de forma intuitiva, al igual que ofrecer una claridad de estos datos.
+1. Los usuarios son los encargados o gerentes de restaurantes y sus trabajadores.
+2. Nuestro servicio encaja en su trabajo.
+3. Reduce el esfuerzo y tiempo requerido al momento de administrar un restaurante, brindando con total fácilidad la información necesaria.
+4. Nuestro servicio es usado diariamente por el gerente o encargado para monitorizar el desempeño del resturante, al igual que ciertas caracteristicas reservadas para el uso de los empleados.
+5. Las características que encontramos son de vital importancia para nuestro servicio es que sea fácil de usar, que genere gráfico con respecto a la información primordial para un encargado , sea esta el desempeño de los empleados, el flujo de dinero diaro, entre otros, que brinde alertas automáticas con respecto a los insumos utilizados por el personal de cocina y que permita registrar el horario de ingreso y salida de los empleados.
+6. Nuestro servicio debe mostrar toda la información del desempeño diario y general del restaurante de forma intuitiva, al igual que ofrecer una claridad de estos datos.
+
+**Feature Assumptions**
+1. El control de inventario reducira el margen de perdida por productos perecbiles
+2. El Schedule permitira un mejor control de las horas de trabajo diarias
+3. El control de ingresos permitira mas facilmente hacer proyecciones a largo y corto plazo del crecimiento del negocio
+4. El Schedule permitira a los trabajadores organizarse mejor de cara a cumplir sus horas semanales
 
 **User Outcomes**
 
@@ -879,91 +924,93 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 
 ### 3.2. User stories
 
-###### User Epics
+###### Epics
 
-| Epic ID | Título                              | Descripción                                                                                       |
-|---------|-------------------------------------|---------------------------------------------------------------------------------------------------|
-| EP001   | Optimización del Registro y Control de Finanzas | Implementar un sistema automatizado para registrar y controlar las finanzas del restaurante, incluyendo pedidos, gastos, e informes financieros. |
-| EP002   | Mejora en la Gestión de Pedidos y Asistencia | Desarrollar una solución para registrar pedidos desde dispositivos móviles, marcar horas de trabajo y calcular automáticamente las horas trabajadas. |
-| EP003   | Análisis y Optimización del Desempeño del Restaurante | Proporcionar herramientas para analizar la productividad del personal, ventas de platos y optimización del menú basada en datos. |
-| EP004   | Gestión de Recursos                  | Facilitar la organización y disponibilidad de los recursos necesarios para el funcionamiento del restaurante, incluyendo inventario, asistencia, turnos y administración de mesas. |
-| EP005   | Optimización y Adaptación Técnica de la Landing Page | Optimizar y adaptar la landing page para mejorar el rendimiento, la accesibilidad y la experiencia del usuario. |
-| EP006   | Implementación de la Landing Page | Diseñar y desarrollar una landing page efectiva, que permita a los visitantes entender claramente el producto, sus características y beneficios, y facilite la conversión de visitantes en clientes potenciales |
+| Epic ID | Título                                                | Descripción                                                                                                                                                                                                     |
+| ------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| EP001   | Optimización del Registro y Control de Finanzas       | Implementar un sistema automatizado para registrar y controlar las finanzas del restaurante, incluyendo pedidos, gastos, e informes financieros.                                                                |
+| EP002   | Mejora en la Gestión de Pedidos y Asistencia          | Desarrollar una solución para registrar pedidos desde dispositivos móviles, marcar horas de trabajo y calcular automáticamente las horas trabajadas.                                                            |
+| EP003   | Análisis y Optimización del Desempeño del Restaurante | Proporcionar herramientas para analizar la productividad del personal, ventas de platos y optimización del menú basada en datos.                                                                                |
+| EP004   | Gestión de Recursos                                   | Facilitar la organización y disponibilidad de los recursos necesarios para el funcionamiento del restaurante, incluyendo inventario, asistencia, turnos y administración de mesas.                              |
+| EP005   | Optimización y Adaptación Técnica de la Landing Page  | Optimizar y adaptar la landing page para mejorar el rendimiento, la accesibilidad y la experiencia del usuario.                                                                                                 |
+| EP006   | Implementación de la Landing Page                     | Diseñar y desarrollar una landing page efectiva, que permita a los visitantes entender claramente el producto, sus características y beneficios, y facilite la conversión de visitantes en clientes potenciales |
 
 <br>
 
-###### User Stories for Administrators
-
-| Epic / Story ID | Título                              | Descripción                                                                                                          | Criterios de Aceptación                                                                                                          | Epic ID |
-|-----------------|-------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| US-01           | Registro Automático de Pedidos en un Historial | Como administrador, quiero registrar automáticamente los pedidos en un historial, para analizar los datos posteriormente. | **Escenario 1: Registro exitoso**<br>**Dado** que se realiza un pedido<br>**Cuando** se ingresa al sistema<br>**Entonces** el pedido se guarda automáticamente en el historial de pedidos.<br>**Escenario 2: Registro fallido**<br>**Dado** que ocurre un error en el sistema<br>**Cuando** se ingresa un pedido<br>**Entonces** el sistema informa que el registro ha fallado y no se guarda el pedido. | EP001                    |
-| US-02           | Alerta de Recursos Bajos            | Como administrador, quiero recibir alertas cuando los recursos estén bajos para asegurar una reposición oportuna.      | **Escenario 1: Alerta generada**<br>**Dado** que un recurso alcanza la cantidad mínima<br>**Cuando** se revisa el inventario<br>**Entonces** se envía una alerta sobre las cantidades bajas del recurso.<br>**Escenario 2: Sin alerta**<br>**Dado** que el recurso está por encima de la cantidad mínima<br>**Cuando** se revisa el inventario<br>**Entonces** no se envía ninguna alerta. | EP001                    |
-| US-03           | Generación de Reportes Financieros  | Como administrador, quiero generar reportes de finanzas para analizar el desempeño del restaurante.                    | **Escenario 1: Reporte de ingresos**<br>**Dado** que se solicita un reporte de ingresos<br>**Cuando** se genera el reporte<br>**Entonces** se muestra un informe detallado de los ingresos.<br>**Escenario 2: Reporte de gastos**<br>**Dado** que se solicita un reporte de gastos<br>**Cuando** se genera el reporte<br>**Entonces** se muestra un informe detallado de los gastos. | EP001                    |
-| US-04           | Registro de Gastos e Imprevistos    | Como administrador, quiero registrar los gastos imprevistos para tener un control exhaustivo de los gastos del restaurante. | **Escenario 1: Registro de gasto imprevisto**<br>**Dado** que ocurre un gasto imprevisto<br>**Cuando** se ingresa el gasto al sistema<br>**Entonces** el gasto se registra correctamente en la categoría adecuada.<br>**Escenario 2: Clasificación de gasto**<br>**Dado** que se registra un gasto imprevisto<br>**Cuando** se ingresa el gasto<br>**Entonces** el sistema clasifica el gasto según la categoría correspondiente. | EP001                    |
-| US-05           | Registro de Costos de Platos        | Como administrador, quiero registrar el costo de cada plato para calcular las ganancias netas diarias.                  | **Escenario 1: Registro de costo**<br>**Dado** que se registra el costo de un nuevo plato<br>**Cuando** se ingresa el costo<br>**Entonces** el sistema muestra el costo total del plato.<br>**Escenario 2: Actualización de costo**<br>**Dado** que se actualiza el costo de un plato existente<br>**Cuando** se ingresan los nuevos costos<br>**Entonces** el sistema recalcula y muestra las ganancias netas actualizadas. | EP001                    |
-| US-09           | Visualización de Productividad      | Como administrador, quiero visualizar gráficos de productividad para evaluar el rendimiento de los empleados.                | **Escenario 1: Visualización correcta**<br>**Dado** que se solicita la visualización de gráficos de productividad<br>**Cuando** se accede a los gráficos<br>**Entonces** se muestran las estadísticas actualizadas de productividad.<br>**Escenario 2: Datos insuficientes**<br>**Dado** que no hay suficientes datos<br>**Cuando** se accede a los gráficos<br>**Entonces** se muestra un mensaje indicando que los datos son insuficientes para generar el gráfico. | EP003                    |
-| US-10           | Comparación de Productividad        | Como administrador, quiero comparar la productividad del personal entre diferentes períodos para identificar mejoras.        | **Escenario 1: Comparación entre períodos**<br>**Dado** que se seleccionan diferentes períodos para comparación<br>**Cuando** se realiza la comparación<br>**Entonces** se muestran las diferencias de productividad entre los períodos.<br>**Escenario 2: Falta de datos para comparación**<br>**Dado** que no hay datos para algunos períodos<br>**Cuando** se intenta realizar la comparación<br>**Entonces** el sistema muestra un mensaje indicando que faltan datos para algunos períodos. | EP003                    |
-| US-11           | Informe de Ventas de Platos         | Como administrador, quiero recibir informes sobre los platos más y menos vendidos para ajustar el menú.                         | **Escenario 1: Informe de platos más vendidos**<br>**Dado** que se solicita un informe de ventas<br>**Cuando** se genera el informe<br>**Entonces** se muestra una lista de los platos más vendidos.<br>**Escenario 2: Informe de platos menos vendidos**<br>**Dado** que se solicita un informe de ventas<br>**Cuando** se genera el informe<br>**Entonces** se muestra una lista de los platos menos vendidos. | EP003                    |
-| US-12           | Optimización del Menú               | Como administrador, quiero recibir sugerencias basadas en datos de ventas para optimizar la carta del restaurante.      | **Escenario 1: Sugerencias basadas en datos**<br>**Dado** que se analizan los datos de ventas<br>**Cuando** se generan sugerencias<br>**Entonces** se presentan recomendaciones para mejorar la carta.<br>**Escenario 2: Ajuste de la carta según sugerencias**<br>**Dado** que se reciben sugerencias de optimización<br>**Cuando** se ajusta la carta<br>**Entonces** se actualiza la oferta de platos en el menú según las recomendaciones. | EP003                    |
-| US-13           | Registro de Inventario              | Como administrador, quiero registrar y actualizar el inventario para asegurar disponibilidad de insumos.               | **Escenario 1: Registro de nuevo inventario**<br>**Dado** que se ingresa nuevo inventario<br>**Cuando** se actualiza el registro<br>**Entonces** el sistema refleja los cambios en tiempo real.<br>**Escenario 2: Actualización de inventario existente**<br>**Dado** que se actualiza el inventario existente<br>**Cuando** se ingresan los nuevos datos<br>**Entonces** el sistema muestra la información actualizada correctamente. | EP004                    |
-| US-14           | Gestión de Asistencia               | Como administrador, quiero monitorear la asistencia del personal para identificar patrones y tomar decisiones.         | **Escenario 1: Monitoreo de asistencia**<br>**Dado** que se accede al módulo de asistencia<br>**Cuando** se consulta la asistencia de un empleado<br>**Entonces** se muestran los registros de ausencias y tardanzas.<br>**Escenario 2: Consulta en tiempo real**<br>**Dado** que se revisa la asistencia en tiempo real<br>**Cuando** se accede a la información<br>**Entonces** se muestra la asistencia actual del personal. | EP004                    |
-| US-15           | Programación de Turnos              | Como administrador, quiero programar y modificar los turnos del personal para asegurar una cobertura adecuada.         | **Escenario 1: Programación de nuevo turno**<br>**Dado** que se accede a la programación de turnos<br>**Cuando** se asigna un nuevo turno<br>**Entonces** la programación se actualiza y se notifica al empleado.<br>**Escenario 2: Modificación de turno existente**<br>**Dado** que se accede a la programación de turnos<br>**Cuando** se modifica un turno existente<br>**Entonces** el sistema actualiza la programación y notifica al empleado. | EP004                    |
-| US-16           | Optimización de la Carta de Platos  | Como administrador, quiero optimizar la carta de platos según la demanda histórica para mejorar la oferta del restaurante. | **Escenario 1: Optimización basada en ventas**<br>**Dado** que se analizan las estadísticas de ventas<br>**Cuando** se generan recomendaciones<br>**Entonces** se presenta una carta personalizada para días específicos.<br>**Escenario 2: Ajuste del menú según demanda**<br>**Dado** que se revisan los datos de ventas<br>**Cuando** se actualiza la carta<br>**Entonces** el menú refleja los platos más demandados. | EP004                    |
-| US-17           | Administración de Mesas             | Como administrador, quiero gestionar la asignación de mesas para maximizar la eficiencia en la atención al cliente.    | **Escenario 1: Asignación de mesa**<br>**Dado** que se accede a la administración de mesas<br>**Cuando** se asigna una mesa a un cliente<br>**Entonces** la disponibilidad de mesas se actualiza en tiempo real.<br>**Escenario 2: Reasignación de mesa**<br>**Dado** que se necesita reasignar una mesa<br>**Cuando** se asigna la mesa a un nuevo cliente<br>**Entonces** se actualiza la disponibilidad de mesas adecuadamente. | EP004                    |
-| US-18           | Presentación del Producto           | Como visitante, quiero ver una presentación clara del producto de administración de restaurantes en la landing page para entender sus características y beneficios. | **Escenario 1: Presentación visible**<br>Dado que accede a la landing page<br>Cuando visita la sección de presentación<br>Entonces se muestra un resumen detallado del producto y sus características.<br>**Escenario 2: Presentación incompleta**<br>Dado que hay un problema con la carga de contenido<br>Cuando visita la sección de presentación<br>Entonces se muestra un mensaje de error. | EP006                      |
-| US-19           | Características Principales         | Como visitante, quiero ver las características principales del producto en la landing page para evaluar si cumple con mis necesidades.                         | **Escenario 1: Características visibles**<br>Dado que accede a la landing page<br>Cuando visita la sección de características<br>Entonces se muestran las características principales del producto.<br>**Escenario 2: Características no disponibles**<br>Dado que el contenido de características no se carga<br>Cuando visita la sección<br>Entonces se muestra un mensaje indicando que el contenido está temporalmente no disponible. | EP006                      |
-| US-20           | Llamada a la Acción                 | Como visitante, quiero encontrar botones de llamada a la acción (CTA) para solicitar una demo o contactar con el equipo de ventas fácilmente.                 | **Escenario 1: CTA visible**<br>Dado que accede a la landing page<br>Cuando visita la página<br>Entonces se deben mostrar botones de solicitud de demo y contacto en ubicaciones prominentes.<br>**Escenario 2: CTA no funcional**<br>Dado que un botón de CTA no funciona<br>Cuando intenta usar el botón<br>Entonces el sistema muestra un mensaje de error o no realiza la acción esperada. | EP006                      |
-| US-21           | Accesibilidad en Dispositivos Móviles | Como visitante, quiero que la landing page sea accesible y funcional en dispositivos móviles para asegurarme de que puedo navegar y acceder a la información correctamente. | **Escenario 1: Accesibilidad correcta**<br>Dado que accede a la landing page desde un dispositivo móvil<br>Cuando navega por la página<br>Entonces el contenido debe ser accesible y funcional.<br>**Escenario 2: Accesibilidad limitada**<br>Dado que hay problemas con la accesibilidad<br>Cuando navega en un dispositivo móvil<br>Entonces se debe mostrar un mensaje indicando que algunas funciones pueden no estar disponibles. | EP006                      |
-<br>
-
-###### User Stories for Workers
-
-
-| Epic / Story ID | Título                              | Descripción                                                                                                          | Criterios de Aceptación                                                                                                          | Relacionado con (Epic ID) |
-|-----------------|-------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| US-06           | Registro de Pedidos en Móvil        | Como trabajador, quiero registrar los pedidos desde un dispositivo móvil para agilizar el proceso.                     | **Escenario 1: Registro exitoso en móvil**<br>**Dado** que se ingresa un pedido desde el móvil<br>**Cuando** se envía el pedido al sistema<br>**Entonces** el pedido se registra correctamente.<br>**Escenario 2: Error en el registro**<br>**Dado** que se presenta un error en la conexión<br>**Cuando** se intenta registrar un pedido<br>**Entonces** el sistema muestra un mensaje de error y no se guarda el pedido. | EP002                    |
-| US-07           | Marcación de Horas                  | Como trabajador, quiero marcar mis horas de entrada y salida para un registro preciso.                                | **Escenario 1: Marcación de hora correcta**<br>**Dado** que se marca la hora de entrada o salida<br>**Cuando** se realiza la marcación<br>**Entonces** la hora se registra correctamente.<br>**Escenario 2: Error en la marcación**<br>**Dado** que ocurre un problema técnico<br>**Cuando** se marca la hora<br>**Entonces** el sistema muestra un mensaje de error y no se registra la hora. | EP002                    |
-| US-08           | Cálculo Automático de Horas Trabajadas| Como trabajador, quiero que la aplicación calcule automáticamente las horas trabajadas para facilitar el proceso de pago. | **Escenario 1: Cálculo correcto de horas**<br>**Dado** que se han registrado las horas trabajadas<br>**Cuando** se calcula el total de horas<br>**Entonces** el total de horas se refleja correctamente en el reporte.<br>**Escenario 2: Error en el cálculo**<br>**Dado** que se presenta un problema con el cálculo<br>**Cuando** se realiza el cálculo de horas<br>**Entonces** el sistema muestra un mensaje de error indicando que los registros son incorrectos o incompletos, y no se calcula el total de horas hasta que se corrijan los datos. | EP002                    |
+| Story ID | Título                                                                          | Descripción                                                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Relacionado con (Epic ID) |
+| -------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| US-01    | Guardar pedidos automáticamente en el historial para análisis                   | Como administrador del restaurante, quiero que los pedidos se guarden automáticamente en el historial del sistema, para poder revisarlos y analizarlos posteriormente.                          | **Escenario 1: Registro exitoso** <br> **Dado** que el trabajador ha completado un pedido, <br> **Cuando** el pedido es confirmado en el sistema, <br> **Entonces** el sistema guarda automáticamente el pedido en el historial y confirma el registro al trabajador. <br><br> **Escenario 2: Registro fallido** <br> **Dado** que el trabajador intenta registrar un pedido, <br> **Cuando** ocurre un error en el sistema, <br> **Entonces** el sistema muestra un mensaje indicando que el registro ha fallado y no guarda el pedido en el historial.                              | EP001                     |
+| US-02    | Recibir alertas de inventario bajo para evitar faltantes                        | Como administrador del inventario, quiero recibir alertas cuando los recursos estén por debajo de la cantidad mínima, para poder reponerlos a tiempo y evitar faltantes en la operación diaria. | **Escenario 1: Alerta generada** <br> **Dado** que un recurso ha alcanzado la cantidad mínima en el inventario, <br> **Cuando** el sistema detecta la cantidad baja, <br> **Entonces** el sistema envía una alerta al administrador y actualiza el estado del inventario. <br><br> **Escenario 2: Sin alerta** <br> **Dado** que el recurso está por encima de la cantidad mínima, <br> **Cuando** el administrador revisa el inventario, <br> **Entonces** no se genera ninguna alerta y el inventario se mantiene actualizado.                                                      | EP001                     |
+| US-03    | Generar reportes financieros detallados para análisis                           | Como administrador financiero, quiero generar reportes detallados de ingresos y gastos, para evaluar el desempeño financiero del restaurante.                                                   | **Escenario 1: Reporte de ingresos** <br> **Dado** que el administrador solicita un reporte de ingresos, <br> **Cuando** el sistema procesa la solicitud, <br> **Entonces** se genera un informe detallado de los ingresos y el administrador recibe una notificación. <br><br> **Escenario 2: Reporte de gastos** <br> **Dado** que el administrador solicita un reporte de gastos, <br> **Cuando** el sistema procesa la solicitud, <br> **Entonces** se genera un informe detallado de los gastos y el administrador recibe una notificación.                                      | EP001                     |
+| US-04    | Registrar gastos imprevistos para control financiero                            | Como administrador financiero, quiero registrar gastos imprevistos, para mantener un control exhaustivo sobre los gastos del restaurante.                                                       | **Escenario 1: Registro de gasto imprevisto** <br> **Dado** que el administrador necesita registrar un gasto imprevisto, <br> **Cuando** ingresa los detalles del gasto en el sistema, <br> **Entonces** el sistema lo guarda en la categoría correspondiente y actualiza el balance de gastos. <br><br> **Escenario 2: Clasificación de gasto** <br> **Dado** que el administrador ha registrado un gasto imprevisto, <br> **Cuando** se ingresa el gasto, <br> **Entonces** el sistema clasifica correctamente el gasto en la categoría adecuada y ajusta los reportes financieros. | EP001                     |
+| US-05    | Registrar costos de platos para calcular ganancias                              | Como administrador del restaurante, quiero registrar el costo de cada plato, para poder calcular las ganancias netas diarias.                                                                   | **Escenario 1: Registro de nuevo costo** <br> **Dado** que el administrador necesita registrar el costo de un nuevo plato, <br> **Cuando** ingresa el costo en el sistema, <br> **Entonces** el sistema muestra el costo total del plato y lo refleja en el cálculo de las ganancias diarias. <br><br> **Escenario 2: Actualización de costo** <br> **Dado** que el administrador actualiza el costo de un plato existente, <br> **Cuando** ingresa los nuevos costos, <br> **Entonces** el sistema recalcula y actualiza las ganancias netas del día.                                | EP001                     |
+| US-06    | Registrar pedidos desde un dispositivo móvil                                    | Como trabajador, quiero registrar los pedidos desde un dispositivo móvil, para agilizar el proceso.                                                                                             | **Escenario 1: Registro exitoso en móvil** <br> **Dado** que el trabajador ingresa un pedido desde el móvil, <br> **Cuando** el pedido es enviado al sistema, <br> **Entonces** el pedido se registra correctamente. <br><br> **Escenario 2: Error en el registro** <br> **Dado** que ocurre un error en la conexión, <br> **Cuando** el trabajador intenta registrar un pedido, <br> **Entonces** el sistema muestra un mensaje de error y no se guarda el pedido.                                                                                                                   | EP002                     |
+| US-07    | Marcar horas de entrada y salida para registro preciso                          | Como trabajador, quiero marcar mis horas de entrada y salida, para un registro preciso.                                                                                                         | **Escenario 1: Marcación de hora correcta** <br> **Dado** que el trabajador marca la hora de entrada o salida, <br> **Cuando** se realiza la marcación, <br> **Entonces** la hora se registra correctamente. <br><br> **Escenario 2: Error en la marcación** <br> **Dado** que ocurre un problema técnico, <br> **Cuando** el trabajador marca la hora, <br> **Entonces** el sistema muestra un mensaje de error y no se registra la hora.                                                                                                                                            | EP002                     |
+| US-08    | Calcular automáticamente las horas trabajadas para facilitar el proceso de pago | Como trabajador, quiero que la aplicación calcule automáticamente las horas trabajadas, para facilitar el proceso de pago.                                                                      | **Escenario 1: Cálculo correcto de horas** <br> **Dado** que el trabajador ha registrado sus horas trabajadas, <br> **Cuando** se calcula el total de horas, <br> **Entonces** el total se refleja correctamente en el reporte. <br><br> **Escenario 2: Error en el cálculo** <br> **Dado** que ocurre un problema con el cálculo, <br> **Cuando** se realiza el cálculo de horas, <br> **Entonces** el sistema muestra un mensaje de error indicando que los registros son incorrectos o incompletos y no se calcula el total de horas hasta que se corrijan los datos.              | EP002                     |
+| US-09    | Visualizar gráficos de productividad del personal                               | Como administrador, quiero visualizar gráficos de productividad para evaluar el rendimiento de los empleados.                                                                                   | **Escenario 1: Visualización correcta** <br> **Dado** que el administrador solicita la visualización de gráficos de productividad, <br> **Cuando** se accede a los gráficos, <br> **Entonces** se muestran las estadísticas actualizadas de productividad. <br><br> **Escenario 2: Datos insuficientes** <br> **Dado** que no hay suficientes datos para generar un gráfico, <br> **Cuando** el administrador intenta visualizar los gráficos, <br> **Entonces** el sistema muestra un mensaje indicando que los datos son insuficientes.                                             | EP003                     |
+| US-10    | Comparar la productividad del personal entre períodos                           | Como administrador, quiero comparar la productividad del personal entre diferentes períodos, para identificar mejoras.                                                                          | **Escenario 1: Comparación exitosa** <br> **Dado** que el administrador selecciona diferentes períodos para la comparación, <br> **Cuando** se realiza la comparación, <br> **Entonces** se muestran las diferencias de productividad entre los períodos. <br><br> **Escenario 2: Falta de datos para comparación** <br> **Dado** que no hay datos para algunos períodos, <br> **Cuando** se intenta realizar la comparación, <br> **Entonces** el sistema muestra un mensaje indicando que faltan datos.                                                                             | EP003                     |
+| US-11    | Recibir informes de platos más y menos vendidos                                 | Como administrador, quiero recibir informes sobre los platos más y menos vendidos, para ajustar el menú.                                                                                        | **Escenario 1: Informe de platos más vendidos** <br> **Dado** que el administrador solicita un informe de ventas, <br> **Cuando** se genera el informe, <br> **Entonces** se muestra una lista de los platos más vendidos. <br><br> **Escenario 2: Informe de platos menos vendidos** <br> **Dado** que el administrador solicita un informe de ventas, <br> **Cuando** se genera el informe, <br> **Entonces** se muestra una lista de los platos menos vendidos.                                                                                                                    | EP003                     |
+| US-12    | Recibir sugerencias para optimizar la carta del restaurante                     | Como administrador, quiero recibir sugerencias basadas en datos de ventas, para optimizar la carta del restaurante.                                                                             | **Escenario 1: Sugerencias basadas en ventas** <br> **Dado** que el sistema analiza los datos de ventas, <br> **Cuando** se generan sugerencias, <br> **Entonces** se presentan recomendaciones para optimizar la carta del restaurante. <br><br> **Escenario 2: Ajuste de la carta** <br> **Dado** que el administrador recibe sugerencias, <br> **Cuando** se ajusta la carta según las recomendaciones, <br> **Entonces** el sistema actualiza la oferta de platos.                                                                                                                | EP003                     |
+| US-13    | Registrar y actualizar inventario                                               | Como administrador, quiero registrar y actualizar el inventario, para asegurar disponibilidad de insumos.                                                                                       | **Escenario 1: Registro de nuevo inventario** <br> **Dado** que el administrador ingresa nuevo inventario en el sistema, <br> **Cuando** se completa el registro, <br> **Entonces** el sistema refleja los cambios en tiempo real. <br><br> **Escenario 2: Actualización de inventario existente** <br> **Dado** que el administrador actualiza el inventario existente, <br> **Cuando** se ingresan los nuevos datos, <br> **Entonces** el sistema muestra la información actualizada correctamente.                                                                                 | EP004                     |
+| US-14    | Monitorear la asistencia del personal                                           | Como administrador, quiero monitorear la asistencia del personal, para identificar patrones y tomar decisiones.                                                                                 | **Escenario 1: Monitoreo exitoso** <br> **Dado** que el administrador accede al módulo de asistencia, <br> **Cuando** consulta la asistencia de un empleado, <br> **Entonces** el sistema muestra los registros de ausencias y tardanzas. <br><br> **Escenario 2: Consulta en tiempo real** <br> **Dado** que el administrador revisa la asistencia en tiempo real, <br> **Cuando** se accede a la información, <br> **Entonces** se muestra la asistencia actual del personal.                                                                                                       | EP004                     |
+| US-15    | Programar y modificar los turnos del personal                                   | Como administrador, quiero programar y modificar los turnos del personal, para asegurar una cobertura adecuada.                                                                                 | **Escenario 1: Programación de nuevo turno** <br> **Dado** que el administrador accede a la programación de turnos, <br> **Cuando** asigna un nuevo turno, <br> **Entonces** la programación se actualiza y se notifica al empleado. <br><br> **Escenario 2: Modificación de turno existente** <br> **Dado** que el administrador modifica un turno existente, <br> **Cuando** se confirma la modificación, <br> **Entonces** el sistema actualiza la programación y notifica al empleado.                                                                                            | EP004                     |
+| US-16    | Optimizar la carta de platos según la demanda histórica                         | Como administrador, quiero optimizar la carta de platos según la demanda histórica, para mejorar la oferta del restaurante.                                                                     | **Escenario 1: Optimización basada en ventas** <br> **Dado** que el sistema analiza las estadísticas de ventas, <br> **Cuando** se generan recomendaciones, <br> **Entonces** el sistema presenta una carta personalizada para días específicos. <br><br> **Escenario 2: Ajuste del menú según demanda** <br> **Dado** que el administrador revisa los datos de ventas, <br> **Cuando** ajusta la carta del menú, <br> **Entonces** el menú refleja los platos más demandados.                                                                                                        | EP004                     |
+| US-17    | Gestionar la asignación de mesas para maximizar eficiencia                      | Como administrador, quiero gestionar la asignación de mesas, para maximizar la eficiencia en la atención al cliente.                                                                            | **Escenario 1: Asignación de mesa exitosa** <br> **Dado** que el administrador accede a la administración de mesas, <br> **Cuando** asigna una mesa a un cliente, <br> **Entonces** el sistema actualiza la disponibilidad de mesas en tiempo real. <br><br> **Escenario 2: Reasignación de mesa** <br> **Dado** que el administrador necesita reasignar una mesa, <br> **Cuando** se reasigna la mesa a un nuevo cliente, <br> **Entonces** el sistema actualiza la disponibilidad de mesas adecuadamente.                                                                           | EP004                     |
+| US-18    | Presentación del Producto                                                       | Como visitante, quiero ver una presentación clara del producto de administración de restaurantes en la landing page para entender sus características y beneficios.                             | **Escenario 1: Presentación visible**<br>Dado que accede a la landing page<br>Cuando visita la sección de presentación<br>Entonces se muestra un resumen detallado del producto y sus características.<br>**Escenario 2: Presentación incompleta**<br>Dado que hay un problema con la carga de contenido<br>Cuando visita la sección de presentación<br>Entonces se muestra un mensaje de error.                                                                                                                                                                                      | EP006                     |
+| US-19    | Características Principales                                                     | Como visitante, quiero ver las características principales del producto en la landing page para evaluar si cumple con mis necesidades.                                                          | **Escenario 1: Características visibles**<br>Dado que accede a la landing page<br>Cuando visita la sección de características<br>Entonces se muestran las características principales del producto.<br>**Escenario 2: Características no disponibles**<br>Dado que el contenido de características no se carga<br>Cuando visita la sección<br>Entonces se muestra un mensaje indicando que el contenido está temporalmente no disponible.                                                                                                                                             | EP006                     |
+| US-20    | Llamada a la Acción                                                             | Como visitante, quiero encontrar botones de llamada a la acción (CTA) para solicitar una demo o contactar con el equipo de ventas fácilmente.                                                   | **Escenario 1: CTA visible**<br>Dado que accede a la landing page<br>Cuando visita la página<br>Entonces se deben mostrar botones de solicitud de demo y contacto en ubicaciones prominentes.<br>**Escenario 2: CTA no funcional**<br>Dado que un botón de CTA no funciona<br>Cuando intenta usar el botón<br>Entonces el sistema muestra un mensaje de error o no realiza la acción esperada.                                                                                                                                                                                        | EP006                     |
+| US-21    | Accesibilidad en Dispositivos Móviles                                           | Como visitante, quiero que la landing page sea accesible y funcional en dispositivos móviles para asegurarme de que puedo navegar y acceder a la información correctamente.                     | **Escenario 1: Accesibilidad correcta**<br>Dado que accede a la landing page desde un dispositivo móvil<br>Cuando navega por la página<br>Entonces el contenido debe ser accesible y funcional.<br>**Escenario 2: Accesibilidad limitada**<br>Dado que hay problemas con la accesibilidad<br>Cuando navega en un dispositivo móvil<br>Entonces se debe mostrar un mensaje indicando que algunas funciones pueden no estar disponibles.                                                                                                                                                | EP006                     |
 
 <br>
 
 ###### Technical Stories
 
-| Epic / Story ID | Título                              | Descripción                                                                                                          | Criterios de Aceptación                                                                                                          | Relacionado con (Epic ID) |
-|-----------------|-------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|--------------------------|
-| TS-01           | Implementación de Diseño Responsivo | Como desarrollador, quiero asegurar que la landing page esté completamente adaptada para dispositivos móviles, incluyendo la navegación y el contenido. | - **Escenario 1: Visualización en Dispositivos Móviles**<br>**Dado** que la landing page se visualiza en un dispositivo móvil<br>**Cuando** se accede a la página<br>**Entonces** la navegación debe ser accesible mediante un menú hamburguesa y el contenido debe ajustarse correctamente al tamaño de la pantalla.<br><br>- **Escenario 2: Navegación en Móviles**<br>**Dado que** el menú hamburguesa está implementado<br>**Cuando** un usuario interactúa con el menú en un dispositivo móvil<br>**Entonces** el menú debe desplegarse correctamente y permitir la navegación entre secciones. | EP005                  |
-| TS-02           | Optimización de SEO Básica          | Como desarrolador, quiero aplicar prácticas básicas de SEO en la landing page para mejorar la visibilidad en motores de búsqueda. | - **Escenario 1: Configuración de Etiquetas Meta**<br>**Dado** que se han añadido etiquetas meta relevantes a la landing page<br>**Cuando** se visualiza el código fuente de la página<br>**Entonces** las etiquetas meta deben estar correctamente configuradas y visibles.<br><br>- **Escenario 2: Análisis de SEO**<br>**Dado que** la optimización SEO está configurada<br>**Cuando** se analiza la página con herramientas SEO<br>**Entonces** la página debe mostrar una puntuación mejorada en comparación con la versión anterior. | EP005                    |
-| TS-03           | Implementación de Accesibilidad Web | Como desarrolador, quiero asegurar que la landing page cumpla con los estándares de accesibilidad web (WCAG) para usuarios con discapacidades. | - **Escenario 1: Navegación con Teclado**<br>**Dado* que la landing page está cargada<br>**Cuando** un usuario navega utilizando solo el teclado<br>**Entonces** todos los elementos interactivos deben ser accesibles y enfocados correctamente.<br><br>- **Escenario 2: Uso con Lectores de Pantalla**<br>**Dado que** la landing page está cargada<br>**Cuando** un usuario utiliza un lector de pantalla<br>**Entonces** el contenido debe ser legible y navegable con el lector de pantalla. | EP005                  |
+| Story ID | Título                                                            | Descripción                                                                                                                                                                            | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Relacionado con (Epic ID) |
+| -------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| TS-01    | Implementación de Diseño Responsivo                               | Como desarrollador, quiero asegurar que la landing page esté completamente adaptada para dispositivos móviles, incluyendo la navegación y el contenido.                                | **Escenario 1: Visualización en Dispositivos Móviles** <br> **Dado** que la landing page se visualiza en un dispositivo móvil<br>**Cuando** se accede a la página<br>**Entonces** la navegación debe ser accesible mediante un menú hamburguesa y el contenido debe ajustarse correctamente al tamaño de la pantalla.<br><br>- **Escenario 2: Navegación en Móviles**<br>**Dado que** el menú hamburguesa está implementado<br>**Cuando** un usuario interactúa con el menú en un dispositivo móvil<br>**Entonces** el menú debe desplegarse correctamente y permitir la navegación entre secciones.                                                           | EP005                     |
+| TS-02    | Optimización de SEO Básica                                        | Como desarrolador, quiero aplicar prácticas básicas de SEO en la landing page para mejorar la visibilidad en motores de búsqueda.                                                      | **Escenario 1: Configuración de Etiquetas Meta** <br> **Dado** que se han añadido etiquetas meta relevantes a la landing page<br>**Cuando** se visualiza el código fuente de la página<br>**Entonces** las etiquetas meta deben estar correctamente configuradas y visibles.<br><br>- **Escenario 2: Análisis de SEO**<br>**Dado que** la optimización SEO está configurada<br>**Cuando** se analiza la página con herramientas SEO<br>**Entonces** la página debe mostrar una puntuación mejorada en comparación con la versión anterior.                                                                                                                     | EP005                     |
+| TS-03    | Implementación de Accesibilidad Web                               | Como desarrolador, quiero asegurar que la landing page cumpla con los estándares de accesibilidad web (WCAG) para usuarios con discapacidades.                                         | **Escenario 1: Navegación con Teclado**<br>**Dado** que la landing page está cargada <br> **Cuando** un usuario navega utilizando solo el teclado<br>**Entonces** todos los elementos interactivos deben ser accesibles y enfocados correctamente.<br><br>- **Escenario 2: Uso con Lectores de Pantalla**<br>**Dado que** la landing page está cargada<br>**Cuando** un usuario utiliza un lector de pantalla<br>**Entonces\*\* el contenido debe ser legible y navegable con el lector de pantalla.                                                                                                                                                           | EP005                     |
+| TS-04    | Creación de Endpoint Simulado para Registro de Pedidos            | Como desarrollador, quiero crear un endpoint simulado con **JSON Server** para registrar nuevos pedidos, de manera que pueda desarrollar y probar el frontend.                         | **Escenario 1: Registro exitoso de pedido simulado** <br> **Dado** que un cliente realiza un pedido a través del frontend<br>**Cuando** los datos del pedido se envían a través del endpoint `/pedidos` simulado con **JSON Server**<br>**Entonces** los datos deben ser guardados correctamente y devolver un código de estado 201 (Created).<br>**Escenario 2: Validación de datos en el pedido**<br>**Dado** que los datos del pedido se reciben incompletos o con errores<br>**Cuando** el cliente envía la solicitud<br>**Entonces** el servidor simulado debe devolver un código de estado 400 (Bad Request) con un mensaje de error simulado.             | EP002                     |
+| TS-05    | Creación de Endpoint Simulado para Consultar el Estado de Pedidos | Como desarrollador, quiero crear un endpoint simulado que permita consultar el estado de los pedidos, para desarrollar y probar el frontend en tiempo real.                            | **Escenario 1: Consulta exitosa del estado de pedido** <br> **Dado** que un cliente ha realizado un pedido<br>**Cuando** consulta el estado a través del endpoint `/pedidos/{id}/estado` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe devolver el estado actual del pedido (por ejemplo, "En preparación", "Enviado", "Entregado") con un código de estado 200 (OK).<br>**Escenario 2: Pedido no encontrado**<br>**Dado** que el cliente ingresa un ID de pedido incorrecto<br>**Cuando** realiza la consulta<br>**Entonces** el servidor simulado debe devolver un código de estado 404 (Not Found) con un mensaje de error simulado. | EP002                     |
+| TS-06    | Creación de Endpoint Simulado para Actualización de Inventario    | Como desarrollador, quiero simular un endpoint para que los administradores puedan actualizar el inventario, de manera que pueda probar el frontend con datos de inventario.           | **Escenario 1: Actualización exitosa de inventario** <br> **Dado** que el administrador desea actualizar la cantidad de un insumo<br>**Cuando** envía la solicitud PUT al endpoint `/inventario/{id}` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe actualizar los datos de inventario y devolver un código de estado 200 (OK).<br>**Escenario 2: Error en la actualización del inventario**<br>**Dado** que el administrador envía datos incompletos o incorrectos<br>**Cuando** se realiza la solicitud de actualización<br>**Entonces** el servidor simulado debe devolver un código de estado 400 (Bad Request).                    | EP004                     |
+| TS-07    | Creación de Endpoint Simulado para Eliminar Pedidos               | Como desarrollador, quiero simular un endpoint que permita eliminar pedidos para que los administradores puedan cancelar o eliminar pedidos incorrectos desde el frontend.             | **Escenario 1: Eliminación exitosa de pedido** <br> **Dado** que el administrador desea eliminar un pedido<br>**Cuando** envía una solicitud DELETE al endpoint `/pedidos/{id}` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe eliminar el pedido y devolver un código de estado 200 (OK).<br>**Escenario 2: Pedido no encontrado**<br>**Dado** que el administrador intenta eliminar un pedido inexistente<br>**Cuando** se realiza la solicitud<br>**Entonces** el servidor simulado debe devolver un código de estado 404 (Not Found).                                                                                                | EP002                     |
+| TS-08    | Creación de Endpoint Simulado para Consulta de Inventario         | Como desarrollador, quiero crear un endpoint simulado que permita consultar el inventario del restaurante, para desarrollar y probar el frontend con datos de inventario actualizados. | **Escenario 1: Consulta exitosa del inventario** <br> **Dado** que un administrador consulta el inventario<br>**Cuando** realiza una solicitud GET al endpoint `/inventario` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe devolver los datos actualizados del inventario con un código de estado 200 (OK).<br>**Escenario 2: Inventario vacío**<br>**Dado** que el inventario no tiene datos cargados<br>**Cuando** se realiza la consulta<br>**Entonces** el servidor simulado debe devolver un código de estado 204 (No Content) si no hay productos en el inventario.                                                               | EP004                     |
 
 ### 3.3. Impact Mapping
 <br><img src="assets/Impact map.png"><br>
 ### 3.4. Product Backlog
 
-# Product Backlog
-
-| # Orden | User Story Id | Título                              | Descripción                                                                                | Story Points (1 / 2 / 3 / 5 / 8) |
-|---------|---------------|-------------------------------------|--------------------------------------------------------------------------------------------|---------------------------------|
-| 1       | US-18         | Presentación del Producto           | Como visitante, quiero ver una presentación clara del producto de administración de restaurantes en la landing page para entender sus características y beneficios. | 1                               |
-| 2       | US-19         | Características Principales         | Como visitante, quiero ver las características principales del producto en la landing page para evaluar si cumple con mis necesidades.                          | 1                               |
-| 3       | US-20         | Llamada a la Acción                 | Como visitante, quiero encontrar botones de llamada a la acción (CTA) para solicitar una demo o contactar con el equipo de ventas fácilmente.                  | 1                               |
-| 4       | US-21         | Accesibilidad en Dispositivos Móviles | Como visitante, quiero que la landing page sea accesible y funcional en dispositivos móviles para asegurarme de que puedo navegar y acceder a la información correctamente. | 3                               |
-| 5       | US-13         | Registro de Inventario              | Como administrador, quiero registrar y actualizar el inventario para asegurar disponibilidad de insumos. | 5                               |
-| 6       | US-01         | Registro Automático de Pedidos en un Historial| Como administrador, quiero registrar automáticamente los pedidos en un historial, para analizar los datos posteriormente. | 3                             |
-| 7       | US-04         | Registro de Gastos e Imprevistos    | Como administrador, quiero registrar los gastos imprevistos para tener un control exhaustivo de los gastos del restaurante. | 5                               |
-| 8       | US-05         | Registro de Costos de Platos        | Como administrador, quiero registrar el costo de cada plato para calcular las ganancias netas diarias. | 5                               |
-| 9       | US-07         | Marcación de Horas                  | Como trabajador, quiero marcar mis horas de entrada y salida para un registro preciso. | 3                               |
-| 10      | US-08         | Cálculo Automático de Horas Trabajadas | Como trabajador, quiero que la aplicación calcule automáticamente las horas trabajadas para facilitar el proceso de pago. | 5                               |
-| 11      | US-03         | Generación de Reportes Financieros  | Como administrador, quiero generar reportes de finanzas para analizar el desempeño del restaurante. | 5                               |
-| 12      | US-02         | Alerta de Recursos Bajos            | Como administrador, quiero recibir alertas cuando los recursos estén bajos para asegurar una reposición oportuna. | 3                               |
-| 13      | US-06         | Registro de Pedidos en Móvil        | Como trabajador, quiero registrar los pedidos desde un dispositivo móvil para agilizar el proceso. | 5                               |
-| 14      | US-14         | Gestión de Asistencia               | Como administrador, quiero monitorear la asistencia del personal para identificar patrones y tomar decisiones. | 5                               |
-| 15      | US-15         | Programación de Turnos              | Como administrador, quiero programar y modificar los turnos del personal para asegurar una cobertura adecuada. | 5                               |
-| 16      | US-16         | Optimización de la Carta de Platos  | Como administrador, quiero optimizar la carta de platos según la demanda histórica para mejorar la oferta del restaurante. | 5                               |
-| 17      | US-17         | Administración de Mesas             | Como administrador, quiero gestionar la asignación de mesas para maximizar la eficiencia en la atención al cliente. | 5                               |
-| 18      | US-09         | Visualización de Productividad      | Como administrador, quiero visualizar gráficos de productividad para evaluar el rendimiento de los empleados. | 5                               |
-| 19      | US-10         | Comparación de Productividad        | Como administrador, quiero comparar la productividad del personal entre diferentes períodos para identificar mejoras. | 5                               |
-| 20      | US-11         | Informe de Ventas de Platos         | Como administrador, quiero recibir informes sobre los platos más y menos vendidos para ajustar el menú. | 5                               |
-| 21      | US-12         | Optimización del Menú               | Como administrador, quiero recibir sugerencias basadas en datos de ventas para optimizar la carta del restaurante. | 5                               |
+| # Orden | User Story Id | Título                                                            | Descripción                                                                                                                                                                            | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|---------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| 1       | US-18         | Presentación del Producto                                         | Como visitante, quiero ver una presentación clara del producto de administración de restaurantes en la landing page para entender sus características y beneficios.                    | 1                                |
+| 2       | US-19         | Características Principales                                       | Como visitante, quiero ver las características principales del producto en la landing page para evaluar si cumple con mis necesidades.                                                 | 1                                |
+| 3       | US-20         | Llamada a la Acción                                               | Como visitante, quiero encontrar botones de llamada a la acción (CTA) para solicitar una demo o contactar con el equipo de ventas fácilmente.                                          | 1                                |
+| 4       | US-21         | Accesibilidad en Dispositivos Móviles                             | Como visitante, quiero que la landing page sea accesible y funcional en dispositivos móviles para asegurarme de que puedo navegar y acceder a la información correctamente.            | 3                                |
+| 5       | TS-01         | Implementación de Diseño Responsivo                               | Como desarrollador, quiero asegurar que la landing page esté completamente adaptada para dispositivos móviles, incluyendo la navegación y el contenido.                                | 5                                |
+| 6       | TS-02         | Optimización de SEO Básica                                        | Como desarrollador, quiero aplicar prácticas básicas de SEO en la landing page para mejorar la visibilidad en motores de búsqueda.                                                     | 3                                |
+| 7       | TS-03         | Implementación de Accesibilidad Web                               | Como desarrollador, quiero asegurar que la landing page cumpla con los estándares de accesibilidad web (WCAG) para usuarios con discapacidades.                                        | 5                                |
+| 8       | US-13         | Registro de Inventario                                            | Como administrador, quiero registrar y actualizar el inventario para asegurar disponibilidad de insumos.                                                                               | 5                                |
+| 9       | TS-06         | Creación de Endpoint Simulado para Actualización de Inventario    | Como desarrollador, quiero simular un endpoint para que los administradores puedan actualizar el inventario, de manera que pueda probar el frontend con datos de inventario.           | 5                                |
+| 10      | US-01         | Registro Automático de Pedidos en un Historial                    | Como administrador, quiero registrar automáticamente los pedidos en un historial, para analizar los datos posteriormente.                                                              | 3                                |
+| 11      | TS-04         | Creación de Endpoint Simulado para Registro de Pedidos            | Como desarrollador, quiero crear un endpoint simulado con **JSON Server** para registrar nuevos pedidos, de manera que pueda desarrollar y probar el frontend.                         | 3                                |
+| 12      | US-04         | Registro de Gastos e Imprevistos                                  | Como administrador, quiero registrar los gastos imprevistos para tener un control exhaustivo de los gastos del restaurante.                                                            | 5                                |
+| 13      | US-05         | Registro de Costos de Platos                                      | Como administrador, quiero registrar el costo de cada plato para calcular las ganancias netas diarias.                                                                                 | 5                                |
+| 14      | US-07         | Marcación de Horas                                                | Como trabajador, quiero marcar mis horas de entrada y salida para un registro preciso.                                                                                                 | 3                                |
+| 15      | US-08         | Cálculo Automático de Horas Trabajadas                            | Como trabajador, quiero que la aplicación calcule automáticamente las horas trabajadas para facilitar el proceso de pago.                                                              | 5                                |
+| 16      | US-03         | Generación de Reportes Financieros                                | Como administrador, quiero generar reportes de finanzas para analizar el desempeño del restaurante.                                                                                    | 5                                |
+| 17      | US-02         | Alerta de Recursos Bajos                                          | Como administrador, quiero recibir alertas cuando los recursos estén bajos para asegurar una reposición oportuna.                                                                      | 3                                |
+| 18      | US-06         | Registro de Pedidos en Móvil                                      | Como trabajador, quiero registrar los pedidos desde un dispositivo móvil para agilizar el proceso.                                                                                     | 5                                |
+| 19      | TS-05         | Creación de Endpoint Simulado para Consultar el Estado de Pedidos | Como desarrollador, quiero crear un endpoint simulado que permita consultar el estado de los pedidos, para desarrollar y probar el frontend en tiempo real.                            | 3                                |
+| 20      | US-14         | Gestión de Asistencia                                             | Como administrador, quiero monitorear la asistencia del personal para identificar patrones y tomar decisiones.                                                                         | 5                                |
+| 21      | US-15         | Programación de Turnos                                            | Como administrador, quiero programar y modificar los turnos del personal para asegurar una cobertura adecuada.                                                                         | 5                                |
+| 22      | US-16         | Optimización de la Carta de Platos                                | Como administrador, quiero optimizar la carta de platos según la demanda histórica para mejorar la oferta del restaurante.                                                             | 5                                |
+| 23      | US-17         | Administración de Mesas                                           | Como administrador, quiero gestionar la asignación de mesas para maximizar la eficiencia en la atención al cliente.                                                                    | 5                                |
+| 24      | US-09         | Visualización de Productividad                                    | Como administrador, quiero visualizar gráficos de productividad para evaluar el rendimiento de los empleados.                                                                          | 5                                |
+| 25      | US-10         | Comparación de Productividad                                      | Como administrador, quiero comparar la productividad del personal entre diferentes períodos para identificar mejoras.                                                                  | 5                                |
+| 26      | US-11         | Informe de Ventas de Platos                                       | Como administrador, quiero recibir informes sobre los platos más y menos vendidos para ajustar el menú.                                                                                | 5                                |
+| 27      | US-12         | Optimización del Menú                                             | Como administrador, quiero recibir sugerencias basadas en datos de ventas para optimizar la carta del restaurante.                                                                     | 5                                |
+| 28      | TS-07         | Creación de Endpoint Simulado para Eliminar Pedidos               | Como desarrollador, quiero simular un endpoint que permita eliminar pedidos para que los administradores puedan cancelar o eliminar pedidos incorrectos desde el frontend.             | 3                                |
+| 29      | TS-08         | Creación de Endpoint Simulado para Consulta de Inventario         | Como desarrollador, quiero crear un endpoint simulado que permita consultar el inventario del restaurante, para desarrollar y probar el frontend con datos de inventario actualizados. | 3                                |
 
 Link del Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2716645
 
@@ -1105,168 +1152,294 @@ El diseño también es adaptable a dispositivos móviles, asegurando una experie
 
 Esta es la página principal que ve el administrador.
 
-![Mock Up - Home](https://github.com/user-attachments/assets/3b535871-a64f-4636-8a53-641809ba75a6)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Home.png" alt="Wireframe Home">
+
+<br>
 
 En esta sección podrá ver el desempeño del restaurante.
 
-![Wireframe - Finance](https://github.com/user-attachments/assets/ac2b8402-6f76-4d87-94ec-eb812ccba306)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Finance.png" alt="Wireframe Finance">
+
+<br>
 
 También podrá editar los valores si este lo desea.
 
-![Wireframe - Finance (1)](https://github.com/user-attachments/assets/16627a96-5fa7-4e78-bf11-ead075d70ba4)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Finance 1.png" alt="Wireframe Finance 1">
 
-En este apartado se visualizará el desempeño de cada empleado.
+<br>
 
-![Wireframe - Employees](https://github.com/user-attachments/assets/dcf75a64-247d-4a2f-8fe3-b5f422772599)
+En esta sección se visualizará el desempeño de cada empleado.
+
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Empoyees.png" alt="Wireframe Employees">
+
+<br>
 
 Esta sección es para agregar un empleado más.
 
-![Wireframe - Employees (1)](https://github.com/user-attachments/assets/6f29b75b-6714-4e8e-8b49-93d42a911fd2)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Empoyees 1.png" alt="Wireframe Employees 1">
+
+<br>
 
 En esta página el administrador podrá editar la horas de trabajo de cada empleado.
 
-![Wireframe - Employees (2)](https://github.com/user-attachments/assets/7d05112a-1f90-4b26-93ad-9904f6c42837)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Empoyees 2.png" alt="Wireframe Employees 2">
+
+<br>
 
 Esta sección es para la visualización de los insumos de cocina restantes.
 
-![Wireframe - Inventory](https://github.com/user-attachments/assets/48d35a54-2ed3-418a-9a3d-6c342d6df6e7)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Inventory.png" alt="Wireframe Inventory">
 
+<br>
 
-Este apartado es para los meseros, es esta podrán agregar pedidos.
+Esta sección es para los meseros, es esta podrán agregar pedidos.
 
-![Wireframe - Add Order](https://github.com/user-attachments/assets/d0de4f3e-e63e-4d82-8e47-689ff53dafe0)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order.png" alt="Wireframe Add Order">
+
+<br>
 
 En esta sección se podrá seleccionar el tipo de platillo para agragar a la orden
 
-![Wireframe - Add Order (1)](https://github.com/user-attachments/assets/76fb82dc-8f7c-4d17-afe3-1691828a144e)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 1.png" alt="Wireframe Add Order 1">
+
+<br>
 
 En esta página se podrá agregar un platillo de entrada.
 
-![Wireframe - Add Order (2)](https://github.com/user-attachments/assets/d57c8ab7-11d1-44f9-a36e-4b75b93a1754)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 2.png" alt="Wireframe Add Order 2">
 
-Asimismo, en este apartado se podrá agregar un plato principal.
+<br>
 
-![Wireframe - Add Order (3)](https://github.com/user-attachments/assets/94b5b1ef-7068-464d-bdee-e5a4a5c30887)
+Asimismo, en esta sección se podrá agregar un plato principal.
+
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 3.png" alt="Wireframe Add Order 3">
+
+<br>
 
 En esta sección se podrá agregar un platillo especial a la orden.
 
-![Wireframe - Add Order (4)](https://github.com/user-attachments/assets/1f17206e-ac65-4fa3-acc2-0adfdf0b2d6a)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 4.png" alt="Wireframe Add Order 4">
 
-Este apartado es para la selección de un postre a la orden.
+<br>
 
-![Wireframe - Add Order (5)](https://github.com/user-attachments/assets/c1a73b0e-1a61-4e66-8182-f794c98b44f7)
+Esta sección es para la selección de un postre a la orden.
+
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 5.png" alt="Wireframe Add Order 5">
+
+<br>
 
 Esta sección es para agregar bebidas a la orden.
 
-![Wireframe - Add Order (6)](https://github.com/user-attachments/assets/23076034-9c72-4bf6-9aed-50c0bc296c6d)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 6.png" alt="Wireframe Add Order 6">
 
-En este apartado se podrá editar las ordenes existentes.
+<br>
 
-![Wireframe - Add Order (7)](https://github.com/user-attachments/assets/214434f5-a52e-43ac-85db-cc8967911b85)
+En esta sección se podrá editar las ordenes existentes.
 
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 7.png" alt="Wireframe Add Order 7">
 
-Este apartado es para los cocineros, en esta página podrán observar los pedidos pendientes.
+<br>
 
-![Wireframe - Order](https://github.com/user-attachments/assets/f0972e2a-bde0-459a-a30f-3641f8465895)
+Esta sección es para los cocineros, en esta página podrán observar los pedidos pendientes.
 
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Order.png" alt="Wireframe Order">
+
+<br>
 
 En esta sección podrán observar los insumos restantes de cocina.
 
-![Wireframe - Inventory (1)](https://github.com/user-attachments/assets/051e0386-992e-42fb-853b-63875aa654c2)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Inventory 1.png" alt="Wireframe Invnetory 1">
+
+<br>
 
 Y en esta editarlos.
 
-![Wireframe - Edit Inventory](https://github.com/user-attachments/assets/02d83e47-21e3-4529-a5df-6b522d3595af)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Edit Inventory.png" alt="Wireframe Edit Inventory">
+
+<br>
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 
 Esta es la página principal que ve el administrador.
 
-![Mock Up - Home (1)](https://github.com/user-attachments/assets/e1f0acac-6298-4faa-8b9e-ddb9b76e3488)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Home.png" alt="Mock-Up Home">
+
+<br>
 
 En esta sección podrá ver el desempeño del restaurante.
 
-![Wireframe - Finance (2)](https://github.com/user-attachments/assets/950f0f25-40a3-4623-b58a-df0d43319c42)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Finance.png" alt="Mock-Up Finance">
 
+<br>
 
 También podrá editar los valores si este lo desea.
 
-![Wireframe - Finance (3)](https://github.com/user-attachments/assets/e54e6307-df0f-4048-a6c1-422f6ac3bc9d)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Finance 1.png" alt="Mock-Up Finance 1">
 
+<br>
 
-En este apartado se visualizará el desempeño de cada empleado.
+En esta sección se visualizará el desempeño de cada empleado.
 
-![Wireframe - Employees (3)](https://github.com/user-attachments/assets/c773106d-8d50-414e-bef6-947607cf4058)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Employees.png" alt="Mock-Up Employees">
 
+<br>
 
 Esta sección es para agregar un empleado más.
 
-![Wireframe - Employees (4)](https://github.com/user-attachments/assets/bc9eb5db-1898-4c4e-a9b5-b6f29cbdc380)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up- Employees 1.png" alt="Mock-Up Employees 1">
 
+<br>
 
 En esta página el administrador podrá editar la horas de trabajo de cada empleado.
 
-![Wireframe - Employees (5)](https://github.com/user-attachments/assets/d9f9e8b4-9925-4e6f-a446-4abebde0b8ed)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Employees 2.png" alt="Mock-Up Employees 2">
 
+<br>
 
 Esta sección es para la visualización de los insumos de cocina restantes.
 
-![Wireframe - Inventory (2)](https://github.com/user-attachments/assets/27aa5a08-45bf-48b5-a41d-f2bfe43bc412)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Inventory.png" alt="Mock-Up Inventory">
 
+<br>
 
-Este apartado es para los meseros, es esta podrán agregar pedidos.
+Esta sección es para los meseros, es esta podrán agregar pedidos.
 
-![Wireframe - Add Order (8)](https://github.com/user-attachments/assets/bb299acd-c9ef-4ca6-9497-f28d11eb02a7)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order.png" alt="Mock-Up Add Order">
+
+<br>
 
 En esta sección se podrá seleccionar el tipo de platillo para agragar a la orden 
 
-![Wireframe - Add Order (9)](https://github.com/user-attachments/assets/215c047c-00e7-4ce8-bc08-03613539516f)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 1.png" alt="Mock-Up Add Order 1">
 
+<br>
 
 En esta página se podrá agregar un platillo de entrada.
 
-![Wireframe - Add Order (10)](https://github.com/user-attachments/assets/62b38ed4-ee26-4f65-b877-ac2df92a817a)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 2.png" alt="Mock-Up Add Order 2">
 
+<br>
  
-Asimismo, en este apartado se podrá agregar un plato principal.
+Asimismo, en esta sección se podrá agregar un plato principal.
 
-![Wireframe - Add Order (11)](https://github.com/user-attachments/assets/8377c15d-7a26-4605-8c4c-0ce1d7386a1a)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 3.png" alt="Mock-Up Add Order 3">
 
+<br>
 
 En esta sección se podrá agregar un platillo especial a la orden.
 
-![Wireframe - Add Order (12)](https://github.com/user-attachments/assets/7d1018ac-1eff-4427-8d47-fdb24e28bfc8)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 4.png" alt="Mock-Up Add Order 4">
 
+<br>
 
-Este apartado es para la selección de un postre a la orden.
+Esta sección es para la selección de un postre a la orden.
 
-![Wireframe - Add Order (13)](https://github.com/user-attachments/assets/a13b02cd-7710-44c8-a0c9-372888572812)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 5.png" alt="Mock-Up Add Order 5">
 
+<br>
 
 Esta sección es para agregar bebidas a la orden.
 
-![Wireframe - Add Order (14)](https://github.com/user-attachments/assets/4c8495b2-acf1-4775-8355-d4591a9c426d)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 6.png" alt="Mock-Up Add Order 6">
 
-En este apartado se podrá editar las ordenes existentes.
+<br>
 
-![Wireframe - Add Order (15)](https://github.com/user-attachments/assets/28a4649e-1361-4df6-a5a5-b2804744caff)
+En esta sección se podrá editar las ordenes existentes.
 
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 7.png" alt="Mock-Up Add Order 7">
 
-Este apartado es para los cocineros, en esta página podrán observar los pedidos pendientes.
+<br>
 
-![Wireframe - Order (1)](https://github.com/user-attachments/assets/01198a2c-2b7a-4933-93c8-cd1bf4fcbc8e)
+Esta sección es para los cocineros, en esta página podrán observar los pedidos pendientes.
 
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Order.png" alt="Mock-Up Order">
+
+<br>
 
 En esta sección podrán observar los insumos restantes de cocina.
 
-![Wireframe - Inventory (3)](https://github.com/user-attachments/assets/9e90c444-8975-4610-bc47-03b9c566c51e)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Inventory 1.png" alt="Mock-Up Inventory 1">
 
+<br>
 
 Y en esta editarlos.
 
-![Wireframe - Edit Inventory (1)](https://github.com/user-attachments/assets/de5926fd-7e4d-406d-831c-2906451567cc)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Edit Inventory.png" alt="Mock-Up Edit Inventory">
 
+<br>
 
 #### 4.4.4. Web Applications User Flow Diagrams
 ### 4.5. Web Applications Prototyping
@@ -1280,7 +1453,7 @@ Los elementos presentes son:
 - Worker (Trabajador): Accede a la aplicacion móvil
 - System Administrator (Administrador de Sistema): Supervisa el funcionamiento de las aplicaciones.
 - FoodSuit: Software que los usuarios utilizarán.
-  ![Context](assets/c4model/structurizr-SystemContext-001.png)
+  ![Context](assets/c4model/structurizr-82875-SystemContext-001.png)
 
 #### 4.6.2. Software Architecture Container Diagrams
 Los elementos presentes son:
@@ -1289,47 +1462,16 @@ Los elementos presentes son:
 - Web App: Frontend donde los administradores de empresa interactúan con la aplicación web.
 - Mobile App: Frontend donde los trabajadores de empresa interactúan con la aplicación móvil.
 - API: Conexión entre el frontend y backend.
-- Bounded Contexts: Las funcionalidades que el sistema proporciona a los usuarios.
 - Bases de datos: Almacenará datos como inventario y toda la logística de la empresa.
-  ![Container](assets/c4model/structurizr-Container-001.png)
+  ![Container](assets/c4model/structurizr-82875-Container-001.png)
 
 #### 4.6.3. Software Architecture Components Diagrams
-**Order and Inventory**<br>
 Los elementos presentes son:
 - Controllers: Controlan un conjunto de funcionalidades.
-- Managers: Realizan una secuencia para llevar a cabo una acción.
+- Services: Realizan una secuencia para llevar a cabo una acción.
 - Repositories: Permiten el acceso a una base de datos o un servicio externo.
-  ![Container](assets/c4model/structurizr-Component-001.png)
+  ![Container](assets/c4model/structurizr-82875-Component-001.png)
 
-**Finance Monitoring**<br>
-Los elementos presentes son:
-- Controller: Controla un conjunto de funcionalidades.
-- Manager: Realiza una secuencia para llevar a cabo una acción.
-- Generator: Realiza una generación de un archivo en base a datos proporcionados.
-- Calculador: Realiza una serie de cálculos en base a datos proporcionados.
-  ![Container](assets/c4model/structurizr-Component-002.png)
-
-**Business Optimization**<br>
-Los elementos presentes son:
-- Controller: Controla un conjunto de funcionalidades.
-- Manager: Realiza una secuencia para llevar a cabo una acción.
-- Generator: Realiza una generación de un archivo en base a datos proporcionados.
-- Evaluator: Genera una evaluación en base a datos proporcionados
-  ![Container](assets/c4model/structurizr-Component-003.png)
-
-**Menu Optimization**<br>
-Los elementos presentes son:
-- Controller: Controla un conjunto de funcionalidades.
-- Analyzers: Analiza datos proporcionados para devolver un resultado.
-- Adjuster: Ajusta un dato.
-- Visualizer: Permite la visualización de un análisis.
-  ![Container](assets/c4model/structurizr-Component-004.png)
-
-**Client Management**<br>
-Los elementos presentes son:
-- Controller: Controla un conjunto de funcionalidades.
-- Manager: Realiza una secuencia para llevar a cabo una acción.
-  ![Container](assets/c4model/structurizr-Component-005.png)
 ### 4.7. Software Object-Oriented Design
 El diseño orientado a objetos del software será esencial para nuestro proyecto. Estructuramos nuestro software de acuerdo a nuestras reglas de negocio para poder crear componentes que puedan ser entendibles para su desarrollo en un sistema real, y sean fáciles de modificar para nosotros.
 #### 4.7.1. Class Diagrams
@@ -1380,9 +1522,9 @@ El diseño orientado a objetos del software será esencial para nuestro proyecto
 | Table                | tableNumber            | Número de mesa                     | Integer          |
 | Table                | capacity               | Capacidad de la mesa               | Integer          |
 | Table                | available              | Disponibilidad de la mesa          | Boolean          |
-| Client               | id                     | Identificador del cliente          | String           |
-| Client               | name                   | Nombre del cliente                 | String           |
-| Client               | tableAsssigned         | Mesa asignada al cliente           | int              |
+| Customer             | id                     | Identificador del cliente          | String           |
+| Customer             | name                   | Nombre del cliente                 | String           |
+| Customer             | tableAssigned          | Mesa asignada al cliente           | int              |
 
 ### 4.8. Database Design
 El diseño de la base de datos será fundamental para nuestro proyecto, ya que proporcionará la estructura subyacente para almacenar y gestionar los datos de manera eficiente y segura. Esto nos permitirá organizar los datos de manera lógica y coherente, facilitando su recuperación y manipulación en respuesta a las solicitudes de los usuarios.
@@ -1776,6 +1918,67 @@ A continuación, se muestra la página de insights proporcionada por Github.
 ![General Insights](assets/general-insights.png)
 ![Team Collaboration Insights](assets/teamcollab-insights.png)
 
+#### 5.2.2. Sprint 2
+##### 5.2.2.1. Sprint Planning 2
+| Sprint #                           | Sprint 2                                                                                                                                                                                                                              |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                           | 2024-09-26                                                                                                                                                                                                                            |
+| **Time**                           | 6:00 PM                                                                                                                                                                                                                               |
+| **Location**                       | Virtual - Google Meet                                                                                                                                                                                                                 |
+| Prepared By                        | Sebastian Pacheco                                                                                                                                                                                                                     |
+| Attendees (to planning meeting)    | Sebastian Pacheco, Andre Bernaola, Josue Paiva, Jean Grandez, Piero Velarde                                                                                                                                                           |
+| Sprint 2 - 1 Review Summary        | Se ha mejorado varios puntos con respecto al reporte con los cambios que el profesor sugirió, además de crear una primera versión y desarrollo de nuestra aplicación Front End, el cual se seguirá desarrollando en futuras entregas. |
+| Sprint 2 - 1 Retrospective Summary | Tuvimos complicaciones con respecto a la coordinación, por lo que tuvimos que corregir colisiones durante los merges. Esto es un punto a mejorar entre todos y servirá como punto de reflexión.                                       |
+| Sprint 2 Goal                      | Mejoramiento de información del reporte e implementar la primera versión de la aplicación Front End, con las funcionalidades básicas y el diseño visual de la aplicación.                                                             |
+| Sprint 2 Velocity                  | 16 User Stories                                                                                                                                                                                                                       |
+| Sum of Story Points                | 10 Story Points Atendidos                                                                                                                                                                                                             |
+
+##### 5.2.2.2. Sprint Backlog 2
+En el Sprint 2 el equipo se ha enfocado en las correcciones del reporte y la implementación del Front End Application. Se presenta el backlog de tareas para las correcciones del reporte en el Sprint 2.
+![Sprint Backlog 2](assets/sprint-2/sprint-2-trello.png)
+
+##### 5.2.2.3. Development Evidence for Sprint Review
+En la tabla a continuación se muestran los commits realizados en el Sprint 2.
+
+| Repository                    | Branch                                       | Commit ID | Commit Message                                                                         | Commit Message Body | Commited on (Date) |
+|-------------------------------|----------------------------------------------|-----------|----------------------------------------------------------------------------------------|---------------------|--------------------|
+| Latte-WebApps/Report-FoodSuit | fix/chapter2                                 | 4acc5f5   | Merge pull request #38 from Latte-WebApps/fix/chapter2                                 |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | fix/software-architecture-container-diagram  | 2a621db   | Merge pull request #39 from Latte-WebApps/fix/software-architecture-container-diagram  |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | feature/user-stories                         | 5fb27f2   | Merge pull request #40 from Latte-WebApps/feature/user-stories                         |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | feature/product-backlog                      | a25b196   | Merge pull request #41 from Latte-WebApps/feature/product-backlog                      |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | fix/web-applications-wireframes-and-mock-ups | 18586fe   | Merge pull request #42 from Latte-WebApps/fix/web-applications-wireframes-and-mock-ups |                     | 2024-09-23         |
+| Latte-WebApps/Report-FoodSuit | fix/web-applications-wireframes              | 723fd40   | Merge pull request #47 from Latte-WebApps/fix/web-applications-wireframes              |                     | 2024-09-19         |
+
+##### 5.2.2.4. Testing Suite Evidence for Sprint Review
+Se omite esta sección, dado que aún no se tiene el conocimiento necesario para realizar pruebas automatizadas. Esto se llevara a cabo en futuros sprints.
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+En esta entrega, no se realizaron cambios con relación al Landing Page. Por el momento, la Landing Page queda igual a la versión realizada en el Sprint 2.
+Se ha desarrollado un avance con respecto al Frontend.
+![Execution-Evidence-Frontend-1](assets/sprint-2/testing-1.png)
+![Execution-Evidence-Frontend-2](assets/sprint-2/testing-2.png)
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
+
+Para configurar el despliegue de la landing page en GitHub Pages, seguimos los siguientes pasos:
+
+1. **Crear un Repositorio de GitHub**:  
+   Creamos un repositorio de GitHub para el proyecto de la landing page.
+2. **Clonar el Repositorio**:  
+   Clonamos el repositorio en nuestra máquina local utilizando Git.
+3. **Crear la Estructura del Proyecto**:  
+   Creamos la estructura de archivos y carpetas para la landing page, incluyendo el archivo `index.html` y los archivos CSS y JavaScript necesarios.
+4. **Desplegar en GitHub Pages**:  
+   Para desplegar la landing page en GitHub Pages, seguimos estos pasos:
+    - Navegamos a la pestaña `Settings` del repositorio en GitHub.
+    - En la sección `GitHub Pages`, seleccionamos la rama `master` como fuente para el despliegue.
+    - Guardamos la configuración y esperamos a que GitHub Pages publique la landing page.
+    - Una vez publicada, accedemos a la URL proporcionada por GitHub Pages para ver la landing page en línea.
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
+![Sprint 2 Insights](assets/sprint-2/sprint2-insights.png)
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
