@@ -243,6 +243,8 @@ del ABET – EAC - Student Outcome 5.
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Desarrollé el Lean UX Canvas, participé en los wireframes del prototipo y supervisé la información de la arquitectura, asegurando su correcto diseño.<br>
+		TB2<br>
+               Finiquité los últimos cambios necesarios en el aspecto del frontend del bounded context que se me fue asignado, siendo este el de registro de órdenes, a su vez también desarrollé el backend de dicho bounded context.<br>
             </td>
 			<td>Al analizar todos los segmentos importantes de un proyecto de este nivel, y recibir todo tipo de retroalimentación, es posible poder fijar la base de lo que se desea del producto y por tanto se logra definir un producto confiable y con las suficientes funcionalidades para solventar la problemática.</td>
 		</tr>
@@ -268,6 +270,8 @@ del ABET – EAC - Student Outcome 5.
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Planifiqué los objetivos que se asignaron, desarrollándolos con eficiencia y respetando las decisiones que mis compañeros realizaron.<br>
+		TB2<br>
+                Facilité una reunión inicial para definir los objetivos del proyecto y establecer metas claras, asegurando que todas las voces del equipo fueran escuchadas.<br>
             </td>
 			<td>Al establecer metas claras y planificar las tareas de manera eficiente, se logra cumplir con los objetivos propuestos y se mantiene un ambiente de trabajo colaborativo e inclusivo, lo que permite alcanzar los objetivos propuestos.</td>
 		</tr>
