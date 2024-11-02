@@ -227,6 +227,8 @@ del ABET – EAC - Student Outcome 5.
                 Bernaola Pérez, André Arturo<br>
                 TB1<br>
                 Desarrollé y analicé las historias de usuario, además de participar en la creación del prototipo de nuestro producto mediante el desarrollo de guías de estilo y la landing page, así como en la elaboración de un prototipo.<br>
+		TB2<br>
+		Cumplí con el desarrollo del bounded context inventory que se me fue designado. Este desarrollo compete a la parte del backend y frontend, este último solo requeriendo correcciones mínimas. A su vez finalicé el desarrollo del landing page.<br>
                 Grandez Mansilla, Jean Pierre<br>
                 TB1<br>
                 Realicé el análisis del needfinding, impact mapping y el desarrollo de software. Además, supervisé y participé en el desarrollo del prototipo de la solución.<br>
@@ -254,6 +256,8 @@ del ABET – EAC - Student Outcome 5.
                 Bernaola Pérez, André Arturo<br>
                 TB1<br>
                 Formé parte del avance como equipo, supervisando las actividades de todos y planificando actividades futuras, cumpliendo los objetivos propuestos.<br>
+		TB2<br>
+		Creé un cronograma detallado de tareas, asignando responsabilidades de acuerdo a las habilidades de cada miembro y colaborando en el desarrollo de funcionalidades clave.<br>
                 Grandez Mansilla, Jean Pierre<br>
                 TB1<br>
                 Incentivé al resto a realizar sus objetivos mientras cumplía con los míos, además de llevar a cabo un seguimiento de las actividades a desarrollar.<br>
