@@ -2072,10 +2072,10 @@ Cada historia de usuario tiene desarrollado criterios de aceptación. A continua
 | US-17         | Gestionar la asignación de mesas para maximizar eficiencia | Escenario 1: Asignación de mesa exitosa<br>Dado que el administrador accede a la administración de mesas,<br>Cuando asigna una mesa a un cliente,<br>Entonces el sistema actualiza la disponibilidad de mesas en tiempo real.<br>Escenario 2: Reasignación de mesa<br>Dado que el administrador necesita reasignar una mesa,<br>Cuando se reasigna la mesa a un nuevo cliente,<br>Entonces el sistema actualiza la disponibilidad de mesas adecuadamente. |
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review
-En esta entrega, no se realizaron cambios con relación al Landing Page. Por el momento, la Landing Page queda igual a la versión realizada en el Sprint 2.
-Se ha desarrollado un avance con respecto al Frontend.
+La Landing Page tuvo un rediseño, teniendo en cuenta la retroalimentación recibida.
 ![Execution-Evidence-Frontend-1](assets/sprint-2/testing-1.png)
 ![Execution-Evidence-Frontend-2](assets/sprint-2/testing-2.png)
+
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
@@ -2097,10 +2097,11 @@ Para configurar el despliegue de la landing page en GitHub Pages, seguimos los s
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
-![Sprint 2 Insights](assets/sprint-2/sprint2-insights.png)
+**Frontend**
+![Sprint 3 Insights Frontend](assets/sprint-3/sprint-insights-frontend.png)
 
-
-
+**Backend**
+![Sprint 3 Insights Backend](assets/sprint-3/sprint-insights-backend.png)
 
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
