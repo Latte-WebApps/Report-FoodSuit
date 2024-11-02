@@ -288,6 +288,45 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
 “Nuestra visión es la de apoyar el crecimiento de diversos negocios emergentes y ya establecidos en nuestro país, con el fin de promover el crecimiento económico de pequeños empresarios que buscan incursionar en este sector empresarial”
 
 #### 1.1.2. Perfiles de integrantes del equipo
+<table>
+  <tr>
+    <th colspan="2">Integrante 1</th>
+  </tr>
+  <tr>
+    <td>FOTO</td>
+    <td></td>
+  </tr>
+  <tr>
+    <th colspan="2">André Arturo Bernaola Pérez</th>
+  </tr>
+  <tr>
+    <td><img src="assets/profile-pics/bernaola.JPG" alt="team member profile photo" style="width: 300px"></td>
+    <td> Soy Andre Bernaola, estoy cursando la carrera de Ingeniería de Software, me gusta jugar videojuegos y aprender cosas nuevas en mis ratos libres. Aspiro a trabajar como desarrollador fullstack.</td>
+  </tr>
+<tr>
+    <th colspan="2"> Sebastian Pacheco Astiguetta </th>
+  </tr>
+  <tr>
+    <td><img src="assets/profile-pics/SebastianPacheco.jpg" alt="Sebastian Pacheco" style="width: 300px"></td>
+    <td> Soy Sebastian Pacheco, tengo 21 años y soy alumno de Ingeniería de Software en la UPC. Me considero una persona trabajadora y activa, priorizando las responsabilidades ante todo, pero también destaco en trabajo en equipo, permitiendo a todos que participen. Tengo conocimiento de C++ y Python, los cuales pongo en práctica mediante proyectos personales. </td>
+  </tr>
+<tr>
+    <th colspan="2"> Integrante 3</th>
+  </tr>
+  <tr>
+    <td>FOTO</td>
+    <td></td>
+  </tr>
+<tr>
+    <th colspan="2">Josue Paiva</th>
+  </tr>
+  <tr>
+    <td>
+    <img src="assets/profile-pics/JosuePaiva.jpeg" style="width:300px">
+    </td>
+    <td> Soy Josue Paiva, tengo 21 años y soy de la carrera de Ingenieria de Software, tengo conocimiento de C++, Python y SQL, me gusta mantener buena comunicación con mis commpañeros de equipo, cumplir con mis tareas y apoyar al resto cuando se requiera. </td>
+  </tr>
+</table>
 ### 1.2. Solution Profile
 Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administracion de un restaurante proporcionando diversas herramientas y caracteristicas que detallamos a continuacion:
 
@@ -329,12 +368,18 @@ Nuestro producto busca ser una herramienta que facilite el flujo de trabajo en u
 
 **User Assumptions**
 
-1. ¿Quién es el usuario? Los usuarios son los encargados o gerentes de restaurantes y sus trabajadores.
-2. ¿Dónde encaja nuestro servicio? ¿En su trabajo o vida? Nuestro servicio encaja en su trabajo.
-3. ¿Qué problemas resuelve nuestro servicio para el usuario? Reduce el esfuerzo y tiempo requerido al momento de administrar un restaurante, brindando con total fácilidad la información necesaria.
-4. ¿En qué contexto utiliza el usuario nuestro producto? Nuestro servicio es usado diariamente por el gerente o encargado para monitorizar el desempeño del resturante, al igual que ciertas caracteristicas reservadas para el uso de los empleados.
-5. ¿Qué características son importantes para el usuario? Las características que encontramos son de vital importancia para nuestro servicio es que sea fácil de usar, que genere gráfico con respecto a la información primordial para un encargado , sea esta el desempeño de los empleados, el flujo de dinero diaro, entre otros, que brinde alertas automáticas con respecto a los insumos utilizados por el personal de cocina y que permita registrar el horario de ingreso y salida de los empleados.
-6. ¿Cómo debe verse nuestro servicio y cómo debe comportarse? Nuestro servicio debe mostrar toda la información del desempeño diario y general del restaurante de forma intuitiva, al igual que ofrecer una claridad de estos datos.
+1. Los usuarios son los encargados o gerentes de restaurantes y sus trabajadores.
+2. Nuestro servicio encaja en su trabajo.
+3. Reduce el esfuerzo y tiempo requerido al momento de administrar un restaurante, brindando con total fácilidad la información necesaria.
+4. Nuestro servicio es usado diariamente por el gerente o encargado para monitorizar el desempeño del resturante, al igual que ciertas caracteristicas reservadas para el uso de los empleados.
+5. Las características que encontramos son de vital importancia para nuestro servicio es que sea fácil de usar, que genere gráfico con respecto a la información primordial para un encargado , sea esta el desempeño de los empleados, el flujo de dinero diaro, entre otros, que brinde alertas automáticas con respecto a los insumos utilizados por el personal de cocina y que permita registrar el horario de ingreso y salida de los empleados.
+6. Nuestro servicio debe mostrar toda la información del desempeño diario y general del restaurante de forma intuitiva, al igual que ofrecer una claridad de estos datos.
+
+**Feature Assumptions**
+1. El control de inventario reducira el margen de perdida por productos perecbiles
+2. El Schedule permitira un mejor control de las horas de trabajo diarias
+3. El control de ingresos permitira mas facilmente hacer proyecciones a largo y corto plazo del crecimiento del negocio
+4. El Schedule permitira a los trabajadores organizarse mejor de cara a cumplir sus horas semanales
 
 **User Outcomes**
 
@@ -620,8 +665,8 @@ Opina que la estructura actual que tiene el negocio es adecuado y todos respetan
 Nombre completo: Eduardo Ventura<br>
 Edad: 20<br>
 Papel desempeñado: Tesorero<br>
-Empresa: Emotiv<br>
-Distrito: San Juan de Gaucho<br><br>
+Empresa: Motif<br>
+Distrito: San Juan de Lurigancho<br><br>
 **Detalles de la entrevista:** <br>
 	<img src="assets/EduardoEntrevista.png" alt="Entrevista 3" width="500"></a>
   [URL de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EZ1hZ887ju9Ag-fvFRRxixsBBGySTT6oBEr-g8O-PN9Ftw?e=51tnB6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjguMDl9fQ%3D%3D)
@@ -687,12 +732,12 @@ Al analizar las entrevistas, podemos comprender las expectativas y necesidades q
 
 ### 2.3. Needfinding
 #### 2.3.1. User Personas
-
+En esta sección se presentarán las User Personas, una herramienta que permite identificar las características y necesidades de los usuarios, así como sus comportamientos y motivaciones. En este caso, se han creado dos User Personas para los segmentos de Administrador y Trabajador.
 ### User Persona Segmento Administrador
-<img src="assets/Eduardo Ventura.png" alt="UserPersona Eduardo" width="800"></a><br>
+<img src="assets/Eduardo Ventura.png" alt="UserPersona Eduardo" width="600"></a><br>
 <br>
 ### User Persona Segmento Trabajador
-<img src="assets/Laura Martinez.png" alt="UserPersona Laura" width="800"></a><br>
+<img src="assets/Laura Martinez.png" alt="UserPersona Laura" width="600"></a><br>
 
 #### 2.3.2. User Task Matrix
 En esta sección se presentará el User Task Matrix, una herramienta que permite identificar las tareas más relevantes para cada segmento, así como la frecuencia e importancia de cada una de ellas.
@@ -700,7 +745,7 @@ En esta sección se presentará el User Task Matrix, una herramienta que permite
 <table>
   <tr>
     <th rowspan="2" valign="top"><b><i>User Task Matrix</i></b></th>
-    <th colspan="2" valign="top"><b><i>Eduardo</i></b></th>
+    <th colspan="2" valign="top"><b><i>Eduardo Ventura</i></b></th>
     <th colspan="2" valign="top"><b><i>Laura Martínez</i></b></th>
   </tr>
   <tr>
@@ -731,13 +776,6 @@ En esta sección se presentará el User Task Matrix, una herramienta que permite
     <td><b><i>Alta</i></b></td>
   </tr>
   <tr>
-    <td>Adopción de nuevas tecnologías para la gestión</td>
-    <td><b><i>A menudo</i></b></td>
-    <td><b><i>Alta</i></b></td>
-    <td><b><i>A veces</i></b></td>
-    <td><b><i>Alta</i></b></td>
-  </tr>
-  <tr>
     <td>Coordinación con el equipo de operaciones</td>
     <td><b><i>A veces</i></b></td>
     <td><b><i>Medio</i></b></td>
@@ -759,7 +797,7 @@ En esta sección se presentará el User Task Matrix, una herramienta que permite
     <td><b><i>Alta</i></b></td>
   </tr>
   <tr>
-    <td>Manejo de pedidos</td>
+    <td>Recepción y atención de mesas</td>
     <td><b><i>A veces</i></b></td>
     <td><b><i>Medio</i></b></td>
     <td><b><i>Siempre</i></b></td>
@@ -800,12 +838,13 @@ del proyecto de gestión interna de un restaurante. Estos mapas permiten visuali
 emociones y acciones de los usuarios a lo largo de su recorrido, identificando oportunidades de mejora y optimización.
 
 #### **User Journey Map Administrador**
-<img src="assets/Eduardo%20Journey%20Map.png" alt="UserJourneyMap Eduardo" width="800"><br>
-#### ** User Journey Map Trabajador**
-
-<img src="assets/Laura%20Martinez%20Journey%20map.png" alt="UserJourneyMap Laura"><br>
+Para el segmento de Administrador, tomamos en cuenta las necesidades y expectativas de Eduardo Ventura, un administrador de 20 años del restobar Motiv. A continuación, se presenta el User Journey Map de Eduardo Ventura.
+<img src="assets/Eduardo Journey Map.png" alt="UserJourneyMap Eduardo" width="800"><br>
+#### **User Journey Map Trabajador** 
+Para el segmento de Trabajador, tomamos en cuenta las necesidades y expectativas de Laura Martínez, una mesera de 25 años.
+<img src="assets/Laura Martinez Journey map.png" alt="UserJourneyMap Laura"><br>
 #### 2.3.4. Empathy Mapping
-
+En esta sección se presentarán los Empathy Maps, una herramienta que permite identificar las necesidades, expectativas, emociones y comportamientos de los usuarios, así como sus pensamientos y percepciones. En este caso, se han creado dos Empathy Maps para los segmentos de Administrador y Trabajador.
 - Empathy Map Administrador
 <img src="assets/Empathy map Admin.png" alt="EmpathyMap Eduardo" width="800"><br>
 
@@ -942,8 +981,7 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | TS-08    | Creación de Endpoint Simulado para Consulta de Inventario         | Como desarrollador, quiero crear un endpoint simulado que permita consultar el inventario del restaurante, para desarrollar y probar el frontend con datos de inventario actualizados. | **Escenario 1: Consulta exitosa del inventario** <br> **Dado** que un administrador consulta el inventario<br>**Cuando** realiza una solicitud GET al endpoint `/inventario` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe devolver los datos actualizados del inventario con un código de estado 200 (OK).<br>**Escenario 2: Inventario vacío**<br>**Dado** que el inventario no tiene datos cargados<br>**Cuando** se realiza la consulta<br>**Entonces** el servidor simulado debe devolver un código de estado 204 (No Content) si no hay productos en el inventario.                                                               | EP004                     |
 
 ### 3.3. Impact Mapping
-<br><img src="assets/Impact%20map.png"><br>
-
+<br><img src="assets/Impact map.png"><br>
 ### 3.4. Product Backlog
 
 | # Orden | User Story Id | Título                                                            | Descripción                                                                                                                                                                            | Story Points (1 / 2 / 3 / 5 / 8) |
@@ -1118,168 +1156,294 @@ El diseño también es adaptable a dispositivos móviles, asegurando una experie
 
 Esta es la página principal que ve el administrador.
 
-![Mock Up - Home](https://github.com/user-attachments/assets/3b535871-a64f-4636-8a53-641809ba75a6)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Home.png" alt="Wireframe Home">
+
+<br>
 
 En esta sección podrá ver el desempeño del restaurante.
 
-![Wireframe - Finance](https://github.com/user-attachments/assets/ac2b8402-6f76-4d87-94ec-eb812ccba306)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Finance.png" alt="Wireframe Finance">
+
+<br>
 
 También podrá editar los valores si este lo desea.
 
-![Wireframe - Finance (1)](https://github.com/user-attachments/assets/16627a96-5fa7-4e78-bf11-ead075d70ba4)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Finance 1.png" alt="Wireframe Finance 1">
+
+<br>
 
 En esta sección se visualizará el desempeño de cada empleado.
 
-![Wireframe - Employees](https://github.com/user-attachments/assets/dcf75a64-247d-4a2f-8fe3-b5f422772599)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Empoyees.png" alt="Wireframe Employees">
+
+<br>
 
 Esta sección es para agregar un empleado más.
 
-![Wireframe - Employees (1)](https://github.com/user-attachments/assets/6f29b75b-6714-4e8e-8b49-93d42a911fd2)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Empoyees 1.png" alt="Wireframe Employees 1">
+
+<br>
 
 En esta página el administrador podrá editar la horas de trabajo de cada empleado.
 
-![Wireframe - Employees (2)](https://github.com/user-attachments/assets/7d05112a-1f90-4b26-93ad-9904f6c42837)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Empoyees 2.png" alt="Wireframe Employees 2">
+
+<br>
 
 Esta sección es para la visualización de los insumos de cocina restantes.
 
-![Wireframe - Inventory](https://github.com/user-attachments/assets/48d35a54-2ed3-418a-9a3d-6c342d6df6e7)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Inventory.png" alt="Wireframe Inventory">
 
+<br>
 
 Esta sección es para los meseros, es esta podrán agregar pedidos.
 
-![Wireframe - Add Order](https://github.com/user-attachments/assets/d0de4f3e-e63e-4d82-8e47-689ff53dafe0)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order.png" alt="Wireframe Add Order">
+
+<br>
 
 En esta sección se podrá seleccionar el tipo de platillo para agragar a la orden
 
-![Wireframe - Add Order (1)](https://github.com/user-attachments/assets/76fb82dc-8f7c-4d17-afe3-1691828a144e)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 1.png" alt="Wireframe Add Order 1">
+
+<br>
 
 En esta página se podrá agregar un platillo de entrada.
 
-![Wireframe - Add Order (2)](https://github.com/user-attachments/assets/d57c8ab7-11d1-44f9-a36e-4b75b93a1754)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 2.png" alt="Wireframe Add Order 2">
+
+<br>
 
 Asimismo, en esta sección se podrá agregar un plato principal.
 
-![Wireframe - Add Order (3)](https://github.com/user-attachments/assets/94b5b1ef-7068-464d-bdee-e5a4a5c30887)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 3.png" alt="Wireframe Add Order 3">
+
+<br>
 
 En esta sección se podrá agregar un platillo especial a la orden.
 
-![Wireframe - Add Order (4)](https://github.com/user-attachments/assets/1f17206e-ac65-4fa3-acc2-0adfdf0b2d6a)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 4.png" alt="Wireframe Add Order 4">
+
+<br>
 
 Esta sección es para la selección de un postre a la orden.
 
-![Wireframe - Add Order (5)](https://github.com/user-attachments/assets/c1a73b0e-1a61-4e66-8182-f794c98b44f7)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 5.png" alt="Wireframe Add Order 5">
+
+<br>
 
 Esta sección es para agregar bebidas a la orden.
 
-![Wireframe - Add Order (6)](https://github.com/user-attachments/assets/23076034-9c72-4bf6-9aed-50c0bc296c6d)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 6.png" alt="Wireframe Add Order 6">
+
+<br>
 
 En esta sección se podrá editar las ordenes existentes.
 
-![Wireframe - Add Order (7)](https://github.com/user-attachments/assets/214434f5-a52e-43ac-85db-cc8967911b85)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Add Order 7.png" alt="Wireframe Add Order 7">
 
+<br>
 
 Esta sección es para los cocineros, en esta página podrán observar los pedidos pendientes.
 
-![Wireframe - Order](https://github.com/user-attachments/assets/f0972e2a-bde0-459a-a30f-3641f8465895)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Order.png" alt="Wireframe Order">
 
+<br>
 
 En esta sección podrán observar los insumos restantes de cocina.
 
-![Wireframe - Inventory (1)](https://github.com/user-attachments/assets/051e0386-992e-42fb-853b-63875aa654c2)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Inventory 1.png" alt="Wireframe Invnetory 1">
+
+<br>
 
 Y en esta editarlos.
 
-![Wireframe - Edit Inventory](https://github.com/user-attachments/assets/02d83e47-21e3-4529-a5df-6b522d3595af)
+<br>
+  
+  <img src="assets/wireframes/Wireframe - Edit Inventory.png" alt="Wireframe Edit Inventory">
+
+<br>
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.3. Web Applications Mock-ups
 
 Esta es la página principal que ve el administrador.
 
-![Mock Up - Home (1)](https://github.com/user-attachments/assets/e1f0acac-6298-4faa-8b9e-ddb9b76e3488)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Home.png" alt="Mock-Up Home">
+
+<br>
 
 En esta sección podrá ver el desempeño del restaurante.
 
-![Wireframe - Finance (2)](https://github.com/user-attachments/assets/950f0f25-40a3-4623-b58a-df0d43319c42)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Finance.png" alt="Mock-Up Finance">
 
+<br>
 
 También podrá editar los valores si este lo desea.
 
-![Wireframe - Finance (3)](https://github.com/user-attachments/assets/e54e6307-df0f-4048-a6c1-422f6ac3bc9d)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Finance 1.png" alt="Mock-Up Finance 1">
 
+<br>
 
 En esta sección se visualizará el desempeño de cada empleado.
 
-![Wireframe - Employees (3)](https://github.com/user-attachments/assets/c773106d-8d50-414e-bef6-947607cf4058)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Employees.png" alt="Mock-Up Employees">
 
+<br>
 
 Esta sección es para agregar un empleado más.
 
-![Wireframe - Employees (4)](https://github.com/user-attachments/assets/bc9eb5db-1898-4c4e-a9b5-b6f29cbdc380)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up- Employees 1.png" alt="Mock-Up Employees 1">
 
+<br>
 
 En esta página el administrador podrá editar la horas de trabajo de cada empleado.
 
-![Wireframe - Employees (5)](https://github.com/user-attachments/assets/d9f9e8b4-9925-4e6f-a446-4abebde0b8ed)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Employees 2.png" alt="Mock-Up Employees 2">
 
+<br>
 
 Esta sección es para la visualización de los insumos de cocina restantes.
 
-![Wireframe - Inventory (2)](https://github.com/user-attachments/assets/27aa5a08-45bf-48b5-a41d-f2bfe43bc412)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Inventory.png" alt="Mock-Up Inventory">
 
+<br>
 
 Esta sección es para los meseros, es esta podrán agregar pedidos.
 
-![Wireframe - Add Order (8)](https://github.com/user-attachments/assets/bb299acd-c9ef-4ca6-9497-f28d11eb02a7)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order.png" alt="Mock-Up Add Order">
+
+<br>
 
 En esta sección se podrá seleccionar el tipo de platillo para agragar a la orden 
 
-![Wireframe - Add Order (9)](https://github.com/user-attachments/assets/215c047c-00e7-4ce8-bc08-03613539516f)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 1.png" alt="Mock-Up Add Order 1">
 
+<br>
 
 En esta página se podrá agregar un platillo de entrada.
 
-![Wireframe - Add Order (10)](https://github.com/user-attachments/assets/62b38ed4-ee26-4f65-b877-ac2df92a817a)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 2.png" alt="Mock-Up Add Order 2">
 
+<br>
  
 Asimismo, en esta sección se podrá agregar un plato principal.
 
-![Wireframe - Add Order (11)](https://github.com/user-attachments/assets/8377c15d-7a26-4605-8c4c-0ce1d7386a1a)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 3.png" alt="Mock-Up Add Order 3">
 
+<br>
 
 En esta sección se podrá agregar un platillo especial a la orden.
 
-![Wireframe - Add Order (12)](https://github.com/user-attachments/assets/7d1018ac-1eff-4427-8d47-fdb24e28bfc8)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 4.png" alt="Mock-Up Add Order 4">
 
+<br>
 
 Esta sección es para la selección de un postre a la orden.
 
-![Wireframe - Add Order (13)](https://github.com/user-attachments/assets/a13b02cd-7710-44c8-a0c9-372888572812)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 5.png" alt="Mock-Up Add Order 5">
 
+<br>
 
 Esta sección es para agregar bebidas a la orden.
 
-![Wireframe - Add Order (14)](https://github.com/user-attachments/assets/4c8495b2-acf1-4775-8355-d4591a9c426d)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 6.png" alt="Mock-Up Add Order 6">
+
+<br>
 
 En esta sección se podrá editar las ordenes existentes.
 
-![Wireframe - Add Order (15)](https://github.com/user-attachments/assets/28a4649e-1361-4df6-a5a5-b2804744caff)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Add Order 7.png" alt="Mock-Up Add Order 7">
 
+<br>
 
 Esta sección es para los cocineros, en esta página podrán observar los pedidos pendientes.
 
-![Wireframe - Order (1)](https://github.com/user-attachments/assets/01198a2c-2b7a-4933-93c8-cd1bf4fcbc8e)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Order.png" alt="Mock-Up Order">
 
+<br>
 
 En esta sección podrán observar los insumos restantes de cocina.
 
-![Wireframe - Inventory (3)](https://github.com/user-attachments/assets/9e90c444-8975-4610-bc47-03b9c566c51e)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Inventory 1.png" alt="Mock-Up Inventory 1">
 
+<br>
 
 Y en esta editarlos.
 
-![Wireframe - Edit Inventory (1)](https://github.com/user-attachments/assets/de5926fd-7e4d-406d-831c-2906451567cc)
+<br>
+  
+  <img src="assets/mock-ups/Mock-Up - Edit Inventory.png" alt="Mock-Up Edit Inventory">
 
+<br>
 
 #### 4.4.4. Web Applications User Flow Diagrams
 ### 4.5. Web Applications Prototyping
@@ -1758,6 +1922,67 @@ A continuación, se muestra la página de insights proporcionada por Github.
 ![General Insights](assets/general-insights.png)
 ![Team Collaboration Insights](assets/teamcollab-insights.png)
 
+#### 5.2.2. Sprint 2
+##### 5.2.2.1. Sprint Planning 2
+| Sprint #                           | Sprint 2                                                                                                                                                                                                                              |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                           | 2024-09-26                                                                                                                                                                                                                            |
+| **Time**                           | 6:00 PM                                                                                                                                                                                                                               |
+| **Location**                       | Virtual - Google Meet                                                                                                                                                                                                                 |
+| Prepared By                        | Sebastian Pacheco                                                                                                                                                                                                                     |
+| Attendees (to planning meeting)    | Sebastian Pacheco, Andre Bernaola, Josue Paiva, Jean Grandez, Piero Velarde                                                                                                                                                           |
+| Sprint 2 - 1 Review Summary        | Se ha mejorado varios puntos con respecto al reporte con los cambios que el profesor sugirió, además de crear una primera versión y desarrollo de nuestra aplicación Front End, el cual se seguirá desarrollando en futuras entregas. |
+| Sprint 2 - 1 Retrospective Summary | Tuvimos complicaciones con respecto a la coordinación, por lo que tuvimos que corregir colisiones durante los merges. Esto es un punto a mejorar entre todos y servirá como punto de reflexión.                                       |
+| Sprint 2 Goal                      | Mejoramiento de información del reporte e implementar la primera versión de la aplicación Front End, con las funcionalidades básicas y el diseño visual de la aplicación.                                                             |
+| Sprint 2 Velocity                  | 16 User Stories                                                                                                                                                                                                                       |
+| Sum of Story Points                | 10 Story Points Atendidos                                                                                                                                                                                                             |
+
+##### 5.2.2.2. Sprint Backlog 2
+En el Sprint 2 el equipo se ha enfocado en las correcciones del reporte y la implementación del Front End Application. Se presenta el backlog de tareas para las correcciones del reporte en el Sprint 2.
+![Sprint Backlog 2](assets/sprint-2/sprint-2-trello.png)
+
+##### 5.2.2.3. Development Evidence for Sprint Review
+En la tabla a continuación se muestran los commits realizados en el Sprint 2.
+
+| Repository                    | Branch                                       | Commit ID | Commit Message                                                                         | Commit Message Body | Commited on (Date) |
+|-------------------------------|----------------------------------------------|-----------|----------------------------------------------------------------------------------------|---------------------|--------------------|
+| Latte-WebApps/Report-FoodSuit | fix/chapter2                                 | 4acc5f5   | Merge pull request #38 from Latte-WebApps/fix/chapter2                                 |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | fix/software-architecture-container-diagram  | 2a621db   | Merge pull request #39 from Latte-WebApps/fix/software-architecture-container-diagram  |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | feature/user-stories                         | 5fb27f2   | Merge pull request #40 from Latte-WebApps/feature/user-stories                         |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | feature/product-backlog                      | a25b196   | Merge pull request #41 from Latte-WebApps/feature/product-backlog                      |                     | 2024-09-22         |
+| Latte-WebApps/Report-FoodSuit | fix/web-applications-wireframes-and-mock-ups | 18586fe   | Merge pull request #42 from Latte-WebApps/fix/web-applications-wireframes-and-mock-ups |                     | 2024-09-23         |
+| Latte-WebApps/Report-FoodSuit | fix/web-applications-wireframes              | 723fd40   | Merge pull request #47 from Latte-WebApps/fix/web-applications-wireframes              |                     | 2024-09-19         |
+
+##### 5.2.2.4. Testing Suite Evidence for Sprint Review
+Se omite esta sección, dado que aún no se tiene el conocimiento necesario para realizar pruebas automatizadas. Esto se llevara a cabo en futuros sprints.
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+En esta entrega, no se realizaron cambios con relación al Landing Page. Por el momento, la Landing Page queda igual a la versión realizada en el Sprint 2.
+Se ha desarrollado un avance con respecto al Frontend.
+![Execution-Evidence-Frontend-1](assets/sprint-2/testing-1.png)
+![Execution-Evidence-Frontend-2](assets/sprint-2/testing-2.png)
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
+
+Para configurar el despliegue de la landing page en GitHub Pages, seguimos los siguientes pasos:
+
+1. **Crear un Repositorio de GitHub**:  
+   Creamos un repositorio de GitHub para el proyecto de la landing page.
+2. **Clonar el Repositorio**:  
+   Clonamos el repositorio en nuestra máquina local utilizando Git.
+3. **Crear la Estructura del Proyecto**:  
+   Creamos la estructura de archivos y carpetas para la landing page, incluyendo el archivo `index.html` y los archivos CSS y JavaScript necesarios.
+4. **Desplegar en GitHub Pages**:  
+   Para desplegar la landing page en GitHub Pages, seguimos estos pasos:
+    - Navegamos a la pestaña `Settings` del repositorio en GitHub.
+    - En la sección `GitHub Pages`, seleccionamos la rama `master` como fuente para el despliegue.
+    - Guardamos la configuración y esperamos a que GitHub Pages publique la landing page.
+    - Una vez publicada, accedemos a la URL proporcionada por GitHub Pages para ver la landing page en línea.
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
+![Sprint 2 Insights](assets/sprint-2/sprint2-insights.png)
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
