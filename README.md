@@ -242,6 +242,9 @@ del ABET – EAC - Student Outcome 5.
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Realicé el análisis de la startup, el perfil de la solución, el lean UX process y participé en la elaboración del prototipo, especialmente en la elaboración de la landing page como mockup.<br>
+                TB2<br>
+                Para esta entrega primero me concentre en concluir mi bounded context del frontend, implemente funcionalidad y lo deje listo para poder comunicar con el futuro backend
+                <br>
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Desarrollé el Lean UX Canvas, participé en los wireframes del prototipo y supervisé la información de la arquitectura, asegurando su correcto diseño.<br>
@@ -271,6 +274,9 @@ del ABET – EAC - Student Outcome 5.
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
+                Velarde Luyo, Piero Alberto<br>
+                TB2<br>
+                Cree el entorno de trabajo para facilitar el desarrollo de mis compañeros, ademas de asistir sin falta a las reuniones programadas y terminar con los pendientes de cada una el mismo dia<br>
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Planifiqué los objetivos que se asignaron, desarrollándolos con eficiencia y respetando las decisiones que mis compañeros realizaron.<br>
