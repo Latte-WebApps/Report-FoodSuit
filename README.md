@@ -233,6 +233,8 @@ del ABET – EAC - Student Outcome 5.
                 Pacheco Astiguetta, Sebastian<br>
                 TB1<br>
                 Desarrollé el análisis de competidores, estrategias y tácticas frente a competidores, entrevistas y análisis, además del diseño de la arquitectura de software.<br>
+                TB2<br>
+                Desarrollé la parte del backend de reports, este último siendo mi bounded context asignado. A la vez que realicé las correcciones necesarias de dicho bounded context en el frontend para, de esta manera, dejar este aspecto culminado.
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Realicé el análisis de la startup, el perfil de la solución, el lean UX process y participé en la elaboración del prototipo, especialmente en la elaboración de la landing page como mockup.<br>
@@ -254,6 +256,8 @@ del ABET – EAC - Student Outcome 5.
                 Pacheco Astiguetta, Sebastian<br>
                 TB1<br>
                 Establecí los objetivos a alcanzar del equipo y supervisé el avance de todos los integrantes.<br>
+                TB2<br>
+                Organicé sesiones de retroalimentación regulares, permitiendo al equipo revisar el progreso y ajustar las estrategias mientras todos contribuían al desarrollo de tareas específicas.
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
