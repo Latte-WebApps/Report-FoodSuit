@@ -2073,7 +2073,7 @@ Se ha desarrollado un avance con respecto al Frontend.
 ![Execution-Evidence-Frontend-1](assets/sprint-2/testing-1.png)
 ![Execution-Evidence-Frontend-2](assets/sprint-2/testing-2.png)
 
-##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
 
 Para configurar el despliegue de la landing page en GitHub Pages, seguimos los siguientes pasos:
@@ -2091,7 +2091,7 @@ Para configurar el despliegue de la landing page en GitHub Pages, seguimos los s
     - Guardamos la configuración y esperamos a que GitHub Pages publique la landing page.
     - Una vez publicada, accedemos a la URL proporcionada por GitHub Pages para ver la landing page en línea.
 
-##### 5.2.2.8. Team Collaboration Insights during Sprint
+##### 5.2.3.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
 ![Sprint 2 Insights](assets/sprint-2/sprint2-insights.png)
 
