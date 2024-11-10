@@ -2127,6 +2127,95 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 **Backend**
 ![Sprint 3 Insights Backend](assets/sprint-3/sprint-insights-backend.png)
 
+### 5.3 Validation Interviews
+#### 5.3.1 Diseño de entrevistas
+#### Objetivo de la Entrevista
+Validar la usabilidad y efectividad de la landing page y de los flujos de usuario de FoodSuit, asegurando que cada flujo sea intuitivo, claro y funcional para los usuarios y su interaccion con la plataforma.
+
+
+#### Elementos de Validación
+- **Landing Page**: Se evaluará cómo los usuarios perciben la interfaz, los Call To Action y la estructura de la página para motivarlos a registrarse y explorar más sobre FoodSuit.
+- **Aplicación**: Se guiará a los usuarios a través de los flujos principales, como el registro de horarios, el inventariado, el dashboard, entre otros.
+
+
+
+#### User Flows a Validar
+##### Para el Segmento Administrador
+
+1. **Landing Page**: 
+   - Evaluación de la interfaz de la Landing Page y su efectividad para captar el interés de los usuarios.
+
+2. **Registro de Horario de Empleados**:
+   - Evaluación del flujo de registro de un nuevo empleado con su respectivo horario.
+
+3. **Registro de inventario**:
+   - Evaluación del flujo de registro de inventario y sus atributos.
+
+4. **Visualización del Dashboard**:
+   - Evaluación de la presentación del dashboard y su utilidad practica.
+
+5. **Visualización de Productividad**:
+   - Evaluación de la presentación de productividad y como beneficia la informacion presentada al administrador.
+
+6. **Visualización de Attendance**:
+   - Evaluación de la presentación de attendance y como beneficia la consulta de horas trabajadas.
+
+
+##### Para el Segmento Empleado
+1. **Visualización de Horario de Empleados**:
+   - Evaluación de la interfaz de horario de los empleados.
+
+2. **Visualización de Productividad**:
+   - Evaluación de la presentación de productividad y como beneficia la informacion presentada al empleado.
+
+3. **Visualización de Attendance**:
+   - Evaluación de la presentación de attendance y como beneficia la consulta de horas trabajadas al empleado.
+
+#### Formato de Registro de la Entrevista
+**Datos del Entrevistado**:
+   - Nombre y apellidos
+   - Edad
+   - Ciudad de residencia
+   - Dispositivo utilizado (smartphone, tablet, laptop)
+
+   #### Preguntas para el Segmento Administrador
+#### Visualización de Dashboard
+- ¿Fue clara la información presentada en el panel Dashboard?
+- ¿Algún momento te sentiste perdido al explorar el panel?
+- ¿Consideras que la informacion presentada es util para obtener una vista general del desempeño del negocio?
+
+#### Visualización de Productividad
+- ¿Consdideras relevante la información presentada en el panel Productividad?
+- ¿Te causo confusion la interfaz?
+- ¿Consideras que la informacion presentada es util para mantener un control de la productividad de tus empleados?
+
+#### Visualización de Attendance
+- ¿Consdideras que el panel Attendance tiene una interfaz clara y amigable?
+- ¿Consideras que esta funcion te permimte mantener un seguimiento claro de los empleados que ingresaron a trabajar?
+
+#### Creación de Horario para los Empleados
+- ¿Fue simple el proceso de creación de un registro de horario para un empleado?
+- Durante el flujo de creación, ¿Algún paso generó dudas?
+
+#### Creación de Horario para los Empleados
+- ¿Consideras que fue claro el proceso de creacion de inventariado?
+- ¿Tuviste dudas durante el flujo de creacion?
+- ¿La interfaz fue suficientemente clara para facilitar el registro?
+
+   #### Preguntas para el Segmento Empleado
+
+1. **Visualización de Horario de Empleados**:
+- ¿Consdideras que el panel de horario es claro y facil de entender?
+- Consideras que algun elemento deberia cambiar?
+
+2. **Visualización de Productividad**:
+- ¿Consdideras que el panel de productividad hace un buen trabajo reflejando tu trabajo?
+- ¿Agregarias o eliminarias algun elemento?
+3. **Visualización de Attendance**:
+- ¿Consdideras que el panel de Attendance seria util para que tus empleadores mantengan control de tus horas de trabajo?
+- ¿El grafico presentado es de tu agrado? ¿De no ser el caso, que otro grafico haria un mejor trabajo?
+
+
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
