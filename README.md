@@ -218,8 +218,8 @@ Velarde Luyo, Piero Alberto (U20211A620)<br>
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
         - [5.2.4. Sprint 4](#524-sprint-4)
-            - [5.2.4.1. Sprint Planning 3](#5241-sprint-planning-4)
-            - [5.2.4.2. Sprint Backlog 3](#5242-sprint-backlog-4)
+            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+            - [5.2.4.2. Sprint Backlog 4](#5242-sprint-backlog-4)
             - [5.2.4.3. Development Evidence for Sprint Review](#5243-development-evidence-for-sprint-review)
             - [5.2.4.4. Testing Suite Evidence for Sprint Review](#5244-testing-suite-evidence-for-sprint-review)
             - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
@@ -2171,6 +2171,24 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 
 **Backend**
 ![Sprint 3 Insights Backend](assets/sprint-3/sprint-insights-backend.png)
+
+#### 5.2.4. Sprint 4
+
+##### 5.2.4.1. Sprint Planning 4
+
+##### 5.2.4.2. Sprint Backlog 4
+
+##### 5.2.4.3. Development Evidence for Sprint Review
+
+##### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+##### 5.2.4.5. Execution Evidence for Sprint Review
+
+##### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+##### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+##### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
