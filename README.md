@@ -2135,6 +2135,16 @@ Se desplegó la aplicación Frontend con los cambios respectivos
 Se ejecutó el backend con swagger.
 ![Execution-Evidence-Backend](assets/sprint-3/sprint-execution-backend.png)
 
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+Se ha desarrollado una API RESTful para el Backend de la aplicación FoodSuit. A continuación se muestra la documentación de los servicios implementados.
+
+| **Endpoint Name** | **Implemented Actions** | **Call Syntax**                                                       | **Parameters Specification**                                                                    | **Call Example**                               | **Response Explanation**                                    |
+|-------------------|-------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------|-------------------------------------------------------------|
+| Orders            | POST, GET, DELETE       | POST: `/api/v1/orders`, GET/DELETE: `/api/v1/orders/{orderId}`        | POST: `id, table, status, date, total`, GET/DELETE: `orderId`                                   | GET `http://localhost:3000/api/v1/orders/1`    | Devuelve un objeto con la orden correspondiente al ID.      |
+| Products          | POST, GET, PUT, DELETE  | POST/GET: `/api/v1/products`, PUT/GET/DELETE: `/api/v1/products/{id}` | POST/GET: `name, quantity, imageUrl, price`, PUT/GET/DELETE: `id`                               | GET `http://localhost:3000/api/v1/products`    | Devuelve un array con todos los productos en el inventario. |
+| Reports           | POST, GET               | POST/GET: `/api/v1/reports`, GET: `/api/v1/reports/{reportId}         | POST/GET: `description, reportType, date, amount, ordersId, productsId`, GET: `reportId`        | GET `http://localhost:3000/api/v1/reports/1`   | Devuelve un objeto con el reporte correspondiente al ID.    |
+| Employee          | GET, POST, PUT, DELETE  | POST: `/api/v1/employees`, GET/PUT/DELETE: `/api/v1/employees/{id}`   | POST: `firstName, lastName, entryHour, entryMinute, exitHour, exitMinute`, GET/PUT/DELETE: `id` | GET `http://localhost:3000/api/v1/employees/1` | Devuelve un objeto con el empleado correspondiente al ID.   |
+| Dishes            | POST, GET, DELETE       | POST: `/api/v1/dishes`, GET/DELETE: `/api/v1/dishes/{dishId}`         | POST: `name, price, category`, GET/DELETE: `dishId`                                             | GET `http://localhost:3000/api/v1/dishes/1`    | Devuelve un objeto con el plato correspondiente al ID.      |
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
