@@ -2179,6 +2179,15 @@ Validar la usabilidad y efectividad de la landing page y de los flujos de usuari
    - Dispositivo utilizado (smartphone, tablet, laptop)
 
    #### Preguntas para el Segmento Administrador
+
+#### Landing Page
+- ¿Qué le parece la apariencia general de nuestra página?
+- ¿Qué información puede rescatar de nuestro producto en base a nuestra página de presentación?
+- ¿Qué cambiaría o añadiría para mejorar la presentación de la página de inicio?
+- ¿Considera agradable la segmentación de nuestra página?
+- ¿Le ayuda a entender mejor nuestro producto?
+
+
 #### Visualización de Dashboard
 - ¿Fue clara la información presentada en el panel Dashboard?
 - ¿Algún momento te sentiste perdido al explorar el panel?
@@ -2204,6 +2213,12 @@ Validar la usabilidad y efectividad de la landing page y de los flujos de usuari
 
    #### Preguntas para el Segmento Empleado
 
+#### Landing Page
+- ¿Qué le parece la apariencia general de nuestra página?
+- ¿Qué información puede rescatar de nuestro producto en base a nuestra página de presentación?
+- ¿Qué cambiaría o añadiría para mejorar la presentación de la página de inicio?
+- ¿Le ayuda a entender mejor nuestro producto?
+
 1. **Visualización de Horario de Empleados**:
 - ¿Consdideras que el panel de horario es claro y facil de entender?
 - Consideras que algun elemento deberia cambiar?
@@ -2214,6 +2229,75 @@ Validar la usabilidad y efectividad de la landing page y de los flujos de usuari
 3. **Visualización de Attendance**:
 - ¿Consdideras que el panel de Attendance seria util para que tus empleadores mantengan control de tus horas de trabajo?
 - ¿El grafico presentado es de tu agrado? ¿De no ser el caso, que otro grafico haria un mejor trabajo?
+
+### 5.3.2 Registro de Entrevistas
+
+## Segmento Obejtivo: Administradores de Restaurantes
+
+Enlace de la entrevista: 
+
+Entrevista con Eduardo Ventura: 
+
+![Entrevista con Eduardo Ventura]()
+
+
+Nombre del entrevistado: Eduardo Ventura Chancafe
+Edad: 21 años
+Distrito de residencia: San Juan de Lurigancho
+Inicio de la entrevista: 00:00
+Duración: 10 minutos con 40 segundos
+
+En base a la landing page, Eduardo nos comenta que el diseño le parece agradable
+e intuitiva a primera vista y le facilita la navegación con la barra superior de navegación.
+Con respecto a la información que se le muestra Eduardo resulta satisfecho ya que cumple con
+sus expectativas y además considera que es una muy buena forma de acercar al cliente con el producto,
+debido agregar los features que tiene la aplicación le ayuda a saber desde antes cuales son las
+funcionalidades con las que se va encontrar, y luego de acceder a nuestra demo del producto Eduardo comenta
+que el panel de inicio le sorprendió ya que es lo que esperaba y necesitaba precisamente ya que le
+resume de manera clara lo que hace falta dentro del restaurante y le ayuda a estar actualizado con los cambios.
+Probando las funcionalidades de la aplicación Eduardo hizo la prueba de agregar y crear horarios para un empleado,
+organizar su inventario y agregar asistencias todas estas le parecen intuitivas y de fácil manejo ya que todas 
+vienen con un diseño sencillo que te indica como debes agregar nuevos datos, pasando al apartado de gráficos como es
+el caso de productividad Eduardo opina que tener registro constante de la forma de trabajo de sus trabajadores le beneficia
+al momento de realizar el monitoreo de sus trabajadores y saber con exactitud su desempeño dentro del trabajo.
+Eduardo nos señaló que podrían haber mejoras para el desarrollo de la aplicación como el manejo de registro de las asistencias,
+ya que en cierto modo hay ocasiones en las que pueden haber turnos de un día para otro y esto podria afectar al momento de generar un registro
+de salida, lo mejor seria separarlo en registro de entradas y guardar esos datos y luego hacer el registro de salida al último, y así evitar
+conflictos y además que a largo plazo es más eficiente para mantener una interfaz intuitiva y fácil de usar.
+
+
+
+## Segmento Objetivo: Trabajadores de Restaurantes
+
+Enlace de la entrevista:
+
+Entrevista con Fabrizio Sanchez:
+
+![Entrevista con Fabrizio Sanchez Zamora]()
+
+
+Nombre del entrevistado: Fabrizio Sanchez Zamora
+Edad: 22 años
+Distrito de residencia: Chorrillos
+Inicio de la entrevista: 00:00
+Duración: 8 minutos con 21 segundos
+
+Respecto a la primera vista de la landing page Fabrizio quedo agradado con manera de la distribución
+de la información ya que le parece bien representado que sea progresiva y acorde a partir de un resumen del proyecto,
+luego pasando a un detallado de las funcionalidades y los videos de explicación de producto que con esto le facilita el entendimiento
+total del producto y tambien le agrado saber quienes son los desarrolladores. Pasando a la versión demo del producto Fabrizio se muestra
+familiarizado con un sistema de manejo de horarios y control de asistencias, sin embargo, nos comenta que pues no es similar al que ha utilizado
+y siente que el de nuestro producto le resulta mas sencillo de utilizar, respecto al panel de ordenes considera que es acertado que las ordenes se manejen
+mediante categorias y que puedas escoger la mesa y el trabajador que esta tomando la orden, además que cada plato tiene opción a 
+una orden especial o variación, poder acceder a la lista de ordenes al instante de su creación y tambien poder liberlas y  cancelarlas le parece un sistema de
+ manejo eficiente y fácil de manejar, pero como sugerencia Fabrizio opina que las categorias se verían mejor si estuvieran separadas con una imagen y el nombre de 
+dicha categoría pero esto es más por la facilidad de uso y familiarización con el producto.
+
+### 5.3.3 Evaluación según Heurísticas
+
+**UX Heuristics & Principles Evaluation**
+
+
 
 
 ## Conclusiones
