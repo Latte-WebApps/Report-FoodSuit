@@ -2006,6 +2006,15 @@ Se ha desarrollado un avance con respecto al Frontend.
 ![Execution-Evidence-Frontend-1](assets/sprint-2/testing-1.png)
 ![Execution-Evidence-Frontend-2](assets/sprint-2/testing-2.png)
 
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Hemos logrado desplegar una aplicación web, la cual consume un servicio Json-Server, de esta manera simulando un Backend. A continuación se muestra la documentación de la API.
+
+| **Endpoint Name** | **Implemented Actions** | **Call Syntax**                          | **Parameters Specification** | **Call Example**                                                   | **Response Explanation**                              |
+|-------------------|-------------------------|------------------------------------------|------------------------------|--------------------------------------------------------------------|-------------------------------------------------------|
+| /reports          | GET, POST               | `return http.get(this.resourceEndpoint)` | reportResource               | `getAll() { return http.get('http://localhost:3000/reports'); }`   | Devuelve un array con todos los reportes.             |
+| /inventory        | GET, POST, PUT, DELETE  | `return http.get(this.resourceEndpoint)` | id, itemResource, name       | `getAll() { return http.get('http://localhost:3000/inventory'); }` | Devuelve un array con todos los items del inventario. |
+| /employees        | GET, POST               | `return http.get(this.resourceEndpoint)` | id, employeeResource         | `getAll() { return http.get('http://localhost:3000/employees'); }` | Devuelve un array con todos los empleados.            |
+
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
 
