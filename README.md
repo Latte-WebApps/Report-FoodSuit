@@ -2179,6 +2179,15 @@ Validar la usabilidad y efectividad de la landing page y de los flujos de usuari
    - Dispositivo utilizado (smartphone, tablet, laptop)
 
    #### Preguntas para el Segmento Administrador
+
+#### Landing Page
+- ¿Qué le parece la apariencia general de nuestra página?
+- ¿Qué información puede rescatar de nuestro producto en base a nuestra página de presentación?
+- ¿Qué cambiaría o añadiría para mejorar la presentación de la página de inicio?
+- ¿Considera agradable la segmentación de nuestra página?
+- ¿Le ayuda a entender mejor nuestro producto?
+
+
 #### Visualización de Dashboard
 - ¿Fue clara la información presentada en el panel Dashboard?
 - ¿Algún momento te sentiste perdido al explorar el panel?
@@ -2203,6 +2212,12 @@ Validar la usabilidad y efectividad de la landing page y de los flujos de usuari
 - ¿La interfaz fue suficientemente clara para facilitar el registro?
 
    #### Preguntas para el Segmento Empleado
+
+#### Landing Page
+- ¿Qué le parece la apariencia general de nuestra página?
+- ¿Qué información puede rescatar de nuestro producto en base a nuestra página de presentación?
+- ¿Qué cambiaría o añadiría para mejorar la presentación de la página de inicio?
+- ¿Le ayuda a entender mejor nuestro producto?
 
 1. **Visualización de Horario de Empleados**:
 - ¿Consdideras que el panel de horario es claro y facil de entender?
