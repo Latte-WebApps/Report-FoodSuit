@@ -2273,6 +2273,133 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 
 ##### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+
+En esta sección, se presentará la evidencia de los despliegues realizados para los diferentes productos desarrollados durante el sprint. Esto incluye la landing page, la aplicación frontend y la aplicación backend. Cada uno de estos despliegues se ha realizado siguiendo las mejores prácticas y utilizando las herramientas adecuadas para asegurar su correcto funcionamiento y accesibilidad en línea.
+
+
+**Landing Page Deployment**
+
+Para el despliegue de la landing page se utilizó Github Pages y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó un nuevo repositorio en Github con el nombre de `FoodSuiteLandingPage`. Luego se clonó el repositorio en el directorio del proyecto, de manera que vinculamos nuestra rama local a la del repositorio, finalmente se subió el contenido de la landing page en el repositorio.
+
+<img src="assets/deployment/repositorio.jpeg"/>
+
+<br>
+Paso 2:
+Después nos dirigimos a la pestaña de `Settings` y luego a la sección de `Pages`, se procede a seleccionar la rama `main` para el despliegue de la landing page.
+<img src="assets/deployment/settings.jpeg"/>
+
+<br>
+
+Paso 3:
+Luego procedemos a ver que el despliegue fue exitoso en la sección de `Deployments` y se nos proporciona un enlace para acceder a la landing page.
+
+<img src="assets/deployment/deploy.jpeg"/>
+
+
+Paso 4:
+Finalmente se accede a la landing page mediante el enlace proporcionado por Github Pages.
+
+<img src="assets/deployment/landing.jpeg"/>
+
+
+Enlace a la landing page: [https://latte-webapps.github.io/FoodSuiteLandingPage/](https://latte-webapps.github.io/FoodSuiteLandingPage/)
+
+
+**Frontend Deployment**
+
+Para el despliegue de la aplicación frontend se utilizó Netlify y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó una cuenta en Netlify, seleccionamos `Import an existing project`.
+
+<img src="assets/deployment/front-1.jpeg"/>
+
+<br>
+
+Paso 2:
+Luego se selecciona a github como git provider, conectamos nuestra cuenta de github con Netlify.
+
+<img src="assets/deployment/front-2.jpeg"/>
+
+<br>
+
+Paso 3:
+Después se procede a seleccionar la organización y repositorio con el proyecto a desplegar.
+
+<img src="assets/deployment/front-3.jpeg"/>
+
+<br>
+
+Paso 4:
+Luego se termina de configurar el despliegue añadiendo el comando de construcción y la carpeta de despliegue.
+
+
+<img src="assets/deployment/front-4.jpeg"/>
+
+Paso 5:
+Finalmente netlify nos proporciona un enlace para acceder a la aplicación frontend desplegada.
+<img src="assets/deployment/front-5.jpeg"/>
+
+Evidenciamos que el despliegue fue exitoso y se puede acceder a la aplicación frontend mediante el enlace proporcionado por Netlify.
+
+<img src="assets/deployment/front-6.jpeg"/>
+
+Enlace al frontend: [https://foodsuit.netlify.app/](https://foodsuit.netlify.app/)
+
+**Backend Deployment**
+
+Para el despliegue de la aplicación backend se utilizó Azure y se siguieron los siguientes pasos:
+
+
+Paso 1:
+Primero se creó una cuenta en Azure y se inició sesión, Al iniciar sesión el navegador nos redirige a la página principal, nos posicionamos en el buscador  e ingresamos lo siguiente: `mysql` y seleccionamos `Servidores flexibles de Azure Database for MySQL`.
+
+<img src="assets/deployment/back-1.jpeg"/>
+
+Paso 2:
+Luego se procede a crear un nuevo servidor de base de datos MySQL, se selecciona la opción de `Crear` y se llena el formulario con los datos necesarios.
+
+<img src="assets/deployment/back-2.jpeg"/>
+
+Paso 3:
+Después de crear el servidor de la base de datos,  nos aparece este menú, ahora nos dirigimos a la opción de `conectar`, situada en el dashboard del lado izquierdo.
+
+<img src="assets/deployment/back-3.jpeg"/>
+
+Paso 4:
+Esta sección nos proporciona los datos necesarios para la conexión a la base de datos, como el `nombre del servidor`, `nombre de usuario` y `puerto`.
+
+<img src="assets/deployment/back-4.jpeg"/>
+
+Paso 5:
+Luego procedemos a configurar la conexión a la base de datos en el archivo de configuración del backend, añadiendo los datos proporcionados por Azure.
+
+<img src="assets/deployment/back-10.jpeg"/>
+
+Paso 6:
+Después de configurar la conexión a la base de datos, se procede a descargar un plugin de Azure para rider, que nos permitirá desplegar la aplicación backend en Azure.
+
+<img src="assets/deployment/back-5.jpeg"/>
+
+Paso 7:
+Luego de instalar el plugin, nos dirigimos a las herramientas y seleccionamos la opción de `Azure`, luego seleccionamos la opción de `Deploy to Azure Web Apps`.
+
+<img src="assets/deployment/back-6.jpeg"/>
+
+Paso 8:
+Finalmente seleccionamos la opción `Run`  y el servicio procede a crearse automáticamente, inmediatamente después se nos proporciona por consola un enlace para acceder a la aplicación.
+
+<img src="assets/deployment/back-7.jpeg"/>
+<img src="assets/deployment/back-8.jpeg"/>
+
+Evidenciamos haciendo uso de Postman que el despliegue fue exitoso y se puede acceder a la aplicación backend mediante el enlace proporcionado por Azure.
+<img src="assets/deployment/back-9.jpeg"/>
+
+Enlace al backend: [https://foodsuit.azurewebsites.net/](https://foodsuit.azurewebsites.net/) 
+
 ##### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ## Conclusiones
