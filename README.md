@@ -2026,22 +2026,35 @@ Hemos logrado desplegar una aplicación web, la cual consume un servicio Json-Se
 | /employees        | GET, POST               | `return http.get(this.resourceEndpoint)` | id, employeeResource         | `getAll() { return http.get('http://localhost:3000/employees'); }` | Devuelve un array con todos los empleados.            |
 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
-En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
+En esta sección, se presentará la evidencia de los despliegues realizados para los diferentes productos desarrollados durante el sprint. El sprint actual únicamente incluye el deploy de la landing page. Este deploy se ha realizado siguiendo las mejores prácticas y utilizando las herramientas adecuadas para asegurar su correcto funcionamiento y accesibilidad en línea.
 
-Para configurar el despliegue de la landing page en GitHub Pages, seguimos los siguientes pasos:
+**Landing Page Deployment**
 
-1. **Crear un Repositorio de GitHub**:  
-   Creamos un repositorio de GitHub para el proyecto de la landing page.
-2. **Clonar el Repositorio**:  
-   Clonamos el repositorio en nuestra máquina local utilizando Git.
-3. **Crear la Estructura del Proyecto**:  
-   Creamos la estructura de archivos y carpetas para la landing page, incluyendo el archivo `index.html` y los archivos CSS y JavaScript necesarios.
-4. **Desplegar en GitHub Pages**:  
-   Para desplegar la landing page en GitHub Pages, seguimos estos pasos:
-    - Navegamos a la pestaña `Settings` del repositorio en GitHub.
-    - En la sección `GitHub Pages`, seleccionamos la rama `master` como fuente para el despliegue.
-    - Guardamos la configuración y esperamos a que GitHub Pages publique la landing page.
-    - Una vez publicada, accedemos a la URL proporcionada por GitHub Pages para ver la landing page en línea.
+Para el despliegue de la landing page se utilizó Github Pages y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó un nuevo repositorio en Github con el nombre de `FoodSuiteLandingPage`. Luego se clonó el repositorio en el directorio del proyecto, de manera que vinculamos nuestra rama local a la del repositorio, finalmente se subió el contenido de la landing page en el repositorio.
+
+<img src="assets/deployment/repositorio.jpeg"/>
+
+<br>
+Paso 2:
+Después nos dirigimos a la pestaña de `Settings` y luego a la sección de `Pages`, se procede a seleccionar la rama `main` para el despliegue de la landing page.
+<img src="assets/deployment/settings.jpeg"/>
+
+<br>
+
+Paso 3:
+Luego procedemos a ver que el despliegue fue exitoso en la sección de `Deployments` y se nos proporciona un enlace para acceder a la landing page.
+
+<img src="assets/deployment/deploy.jpeg"/>
+
+
+Paso 4:
+Finalmente se accede a la landing page mediante el enlace proporcionado por Github Pages.
+
+<img src="assets/deployment/landing.jpeg"/>
+
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
@@ -2157,22 +2170,84 @@ Se ha desarrollado una API RESTful para el Backend de la aplicación FoodSuit. A
 | Dishes            | POST, GET, DELETE       | POST: `/api/v1/dishes`, GET/DELETE: `/api/v1/dishes/{dishId}`         | POST: `name, price, category`, GET/DELETE: `dishId`                                             | GET `http://localhost:3000/api/v1/dishes/1`    | Devuelve un objeto con el plato correspondiente al ID.      |
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
-En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
 
-Para configurar el despliegue de la landing page en GitHub Pages, seguimos los siguientes pasos:
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-1. **Crear un Repositorio de GitHub**:  
-   Creamos un repositorio de GitHub para el proyecto de la landing page.
-2. **Clonar el Repositorio**:  
-   Clonamos el repositorio en nuestra máquina local utilizando Git.
-3. **Crear la Estructura del Proyecto**:  
-   Creamos la estructura de archivos y carpetas para la landing page, incluyendo el archivo `index.html` y los archivos CSS y JavaScript necesarios.
-4. **Desplegar en GitHub Pages**:  
-   Para desplegar la landing page en GitHub Pages, seguimos estos pasos:
-    - Navegamos a la pestaña `Settings` del repositorio en GitHub.
-    - En la sección `GitHub Pages`, seleccionamos la rama `master` como fuente para el despliegue.
-    - Guardamos la configuración y esperamos a que GitHub Pages publique la landing page.
-    - Una vez publicada, accedemos a la URL proporcionada por GitHub Pages para ver la landing page en línea.
+En esta sección, se presentará la evidencia de los despliegues realizados para los diferentes productos desarrollados durante el sprint. Esto incluye la landing page, la aplicación frontend y la aplicación backend. Cada uno de estos despliegues se ha realizado siguiendo las mejores prácticas y utilizando las herramientas adecuadas para asegurar su correcto funcionamiento y accesibilidad en línea.
+
+
+**Backend Deployment**
+
+**Frontend Deployment**
+
+Para el despliegue de la aplicación frontend se utilizó Netlify y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó una cuenta en Netlify, seleccionamos `Import an existing project`.
+
+<img src="assets/deployment/front-1.jpeg"/>
+
+<br>
+
+Paso 2:
+Luego se selecciona a github como git provider, conectamos nuestra cuenta de github con Netlify.
+
+<img src="assets/deployment/front-2.jpeg"/>
+
+<br>
+
+Paso 3:
+Después se procede a seleccionar la organización y repositorio con el proyecto a desplegar. 
+
+<img src="assets/deployment/front-3.jpeg"/>
+
+<br>
+
+Paso 4:
+Luego se termina de configurar el despliegue añadiendo el comando de construcción y la carpeta de despliegue.
+
+
+<img src="assets/deployment/front-4.jpeg"/>
+
+Paso 5:
+Finalmente netlify nos proporciona un enlace para acceder a la aplicación frontend desplegada.
+<img src="assets/deployment/front-5.jpeg"/>
+
+Evidenciamos que el despliegue fue exitoso y se puede acceder a la aplicación frontend mediante el enlace proporcionado por Netlify.
+
+<img src="assets/deployment/front-6.jpeg"/>
+
+Enlace al frontend: [https://foodsuit.netlify.app/](https://foodsuit.netlify.app/)
+
+**Landing Page Deployment**
+
+Para el despliegue de la landing page se utilizó Github Pages y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó un nuevo repositorio en Github con el nombre de `FoodSuiteLandingPage`. Luego se clonó el repositorio en el directorio del proyecto, de manera que vinculamos nuestra rama local a la del repositorio, finalmente se subió el contenido de la landing page en el repositorio.
+
+<img src="assets/deployment/repositorio.jpeg"/>
+
+<br>
+Paso 2:
+Después nos dirigimos a la pestaña de `Settings` y luego a la sección de `Pages`, se procede a seleccionar la rama `main` para el despliegue de la landing page.
+<img src="assets/deployment/settings.jpeg"/>
+
+<br>
+
+Paso 3:
+Luego procedemos a ver que el despliegue fue exitoso en la sección de `Deployments` y se nos proporciona un enlace para acceder a la landing page.
+
+<img src="assets/deployment/deploy.jpeg"/>
+
+
+Paso 4:
+Finalmente se accede a la landing page mediante el enlace proporcionado por Github Pages.
+
+<img src="assets/deployment/landing.jpeg"/>
+
+
+Enlace a la landing page: [https://latte-webapps.github.io/FoodSuiteLandingPage/](https://latte-webapps.github.io/FoodSuiteLandingPage/)
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
