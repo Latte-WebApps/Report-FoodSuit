@@ -2293,6 +2293,19 @@ una orden especial o variación, poder acceder a la lista de ordenes al instante
  manejo eficiente y fácil de manejar, pero como sugerencia Fabrizio opina que las categorias se verían mejor si estuvieran separadas con una imagen y el nombre de 
 dicha categoría pero esto es más por la facilidad de uso y familiarización con el producto.
 
+
+![entrevista3](assets/EntrevistaDiegPaiva.png)
+
+Entrevista con Diego Paiva:
+Edad: 22 años
+Distrito de residencia: San Miguel
+Inicio de la entrevista: 00:00
+Duración: 2 minutos con 15 segundos
+
+Diego encuentra la interfaz del Front de la aplicacion, limpio y sencillo, considera que esto es beneficioso puesto que le permite tanto a el como a sus jefes identificar facilmente su horario, sus horas trabajadas y la productividad que ejerce durante la semana, considera que podria existir un grafico de barras en Productivity, ordenado de menor a mayor productividad para poder identificar mejor los empleados mas productivos de la semana y encuentra efectivo y limpio la tabla de Attendance, aunque desearia que fuera mas grande para ver con mejor detalle la informacion presentada
+
+
+
 ### 5.3.3 Evaluación según Heurísticas
 
 **UX Heuristics & Principles Evaluation**
