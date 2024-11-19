@@ -1008,6 +1008,8 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | US-19    | Características Principales                                                     | Como visitante, quiero ver las características principales del producto en la landing page para evaluar si cumple con mis necesidades.                                                          | **Escenario 1: Características visibles**<br>Dado que accede a la landing page<br>Cuando visita la sección de características<br>Entonces se muestran las características principales del producto.<br>**Escenario 2: Características no disponibles**<br>Dado que el contenido de características no se carga<br>Cuando visita la sección<br>Entonces se muestra un mensaje indicando que el contenido está temporalmente no disponible.                                                                                                                                             | EP006                     |
 | US-20    | Llamada a la Acción                                                             | Como visitante, quiero encontrar botones de llamada a la acción (CTA) para solicitar una demo o contactar con el equipo de ventas fácilmente.                                                   | **Escenario 1: CTA visible**<br>Dado que accede a la landing page<br>Cuando visita la página<br>Entonces se deben mostrar botones de solicitud de demo y contacto en ubicaciones prominentes.<br>**Escenario 2: CTA no funcional**<br>Dado que un botón de CTA no funciona<br>Cuando intenta usar el botón<br>Entonces el sistema muestra un mensaje de error o no realiza la acción esperada.                                                                                                                                                                                        | EP006                     |
 | US-21    | Accesibilidad en Dispositivos Móviles                                           | Como visitante, quiero que la landing page sea accesible y funcional en dispositivos móviles para asegurarme de que puedo navegar y acceder a la información correctamente.                     | **Escenario 1: Accesibilidad correcta**<br>Dado que accede a la landing page desde un dispositivo móvil<br>Cuando navega por la página<br>Entonces el contenido debe ser accesible y funcional.<br>**Escenario 2: Accesibilidad limitada**<br>Dado que hay problemas con la accesibilidad<br>Cuando navega en un dispositivo móvil<br>Entonces se debe mostrar un mensaje indicando que algunas funciones pueden no estar disponibles.                                                                                                                                                | EP006                     |
+| US-22    | Registro de usuario                                           | Como visitante, quiero registrarme en la aplicación para poder gestionar mi negocio eficientemente.                     | Escenario 1: Given el visitante está en la página de registro, when completa los campos obligatorios y hace clic en "Registrarse", then el sistema debe crear una cuenta. Escenario 2: Given el visitante está en la página de registro, when completa los campos obligatorios con información incorrecta y hace clic en "Registrarse", then el sistema deberá rechazar la operación y pedirle que ingrese sus datos correctamente.                                                                                                                                                                                                                                             | EP001                     |
+| US-23    | Inicio de Sesión                                           | Como usuario, quiero iniciar sesión en la aplicación para acceder a mi cuenta y gestionar mis finanzas.                 | Escenario 1: Given el usuario está registrado, when ingresa sus credenciales correctas, then debe poder acceder a su cuenta. Escenario 2: Given el usuario está registrado, when ingresa sus credenciales de manera incorrecta, then se le indicará volver a ingresar sus datos correctamente.                                                                                                                                                                                                                                                                                                                                                                                     | EP001                     |
 
 <br>
 
@@ -1023,6 +1025,8 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | TS-06    | Creación de Endpoint Simulado para Actualización de Inventario    | Como desarrollador, quiero simular un endpoint para que los administradores puedan actualizar el inventario, de manera que pueda probar el frontend con datos de inventario.           | **Escenario 1: Actualización exitosa de inventario** <br> **Dado** que el administrador desea actualizar la cantidad de un insumo<br>**Cuando** envía la solicitud PUT al endpoint `/inventario/{id}` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe actualizar los datos de inventario y devolver un código de estado 200 (OK).<br>**Escenario 2: Error en la actualización del inventario**<br>**Dado** que el administrador envía datos incompletos o incorrectos<br>**Cuando** se realiza la solicitud de actualización<br>**Entonces** el servidor simulado debe devolver un código de estado 400 (Bad Request).                    | EP004                     |
 | TS-07    | Creación de Endpoint Simulado para Eliminar Pedidos               | Como desarrollador, quiero simular un endpoint que permita eliminar pedidos para que los administradores puedan cancelar o eliminar pedidos incorrectos desde el frontend.             | **Escenario 1: Eliminación exitosa de pedido** <br> **Dado** que el administrador desea eliminar un pedido<br>**Cuando** envía una solicitud DELETE al endpoint `/pedidos/{id}` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe eliminar el pedido y devolver un código de estado 200 (OK).<br>**Escenario 2: Pedido no encontrado**<br>**Dado** que el administrador intenta eliminar un pedido inexistente<br>**Cuando** se realiza la solicitud<br>**Entonces** el servidor simulado debe devolver un código de estado 404 (Not Found).                                                                                                | EP002                     |
 | TS-08    | Creación de Endpoint Simulado para Consulta de Inventario         | Como desarrollador, quiero crear un endpoint simulado que permita consultar el inventario del restaurante, para desarrollar y probar el frontend con datos de inventario actualizados. | **Escenario 1: Consulta exitosa del inventario** <br> **Dado** que un administrador consulta el inventario<br>**Cuando** realiza una solicitud GET al endpoint `/inventario` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe devolver los datos actualizados del inventario con un código de estado 200 (OK).<br>**Escenario 2: Inventario vacío**<br>**Dado** que el inventario no tiene datos cargados<br>**Cuando** se realiza la consulta<br>**Entonces** el servidor simulado debe devolver un código de estado 204 (No Content) si no hay productos en el inventario.                                                               | EP004                     |
+| TS-09    | Registrar Usuarios por una API         | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | **Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible when se envía una solicitud POST con los datos del usuario ingresados al endpoint, then se recibe una señal de confirmación (201)                                                             | EP001                     |
+| TS-10    | Autenticación de Usuarios        | Como desarrollador, quiero implementar una API que permita autenticar a los usuarios en el sistema. | **Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponionsulta<br>ble, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.                                                               | EP001                     |
 
 ### 3.3. Impact Mapping
 <br><img src="assets/Impact map.png"><br>
@@ -2277,6 +2281,86 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 ##### 5.2.4.2. Sprint Backlog 4
 
 ##### 5.2.4.3. Development Evidence for Sprint Review
+
+<table>
+  <tr>
+    <th>Epic / Story ID</th>
+    <th>Título</th>
+    <th>Criterios de Aceptación</th>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Guardar pedidos automáticamente en el historial para análisis</td>
+    <td>Escenario 1:
+Dado que el trabajador ha completado un pedido,
+Cuando el pedido es confirmado en el sistema,
+Entonces el sistema guarda automáticamente el pedido en el historial y confirma el registro al trabajador.
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Generar reportes financieros detallados para análisis</td>
+    <td>Escenario 1:
+Dado que el administrador solicita un reporte de ingresos,
+Cuando el sistema procesa la solicitud,
+Entonces se genera un informe detallado de los ingresos y el administrador recibe una notificación.  <tr>
+    <td>US04</td>
+    <td>Registrar gastos imprevistos para control financiero</td>
+    <td>Escenario 1:
+Dado que el administrador necesita registrar un gasto imprevisto,
+Cuando ingresa los detalles del gasto en el sistema,
+Entonces el sistema lo guarda en la categoría correspondiente y actualiza el balance de gastos.  <tr>
+    <td>US14</td>
+    <td>Monitorear la asistencia del personal</td>
+    <td>Escenario 1:
+Dado que el administrador accede al módulo de asistencia,
+Cuando consulta la asistencia de un empleado,
+Entonces el sistema muestra los registros de ausencias y tardanzas.  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Optimizar la carta de platos según la demanda histórica</td>
+    <td>Escenario 1:
+Dado que el sistema analiza las estadísticas de ventas,
+Cuando se generan recomendaciones,
+Entonces el sistema presenta una carta personalizada para días específicos.
+  </tr>
+  <tr>
+    <td>TS03</td>
+    <td>Implementación de Accesibilidad Web</td>
+    <td>Escenario 1:
+Dado que la landing page está cargada
+Cuando un usuario navega utilizando solo el teclado
+Entonces todos los elementos interactivos deben ser accesibles y enfocados correctamente.  </tr>
+  <tr>
+    <td>TS14</td>
+    <td>Deployment del Backend</td>
+    <td>Escenario 1:
+Given el usuario accede a la documentacion de Swagger, puede interactuar con todos los endpoints y sus respectivos requests.</td>
+  </tr>
+    <tr>
+    <td>TS35</td>
+    <td>Solucionar Errores Reportados</td>
+    <td>Escenario 1:
+Given el desarrollador recibe un reporte de error, when identifica y soluciona el problema, then debe confirmar la corrección con el equipo de QA.</td>
+  </tr>
+    <tr>
+    <td>TS36</td>
+    <td>Implementar Notificaciones como Funcionalidad</td>
+    <td>Escenario 1:
+Given el desarrollador tiene acceso al código fuente, when implementa la funcionalidad de notificaciones, then el sistema envía notificaciones al usuario quien recibe las alertas en tiempo real.</td>
+  </tr>
+    <tr>
+    <td>TS38</td>
+    <td>Autenticación de Usuarios</td>
+    <td>Given el endpoint (/api/v1/auth/log-in) esté disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.</td>
+  </tr>
+    <tr>
+    <td>TS39</td>
+    <td>Mantenimiento del Software</td>
+    <td>Escenario 1:
+Given la plataforma tiene un mantenimiento pendiente o nuevas funcionalidades, when realiza el mantenimiento correspondiente mediante las actualizaciones, then el sistema se mantiene seguro y actualizado.  </tr>
+  </table>
+
+
 
 ##### 5.2.4.4. Testing Suite Evidence for Sprint Review
 
