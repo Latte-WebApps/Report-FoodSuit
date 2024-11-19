@@ -1026,7 +1026,7 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | TS-07    | Creación de Endpoint Simulado para Eliminar Pedidos               | Como desarrollador, quiero simular un endpoint que permita eliminar pedidos para que los administradores puedan cancelar o eliminar pedidos incorrectos desde el frontend.             | **Escenario 1: Eliminación exitosa de pedido** <br> **Dado** que el administrador desea eliminar un pedido<br>**Cuando** envía una solicitud DELETE al endpoint `/pedidos/{id}` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe eliminar el pedido y devolver un código de estado 200 (OK).<br>**Escenario 2: Pedido no encontrado**<br>**Dado** que el administrador intenta eliminar un pedido inexistente<br>**Cuando** se realiza la solicitud<br>**Entonces** el servidor simulado debe devolver un código de estado 404 (Not Found).                                                                                                | EP002                     |
 | TS-08    | Creación de Endpoint Simulado para Consulta de Inventario         | Como desarrollador, quiero crear un endpoint simulado que permita consultar el inventario del restaurante, para desarrollar y probar el frontend con datos de inventario actualizados. | **Escenario 1: Consulta exitosa del inventario** <br> **Dado** que un administrador consulta el inventario<br>**Cuando** realiza una solicitud GET al endpoint `/inventario` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe devolver los datos actualizados del inventario con un código de estado 200 (OK).<br>**Escenario 2: Inventario vacío**<br>**Dado** que el inventario no tiene datos cargados<br>**Cuando** se realiza la consulta<br>**Entonces** el servidor simulado debe devolver un código de estado 204 (No Content) si no hay productos en el inventario.                                                               | EP004                     |
 | TS-09    | Registrar Usuarios por una API         | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | **Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible when se envía una solicitud POST con los datos del usuario ingresados al endpoint, then se recibe una señal de confirmación (201)                                                             | EP001                     |
-| TS-10    | Autenticación de Usuarios        | Como desarrollador, quiero implementar una API que permita autenticar a los usuarios en el sistema. | **Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponionsulta<br>ble, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.                                                               | EP001                     |
+| TS-10    | Autenticación de Usuarios        | Como desarrollador, quiero implementar una API que permita autenticar a los usuarios en el sistema. | **Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.                                                               | EP001                     |
 
 ### 3.3. Impact Mapping
 <br><img src="assets/Impact map.png"><br>
@@ -2337,27 +2337,25 @@ Entonces todos los elementos interactivos deben ser accesibles y enfocados corre
 Given el usuario accede a la documentacion de Swagger, puede interactuar con todos los endpoints y sus respectivos requests.</td>
   </tr>
     <tr>
-    <td>TS35</td>
-    <td>Solucionar Errores Reportados</td>
+    <td>US22</td>
+    <td>Registro de usuario</td>
     <td>Escenario 1:
-Given el desarrollador recibe un reporte de error, when identifica y soluciona el problema, then debe confirmar la corrección con el equipo de QA.</td>
+Given el visitante está en la página de registro, when completa los campos obligatorios y hace clic en "Registrarse", then el sistema debe crear una cuenta.</tr>
+    <tr>
+    <td>US23</td>
+    <td>Inicio de Sesión</td>
+    <td>Escenario 1:
+Given el usuario está registrado, when ingresa sus credenciales correctas, then debe poder acceder a su cuenta.  </tr>
+    <tr>
+    <td>TS09</td>
+    <td>Registrar Usuarios por una API</td>
+    <td>Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible when se envía una solicitud POST con los datos del usuario ingresados al endpoint, then se recibe una señal de confirmación (201)</td>
   </tr>
     <tr>
-    <td>TS36</td>
-    <td>Implementar Notificaciones como Funcionalidad</td>
-    <td>Escenario 1:
-Given el desarrollador tiene acceso al código fuente, when implementa la funcionalidad de notificaciones, then el sistema envía notificaciones al usuario quien recibe las alertas en tiempo real.</td>
-  </tr>
-    <tr>
-    <td>TS38</td>
+    <td>TS10</td>
     <td>Autenticación de Usuarios</td>
-    <td>Given el endpoint (/api/v1/auth/log-in) esté disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.</td>
-  </tr>
-    <tr>
-    <td>TS39</td>
-    <td>Mantenimiento del Software</td>
     <td>Escenario 1:
-Given la plataforma tiene un mantenimiento pendiente o nuevas funcionalidades, when realiza el mantenimiento correspondiente mediante las actualizaciones, then el sistema se mantiene seguro y actualizado.  </tr>
+ Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.  </tr>
   </table>
 
 
