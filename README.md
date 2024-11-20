@@ -253,8 +253,10 @@ del ABET – EAC - Student Outcome 5.
                 Bernaola Pérez, André Arturo<br>
                 TB1<br>
                 Desarrollé y analicé las historias de usuario, además de participar en la creación del prototipo de nuestro producto mediante el desarrollo de guías de estilo y la landing page, así como en la elaboración de un prototipo.<br>
-		TB2<br>
-		Cumplí con el desarrollo del bounded context inventory que se me fue designado. Este desarrollo compete a la parte del backend y frontend, este último solo requeriendo correcciones mínimas. A su vez finalicé el desarrollo del landing page.<br>
+		        TB2<br>
+		        Cumplí con el desarrollo del bounded context inventory que se me fue designado. Este desarrollo compete a la parte del backend y frontend, este último solo requeriendo correcciones mínimas. A su vez finalicé el desarrollo del landing page.<br>
+                TF<br>
+                Fomenté la colaboración y participación en el desarrollo del backend, brindando apoyo a mis compañeros que lo requerían y alentando a los demás a hacer lo mismo. <br>
                 Grandez Mansilla, Jean Pierre<br>
                 TB1<br>
                 Realicé el análisis del needfinding, impact mapping y el desarrollo de software. Además, supervisé y participé en el desarrollo del prototipo de la solución.<br>
@@ -280,6 +282,9 @@ del ABET – EAC - Student Outcome 5.
                 Desarrollé el Lean UX Canvas, participé en los wireframes del prototipo y supervisé la información de la arquitectura, asegurando su correcto diseño.<br>
 		TB2<br>
                Finiquité los últimos cambios necesarios en el aspecto del frontend del bounded context que se me fue asignado, siendo este el de registro de órdenes, a su vez también desarrollé el backend de dicho bounded context.<br>
+		TP<br>
+  		Realicé algunos cambios requeridos en mi bounded context, esto con la finalidad de poder actualizar el bounded context de inventario al momento de terminar una order. A la par, fueron implementados más aspectos en el backend para su funcionamiento.<br> 
+			</td>
             </td>
 			<td>Al analizar todos los segmentos importantes de un proyecto de este nivel, y recibir todo tipo de retroalimentación, es posible poder fijar la base de lo que se desea del producto y por tanto se logra definir un producto confiable y con las suficientes funcionalidades para solventar la problemática.</td>
 		</tr>
@@ -291,7 +296,9 @@ del ABET – EAC - Student Outcome 5.
                 Formé parte del avance como equipo, supervisando las actividades de todos y planificando actividades futuras, cumpliendo los objetivos propuestos.<br>
 		TB2<br>
 		Creé un cronograma detallado de tareas, asignando responsabilidades de acuerdo a las habilidades de cada miembro y colaborando en el desarrollo de funcionalidades clave.<br>
-                Grandez Mansilla, Jean Pierre<br>
+        TF<br>
+Recopilé las tareas faltantes a desarrollar para la última reunión e incentivé a coordinar conjuntamente la delegación de tareas <br>
+Grandez Mansilla, Jean Pierre<br>
                 TB1<br>
                 Incentivé al resto a realizar sus objetivos mientras cumplía con los míos, además de llevar a cabo un seguimiento de las actividades a desarrollar.<br>
                 TB2<br>
@@ -308,7 +315,6 @@ del ABET – EAC - Student Outcome 5.
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
-                Velarde Luyo, Piero Alberto<br>
                 TB2<br>
                 Cree el entorno de trabajo para facilitar el desarrollo de mis compañeros, ademas de asistir sin falta a las reuniones programadas y terminar con los pendientes de cada una el mismo dia<br>
                 Velarde Luyo, Piero Alberto<br>
@@ -316,6 +322,8 @@ del ABET – EAC - Student Outcome 5.
                 Planifiqué los objetivos que se asignaron, desarrollándolos con eficiencia y respetando las decisiones que mis compañeros realizaron.<br>
 		TB2<br>
                 Facilité una reunión inicial para definir los objetivos del proyecto y establecer metas claras, asegurando que todas las voces del equipo fueran escuchadas.<br>
+		TF<br>
+                Verifiqué los objetivos a alcanzar para esta entrega y realicé mis actividades asignadas, a su vez, estuve pendiente de cada avancde de mis compañeros.<br>
             </td>
 			<td>Al establecer metas claras y planificar las tareas de manera eficiente, se logra cumplir con los objetivos propuestos y se mantiene un ambiente de trabajo colaborativo e inclusivo, lo que permite alcanzar los objetivos propuestos.</td>
 		</tr>
@@ -416,11 +424,11 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
     <td> Soy Sebastian Pacheco, tengo 21 años y soy alumno de Ingeniería de Software en la UPC. Me considero una persona trabajadora y activa, priorizando las responsabilidades ante todo, pero también destaco en trabajo en equipo, permitiendo a todos que participen. Tengo conocimiento de C++ y Python, los cuales pongo en práctica mediante proyectos personales. </td>
   </tr>
 <tr>
-    <th colspan="2"> Integrante 3</th>
+    <th colspan="2"> Piero Velarde Luyo </th>
   </tr>
   <tr>
-    <td>FOTO</td>
-    <td></td>
+    <td><img src="assets/profile-pics/pierovelarde.jpg" alt="Piero Velarde" style="width: 300px"></td>
+    <td>Soy Piero, estudio la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Escogí esta carrera por mi facilidad en el uso de las computadoras. Asímismo, por mi interés en el funcionamiento de las anteriores mencionadas y todo respecto a la programación y las tecnologías emergentes. </td>
   </tr>
 <tr>
     <th colspan="2">Josue Paiva</th>
@@ -2284,6 +2292,10 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 | Sum of Story Points             | La suma de story points atendidos es de X story points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 ##### 5.2.4.2. Sprint Backlog 4
+Para el ultimo sprint, creamos tasks para subsanar elementos faltantes del anterior sprint, como desorganizacion en la landing page, inconsistencias entre el front y el back que pudiera perjudicar la conexion, etc. Del mismo modo se incluyeron todas las historias de usuario que se trabajaron, todas siendo relacionadas a la conexion Front y Back, las cuales se encargan de cumplir con el core de negocio de cada uno de los bounded context trabajados.
+![Sprint Backlog 4](assets/sprint4/trelloSprint4.png)
+
+
 
 ##### 5.2.4.3. Development Evidence for Sprint Review
 
