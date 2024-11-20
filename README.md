@@ -2855,13 +2855,27 @@ Heurística violada: Eficiencia y satisfacción del usuario
 - **Problema:** La visualización de horarios de empleados no incluye un mensaje claro o retroalimentación cuando los datos no están disponibles o la carga falla.
 - **Recomendación:** Implementar mensajes de error o indicadores de carga para mantener informados a los usuarios sobre el estado del sistema en caso de fallos o demoras.
 
+### 5.4 Video About the Product
 
+En este apartado se muestra una pequeña captura concerniente al funcionamiento de nuestro producto. En este se muestra que nuestra aplicación de gestión para restaurantes está diseñada para simplificar y optimizar las operaciones diarias, ofreciendo herramientas intuitivas tanto para el personal de servicio como para los gerentes. Con un enfoque integral, la aplicación facilita la gestión de pedidos, el seguimiento de inventarios, la organización de mesas, la programación del personal y el análisis financiero.
 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EeyUXxdy9LNBvfdA_UHILK8BX8fDv9_JRljCKOyUp9RFlg?e=6nYCzt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
 * Al evaluar los competidores, pudimos identificar las fortalezas y debilidades de sus productos, lo que nos permitió identificar oportunidades para mejorar y diferenciar FoodSuit. Esto nos ayudó a definir una propuesta de valor única y atractiva para nuestro producto, que destaca sus características clave y beneficios para los usuarios.
+
+## Video About the Team
+
+En este video se puede observar a los cinco integrantes del equipo explicar las responsabilidades que asumieron para desarrollar los bounded contexts en el proyecto, enfocado en el desarrollo tanto del frontend como del backend.
+
+Cada miembro del equipo detalló su responsabilidad en el proyecto, abordando cómo se organizó la comunicación entre el frontend y el backend para asegurar la cohesión del sistema. Utilizaron principios de Domain-Driven Design (DDD) para definir áreas de responsabilidad bien delimitadas, lo que permitió desarrollar de manera más eficiente y escalable.
+
+Los integrantes discutieron cómo se coordinaron para que cada bounded context se alineara con las necesidades del negocio, a la vez que mantenían la independencia técnica necesaria entre las diferentes partes del sistema. Además, destacaron la importancia de la colaboración constante para resolver problemas de integración y garantizar la calidad y usabilidad del producto final.
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EVoNvl3ZFopOtPlNrUk-B0YBnYEmuup5jakEr9wOMl1npg?e=zHkxbC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 ## Bibliografía
 
 ## Anexos
