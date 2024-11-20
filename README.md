@@ -284,6 +284,9 @@ del ABET – EAC - Student Outcome 5.
                 TB2<br>
                 Para esta entrega primero me concentre en concluir mi bounded context del frontend, implemente funcionalidad y lo deje listo para poder comunicar con el futuro backend
                 <br>
+                TF<br>
+                En esta entrega participe en todos los aspectos del trabajo, revise y correji tanto el front y back de mi bounded context para que haya una conexion exitosa y hacer funcional el sistema de horario de empleados con sus respectivos metodos asi como evidenciar el progreso en la seccion Sprint 4 del reporte, documentando los acceptance criteria cumplidos para esta entrega, el sprint backlog del trello, etc.
+                <br>
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Desarrollé el Lean UX Canvas, participé en los wireframes del prototipo y supervisé la información de la arquitectura, asegurando su correcto diseño.<br>
@@ -327,6 +330,9 @@ Pacheco Astiguetta, Sebastian<br>
                 Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
                 TB2<br>
                 Cree el entorno de trabajo para facilitar el desarrollo de mis compañeros, ademas de asistir sin falta a las reuniones programadas y terminar con los pendientes de cada una el mismo dia<br>
+                TF<br>
+                Estuve presente en todas las reuniones grupales, fomentando la participacion y creacion de mas sesiones, asi como de la identificacion clara de los puntos a trabajar de modo que las reuniones sean mas productivas y el avance tangible.           
+                <br>
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Planifiqué los objetivos que se asignaron, desarrollándolos con eficiencia y respetando las decisiones que mis compañeros realizaron.<br>
@@ -2330,13 +2336,16 @@ Para el ultimo sprint, creamos tasks para subsanar elementos faltantes del anter
 
 
 ##### 5.2.4.4. Testing Suite Evidence for Sprint Review
+Presentamos los criterios de aceptación en formato gherkin para las pruebas a lo largo del proyecto. Esta tabla consiste en el registro de los commits desarrollados en un repositorio dedicado para los acceptance tests, en el cual se basa la lógica del negocio.
+Link del repositorio: [Acceptance-Test](https://github.com/Latte-WebApps/Acceptance-Test)
 
-| Repository                      | Branch                     | Commit ID | Commit Message                                                       | Commit Message Body | Commited on (Date) |
-|---------------------------------|----------------------------|-----------|----------------------------------------------------------------------|---------------------|--------------------|
-| Latte-WebApps/Acceptance-Test   | develop		       | 98978b0   | feat: added gherkin tests 	     					  |                     | 2024-11-20         |
-| Latte-WebApps/Acceptance-Test   | develop		       | 4655407   | feat: added gherkin tests 	     					  |                     | 2024-11-20         |
-| Latte-WebApps/Acceptance-Test   | develop		       | 1805f9a   | feat: added sprint 3 features     					  |                     | 2024-11-20         |
-| Latte-WebApps/Acceptance-Test   | develop		       | 931e7a3   | Merge branch 'develop' of https://github.com/Latte-WebApps/Acceptance-Test into develop|                     | 2024-11-20         |
+| Repository                    | Branch              | Commit ID | Commit Message                                                                          | Commit Message Body | Commited on (Date) |
+|-------------------------------|---------------------|-----------|-----------------------------------------------------------------------------------------|---------------------|--------------------|
+| Latte-WebApps/Acceptance-Test | develop		           | 98978b0   | feat: added gherkin tests 	     					                                                   |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | develop		           | 4655407   | feat: added gherkin tests 	     					                                                   |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | develop		           | 1805f9a   | feat: added sprint 3 features     					                                                 |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | develop		           | 931e7a3   | Merge branch 'develop' of https://github.com/Latte-WebApps/Acceptance-Test into develop |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | feat/sprint-2-tests | 01fbef0   | feat: added gherkin tests                                                               |                     | 2024-11-20         |
 
 ##### 5.2.4.5. Execution Evidence for Sprint Review
 
@@ -2777,17 +2786,18 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 |#|Problema|Escala de severidad|Heurística/Principio violado|
 | :- | :- | :- | :- |
-|1||1|IA - Is it clear?|
-|2||2|IA - Is it findable?|
-|3||1|Usability - Consistency and standards|
+|1|La visualización del dashboard carece de una organización clara, con elementos que parecen fuera de lugar o sin jerarquía visual.|1|Diseño estético y cohesivo           |
+|2|Los usuarios tienen dificultades para encontrar la opción de agregar items al inventario debido a una navegación poco intuitiva.|2|Diseño estético y cohesivo           |
+|3|En la funcionalidad para agregar una nueva asistencia, los formularios no siguen un diseño consistente con el resto de la aplicación, lo que genera confusión.|3|Eficiencia y satisfacción del usuario|
+|4|La visualización de horarios de empleados no incluye un mensaje claro o retroalimentación cuando los datos no están disponibles o la carga falla.|2|Eficiencia y satisfacción del usuario|
 
 **Landing Page**
 
 |#|Problema|Escala de severidad|Heurística/Principio violado|
 | :- | :- | :- | :- |
-|1||1|IA - Is it clear?|
-|2||1|IA - Is it usable?|
-|3||1|IA - Is it usable?|
+|1|Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación.|1|Eficiencia y satisfacción del usuario|
+|2|El texto descriptivo sobre la aplicación no tiene suficiente claridad, lo que dificulta su comprensión.|1|Diseño estético y cohesivo|
+|3|La funcionalidad del call to action no es intuitiva para los usuarios, ya que no comunica claramente la acción esperada al hacer clic.|1|Diseño estético y cohesivo|
 
 
 **DESCRIPCIÓN DE PROBLEMAS:**
@@ -2798,7 +2808,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Severidad 1: 
 
-Heurística violada: Usability - Consistency and standards 
+Heurística violada: Eficiencia y satisfacción del usuario 
 
 **Problema:** Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación.
 
@@ -2807,13 +2817,13 @@ Heurística violada: Usability - Consistency and standards
 
 **Problema 2**
 - **Severidad:** 1
-- **Heurística violada:** IA - Is it clear?
+- **Heurística violada:** Diseño estético y cohesivo
 - **Problema:** El texto descriptivo sobre la aplicación no tiene suficiente claridad, lo que dificulta su comprensión.
 - **Recomendación:** Simplificar y estructurar el contenido en secciones más claras y fáciles de leer, utilizando viñetas o encabezados para destacar información importante.
 
 **Problema 3**
 - **Severidad:** 1
-- **Heurística violada:** IA - Is it usable?
+- **Heurística violada:** Diseño estético y cohesivo
 - **Problema:** La funcionalidad del call to action no es intuitiva para los usuarios, ya que no comunica claramente la acción esperada al hacer clic.
 - **Recomendación:** Mejorar el diseño y el texto del botón de call to action para que sea más atractivo y comprensible, explicando claramente el beneficio de la acción.
 
@@ -2823,25 +2833,25 @@ Heurística violada: Usability - Consistency and standards
 
 **Problema 1**
 - **Severidad:** 1
-- **Heurística violada:** IA - Is it clear?
+- **Heurística violada:** Diseño estético y cohesivo
 - **Problema:** La visualización del dashboard carece de una organización clara, con elementos que parecen fuera de lugar o sin jerarquía visual.
 - **Recomendación:** Rediseñar el dashboard priorizando los elementos más importantes, aplicando una jerarquía visual clara y agrupar secciones relacionadas.
 
 **Problema 2**
 - **Severidad:** 2
-- **Heurística violada:** IA - Is it findable?
+- **Heurística violada:** Diseño estético y cohesivo
 - **Problema:** Los usuarios tienen dificultades para encontrar la opción de agregar items al inventario debido a una navegación poco intuitiva.
 - **Recomendación:** Reorganizar el menú de navegación para que la opción de agregar items sea más visible y accesible, y añadir etiquetas descriptivas.
 
 **Problema 3**
 - **Severidad:** 3
-- **Heurística violada:** Usability - Consistency and standards
+- **Heurística violada:** Eficiencia y satisfacción del usuario
 - **Problema:** En la funcionalidad para agregar una nueva asistencia, los formularios no siguen un diseño consistente con el resto de la aplicación, lo que genera confusión.
 - **Recomendación:** Uniformar el diseño de los formularios con un estilo estándar que se aplique en toda la aplicación, manteniendo consistencia en etiquetas, colores y disposición de campos.
 
 **Problema 4**
 - **Severidad:** 2
-- **Heurística violada:** Usability - Feedback and system status
+- **Heurística violada:**Eficiencia y satisfacción del usuario
 - **Problema:** La visualización de horarios de empleados no incluye un mensaje claro o retroalimentación cuando los datos no están disponibles o la carga falla.
 - **Recomendación:** Implementar mensajes de error o indicadores de carga para mantener informados a los usuarios sobre el estado del sistema en caso de fallos o demoras.
 
