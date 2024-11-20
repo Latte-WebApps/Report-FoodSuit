@@ -647,8 +647,11 @@ Para destacar frente a los competidores, debemos establecer estrategias y tácti
 5. **Colaboraciones Estratégicas**
 * Estrategia: Formar alianzas con empresas de mercado más relevantes para los restaurantes.
 * Táctica: Colaborar con centros de suministros que proporcionen su contacto para que el usuario pueda tener contactos según su distrito.
+
 ### 2.2. Entrevistas
+
 Las entrevistas siguientes nos sirven para conocer lo que los clientes esperan de un producto, qué experiencias tuvieron con productos similares y qué tipo de decisiones nosotros tenemos que tomar. Al analizar estas entrevistas, nosotros tendremos una idea de cómo desarrollar nuestro producto de manera que ésta se adapte a lo que el cliente desea.
+
 #### 2.2.1. Diseño de entrevistas
 El diseño de las entrevistas va acorde a la información que nosotros queremos conocer acerca de las experiencias y necesidades que nuestros grupos objetivos nos proporcionarán. Se han desarrollado preguntas para ambos grupos objetivos:
 * **Administrador de restaurante**
@@ -2371,9 +2374,31 @@ Given el usuario está registrado, when ingresa sus credenciales correctas, then
 
 ##### 5.2.4.5. Execution Evidence for Sprint Review
 
+En esta sección evidenciamos la ejecución de la aplicación en el entorno de producción, mostrando la funcionalidad de la aplicación y cómo se comporta en un entorno local.
+
+
+En la vista Home se muestra la página de inicio de la aplicación, donde se puede ver 3 bloques, top employees nos muestra la lista de empleados con mayor productividad, monthly summary nos muestra gráficamente el registro de los incomes y expenses al aumentar stock o al hacerse efectiva una orden
+
+<img src="assets/execution/home.jpeg">
+
+En la vista Finance podemos ver la lista de  income y expenses, donde se puede ver el detalle de cada uno de los registros con el saldo de cada operación
+<img src="assets/execution/finance.jpeg">
+
+En la vista Inventory, por un lado, tenemos un crud donde podemos agregar inventario y ver el stock actual de cada producto, además de tener un par de opciones para aumentar y disminuir específicamente el stock de un producto. Por otro lado, se observa un cuadro donde se pueden añadir dishes a la carta del menu
+
+<img src="assets/execution/inventory.jpeg">
+
+En las siguientes imágenes se muestran los formularios para agregar un nuevo plato y un nuevo producto al inventario
+
+<img src="assets/execution/dishes-add.jpeg">
+
+<img src="assets/execution/inventory-add.jpeg">
+
+
 ##### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Para este sprint, se incluye el endpoint de Attendance, se incluyo un nuevo metodo getAll para Employees y se añadieron los endpoints Authentication y Users para el login del usuario
+
 | **Endpoint Name** | **Implemented Actions** | **Call Syntax**                                                             | **Parameters Specification**                                                                    | **Call Example**                               | **Response Explanation**                                    |
 |-------------------|-------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------|-------------------------------------------------------------|
 | Orders            | POST, GET, DELETE       | POST: `/api/v1/orders`, GET/DELETE: `/api/v1/orders/{orderId}`              | POST: `id, table, status, date, total`, GET/DELETE: `orderId`                                   | GET `http://localhost:3000/api/v1/orders/1`    | Devuelve un objeto con la orden correspondiente al ID.      |
