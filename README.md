@@ -2682,6 +2682,150 @@ Presentamos a continuación los resultados de las entrevistas de validación rea
 
 **UX Heuristics & Principles Evaluation**
 
+**Carrera: Ingeniería de Software**
+**Curso: Aplicaciones Web**
+**Sección: WS53**
+**Profesores: Todos**
+**Auditor: Latte**
+**Clientes: Todos**
+
+**SITE o APP  A EVALUAR:** FoodSuit
+
+**TAREAS A EVALUAR:** 
+El alcance que tendrá esta evaluación incluye la revisión de la usabilidad de las siguientes tareeas: 
+
+
+**Desktop landing page**
+
+-Información y descripción de la aplicación y sus funcionalidades
+
+-Información y breve descripción sobre el equipo de trabajo
+
+-Header y footer funcionales
+
+-Funcionalidad del call to action
+
+**Desktop Web Applications**
+
+-Agregar items al inventario
+
+-Header y footer funcionales
+
+-Visualización del dashboard
+
+-Agregar una nueva asistencia
+
+-Visualización de horarios de empleados
+
+
+**No incluidas en esta versión de la evaluación:**
+
+**Desktop landing page**
+
+-Acceso a términos y condiciones
+
+-Política de privacidad y condiciones de uso
+
+**Desktop Web Applications**
+
+-Visualización de Perfil de usuario
+
+-Descripción detallada de creación de asistencias
+
+-Manejo del inventario
+
+-Registro de nuevo usuario
+
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|Nivel|Descripción|
+| :- | :- |
+|1|Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release.|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+
+**TABLA RESUMEN AMBOS SEGMENTOS:**
+
+**Web Application**
+
+|#|Problema|Escala de severidad|Heurística/Principio violado|
+| :- | :- | :- | :- |
+|1||1|IA - Is it clear?|
+|2||2|IA - Is it findable?|
+|3||1|Usability - Consistency and standards|
+
+**Landing Page**
+
+|#|Problema|Escala de severidad|Heurística/Principio violado|
+| :- | :- | :- | :- |
+|1||1|IA - Is it clear?|
+|2||1|IA - Is it usable?|
+|3||1|IA - Is it usable?|
+
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**1. Landing Page**
+
+**Problema 1** 
+
+Severidad 1: 
+
+Heurística violada: Usability - Consistency and standards 
+
+**Problema:** Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación.
+
+**Recomendación:** Establecer y seguir un conjunto claro de directrices de diseño para mantener la consistencia en toda la aplicación.
+
+
+**Problema 2**
+- **Severidad:** 1
+- **Heurística violada:** IA - Is it clear?
+- **Problema:** El texto descriptivo sobre la aplicación no tiene suficiente claridad, lo que dificulta su comprensión.
+- **Recomendación:** Simplificar y estructurar el contenido en secciones más claras y fáciles de leer, utilizando viñetas o encabezados para destacar información importante.
+
+**Problema 3**
+- **Severidad:** 1
+- **Heurística violada:** IA - Is it usable?
+- **Problema:** La funcionalidad del call to action no es intuitiva para los usuarios, ya que no comunica claramente la acción esperada al hacer clic.
+- **Recomendación:** Mejorar el diseño y el texto del botón de call to action para que sea más atractivo y comprensible, explicando claramente el beneficio de la acción.
+
+---
+
+#### **2. Web Application**
+
+**Problema 1**
+- **Severidad:** 1
+- **Heurística violada:** IA - Is it clear?
+- **Problema:** La visualización del dashboard carece de una organización clara, con elementos que parecen fuera de lugar o sin jerarquía visual.
+- **Recomendación:** Rediseñar el dashboard priorizando los elementos más importantes, aplicando una jerarquía visual clara y agrupar secciones relacionadas.
+
+**Problema 2**
+- **Severidad:** 2
+- **Heurística violada:** IA - Is it findable?
+- **Problema:** Los usuarios tienen dificultades para encontrar la opción de agregar items al inventario debido a una navegación poco intuitiva.
+- **Recomendación:** Reorganizar el menú de navegación para que la opción de agregar items sea más visible y accesible, y añadir etiquetas descriptivas.
+
+**Problema 3**
+- **Severidad:** 3
+- **Heurística violada:** Usability - Consistency and standards
+- **Problema:** En la funcionalidad para agregar una nueva asistencia, los formularios no siguen un diseño consistente con el resto de la aplicación, lo que genera confusión.
+- **Recomendación:** Uniformar el diseño de los formularios con un estilo estándar que se aplique en toda la aplicación, manteniendo consistencia en etiquetas, colores y disposición de campos.
+
+**Problema 4**
+- **Severidad:** 2
+- **Heurística violada:** Usability - Feedback and system status
+- **Problema:** La visualización de horarios de empleados no incluye un mensaje claro o retroalimentación cuando los datos no están disponibles o la carga falla.
+- **Recomendación:** Implementar mensajes de error o indicadores de carga para mantener informados a los usuarios sobre el estado del sistema en caso de fallos o demoras.
+
+
+
+
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
