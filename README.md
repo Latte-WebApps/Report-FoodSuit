@@ -2504,6 +2504,203 @@ Enlace al backend: [https://foodsuit.azurewebsites.net/](https://foodsuit.azurew
 
 ##### 5.2.4.8. Team Collaboration Insights during Sprint
 
+### 5.3 Validation Interviews
+#### 5.3.1 Diseño de entrevistas
+#### Objetivo de la Entrevista
+Validar la usabilidad y efectividad de la landing page y de los flujos de usuario de FoodSuit, asegurando que cada flujo sea intuitivo, claro y funcional para los usuarios y su interaccion con la plataforma.
+
+
+#### Elementos de Validación
+- **Landing Page**: Se evaluará cómo los usuarios perciben la interfaz, los Call To Action y la estructura de la página para motivarlos a registrarse y explorar más sobre FoodSuit.
+- **Aplicación**: Se guiará a los usuarios a través de los flujos principales, como el registro de horarios, el inventariado, el dashboard, entre otros.
+
+
+
+#### User Flows a Validar
+##### Para el Segmento Administrador
+
+1. **Landing Page**: 
+   - Evaluación de la interfaz de la Landing Page y su efectividad para captar el interés de los usuarios.
+
+2. **Registro de Horario de Empleados**:
+   - Evaluación del flujo de registro de un nuevo empleado con su respectivo horario.
+
+3. **Registro de inventario**:
+   - Evaluación del flujo de registro de inventario y sus atributos.
+
+4. **Visualización del Dashboard**:
+   - Evaluación de la presentación del dashboard y su utilidad practica.
+
+5. **Visualización de Productividad**:
+   - Evaluación de la presentación de productividad y como beneficia la informacion presentada al administrador.
+
+6. **Visualización de Attendance**:
+   - Evaluación de la presentación de attendance y como beneficia la consulta de horas trabajadas.
+
+
+##### Para el Segmento Empleado
+1. **Visualización de Horario de Empleados**:
+   - Evaluación de la interfaz de horario de los empleados.
+
+2. **Visualización de Productividad**:
+   - Evaluación de la presentación de productividad y como beneficia la informacion presentada al empleado.
+
+3. **Visualización de Attendance**:
+   - Evaluación de la presentación de attendance y como beneficia la consulta de horas trabajadas al empleado.
+
+#### Formato de Registro de la Entrevista
+**Datos del Entrevistado**:
+   - Nombre y apellidos
+   - Edad
+   - Ciudad de residencia
+   - Dispositivo utilizado (smartphone, tablet, laptop)
+
+   #### Preguntas para el Segmento Administrador
+
+#### Landing Page
+- ¿Qué le parece la apariencia general de nuestra página?
+- ¿Qué información puede rescatar de nuestro producto en base a nuestra página de presentación?
+- ¿Qué cambiaría o añadiría para mejorar la presentación de la página de inicio?
+- ¿Considera agradable la segmentación de nuestra página?
+- ¿Le ayuda a entender mejor nuestro producto?
+
+
+#### Visualización de Dashboard
+- ¿Fue clara la información presentada en el panel Dashboard?
+- ¿Algún momento te sentiste perdido al explorar el panel?
+- ¿Consideras que la informacion presentada es util para obtener una vista general del desempeño del negocio?
+
+#### Visualización de Productividad
+- ¿Consdideras relevante la información presentada en el panel Productividad?
+- ¿Te causo confusion la interfaz?
+- ¿Consideras que la informacion presentada es util para mantener un control de la productividad de tus empleados?
+
+#### Visualización de Attendance
+- ¿Consdideras que el panel Attendance tiene una interfaz clara y amigable?
+- ¿Consideras que esta funcion te permimte mantener un seguimiento claro de los empleados que ingresaron a trabajar?
+
+#### Creación de Horario para los Empleados
+- ¿Fue simple el proceso de creación de un registro de horario para un empleado?
+- Durante el flujo de creación, ¿Algún paso generó dudas?
+
+#### Creación de Horario para los Empleados
+- ¿Consideras que fue claro el proceso de creacion de inventariado?
+- ¿Tuviste dudas durante el flujo de creacion?
+- ¿La interfaz fue suficientemente clara para facilitar el registro?
+
+   #### Preguntas para el Segmento Empleado
+
+#### Landing Page
+- ¿Qué le parece la apariencia general de nuestra página?
+- ¿Qué información puede rescatar de nuestro producto en base a nuestra página de presentación?
+- ¿Qué cambiaría o añadiría para mejorar la presentación de la página de inicio?
+- ¿Le ayuda a entender mejor nuestro producto?
+
+1. **Visualización de Horario de Empleados**:
+- ¿Consdideras que el panel de horario es claro y facil de entender?
+- Consideras que algun elemento deberia cambiar?
+
+2. **Visualización de Productividad**:
+- ¿Consdideras que el panel de productividad hace un buen trabajo reflejando tu trabajo?
+- ¿Agregarias o eliminarias algun elemento?
+3. **Visualización de Attendance**:
+- ¿Consdideras que el panel de Attendance seria util para que tus empleadores mantengan control de tus horas de trabajo?
+- ¿El grafico presentado es de tu agrado? ¿De no ser el caso, que otro grafico haria un mejor trabajo?
+
+### 5.3.2 Registro de Entrevistas
+
+## Segmento Obejtivo: Administradores de Restaurantes
+
+Enlace de la entrevista: 
+
+**Entrevista con Eduardo Ventura**
+
+![Entrevista con Eduardo Ventura]()
+
+
+Nombre del entrevistado: Eduardo Ventura Chancafe <br>
+Edad: 21 años <br>
+Distrito de residencia: San Juan de Lurigancho <br>
+Inicio de la entrevista: 00:00 <br>
+Duración: 10 minutos con 40 segundos <br>
+
+En base a la landing page, Eduardo nos comenta que el diseño le parece agradable
+e intuitiva a primera vista y le facilita la navegación con la barra superior de navegación.
+Con respecto a la información que se le muestra Eduardo resulta satisfecho ya que cumple con
+sus expectativas y además considera que es una muy buena forma de acercar al cliente con el producto,
+debido agregar los features que tiene la aplicación le ayuda a saber desde antes cuales son las
+funcionalidades con las que se va encontrar, y luego de acceder a nuestra demo del producto Eduardo comenta
+que el panel de inicio le sorprendió ya que es lo que esperaba y necesitaba precisamente ya que le
+resume de manera clara lo que hace falta dentro del restaurante y le ayuda a estar actualizado con los cambios.
+Probando las funcionalidades de la aplicación Eduardo hizo la prueba de agregar y crear horarios para un empleado,
+organizar su inventario y agregar asistencias todas estas le parecen intuitivas y de fácil manejo ya que todas 
+vienen con un diseño sencillo que te indica como debes agregar nuevos datos, pasando al apartado de gráficos como es
+el caso de productividad Eduardo opina que tener registro constante de la forma de trabajo de sus trabajadores le beneficia
+al momento de realizar el monitoreo de sus trabajadores y saber con exactitud su desempeño dentro del trabajo.
+Eduardo nos señaló que podrían haber mejoras para el desarrollo de la aplicación como el manejo de registro de las asistencias,
+ya que en cierto modo hay ocasiones en las que pueden haber turnos de un día para otro y esto podria afectar al momento de generar un registro
+de salida, lo mejor seria separarlo en registro de entradas y guardar esos datos y luego hacer el registro de salida al último, y así evitar
+conflictos y además que a largo plazo es más eficiente para mantener una interfaz intuitiva y fácil de usar.
+
+
+
+## Segmento Objetivo: Trabajadores de Restaurantes
+
+Enlace de la entrevista:
+
+**Entrevista con Fabrizio Sanchez**
+
+![Entrevista con Fabrizio Sanchez Zamora]()
+
+
+Nombre del entrevistado: Fabrizio Sanchez Zamora <br>
+Edad: 22 años <br>
+Distrito de residencia: Chorrillos <br>
+Inicio de la entrevista: 00:00 <br>
+Duración: 8 minutos con 21 segundos <br>
+
+Respecto a la primera vista de la landing page Fabrizio quedo agradado con manera de la distribución
+de la información ya que le parece bien representado que sea progresiva y acorde a partir de un resumen del proyecto,
+luego pasando a un detallado de las funcionalidades y los videos de explicación de producto que con esto le facilita el entendimiento
+total del producto y tambien le agrado saber quienes son los desarrolladores. Pasando a la versión demo del producto Fabrizio se muestra
+familiarizado con un sistema de manejo de horarios y control de asistencias, sin embargo, nos comenta que pues no es similar al que ha utilizado
+y siente que el de nuestro producto le resulta mas sencillo de utilizar, respecto al panel de ordenes considera que es acertado que las ordenes se manejen
+mediante categorias y que puedas escoger la mesa y el trabajador que esta tomando la orden, además que cada plato tiene opción a 
+una orden especial o variación, poder acceder a la lista de ordenes al instante de su creación y tambien poder liberlas y  cancelarlas le parece un sistema de
+ manejo eficiente y fácil de manejar, pero como sugerencia Fabrizio opina que las categorias se verían mejor si estuvieran separadas con una imagen y el nombre de 
+dicha categoría pero esto es más por la facilidad de uso y familiarización con el producto.
+
+
+**Entrevista con Diego Paiva**
+
+![entrevista3](assets/EntrevistaDiegPaiva.png)
+
+Nombre del entrevistado: Diego Paiva <br>
+Edad: 22 años <br>
+Distrito de residencia: San Miguel <br>
+Inicio de la entrevista: 00:00 <br>
+Duración: 2 minutos con 15 segundos <br>
+
+Diego encuentra la interfaz del Front de la aplicacion, limpio y sencillo, considera que esto es beneficioso puesto que le permite tanto a el como a sus jefes identificar facilmente su horario, sus horas trabajadas y la productividad que ejerce durante la semana, considera que podria existir un grafico de barras en Productivity, ordenado de menor a mayor productividad para poder identificar mejor los empleados mas productivos de la semana y encuentra efectivo y limpio la tabla de Attendance, aunque desearia que fuera mas grande para ver con mejor detalle la informacion presentada
+
+
+**Entrevista con Alejandro Quiroz**
+
+![entrevista4](assets/EntrevistaAlejandroQuiroz.png)
+
+Nombre del entrevistado: Alejandro Quiroz Matta <br>
+Edad: 21 años <br>
+Distrito de residencia: San Borja <br>
+Inicio de la entrevista: 00:00 <br>
+Duración: 9 minutos con 38 segundos <br>
+
+Alejandro comenta en la primera parte de la entrevista, en la cual se le fue mostrada nuestra landing page, la primerá impresión que recibió fue bastante favorable, si bien comenta que la imagenes no terminan de convencerle por una especie de caracter genérico a su percepción, nuestra página cumple su función de poder informar a los usuarios de nuestro producto. También mencionó que le agradó bastante la sección de features, ya que, en esta, se podía no solo ver las distintas características que ofrecemos, sino que también se aprecia un video demostrativo del producto. Un comentario que agregó fue que, en el apartado acerca del equipo de desarrollo, hubiese preferido que los integrantes usaran fotos más formales. En lo que respecta a la presentación del producto en sí, comentó que tanto el apartado de Attendance como el de Productivity eran bastante claros de entender y llegaban a cumplir perfectamente su función de creación de horarios para trabajadores al igual que la vista de su productividad con respecto a las horas trabajadas.  
+
+
+### 5.3.3 Evaluación según Heurísticas
+
+**UX Heuristics & Principles Evaluation**
+
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
