@@ -2236,16 +2236,16 @@ Validar la usabilidad y efectividad de la landing page y de los flujos de usuari
 
 Enlace de la entrevista: 
 
-Entrevista con Eduardo Ventura: 
+**Entrevista con Eduardo Ventura**
 
 ![Entrevista con Eduardo Ventura]()
 
 
-Nombre del entrevistado: Eduardo Ventura Chancafe
-Edad: 21 años
-Distrito de residencia: San Juan de Lurigancho
-Inicio de la entrevista: 00:00
-Duración: 10 minutos con 40 segundos
+Nombre del entrevistado: Eduardo Ventura Chancafe <br>
+Edad: 21 años <br>
+Distrito de residencia: San Juan de Lurigancho <br>
+Inicio de la entrevista: 00:00 <br>
+Duración: 10 minutos con 40 segundos <br>
 
 En base a la landing page, Eduardo nos comenta que el diseño le parece agradable
 e intuitiva a primera vista y le facilita la navegación con la barra superior de navegación.
@@ -2271,16 +2271,16 @@ conflictos y además que a largo plazo es más eficiente para mantener una inter
 
 Enlace de la entrevista:
 
-Entrevista con Fabrizio Sanchez:
+**Entrevista con Fabrizio Sanchez**
 
 ![Entrevista con Fabrizio Sanchez Zamora]()
 
 
-Nombre del entrevistado: Fabrizio Sanchez Zamora
-Edad: 22 años
-Distrito de residencia: Chorrillos
-Inicio de la entrevista: 00:00
-Duración: 8 minutos con 21 segundos
+Nombre del entrevistado: Fabrizio Sanchez Zamora <br>
+Edad: 22 años <br>
+Distrito de residencia: Chorrillos <br>
+Inicio de la entrevista: 00:00 <br>
+Duración: 8 minutos con 21 segundos <br>
 
 Respecto a la primera vista de la landing page Fabrizio quedo agradado con manera de la distribución
 de la información ya que le parece bien representado que sea progresiva y acorde a partir de un resumen del proyecto,
@@ -2294,16 +2294,30 @@ una orden especial o variación, poder acceder a la lista de ordenes al instante
 dicha categoría pero esto es más por la facilidad de uso y familiarización con el producto.
 
 
+**Entrevista con Diego Paiva**
+
 ![entrevista3](assets/EntrevistaDiegPaiva.png)
 
-Entrevista con Diego Paiva:
-Edad: 22 años
-Distrito de residencia: San Miguel
-Inicio de la entrevista: 00:00
-Duración: 2 minutos con 15 segundos
+Nombre del entrevistado: Diego Paiva <br>
+Edad: 22 años <br>
+Distrito de residencia: San Miguel <br>
+Inicio de la entrevista: 00:00 <br>
+Duración: 2 minutos con 15 segundos <br>
 
 Diego encuentra la interfaz del Front de la aplicacion, limpio y sencillo, considera que esto es beneficioso puesto que le permite tanto a el como a sus jefes identificar facilmente su horario, sus horas trabajadas y la productividad que ejerce durante la semana, considera que podria existir un grafico de barras en Productivity, ordenado de menor a mayor productividad para poder identificar mejor los empleados mas productivos de la semana y encuentra efectivo y limpio la tabla de Attendance, aunque desearia que fuera mas grande para ver con mejor detalle la informacion presentada
 
+
+**Entrevista con Alejandro Quiroz**
+
+![entrevista4](assets/EntrevistaAlejandroQuiroz.png)
+
+Nombre del entrevistado: Alejandro Quiroz Matta <br>
+Edad: 21 años <br>
+Distrito de residencia: San Borja <br>
+Inicio de la entrevista: 00:00 <br>
+Duración: 9 minutos con 38 segundos <br>
+
+Alejandro comenta en la primera parte de la entrevista, en la cual se le fue mostrada nuestra landing page, la primerá impresión que recibió fue bastante favorable, si bien comenta que la imagenes no terminan de convencerle por una especie de caracter genérico a su percepción, nuestra página cumple su función de poder informar a los usuarios de nuestro producto. También mencionó que le agradó bastante la sección de features, ya que, en esta, se podía no solo ver las distintas características que ofrecemos, sino que también se aprecia un video demostrativo del producto. Un comentario que agregó fue que, en el apartado acerca del equipo de desarrollo, hubiese preferido que los integrantes usaran fotos más formales. En lo que respecta a la presentación del producto en sí, comentó que tanto el apartado de Attendance como el de Productivity eran bastante claros de entender y llegaban a cumplir perfectamente su función de creación de horarios para trabajadores al igual que la vista de su productividad con respecto a las horas trabajadas.  
 
 
 ### 5.3.3 Evaluación según Heurísticas
