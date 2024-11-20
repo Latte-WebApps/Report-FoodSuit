@@ -282,6 +282,9 @@ del ABET – EAC - Student Outcome 5.
                 TB2<br>
                 Para esta entrega primero me concentre en concluir mi bounded context del frontend, implemente funcionalidad y lo deje listo para poder comunicar con el futuro backend
                 <br>
+                TF<br>
+                En esta entrega participe en todos los aspectos del trabajo, revise y correji tanto el front y back de mi bounded context para que haya una conexion exitosa y hacer funcional el sistema de horario de empleados con sus respectivos metodos asi como evidenciar el progreso en la seccion Sprint 4 del reporte, documentando los acceptance criteria cumplidos para esta entrega, el sprint backlog del trello, etc.
+                <br>
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Desarrollé el Lean UX Canvas, participé en los wireframes del prototipo y supervisé la información de la arquitectura, asegurando su correcto diseño.<br>
@@ -322,6 +325,9 @@ Grandez Mansilla, Jean Pierre<br>
                 Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
                 TB2<br>
                 Cree el entorno de trabajo para facilitar el desarrollo de mis compañeros, ademas de asistir sin falta a las reuniones programadas y terminar con los pendientes de cada una el mismo dia<br>
+                TF<br>
+                Estuve presente en todas las reuniones grupales, fomentando la participacion y creacion de mas sesiones, asi como de la identificacion clara de los puntos a trabajar de modo que las reuniones sean mas productivas y el avance tangible.           
+                <br>
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Planifiqué los objetivos que se asignaron, desarrollándolos con eficiencia y respetando las decisiones que mis compañeros realizaron.<br>
