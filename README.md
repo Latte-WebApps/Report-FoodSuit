@@ -2849,13 +2849,17 @@ Heurística violada: Usability - Consistency and standards
 - **Problema:** La visualización de horarios de empleados no incluye un mensaje claro o retroalimentación cuando los datos no están disponibles o la carga falla.
 - **Recomendación:** Implementar mensajes de error o indicadores de carga para mantener informados a los usuarios sobre el estado del sistema en caso de fallos o demoras.
 
-
+### 5.4 Video About the Product
 
 
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
 * Al evaluar los competidores, pudimos identificar las fortalezas y debilidades de sus productos, lo que nos permitió identificar oportunidades para mejorar y diferenciar FoodSuit. Esto nos ayudó a definir una propuesta de valor única y atractiva para nuestro producto, que destaca sus características clave y beneficios para los usuarios.
+
+## Video About the Team
+
+
 ## Bibliografía
 
 ## Anexos
