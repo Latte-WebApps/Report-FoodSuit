@@ -2320,13 +2320,16 @@ Para el ultimo sprint, creamos tasks para subsanar elementos faltantes del anter
 
 
 ##### 5.2.4.4. Testing Suite Evidence for Sprint Review
+Presentamos los criterios de aceptación en formato gherkin para las pruebas a lo largo del proyecto. Esta tabla consiste en el registro de los commits desarrollados en un repositorio dedicado para los acceptance tests, en el cual se basa la lógica del negocio.
+Link del repositorio: [Acceptance-Test](https://github.com/Latte-WebApps/Acceptance-Test)
 
-| Repository                      | Branch                     | Commit ID | Commit Message                                                       | Commit Message Body | Commited on (Date) |
-|---------------------------------|----------------------------|-----------|----------------------------------------------------------------------|---------------------|--------------------|
-| Latte-WebApps/Acceptance-Test   | develop		       | 98978b0   | feat: added gherkin tests 	     					  |                     | 2024-11-20         |
-| Latte-WebApps/Acceptance-Test   | develop		       | 4655407   | feat: added gherkin tests 	     					  |                     | 2024-11-20         |
-| Latte-WebApps/Acceptance-Test   | develop		       | 1805f9a   | feat: added sprint 3 features     					  |                     | 2024-11-20         |
-| Latte-WebApps/Acceptance-Test   | develop		       | 931e7a3   | Merge branch 'develop' of https://github.com/Latte-WebApps/Acceptance-Test into develop|                     | 2024-11-20         |
+| Repository                    | Branch              | Commit ID | Commit Message                                                                          | Commit Message Body | Commited on (Date) |
+|-------------------------------|---------------------|-----------|-----------------------------------------------------------------------------------------|---------------------|--------------------|
+| Latte-WebApps/Acceptance-Test | develop		           | 98978b0   | feat: added gherkin tests 	     					                                                   |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | develop		           | 4655407   | feat: added gherkin tests 	     					                                                   |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | develop		           | 1805f9a   | feat: added sprint 3 features     					                                                 |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | develop		           | 931e7a3   | Merge branch 'develop' of https://github.com/Latte-WebApps/Acceptance-Test into develop |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | feat/sprint-2-tests | 01fbef0   | feat: added gherkin tests                                                               |                     | 2024-11-20         |
 
 ##### 5.2.4.5. Execution Evidence for Sprint Review
 
