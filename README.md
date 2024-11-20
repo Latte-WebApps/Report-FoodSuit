@@ -267,6 +267,8 @@ del ABET – EAC - Student Outcome 5.
                 Realicé el análisis del needfinding, impact mapping y el desarrollo de software. Además, supervisé y participé en el desarrollo del prototipo de la solución.<br>
                 TB2<br>
                 Realicé todas las tareas asignadas del bounded context asignado. Estas tareas fueron realizar ligeros cambios en el frontend, en el apartado del home, al mismo tiempo desarrollé todo el aspecto del backend que requería, esto compete al aspecto de attendance.<br>
+                TF<br>
+                Realicé correcciones en el frontend y backend, para darle funcionalidad total al registro de asistencias y la presentación del dashboard inicial del producto. Esta actividad me permitió poder comprender cómo queremos que el usuario interactúe con la solución.<br>
                 Pacheco Astiguetta, Sebastian<br>
                 TB1<br>
                 Desarrollé el análisis de competidores, estrategias y tácticas frente a competidores, entrevistas y análisis, además del diseño de la arquitectura de software.<br>
@@ -308,7 +310,10 @@ Grandez Mansilla, Jean Pierre<br>
                 Incentivé al resto a realizar sus objetivos mientras cumplía con los míos, además de llevar a cabo un seguimiento de las actividades a desarrollar.<br>
                 TB2<br>
                 Incentivé al resto del grupo, reconociendo el esfuerzo conjunto en el desarrollo de las tareas y promoviendo un sentido de pertenencia y motivación entre los miembros.<br>
-                Pacheco Astiguetta, Sebastian<br>
+                TF<br>
+                Mejore y soluciones los problemas de conexion entre el frontend y el backend, ademas de ayudar a mis compañeros en sus tareas asignadas.<br>
+                    
+Pacheco Astiguetta, Sebastian<br>
                 TB1<br>
                 Establecí los objetivos a alcanzar del equipo y supervisé el avance de todos los integrantes.<br>
                 TP<br>
