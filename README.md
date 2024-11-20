@@ -1008,6 +1008,8 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | US-19    | Características Principales                                                     | Como visitante, quiero ver las características principales del producto en la landing page para evaluar si cumple con mis necesidades.                                                          | **Escenario 1: Características visibles**<br>Dado que accede a la landing page<br>Cuando visita la sección de características<br>Entonces se muestran las características principales del producto.<br>**Escenario 2: Características no disponibles**<br>Dado que el contenido de características no se carga<br>Cuando visita la sección<br>Entonces se muestra un mensaje indicando que el contenido está temporalmente no disponible.                                                                                                                                             | EP006                     |
 | US-20    | Llamada a la Acción                                                             | Como visitante, quiero encontrar botones de llamada a la acción (CTA) para solicitar una demo o contactar con el equipo de ventas fácilmente.                                                   | **Escenario 1: CTA visible**<br>Dado que accede a la landing page<br>Cuando visita la página<br>Entonces se deben mostrar botones de solicitud de demo y contacto en ubicaciones prominentes.<br>**Escenario 2: CTA no funcional**<br>Dado que un botón de CTA no funciona<br>Cuando intenta usar el botón<br>Entonces el sistema muestra un mensaje de error o no realiza la acción esperada.                                                                                                                                                                                        | EP006                     |
 | US-21    | Accesibilidad en Dispositivos Móviles                                           | Como visitante, quiero que la landing page sea accesible y funcional en dispositivos móviles para asegurarme de que puedo navegar y acceder a la información correctamente.                     | **Escenario 1: Accesibilidad correcta**<br>Dado que accede a la landing page desde un dispositivo móvil<br>Cuando navega por la página<br>Entonces el contenido debe ser accesible y funcional.<br>**Escenario 2: Accesibilidad limitada**<br>Dado que hay problemas con la accesibilidad<br>Cuando navega en un dispositivo móvil<br>Entonces se debe mostrar un mensaje indicando que algunas funciones pueden no estar disponibles.                                                                                                                                                | EP006                     |
+| US-22    | Registro de usuario                                           | Como visitante, quiero registrarme en la aplicación para poder gestionar mi negocio eficientemente.                     | Escenario 1: Given el visitante está en la página de registro, when completa los campos obligatorios y hace clic en "Registrarse", then el sistema debe crear una cuenta. Escenario 2: Given el visitante está en la página de registro, when completa los campos obligatorios con información incorrecta y hace clic en "Registrarse", then el sistema deberá rechazar la operación y pedirle que ingrese sus datos correctamente.                                                                                                                                                                                                                                             | EP001                     |
+| US-23    | Inicio de Sesión                                           | Como usuario, quiero iniciar sesión en la aplicación para acceder a mi cuenta y gestionar mis finanzas.                 | Escenario 1: Given el usuario está registrado, when ingresa sus credenciales correctas, then debe poder acceder a su cuenta. Escenario 2: Given el usuario está registrado, when ingresa sus credenciales de manera incorrecta, then se le indicará volver a ingresar sus datos correctamente.                                                                                                                                                                                                                                                                                                                                                                                     | EP001                     |
 
 <br>
 
@@ -1023,6 +1025,8 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | TS-06    | Creación de Endpoint Simulado para Actualización de Inventario    | Como desarrollador, quiero simular un endpoint para que los administradores puedan actualizar el inventario, de manera que pueda probar el frontend con datos de inventario.           | **Escenario 1: Actualización exitosa de inventario** <br> **Dado** que el administrador desea actualizar la cantidad de un insumo<br>**Cuando** envía la solicitud PUT al endpoint `/inventario/{id}` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe actualizar los datos de inventario y devolver un código de estado 200 (OK).<br>**Escenario 2: Error en la actualización del inventario**<br>**Dado** que el administrador envía datos incompletos o incorrectos<br>**Cuando** se realiza la solicitud de actualización<br>**Entonces** el servidor simulado debe devolver un código de estado 400 (Bad Request).                    | EP004                     |
 | TS-07    | Creación de Endpoint Simulado para Eliminar Pedidos               | Como desarrollador, quiero simular un endpoint que permita eliminar pedidos para que los administradores puedan cancelar o eliminar pedidos incorrectos desde el frontend.             | **Escenario 1: Eliminación exitosa de pedido** <br> **Dado** que el administrador desea eliminar un pedido<br>**Cuando** envía una solicitud DELETE al endpoint `/pedidos/{id}` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe eliminar el pedido y devolver un código de estado 200 (OK).<br>**Escenario 2: Pedido no encontrado**<br>**Dado** que el administrador intenta eliminar un pedido inexistente<br>**Cuando** se realiza la solicitud<br>**Entonces** el servidor simulado debe devolver un código de estado 404 (Not Found).                                                                                                | EP002                     |
 | TS-08    | Creación de Endpoint Simulado para Consulta de Inventario         | Como desarrollador, quiero crear un endpoint simulado que permita consultar el inventario del restaurante, para desarrollar y probar el frontend con datos de inventario actualizados. | **Escenario 1: Consulta exitosa del inventario** <br> **Dado** que un administrador consulta el inventario<br>**Cuando** realiza una solicitud GET al endpoint `/inventario` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe devolver los datos actualizados del inventario con un código de estado 200 (OK).<br>**Escenario 2: Inventario vacío**<br>**Dado** que el inventario no tiene datos cargados<br>**Cuando** se realiza la consulta<br>**Entonces** el servidor simulado debe devolver un código de estado 204 (No Content) si no hay productos en el inventario.                                                               | EP004                     |
+| TS-09    | Registrar Usuarios por una API         | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | **Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible when se envía una solicitud POST con los datos del usuario ingresados al endpoint, then se recibe una señal de confirmación (201)                                                             | EP001                     |
+| TS-10    | Autenticación de Usuarios        | Como desarrollador, quiero implementar una API que permita autenticar a los usuarios en el sistema. | **Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.                                                               | EP001                     |
 
 ### 3.3. Impact Mapping
 <br><img src="assets/Impact map.png"><br>
@@ -2268,9 +2272,100 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 
 ##### 5.2.4.1. Sprint Planning 4
 
+| Sprint #                        | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                        | 2024-11-10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Time**                        | 6:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Location**                    | Virtual - Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Prepared By                     | Sebastian Pacheco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Attendees (to planning meeting) | Sebastian Pacheco, Andre Bernaola, Josue Paiva, Jean Grandez, Piero Velarde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint 3 Review Summary         | En el Sprint 3, se ha completado la implementación de las funcionalidades del backend, incluyendo la gestión de empleados, la administración de finanzas, el registro de horarios, la gestión de inventarios y el manejo de órdenes. Además, se ha realizado la integración con la base de datos para soportar estas operaciones. Se ha validado que los datos se gestionan correctamente en la base de datos y que las APIs funcionan correctamente.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sprint 3 Retrospective Summary  | Durante el Sprint 3, hemos logrado completar la implementación de las funcionalidades del backend y la integración con la base de datos. Hemos aplicado una estrategia de revisión colaborativa para validar que las APIs funcionan correctamente y que los datos se gestionan adecuadamente en la base de datos. También hemos fortalecido la comunicación en el equipo y hemos mejorado la estructura de las tareas para que sean más fáciles de implementar y delegar.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 4 Goal                   | Nuestra prioridad en este sprint es desarrollar funcionalidades más eficientes con relación a cómo manejamos los productos con las órdenes y cómo se generan los reportes para el backend, además de implementar funcionalidades en el frontend como la modificación de cantidad de productos, los horarios de empleados, y la actualización de las órdenes sobre el inventario. Creemos que al llevar a cabo estos cambios la administración lleva un registro más sencillo para que se facilite su uso, garantizando la satisfacción de la administración, además de que nosotros como desarrolladores podamos revisar de manera más eficaz posibles ajustes a partir de sugerencias para perfeccionar la aplicación. Esto será confirmado cuando los administradores logren manejar diferentes funciones como el inventario, el horario de empleados y otros con el uso de estas nuevas funciones, y los desarrolladores implementen mejoras a la aplicación a partir de la reinterpretación de los endpoints como productos, órdenes, reportes y empleados. |
+| Sprint 4 Velocity               | La velocity calculada para este sprint es de X story points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points             | La suma de story points atendidos es de X story points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
 ##### 5.2.4.2. Sprint Backlog 4
 
 ##### 5.2.4.3. Development Evidence for Sprint Review
+
+<table>
+  <tr>
+    <th>Epic / Story ID</th>
+    <th>Título</th>
+    <th>Criterios de Aceptación</th>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Guardar pedidos automáticamente en el historial para análisis</td>
+    <td>Escenario 1:
+Dado que el trabajador ha completado un pedido,
+Cuando el pedido es confirmado en el sistema,
+Entonces el sistema guarda automáticamente el pedido en el historial y confirma el registro al trabajador.
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Generar reportes financieros detallados para análisis</td>
+    <td>Escenario 1:
+Dado que el administrador solicita un reporte de ingresos,
+Cuando el sistema procesa la solicitud,
+Entonces se genera un informe detallado de los ingresos y el administrador recibe una notificación.  <tr>
+    <td>US04</td>
+    <td>Registrar gastos imprevistos para control financiero</td>
+    <td>Escenario 1:
+Dado que el administrador necesita registrar un gasto imprevisto,
+Cuando ingresa los detalles del gasto en el sistema,
+Entonces el sistema lo guarda en la categoría correspondiente y actualiza el balance de gastos.  <tr>
+    <td>US14</td>
+    <td>Monitorear la asistencia del personal</td>
+    <td>Escenario 1:
+Dado que el administrador accede al módulo de asistencia,
+Cuando consulta la asistencia de un empleado,
+Entonces el sistema muestra los registros de ausencias y tardanzas.  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Optimizar la carta de platos según la demanda histórica</td>
+    <td>Escenario 1:
+Dado que el sistema analiza las estadísticas de ventas,
+Cuando se generan recomendaciones,
+Entonces el sistema presenta una carta personalizada para días específicos.
+  </tr>
+  <tr>
+    <td>TS03</td>
+    <td>Implementación de Accesibilidad Web</td>
+    <td>Escenario 1:
+Dado que la landing page está cargada
+Cuando un usuario navega utilizando solo el teclado
+Entonces todos los elementos interactivos deben ser accesibles y enfocados correctamente.  </tr>
+  <tr>
+    <td>TS14</td>
+    <td>Deployment del Backend</td>
+    <td>Escenario 1:
+Given el usuario accede a la documentacion de Swagger, puede interactuar con todos los endpoints y sus respectivos requests.</td>
+  </tr>
+    <tr>
+    <td>US22</td>
+    <td>Registro de usuario</td>
+    <td>Escenario 1:
+Given el visitante está en la página de registro, when completa los campos obligatorios y hace clic en "Registrarse", then el sistema debe crear una cuenta.</tr>
+    <tr>
+    <td>US23</td>
+    <td>Inicio de Sesión</td>
+    <td>Escenario 1:
+Given el usuario está registrado, when ingresa sus credenciales correctas, then debe poder acceder a su cuenta.  </tr>
+    <tr>
+    <td>TS09</td>
+    <td>Registrar Usuarios por una API</td>
+    <td>Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible when se envía una solicitud POST con los datos del usuario ingresados al endpoint, then se recibe una señal de confirmación (201)</td>
+  </tr>
+    <tr>
+    <td>TS10</td>
+    <td>Autenticación de Usuarios</td>
+    <td>Escenario 1:
+ Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.  </tr>
+  </table>
+
+
 
 ##### 5.2.4.4. Testing Suite Evidence for Sprint Review
 
@@ -2279,6 +2374,133 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 ##### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 ##### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+
+En esta sección, se presentará la evidencia de los despliegues realizados para los diferentes productos desarrollados durante el sprint. Esto incluye la landing page, la aplicación frontend y la aplicación backend. Cada uno de estos despliegues se ha realizado siguiendo las mejores prácticas y utilizando las herramientas adecuadas para asegurar su correcto funcionamiento y accesibilidad en línea.
+
+
+**Landing Page Deployment**
+
+Para el despliegue de la landing page se utilizó Github Pages y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó un nuevo repositorio en Github con el nombre de `FoodSuiteLandingPage`. Luego se clonó el repositorio en el directorio del proyecto, de manera que vinculamos nuestra rama local a la del repositorio, finalmente se subió el contenido de la landing page en el repositorio.
+
+<img src="assets/deployment/repositorio.jpeg"/>
+
+<br>
+Paso 2:
+Después nos dirigimos a la pestaña de `Settings` y luego a la sección de `Pages`, se procede a seleccionar la rama `main` para el despliegue de la landing page.
+<img src="assets/deployment/settings.jpeg"/>
+
+<br>
+
+Paso 3:
+Luego procedemos a ver que el despliegue fue exitoso en la sección de `Deployments` y se nos proporciona un enlace para acceder a la landing page.
+
+<img src="assets/deployment/deploy.jpeg"/>
+
+
+Paso 4:
+Finalmente se accede a la landing page mediante el enlace proporcionado por Github Pages.
+
+<img src="assets/deployment/landing.jpeg"/>
+
+
+Enlace a la landing page: [https://latte-webapps.github.io/FoodSuiteLandingPage/](https://latte-webapps.github.io/FoodSuiteLandingPage/)
+
+
+**Frontend Deployment**
+
+Para el despliegue de la aplicación frontend se utilizó Netlify y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó una cuenta en Netlify, seleccionamos `Import an existing project`.
+
+<img src="assets/deployment/front-1.jpeg"/>
+
+<br>
+
+Paso 2:
+Luego se selecciona a github como git provider, conectamos nuestra cuenta de github con Netlify.
+
+<img src="assets/deployment/front-2.jpeg"/>
+
+<br>
+
+Paso 3:
+Después se procede a seleccionar la organización y repositorio con el proyecto a desplegar.
+
+<img src="assets/deployment/front-3.jpeg"/>
+
+<br>
+
+Paso 4:
+Luego se termina de configurar el despliegue añadiendo el comando de construcción y la carpeta de despliegue.
+
+
+<img src="assets/deployment/front-4.jpeg"/>
+
+Paso 5:
+Finalmente netlify nos proporciona un enlace para acceder a la aplicación frontend desplegada.
+<img src="assets/deployment/front-5.jpeg"/>
+
+Evidenciamos que el despliegue fue exitoso y se puede acceder a la aplicación frontend mediante el enlace proporcionado por Netlify.
+
+<img src="assets/deployment/front-6.jpeg"/>
+
+Enlace al frontend: [https://foodsuit.netlify.app/](https://foodsuit.netlify.app/)
+
+**Backend Deployment**
+
+Para el despliegue de la aplicación backend se utilizó Azure y se siguieron los siguientes pasos:
+
+
+Paso 1:
+Primero se creó una cuenta en Azure y se inició sesión, Al iniciar sesión el navegador nos redirige a la página principal, nos posicionamos en el buscador  e ingresamos lo siguiente: `mysql` y seleccionamos `Servidores flexibles de Azure Database for MySQL`.
+
+<img src="assets/deployment/back-1.jpeg"/>
+
+Paso 2:
+Luego se procede a crear un nuevo servidor de base de datos MySQL, se selecciona la opción de `Crear` y se llena el formulario con los datos necesarios.
+
+<img src="assets/deployment/back-2.jpeg"/>
+
+Paso 3:
+Después de crear el servidor de la base de datos,  nos aparece este menú, ahora nos dirigimos a la opción de `conectar`, situada en el dashboard del lado izquierdo.
+
+<img src="assets/deployment/back-3.jpeg"/>
+
+Paso 4:
+Esta sección nos proporciona los datos necesarios para la conexión a la base de datos, como el `nombre del servidor`, `nombre de usuario` y `puerto`.
+
+<img src="assets/deployment/back-4.jpeg"/>
+
+Paso 5:
+Luego procedemos a configurar la conexión a la base de datos en el archivo de configuración del backend, añadiendo los datos proporcionados por Azure.
+
+<img src="assets/deployment/back-10.jpeg"/>
+
+Paso 6:
+Después de configurar la conexión a la base de datos, se procede a descargar un plugin de Azure para rider, que nos permitirá desplegar la aplicación backend en Azure.
+
+<img src="assets/deployment/back-5.jpeg"/>
+
+Paso 7:
+Luego de instalar el plugin, nos dirigimos a las herramientas y seleccionamos la opción de `Azure`, luego seleccionamos la opción de `Deploy to Azure Web Apps`.
+
+<img src="assets/deployment/back-6.jpeg"/>
+
+Paso 8:
+Finalmente seleccionamos la opción `Run`  y el servicio procede a crearse automáticamente, inmediatamente después se nos proporciona por consola un enlace para acceder a la aplicación.
+
+<img src="assets/deployment/back-7.jpeg"/>
+<img src="assets/deployment/back-8.jpeg"/>
+
+Evidenciamos haciendo uso de Postman que el despliegue fue exitoso y se puede acceder a la aplicación backend mediante el enlace proporcionado por Azure.
+<img src="assets/deployment/back-9.jpeg"/>
+
+Enlace al backend: [https://foodsuit.azurewebsites.net/](https://foodsuit.azurewebsites.net/) 
 
 ##### 5.2.4.8. Team Collaboration Insights during Sprint
 
