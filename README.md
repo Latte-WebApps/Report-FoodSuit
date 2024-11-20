@@ -2505,6 +2505,33 @@ Evidenciamos haciendo uso de Postman que el despliegue fue exitoso y se puede ac
 Enlace al backend: [https://foodsuit.azurewebsites.net/](https://foodsuit.azurewebsites.net/) 
 
 ##### 5.2.4.8. Team Collaboration Insights during Sprint
+En este sprint se han culminado los tres productos que ofrecemos como Latte para FoodSuit, siendo éstos la landing page, web application y web service.
+
+**Landing Page** 
+Dentro de la landing page se han realizado correcciones mínimas ya que la posición de algunos elementos no eran los adecuados.
+![Commits in Landing Page](assets/team-insights-s4/landing-commits.png)
+Distribución de commits:
+- André Bernaola(Andorla0): 3 commits
+
+**Frontend**
+Dentro del frontend se han realizado varios cambios con relación a adaptación de las entidades con el backend, funcionalidades extra y refactorización de archivos.
+![Commits in Frontend](assets/team-insights-s4/frontend-commits.png)
+Distribución de commits:
+- Sebastian Pacheco (Pachieeee): 19 commits
+- André Bernaola (Andorla0): 18 commits
+- Jean Grandez (JeanGrandez): 5 commits
+- Josue Paiva (JosuePaiva02): 3 commits
+- Piero Velarde (P1er0VL): 3 commits
+
+**Backend**
+Dentro del backend se han agregado nuevos endpoints para autenticación de usuarios además de la corrección de endpoints que funcionaban de manera incorrecta y por tanto complicaban el progreso.
+![Commits in Backend](assets/team-insights-s4/backend-commits.png)
+Distribución de commits:
+- Sebastian Pacheco (Pachieeee): 57 commits
+- André Bernaola (Andorla0): 36 commits
+- Josue Paiva (JosuePaiva02): 33 commits
+- Jean Grandez (JeanGrandez): 26 commits
+- Piero Velarde (P1er0VL): 24 commits
 
 ### 5.3 Validation Interviews
 #### 5.3.1 Diseño de entrevistas
