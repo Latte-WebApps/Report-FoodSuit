@@ -226,6 +226,11 @@ Velarde Luyo, Piero Alberto (U20211A620)<br>
             - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
             - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
             - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+        - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+        - [5.3.3. Evaluación según Heurísticas](#533-evaluación-según-heurísticas)
+    -[5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -253,29 +258,43 @@ del ABET – EAC - Student Outcome 5.
                 Bernaola Pérez, André Arturo<br>
                 TB1<br>
                 Desarrollé y analicé las historias de usuario, además de participar en la creación del prototipo de nuestro producto mediante el desarrollo de guías de estilo y la landing page, así como en la elaboración de un prototipo.<br>
-		TB2<br>
-		Cumplí con el desarrollo del bounded context inventory que se me fue designado. Este desarrollo compete a la parte del backend y frontend, este último solo requeriendo correcciones mínimas. A su vez finalicé el desarrollo del landing page.<br>
+		        TB2<br>
+		        Cumplí con el desarrollo del bounded context inventory que se me fue designado. Este desarrollo compete a la parte del backend y frontend, este último solo requeriendo correcciones mínimas. A su vez finalicé el desarrollo del landing page.<br>
+                TF<br>
+                Fomenté la colaboración y participación en el desarrollo del backend, brindando apoyo a mis compañeros que lo requerían y alentando a los demás a hacer lo mismo. <br>
                 Grandez Mansilla, Jean Pierre<br>
                 TB1<br>
                 Realicé el análisis del needfinding, impact mapping y el desarrollo de software. Además, supervisé y participé en el desarrollo del prototipo de la solución.<br>
                 TB2<br>
                 Realicé todas las tareas asignadas del bounded context asignado. Estas tareas fueron realizar ligeros cambios en el frontend, en el apartado del home, al mismo tiempo desarrollé todo el aspecto del backend que requería, esto compete al aspecto de attendance.<br>
+                TF<br>
+                Realicé correcciones en el frontend y backend, para darle funcionalidad total al registro de asistencias y la presentación del dashboard inicial del producto. Esta actividad me permitió poder comprender cómo queremos que el usuario interactúe con la solución.<br>
                 Pacheco Astiguetta, Sebastian<br>
                 TB1<br>
                 Desarrollé el análisis de competidores, estrategias y tácticas frente a competidores, entrevistas y análisis, además del diseño de la arquitectura de software.<br>
+                TP<br>
+                Realicé correcciones con respecto a la entrega anterior, además de presentar la primera versión del frontend con respecto a la generación de reportes. Esta actividad me permitió poder comprender cómo queremos que el usuario lleve cuenta de qué movimientos se realizan en el negocio.<br>
                 TB2<br>
-                Desarrollé la parte del backend de reports, este último siendo mi bounded context asignado. A la vez que realicé las correcciones necesarias de dicho bounded context en el frontend para, de esta manera, dejar este aspecto culminado.
+                Desarrollé la parte del backend de reports, este último siendo mi bounded context asignado. A la vez que realicé las correcciones necesarias de dicho bounded context en el frontend para, de esta manera, dejar este aspecto culminado.<br>
+                TF<br>
+                Corregí los errores que se presentaron en la entrega anterior, además de presentar culminado el prototipo de reportes para el frontend y backend. La funcionalidad culminada ha permitido como lógica de negocio que el usuario pueda llevar un control de los movimientos que se realizan en el negocio.<br>
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Realicé el análisis de la startup, el perfil de la solución, el lean UX process y participé en la elaboración del prototipo, especialmente en la elaboración de la landing page como mockup.<br>
                 TB2<br>
                 Para esta entrega primero me concentre en concluir mi bounded context del frontend, implemente funcionalidad y lo deje listo para poder comunicar con el futuro backend
                 <br>
+                TF<br>
+                En esta entrega participe en todos los aspectos del trabajo, revise y correji tanto el front y back de mi bounded context para que haya una conexion exitosa y hacer funcional el sistema de horario de empleados con sus respectivos metodos asi como evidenciar el progreso en la seccion Sprint 4 del reporte, documentando los acceptance criteria cumplidos para esta entrega, el sprint backlog del trello, etc.
+                <br>
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Desarrollé el Lean UX Canvas, participé en los wireframes del prototipo y supervisé la información de la arquitectura, asegurando su correcto diseño.<br>
 		TB2<br>
                Finiquité los últimos cambios necesarios en el aspecto del frontend del bounded context que se me fue asignado, siendo este el de registro de órdenes, a su vez también desarrollé el backend de dicho bounded context.<br>
+		TP<br>
+  		Realicé algunos cambios requeridos en mi bounded context, esto con la finalidad de poder actualizar el bounded context de inventario al momento de terminar una order. A la par, fueron implementados más aspectos en el backend para su funcionamiento.<br> 
+			</td>
             </td>
 			<td>Al analizar todos los segmentos importantes de un proyecto de este nivel, y recibir todo tipo de retroalimentación, es posible poder fijar la base de lo que se desea del producto y por tanto se logra definir un producto confiable y con las suficientes funcionalidades para solventar la problemática.</td>
 		</tr>
@@ -287,27 +306,40 @@ del ABET – EAC - Student Outcome 5.
                 Formé parte del avance como equipo, supervisando las actividades de todos y planificando actividades futuras, cumpliendo los objetivos propuestos.<br>
 		TB2<br>
 		Creé un cronograma detallado de tareas, asignando responsabilidades de acuerdo a las habilidades de cada miembro y colaborando en el desarrollo de funcionalidades clave.<br>
-                Grandez Mansilla, Jean Pierre<br>
+        TF<br>
+Recopilé las tareas faltantes a desarrollar para la última reunión e incentivé a coordinar conjuntamente la delegación de tareas <br>
+Grandez Mansilla, Jean Pierre<br>
                 TB1<br>
                 Incentivé al resto a realizar sus objetivos mientras cumplía con los míos, además de llevar a cabo un seguimiento de las actividades a desarrollar.<br>
                 TB2<br>
                 Incentivé al resto del grupo, reconociendo el esfuerzo conjunto en el desarrollo de las tareas y promoviendo un sentido de pertenencia y motivación entre los miembros.<br>
-                Pacheco Astiguetta, Sebastian<br>
+                TF<br>
+                Mejore y soluciones los problemas de conexion entre el frontend y el backend, ademas de ayudar a mis compañeros en sus tareas asignadas.<br>
+                    
+Pacheco Astiguetta, Sebastian<br>
                 TB1<br>
                 Establecí los objetivos a alcanzar del equipo y supervisé el avance de todos los integrantes.<br>
+                TP<br>
+                Repartí las tareas a cada integrante con respecto a quién logra destacar más en cada aspecto, además de supervisar el avance de cada uno.<br>
                 TB2<br>
-                Organicé sesiones de retroalimentación regulares, permitiendo al equipo revisar el progreso y ajustar las estrategias mientras todos contribuían al desarrollo de tareas específicas.
+                Organicé sesiones de retroalimentación regulares, permitiendo al equipo revisar el progreso y ajustar las estrategias mientras todos contribuían al desarrollo de tareas específicas.<br>
+                TF<br>
+                Para la entrega final, se ha considerado retroalimentación de los integrantes como grupo con respecto a las tareas asignadas, por tanto he organizado las tareas de manera equitativa mediante reuniones regulares. Llevé un seguimiento de las actividades a desarrollar, supervisando que el avance sea el más eficiente posible.<br>
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
-                Velarde Luyo, Piero Alberto<br>
                 TB2<br>
                 Cree el entorno de trabajo para facilitar el desarrollo de mis compañeros, ademas de asistir sin falta a las reuniones programadas y terminar con los pendientes de cada una el mismo dia<br>
+                TF<br>
+                Estuve presente en todas las reuniones grupales, fomentando la participacion y creacion de mas sesiones, asi como de la identificacion clara de los puntos a trabajar de modo que las reuniones sean mas productivas y el avance tangible.           
+                <br>
                 Velarde Luyo, Piero Alberto<br>
                 TB1<br>
                 Planifiqué los objetivos que se asignaron, desarrollándolos con eficiencia y respetando las decisiones que mis compañeros realizaron.<br>
 		TB2<br>
                 Facilité una reunión inicial para definir los objetivos del proyecto y establecer metas claras, asegurando que todas las voces del equipo fueran escuchadas.<br>
+		TF<br>
+                Verifiqué los objetivos a alcanzar para esta entrega y realicé mis actividades asignadas, a su vez, estuve pendiente de cada avancde de mis compañeros.<br>
             </td>
 			<td>Al establecer metas claras y planificar las tareas de manera eficiente, se logra cumplir con los objetivos propuestos y se mantiene un ambiente de trabajo colaborativo e inclusivo, lo que permite alcanzar los objetivos propuestos.</td>
 		</tr>
@@ -315,6 +347,59 @@ del ABET – EAC - Student Outcome 5.
 </table>
 
 ## Project Report Collaboration Insights
+
+URL de la organización del proyecto: [https://github.com/Latte-WebApps]
+
+URL del reporte dentro de la organización: [https://github.com/Latte-WebApps/Report-FoodSuit]
+
+**TB1**
+
+|Integrante| Tareas Asignadas                                                                                          |
+|-|-----------------------------------------------------------------------------------------------------------|
+|Jean Pierre Grandez Mansilla| Elaboración de Needfinding e Impact Mapping                                                               |
+|Sebastian Pacheco Astiguetta| Elaboración de Análisis competitivo, Estrategias y tácticas frente a competidores, entrevistas y análisis |
+|Josue Gonzalo Paiva Quispe| Elaboración de User Stories y Product Backlog                                                             |
+|Piero Alberto Velarde Luyo| Elaboración de Lean UX Canvas y Wireframes                                                                |
+|André Arturo Bernaola Pérez| Elaboración de Style Guidelines y Landing Page                                                            |
+
+**TP**
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Jean Pierre Grandez Mansilla| Desarrollo del Needfinding e Impact Mapping |
+|Sebastian Pacheco Astiguetta| Desarrollo del Análisis competitivo, Estrategias y tácticas frente a competidores, entrevistas y análisis |
+|Josue Gonzalo Paiva Quispe| Desarrollo de Application Mockups |
+|Piero Alberto Velarde Luyo| Desarrollo de Software Configuration Management |
+|André Arturo Bernaola Pérez| Desarrollo de User Stories y Product Backlog |
+
+**TB2**
+
+|Integrante| Tareas Asignadas                                                                                          |
+|-|-----------------------------------------------------------------------------------------------------------|
+|Jean Pierre Grandez Mansilla| Desarrollo de endpoints para el bounded context de attendance en backend y frontend                                           |
+|Sebastian Pacheco Astiguetta| Desarrollo de endpoints para el bounded context de reports en backend y frontend       |
+|Josue Gonzalo Paiva Quispe| Implementación de funcionalidades en el bounded context del frontend                                                                         |
+|Piero Alberto Velarde Luyo| Desarrollo de endpoints para el bounded context de registro de órdenes en backend y frontend                                                            |
+|André Arturo Bernaola Pérez| Desarrollo de endpoints para el bounded context de inventory en backend y frontend                                                                         |
+
+**TF**
+
+| Integrante                        | Tareas Asignadas |
+|-----------------------------------|------------------|
+| Jean Pierre Grandez Mansilla      |            Elaboración de Heurísticas y análisis de entrevistas    |
+| Sebastian Pacheco Astiguetta      |      Elaboración de    Testing Suite Evidence for Sprint Review  y registro de entrevistas      |
+| Josue Gonzalo Paiva Quispe        |         Elaboración de  Testing Suite Evidence for Sprint Review y Services Documentation Evidence for Sprint Review       |
+| Piero Alberto Velarde Luyo        |       Elaboración de  Testing Suite Evidence for Sprint Review    y development evidence for sprint review      |
+| André Arturo Bernaola Pérez       |         Elaboración de deployment evidence, Execution Evidence for Sprint Review        |
+
+**TF evidence**
+
+<img  src="assets/collab-insights/report-tf-insight.jpeg">
+
+
+***
+
+
 
 ## Capítulo I: Introducción <a id="cap1"></a>
 
@@ -355,11 +440,11 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
     <td> Soy Sebastian Pacheco, tengo 21 años y soy alumno de Ingeniería de Software en la UPC. Me considero una persona trabajadora y activa, priorizando las responsabilidades ante todo, pero también destaco en trabajo en equipo, permitiendo a todos que participen. Tengo conocimiento de C++ y Python, los cuales pongo en práctica mediante proyectos personales. </td>
   </tr>
 <tr>
-    <th colspan="2"> Integrante 3</th>
+    <th colspan="2"> Piero Velarde Luyo </th>
   </tr>
   <tr>
-    <td>FOTO</td>
-    <td></td>
+    <td><img src="assets/profile-pics/pierovelarde.jpg" alt="Piero Velarde" style="width: 300px"></td>
+    <td>Soy Piero, estudio la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Escogí esta carrera por mi facilidad en el uso de las computadoras. Asímismo, por mi interés en el funcionamiento de las anteriores mencionadas y todo respecto a la programación y las tecnologías emergentes. </td>
   </tr>
 <tr>
     <th colspan="2">Josue Paiva</th>
@@ -371,6 +456,7 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
     <td> Soy Josue Paiva, tengo 21 años y soy de la carrera de Ingenieria de Software, tengo conocimiento de C++, Python y SQL, me gusta mantener buena comunicación con mis commpañeros de equipo, cumplir con mis tareas y apoyar al resto cuando se requiera. </td>
   </tr>
 </table>
+
 ### 1.2. Solution Profile
 Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administracion de un restaurante proporcionando diversas herramientas y caracteristicas que detallamos a continuacion:
 
@@ -391,8 +477,11 @@ Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administra
 |Why?| ¿Porqué sucede el problema?|Es la naturaleza misma de este tipo de negocio, al ser un sector orientado a la atencion al cliente, siempre surgen situaciones y problematicas|
 |How?| ¿Como?|Los negocion no cuentan con herramientas especificas para ellos, mas que las tradicionales pizarras y agendas que suelen acumular mucho registro y son complicadas de consultar|
 |How much?| Cuanto?|Segun el INE cerca del 60% de restaurantes cierran en su primer año de vida y el 70% no pasa de los 5 años, estas son estadisticas preocupantes si tomamos en cuenta la gran cantidad de inversion que requiere un negocio de este estilo|
+
 #### 1.2.2 Lean UX Process
+
 ##### 1.2.2.1. Lean UX Problem Statements
+
 Nuestro producto busca ser una herramienta que facilite el flujo de trabajo en un restaurante u negocio similar, mediante nuestro producto tanto administradores como empleados encontraran un espacio donde consultar informacion pertinente para sus funciones del día. Mediante investigación hemos observado como los administradores tienen dificultades para llevar una logistica ordenada de su inventario, horarios de trabajo, etc. Asi como los empleados que muchas veces no cuentan con un sistema de marcado de ingreso y salida, no tienen acceso a información importante como inventariado, etc. Como podremos facilitar el flujo de trabajo de un restaurante, para poder mejorar el desempeño de todo el personal?
 
 ##### 1.2.2.2. Lean UX Assumptions
@@ -1903,86 +1992,19 @@ Para configurar el despliegue de la landing page en GitHub Pages, seguimos los s
 | Sprint 1 Velocity                  | 5 User Stories                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Sum of Story Points                | 5 Story Points Atendidos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
-##### 5.2.1.2. Sprint Backlog 1
-<table>
-  <tr>
-    <td colspan="1"><strong>Sprint #</strong></td>
-    <td colspan="7"><strong>Sprint 1</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>User Story</strong></td>
-    <td colspan="6"><strong>Work-Item/task</strong></td>
-  </tr>
-  <tr>
-    <td colspan="1"><strong>Id</strong></td>
-    <td colspan="1"><strong>Title</strong></td>
-    <td colspan="1"><strong>Id</strong></td>
-    <td colspan="1"><strong>Title</strong></td>
-    <td colspan="1"><strong>Description</strong></td>
-    <td colspan="1"><strong>Estimation(Hrs)</strong></td>
-    <td colspan="1"><strong>Assigned To</strong></td>
-    <td colspan="1"><strong>Status</strong></td>
-  </tr>
-  <tr>
-    <td colspan="1">US-18</td>
-    <td colspan="1">Presentación del Producto</td>
-    <td colspan="1">T01</td>
-    <td colspan="1">Crear la presentación base del producto.</td>
-    <td colspan="1">Se creará la landing page del producto, usando las herramientas necesarias siguiendo el modelo establecido.</td>
-    <td colspan="1">0.5</td>
-    <td colspan="1">André Bernaola, Josué Paiva</td>
-    <td colspan="1">Done</td>
-  </tr>
-  <tr>
-    <td colspan="1">US-19</td>
-    <td colspan="1">Características Principales</td>
-    <td colspan="1">T02</td>
-    <td colspan="1">Agregar las características principales del producto.</td>
-    <td colspan="1">La Landing Page debe informar sobre las características principales del producto.</td>
-    <td colspan="1">0.5</td>
-    <td colspan="1">André Bernaola</td>
-    <td colspan="1">Done</td>
-  </tr>
-  <tr>
-    <td colspan="1">US-20</td>
-    <td colspan="1">Llamada a la Acción</td>
-    <td colspan="1">T03</td>
-    <td colspan="1">Agregar un botón de llamada a la acción.</td>
-    <td colspan="1">Se agregará un botón de llamada a la acción en la Landing Page, el cual ofrece un demo del producto o contacta con el equipo detrás del producto.</td>
-    <td colspan="1">0.5</td>
-    <td colspan="1">André Bernaola</td>
-    <td colspan="1">Done</td>
-  </tr>
-  <tr>
-    <td colspan="1">US-21</td>
-    <td colspan="1">Accesibilidad en Dispositivos Móviles</td>
-    <td colspan="1">T04</td>
-    <td colspan="1">Asegurar la accesibilidad en dispositivos móviles.</td>
-    <td colspan="1">Se asegurará que la Landing Page sea accesible y se visualice correctamente en dispositivos móviles.</td>
-    <td colspan="1">2</td>
-    <td colspan="1">André Bernaola</td>
-    <td colspan="1">Done</td>
-  </tr>
-</table>
 
+##### 5.2.1.2. Sprint Backlog 1
 ##### 5.2.1.3. Development Evidence for Sprint Review
-| **Repository**                     | **Branch** | **Commit ID** | **Commit Message**   | **Commit Message Body** | **Commited on (Date)** |
-|------------------------------------|------------|---------------|----------------------|-------------------------|------------------------|
-| Latte-WebApps/FoodSuiteLandingPage | main       | 0f2f857       | Add files via upload | -                       | 20/08/2024             |
 ##### 5.2.1.4. Testing Suite Evidence for Sprint Review
-Se omite esta sección, dado que aún no se tiene el conocimiento necesario para realizar pruebas automatizadas. Esto se llevara a cabo en futuros sprints.
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+
 En esta entrega, nuestro equipo ha desplegado con éxito la landing page.
 Link: https://latte-webapps.github.io/FoodSuiteLandingPage/
 ![Landing Page](assets/execution-foodsuit-landing.png)
+
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-Se omite esta sección ya que aún no contamos con Web Application, la cual se desarrollará en Sprints futuros.
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Se omite esta sección ya que actualmente no contamos con una Front End App, ya que esta se implementará en Sprints futuros.
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
-A continuación, se muestra la página de insights proporcionada por Github.
-![General Insights](assets/general-insights.png)
-![Team Collaboration Insights](assets/teamcollab-insights.png)
 
 #### 5.2.2. Sprint 2
 ##### 5.2.2.1. Sprint Planning 2
@@ -2289,88 +2311,44 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 | Sum of Story Points             | La suma de story points atendidos es de X story points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 ##### 5.2.4.2. Sprint Backlog 4
+Para el ultimo sprint, creamos tasks para subsanar elementos faltantes del anterior sprint, como desorganizacion en la landing page, inconsistencias entre el front y el back que pudiera perjudicar la conexion, etc. Del mismo modo se incluyeron todas las historias de usuario que se trabajaron, todas siendo relacionadas a la conexion Front y Back, las cuales se encargan de cumplir con el core de negocio de cada uno de los bounded context trabajados.
+![Sprint Backlog 4](assets/sprint4/trelloSprint4.png)
+
+
 
 ##### 5.2.4.3. Development Evidence for Sprint Review
 
-<table>
-  <tr>
-    <th>Epic / Story ID</th>
-    <th>Título</th>
-    <th>Criterios de Aceptación</th>
-  </tr>
-  <tr>
-    <td>US01</td>
-    <td>Guardar pedidos automáticamente en el historial para análisis</td>
-    <td>Escenario 1:
-Dado que el trabajador ha completado un pedido,
-Cuando el pedido es confirmado en el sistema,
-Entonces el sistema guarda automáticamente el pedido en el historial y confirma el registro al trabajador.
-  </tr>
-  <tr>
-    <td>US03</td>
-    <td>Generar reportes financieros detallados para análisis</td>
-    <td>Escenario 1:
-Dado que el administrador solicita un reporte de ingresos,
-Cuando el sistema procesa la solicitud,
-Entonces se genera un informe detallado de los ingresos y el administrador recibe una notificación.  <tr>
-    <td>US04</td>
-    <td>Registrar gastos imprevistos para control financiero</td>
-    <td>Escenario 1:
-Dado que el administrador necesita registrar un gasto imprevisto,
-Cuando ingresa los detalles del gasto en el sistema,
-Entonces el sistema lo guarda en la categoría correspondiente y actualiza el balance de gastos.  <tr>
-    <td>US14</td>
-    <td>Monitorear la asistencia del personal</td>
-    <td>Escenario 1:
-Dado que el administrador accede al módulo de asistencia,
-Cuando consulta la asistencia de un empleado,
-Entonces el sistema muestra los registros de ausencias y tardanzas.  </tr>
-  <tr>
-    <td>US16</td>
-    <td>Optimizar la carta de platos según la demanda histórica</td>
-    <td>Escenario 1:
-Dado que el sistema analiza las estadísticas de ventas,
-Cuando se generan recomendaciones,
-Entonces el sistema presenta una carta personalizada para días específicos.
-  </tr>
-  <tr>
-    <td>TS03</td>
-    <td>Implementación de Accesibilidad Web</td>
-    <td>Escenario 1:
-Dado que la landing page está cargada
-Cuando un usuario navega utilizando solo el teclado
-Entonces todos los elementos interactivos deben ser accesibles y enfocados correctamente.  </tr>
-  <tr>
-    <td>TS14</td>
-    <td>Deployment del Backend</td>
-    <td>Escenario 1:
-Given el usuario accede a la documentacion de Swagger, puede interactuar con todos los endpoints y sus respectivos requests.</td>
-  </tr>
-    <tr>
-    <td>US22</td>
-    <td>Registro de usuario</td>
-    <td>Escenario 1:
-Given el visitante está en la página de registro, when completa los campos obligatorios y hace clic en "Registrarse", then el sistema debe crear una cuenta.</tr>
-    <tr>
-    <td>US23</td>
-    <td>Inicio de Sesión</td>
-    <td>Escenario 1:
-Given el usuario está registrado, when ingresa sus credenciales correctas, then debe poder acceder a su cuenta.  </tr>
-    <tr>
-    <td>TS09</td>
-    <td>Registrar Usuarios por una API</td>
-    <td>Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible when se envía una solicitud POST con los datos del usuario ingresados al endpoint, then se recibe una señal de confirmación (201)</td>
-  </tr>
-    <tr>
-    <td>TS10</td>
-    <td>Autenticación de Usuarios</td>
-    <td>Escenario 1:
- Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.  </tr>
-  </table>
+| Repository                      | Branch                     | Commit ID | Commit Message                                                       | Commit Message Body | Commited on (Date) |
+|---------------------------------|----------------------------|-----------|----------------------------------------------------------------------|---------------------|--------------------|
+| Latte-WebApps/FoodSuit-Frontend | feat/orders		       | f9c325f   | Merge pull request #24 from Latte-WebApps/feat/orders 	          |                     | 2024-11-04         |
+| Latte-WebApps/FoodSuit-Frontend | fix/report-entity          | ea31507   | Merge pull request #25 from Latte-WebApps/fix/report-entity	  |                     | 2024-11-13         |
+| Latte-WebApps/FoodSuit-Frontend | fix/report-entity	       | a00c47d   | Merge pull request #26 from Latte-WebApps/fix/report-entity	  |                     | 2024-11-19         |
+| Latte-WebApps/FoodSuit-Frontend | feat/iam		       | 3c54f4a   | Merge pull request #27 from Latte-WebApps/feat/iam		          |                     | 2024-11-19         |
+| Latte-WebApps/FoodSuit-Frontend | feat/report-generation     | b8b029a   | Merge pull request #28 from Latte-WebApps/feat/report-generation     |                     | 2024-11-20         |
+| Latte-WebApps/FoodSuit-Frontend | fix/report-generation-inventory| cf74ce8   | Merge pull request #29 from Latte-WebApps/fix/report-generation-inventory|                     | 2024-11-20  |
+| Latte-WebApps/FoodSuit-Frontend | feat/dish-creation         | e77be7d   | Merge pull request #30 from Latte-WebApps/feat/dish-creation         |                     | 2024-11-20         |
+| Latte-WebApps/FoodSuit-Frontend | fix/report-table-design    | f048049   | Merge pull request #31 from Latte-WebApps/fix/report-table-design    |                     | 2024-11-20         |
+| Latte-WebApps/FoodSuit_Backend  | feat/employees-schedule    | 7c339d9   | Merge pull request #8 from Latte-WebApps/feat/employees-schedule     |                     | 2024-11-13         |
+| Latte-WebApps/FoodSuit_Backend  | feat/finance               | 4e3ebc7   | Merge pull request #9 from Latte-WebApps/feat/finance                |                     | 2024-11-12         |
+| Latte-WebApps/FoodSuit_Backend  | develop	               | 2341dd3   | Merge pull request #10 from Latte-WebApps/develop             	  |                     | 2024-11-13         |
+| Latte-WebApps/FoodSuit_Backend  | feat/employees-schedule    | 7997654   | Merge pull request #11 from Latte-WebApps/feat/employees-schedule    |                     | 2024-11-13         |
+| Latte-WebApps/FoodSuit_Backend  | feat/inventory             | beb96bd   | Merge pull request #12 from Latte-WebApps/feat/inventory             |                     | 2024-11-15         |
+| Latte-WebApps/FoodSuit_Backend  | feat/get-all-dishes	       | a432008   | Merge pull request #13 from Latte-WebApps/feat/IAM		          |                     | 2024-11-19         |
+| Latte-WebApps/FoodSuit_Backend  | feat/orders                | 16cc97c   | Merge pull request #14 from Latte-WebApps/feat/get-all-dishes        |                     | 2024-11-20         |
 
 
 
 ##### 5.2.4.4. Testing Suite Evidence for Sprint Review
+Presentamos los criterios de aceptación en formato gherkin para las pruebas a lo largo del proyecto. Esta tabla consiste en el registro de los commits desarrollados en un repositorio dedicado para los acceptance tests, en el cual se basa la lógica del negocio.
+Link del repositorio: [Acceptance-Test](https://github.com/Latte-WebApps/Acceptance-Test)
+
+| Repository                    | Branch              | Commit ID | Commit Message                                                                          | Commit Message Body | Commited on (Date) |
+|-------------------------------|---------------------|-----------|-----------------------------------------------------------------------------------------|---------------------|--------------------|
+| Latte-WebApps/Acceptance-Test | develop		           | 98978b0   | feat: added gherkin tests 	     					                                                   |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | develop		           | 4655407   | feat: added gherkin tests 	     					                                                   |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | develop		           | 1805f9a   | feat: added sprint 3 features     					                                                 |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | develop		           | 931e7a3   | Merge branch 'develop' of https://github.com/Latte-WebApps/Acceptance-Test into develop |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test | feat/sprint-2-tests | 01fbef0   | feat: added gherkin tests                                                               |                     | 2024-11-20         |
 
 ##### 5.2.4.5. Execution Evidence for Sprint Review
 
@@ -2540,6 +2518,33 @@ Evidenciamos haciendo uso de Postman que el despliegue fue exitoso y se puede ac
 Enlace al backend: [https://foodsuit.azurewebsites.net/](https://foodsuit.azurewebsites.net/) 
 
 ##### 5.2.4.8. Team Collaboration Insights during Sprint
+En este sprint se han culminado los tres productos que ofrecemos como Latte para FoodSuit, siendo éstos la landing page, web application y web service.
+
+**Landing Page** 
+Dentro de la landing page se han realizado correcciones mínimas ya que la posición de algunos elementos no eran los adecuados.
+![Commits in Landing Page](assets/team-insights-s4/landing-commits.png)
+Distribución de commits:
+- André Bernaola(Andorla0): 3 commits
+
+**Frontend**
+Dentro del frontend se han realizado varios cambios con relación a adaptación de las entidades con el backend, funcionalidades extra y refactorización de archivos.
+![Commits in Frontend](assets/team-insights-s4/frontend-commits.png)
+Distribución de commits:
+- Sebastian Pacheco (Pachieeee): 19 commits
+- André Bernaola (Andorla0): 18 commits
+- Jean Grandez (JeanGrandez): 5 commits
+- Josue Paiva (JosuePaiva02): 3 commits
+- Piero Velarde (P1er0VL): 3 commits
+
+**Backend**
+Dentro del backend se han agregado nuevos endpoints para autenticación de usuarios además de la corrección de endpoints que funcionaban de manera incorrecta y por tanto complicaban el progreso.
+![Commits in Backend](assets/team-insights-s4/backend-commits.png)
+Distribución de commits:
+- Sebastian Pacheco (Pachieeee): 57 commits
+- André Bernaola (Andorla0): 36 commits
+- Josue Paiva (JosuePaiva02): 33 commits
+- Jean Grandez (JeanGrandez): 26 commits
+- Piero Velarde (P1er0VL): 24 commits
 
 ### 5.3 Validation Interviews
 #### 5.3.1 Diseño de entrevistas
@@ -2620,7 +2625,7 @@ Validar la usabilidad y efectividad de la landing page y de los flujos de usuari
 - ¿Fue simple el proceso de creación de un registro de horario para un empleado?
 - Durante el flujo de creación, ¿Algún paso generó dudas?
 
-#### Creación de Horario para los Empleados
+#### Manejo de Inventario
 - ¿Consideras que fue claro el proceso de creacion de inventariado?
 - ¿Tuviste dudas durante el flujo de creacion?
 - ¿La interfaz fue suficientemente clara para facilitar el registro?
@@ -2640,112 +2645,271 @@ Validar la usabilidad y efectividad de la landing page y de los flujos de usuari
 2. **Visualización de Productividad**:
 - ¿Consdideras que el panel de productividad hace un buen trabajo reflejando tu trabajo?
 - ¿Agregarias o eliminarias algun elemento?
+- 
 3. **Visualización de Attendance**:
 - ¿Consdideras que el panel de Attendance seria util para que tus empleadores mantengan control de tus horas de trabajo?
 - ¿El grafico presentado es de tu agrado? ¿De no ser el caso, que otro grafico haria un mejor trabajo?
 
 ### 5.3.2 Registro de Entrevistas
+Link del video de las entrevistas: [Entrevistas de Validación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/Ea8JuKQU6jNGv79YL_cajW4BsAnbwS1bc-kjhmyxP63sxA?e=xwvw1z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Presentamos a continuación los resultados de las entrevistas de validación realizadas a los administradores y trabajadores de restaurantes, nuestros segmentos objetivos.
 
 ## Segmento Obejtivo: Administradores de Restaurantes
+| Entrevista 1                             | Administradores de Restaurantes                                                                                                                                                                                                                                                                                                                             |
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Entrevistado                             | Eduardo Ventura                                                                                                                                                                                                                                                                                                                                             |
+| Edad                                     | 21 años                                                                                                                                                                                                                                                                                                                                                     |
+| Distrito                                 | San Juan de Lurigancho                                                                                                                                                                                                                                                                                                                                      |
+| Inicio de entrevista                     | [00:00](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/Ea8JuKQU6jNGv79YL_cajW4BsAnbwS1bc-kjhmyxP63sxA?e=Osnsnd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D) |
+| Foto captura                             | ![Entrevista con Eduardo Ventura](assets/validation-interview/eduardo-validation.png)                                                                                                                                                                                                                                                                       |
+| Diseño de presentación del producto      | El diseño le parece agradable e intuitiva a primera vista y le facilita la navegación con la barra superior de navegación.                                                                                                                                                                                                                                  |
+| Información de presentación del producto | Le resulta satisfactorio ya que cumple con sus expectativas y además considera que es una muy buena forma de acercar al cliente con el producto.                                                                                                                                                                                                            |
+| Visualización del dashboard              | Le sorprendió ya que es lo que esperaba y necesitaba precisamente ya que le resume de manera clara lo que hace falta dentro del restaurante y le ayuda a estar actualizado con los cambios.                                                                                                                                                                 |
+| Creación de horarios                     | Le parecen intuitivas y de fácil manejo ya que todas vienen con un diseño sencillo que te indica como debes agregar nuevos datos.                                                                                                                                                                                                                           |
+| Visualización de Productividad           | Opina que tener registro constante de la forma de trabajo de sus trabajadores le beneficia al momento de realizar el monitoreo de sus trabajadores y saber con exactitud su desempeño dentro del trabajo.                                                                                                                                                   |
 
-Enlace de la entrevista: 
+| Entrevista 2                             | Administradores de Restaurantes                                                                                                                                                                                                                                                                                                                                                                |
+|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Entrevistado                             | Verónica Astiguetta                                                                                                                                                                                                                                                                                                                                                                            |
+| Edad                                     | 54 años                                                                                                                                                                                                                                                                                                                                                                                        |
+| Distrito                                 | Cercado de Lima                                                                                                                                                                                                                                                                                                                                                                                |
+| Inicio de entrevista                     | [8:41](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/Ea8JuKQU6jNGv79YL_cajW4BsAnbwS1bc-kjhmyxP63sxA?e=CsxEKr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTIxLjk5fX0%3D) |
+| Foto captura                             | ![Entrevista con Verónica Astiguetta](assets/validation-interview/veronica-validation.png)                                                                                                                                                                                                                                                                                                     |
+| Diseño de presentación del producto      | Le es fácil de intuir de qué trata el producto gracias al diseño empresarial y con detalles que indican que está destinado para restaurantes.                                                                                                                                                                                                                                                  |
+| Información de presentación del producto | La información proporcionada le parece adecuada y le facilita el entendimiento de las funcionalidades del producto.                                                                                                                                                                                                                                                                            |
+| Visualización del dashboard              | La información presentada como resumen le parece la adecuada para mostrar en un dashboard, la visualización de los datos le parece clara y fácil de entender, además de que considera vital los puntos clave actuando como resumen de estadísticas del negocio en el dashboard.                                                                                                                |
+| Creación de horarios                     | Le parece sencillo de utilizar y le agrada la forma en la que se presenta la información para agregar un nuevo horario, además de que le parece útil para llevar un control de los horarios de sus empleados.                                                                                                                                                                                  |
+| Visualización de productividad           | Poder ver el rendimiento de los trabajadores en el negocio lo considera importante para manejar los empleados de una manera más eficaz. El hecho de que un gráfico de comparación esté presente le facilita saber quiénes son los empleados más productivos y quiénes necesitan intervención.                                                                                                  |
 
-**Entrevista con Eduardo Ventura**
-
-![Entrevista con Eduardo Ventura]()
-
-
-Nombre del entrevistado: Eduardo Ventura Chancafe <br>
-Edad: 21 años <br>
-Distrito de residencia: San Juan de Lurigancho <br>
-Inicio de la entrevista: 00:00 <br>
-Duración: 10 minutos con 40 segundos <br>
-
-En base a la landing page, Eduardo nos comenta que el diseño le parece agradable
-e intuitiva a primera vista y le facilita la navegación con la barra superior de navegación.
-Con respecto a la información que se le muestra Eduardo resulta satisfecho ya que cumple con
-sus expectativas y además considera que es una muy buena forma de acercar al cliente con el producto,
-debido agregar los features que tiene la aplicación le ayuda a saber desde antes cuales son las
-funcionalidades con las que se va encontrar, y luego de acceder a nuestra demo del producto Eduardo comenta
-que el panel de inicio le sorprendió ya que es lo que esperaba y necesitaba precisamente ya que le
-resume de manera clara lo que hace falta dentro del restaurante y le ayuda a estar actualizado con los cambios.
-Probando las funcionalidades de la aplicación Eduardo hizo la prueba de agregar y crear horarios para un empleado,
-organizar su inventario y agregar asistencias todas estas le parecen intuitivas y de fácil manejo ya que todas 
-vienen con un diseño sencillo que te indica como debes agregar nuevos datos, pasando al apartado de gráficos como es
-el caso de productividad Eduardo opina que tener registro constante de la forma de trabajo de sus trabajadores le beneficia
-al momento de realizar el monitoreo de sus trabajadores y saber con exactitud su desempeño dentro del trabajo.
-Eduardo nos señaló que podrían haber mejoras para el desarrollo de la aplicación como el manejo de registro de las asistencias,
-ya que en cierto modo hay ocasiones en las que pueden haber turnos de un día para otro y esto podria afectar al momento de generar un registro
-de salida, lo mejor seria separarlo en registro de entradas y guardar esos datos y luego hacer el registro de salida al último, y así evitar
-conflictos y además que a largo plazo es más eficiente para mantener una interfaz intuitiva y fácil de usar.
-
-
+| Entrevista 3                             | Administradores de Restaurantes                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Entrevistado                             | Iván Pacheco                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Edad                                     | 53 años                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Distrito                                 | Cercado de Lima                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Inicio de entrevista                     | [29:08](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/Ea8JuKQU6jNGv79YL_cajW4BsAnbwS1bc-kjhmyxP63sxA?e=Xqzu4t&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTc0OC43OH19)                                        |
+| Foto captura                             | ![Entrevista con Iván Pacheco](assets/validation-interview/ivan-validation.png)                                                                                                                                                                                                                                                                                                                                                      |
+| Diseño de presentación del producto      | La manera en cómo está organizada y el uso de colores son puntos claves que él considera importantes para elegir una landing page, y estos dos elementos los ve reflejados de manera positiva en la landing page de FoodSuit.                                                                                                                                                                                                        |
+| Información de presentación del producto | Opina que los segmentos han sido bien distribuidos, y la información incluida en cada uno de ellos le informa lo suficiente como para saber de qué trata el producto.                                                                                                                                                                                                                                                                |
+| Visualización del dashboard              | Mostró complicaciones en cuanto a qué elementos se deberían reflejar, pero luego de analizar mostró conformidad con la información proporcionada en este segmento.                                                                                                                                                                                                                                                                   |
+| Creación de horarios                     | No tuvo problemas al crear un horario, sin embargo considera que la interfaz podría ser más amigable para el administrador. Aún así, considera ésta una buena herramienta para llevar un seguimiento de qué trabajadores deberían presentarse a una cierta hora.                                                                                                                                                                     |
+| Visualización de productividad           | El hecho de que se muestre visualmente cómo desempeña cada empleado se siente muy satisfecho con la herramienta. Considera que es una buena manera de llevar un control de la productividad de sus empleados. Un problema a destacar fue que el análisis de cómo calculamos el rendimiento de los empleados le es injusto, ya que no solo debe depender de las horas trabajadas, sino que debe haber otros factores en la operación. |
 
 ## Segmento Objetivo: Trabajadores de Restaurantes
 
-Enlace de la entrevista:
+| Entrevista 4                             | Trabajadores de Restaurantes                                                                                                                                                                                                                                                                                                                                                                  |
+|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Entrevistado                             | Fabrizio Sanchez Zamora                                                                                                                                                                                                                                                                                                                                                                       |
+| Edad                                     | 22 años                                                                                                                                                                                                                                                                                                                                                                                       |
+| Distrito                                 | Chorrillos                                                                                                                                                                                                                                                                                                                                                                                    |
+| Inicio de la entrevista                  | [56:27](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/Ea8JuKQU6jNGv79YL_cajW4BsAnbwS1bc-kjhmyxP63sxA?e=zF75jF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzM4Ny4yNX19) |
+| Foto captura                             | ![Entrevista con Fabrizio Sanchez Zamora](assets/validation-interview/fabrizio-validation.png)                                                                                                                                                                                                                                                                                                |
+| Diseño de presentación del producto      | Quedó agradado con la manera de la distribuciónde la información ya que le parece bien representado que sea progresiva y acorde a partir de un resumen del proyecto.                                                                                                                                                                                                                          |                                                                                                                                                                                                                        
+| Información de presentación del producto | Gracias a la lista de funcionalidades bien mostrada y los videos de explicación le facilita el entendimiento total del producto, además de que le agrada saber el equipo detrás.                                                                                                                                                                                                              |
+| Horario de empleados                     | Se muestra familiarizado con un sistema de manejo de horarios y control de asistencias, sin embargo, nos comenta que pues no es similar al que ha utilizado y siente que el de nuestro producto le resulta mas sencillo de utilizar.                                                                                                                                                          |
+| Productividad del empleado               | Opina que tener registro constante de la forma de trabajo de sus trabajadores le beneficia al momento de realizar el monitoreo de sus trabajadores y saber con exactitud su desempeño dentro del trabajo.                                                                                                                                                                                     |
+| Manejo de órdenes                        | Poder acceder a la lista de órdenes al instante de su creación y también poder liberarlas y cancelarlas le parece un sistema de manejo eficiente y fácil de manejar, pero opina que las categorias se verían mejor si estuvieran separadas con una imagen y el nombre de dicha categoría.                                                                                                     |
 
-**Entrevista con Fabrizio Sanchez**
+| Entrevista 5               | Trabajadores de Restaurantes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Entrevistado               | Diego Paiva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Edad                       | 22 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Distrito                   | San Miguel                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Inicio de la entrevista    | [1:06:04](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/Ea8JuKQU6jNGv79YL_cajW4BsAnbwS1bc-kjhmyxP63sxA?e=D6JmDY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mzk2NC40fX0%3D)                                                                                                                                                                                                     |
+| Foto captura               | ![Entrevista con Diego Paiva](assets/EntrevistaDiegPaiva.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Horario de empleados       | Encuentra la interfaz del Front de la aplicacion, limpio y sencillo, considera que esto es beneficioso puesto que le permite tanto a el como a sus jefes identificar facilmente su horario, sus horas trabajadas y la productividad que ejerce durante la semana, considera que podria existir un grafico de barras en Productivity, ordenado de menor a mayor productividad para poder identificar mejor los empleados mas productivos de la semana y encuentra efectivo y limpio la tabla de Attendance, aunque desearia que fuera mas grande para ver con mejor detalle la informacion presentada. |
+| Productividad del empleado | Opina que tener registro constante de la forma de trabajo de los trabajadores le beneficia al momento de realizar el monitoreo de sus trabajadores y saber con exactitud su desempeño dentro del trabajo.                                                                                                                                                                                                                                                                                                                                                                                             |
+| Manejo de órdenes          | Poder acceder a la lista de órdenes al instante de su creación y también poder liberarlas y cancelarlas le parece un sistema de manejo eficiente y fácil de manejar, pero opina que las categorias se verían mejor si estuvieran separadas con una imagen y el nombre de dicha categoría.                                                                                                                                                                                                                                                                                                             |
 
-![Entrevista con Fabrizio Sanchez Zamora]()
-
-
-Nombre del entrevistado: Fabrizio Sanchez Zamora <br>
-Edad: 22 años <br>
-Distrito de residencia: Chorrillos <br>
-Inicio de la entrevista: 00:00 <br>
-Duración: 8 minutos con 21 segundos <br>
-
-Respecto a la primera vista de la landing page Fabrizio quedo agradado con manera de la distribución
-de la información ya que le parece bien representado que sea progresiva y acorde a partir de un resumen del proyecto,
-luego pasando a un detallado de las funcionalidades y los videos de explicación de producto que con esto le facilita el entendimiento
-total del producto y tambien le agrado saber quienes son los desarrolladores. Pasando a la versión demo del producto Fabrizio se muestra
-familiarizado con un sistema de manejo de horarios y control de asistencias, sin embargo, nos comenta que pues no es similar al que ha utilizado
-y siente que el de nuestro producto le resulta mas sencillo de utilizar, respecto al panel de ordenes considera que es acertado que las ordenes se manejen
-mediante categorias y que puedas escoger la mesa y el trabajador que esta tomando la orden, además que cada plato tiene opción a 
-una orden especial o variación, poder acceder a la lista de ordenes al instante de su creación y tambien poder liberlas y  cancelarlas le parece un sistema de
- manejo eficiente y fácil de manejar, pero como sugerencia Fabrizio opina que las categorias se verían mejor si estuvieran separadas con una imagen y el nombre de 
-dicha categoría pero esto es más por la facilidad de uso y familiarización con el producto.
-
-
-**Entrevista con Diego Paiva**
-
-![entrevista3](assets/EntrevistaDiegPaiva.png)
-
-Nombre del entrevistado: Diego Paiva <br>
-Edad: 22 años <br>
-Distrito de residencia: San Miguel <br>
-Inicio de la entrevista: 00:00 <br>
-Duración: 2 minutos con 15 segundos <br>
-
-Diego encuentra la interfaz del Front de la aplicacion, limpio y sencillo, considera que esto es beneficioso puesto que le permite tanto a el como a sus jefes identificar facilmente su horario, sus horas trabajadas y la productividad que ejerce durante la semana, considera que podria existir un grafico de barras en Productivity, ordenado de menor a mayor productividad para poder identificar mejor los empleados mas productivos de la semana y encuentra efectivo y limpio la tabla de Attendance, aunque desearia que fuera mas grande para ver con mejor detalle la informacion presentada
-
-
-**Entrevista con Alejandro Quiroz**
-
-![entrevista4](assets/EntrevistaAlejandroQuiroz.png)
-
-Nombre del entrevistado: Alejandro Quiroz Matta <br>
-Edad: 21 años <br>
-Distrito de residencia: San Borja <br>
-Inicio de la entrevista: 00:00 <br>
-Duración: 9 minutos con 38 segundos <br>
-
-Alejandro comenta en la primera parte de la entrevista, en la cual se le fue mostrada nuestra landing page, la primerá impresión que recibió fue bastante favorable, si bien comenta que la imagenes no terminan de convencerle por una especie de caracter genérico a su percepción, nuestra página cumple su función de poder informar a los usuarios de nuestro producto. También mencionó que le agradó bastante la sección de features, ya que, en esta, se podía no solo ver las distintas características que ofrecemos, sino que también se aprecia un video demostrativo del producto. Un comentario que agregó fue que, en el apartado acerca del equipo de desarrollo, hubiese preferido que los integrantes usaran fotos más formales. En lo que respecta a la presentación del producto en sí, comentó que tanto el apartado de Attendance como el de Productivity eran bastante claros de entender y llegaban a cumplir perfectamente su función de creación de horarios para trabajadores al igual que la vista de su productividad con respecto a las horas trabajadas.  
-
+| Entrevista 6                             | Trabajadores de Restaurantes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Entrevistado                             | Alejandro Quiroz Matta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Edad                                     | 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Distrito                                 | San Borja                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Inicio de la entrevista                  | [1:08:19](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/Ea8JuKQU6jNGv79YL_cajW4BsAnbwS1bc-kjhmyxP63sxA?e=HqwvH1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDA5OS41NX19)                                                                                                                                                                                                                                        |
+| Foto captura                             | ![Entrevista con Alejandro Quiroz](assets/EntrevistaAlejandroQuiroz.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Diseño de presentación del producto      | La primera impresión que recibió fue bastante favorable, si bien comenta que la imagenes no terminan de convencerle por una especie de caracter genérico a su percepción, nuestra página cumple su función de poder informar a los usuarios de nuestro producto. También mencionó que le agradó bastante la sección de features, ya que, en esta, se podía no solo ver las distintas características que ofrecemos, sino que también se aprecia un video demostrativo del producto. Un comentario que agregó fue que, en el apartado acerca del equipo de desarrollo, hubiese preferido que los integrantes usaran fotos más formales. |
+| Información de presentación del producto | En lo que respecta a la presentación del producto en sí, comentó que tanto el apartado de Attendance como el de Productivity eran bastante claros de entender y llegaban a cumplir perfectamente su función de creación de horarios para trabajadores al igual que la vista de su productividad con respecto a las horas trabajadas.                                                                                                                                                                                                                                                                                                   |
+| Horario de empleados                     | Piensa que es un buen feature para manejar, especialmente el hecho de que se pueda ver su horario como empleado y la facilidad de poder modificarlo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Productividad del empleado               | Ver información como el pago, su cálculo de productividad son buenas alternativas para ver qué tan bien desempeña como empleado, sin embargo, opina que el gráfico podría ser más visual con respecto a la información presentándose.                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Manejo de órdenes                        | La facilidad de manejar las órdenes le beneficia en cuanto a eficiencia, es bastante claro y sencillo, pero podría cambiar la interfaz de las categorías para que sea más visual.                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 ### 5.3.3 Evaluación según Heurísticas
 
 **UX Heuristics & Principles Evaluation**
 
+**Carrera: Ingeniería de Software**
+**Curso: Aplicaciones Web**
+**Sección: WS53**
+**Profesores: Todos**
+**Auditor: Latte**
+**Clientes: Todos**
+
+**SITE o APP  A EVALUAR:** FoodSuit
+
+**TAREAS A EVALUAR:** 
+El alcance que tendrá esta evaluación incluye la revisión de la usabilidad de las siguientes tareeas: 
+
+
+**Desktop landing page**
+
+-Información y descripción de la aplicación y sus funcionalidades
+
+-Información y breve descripción sobre el equipo de trabajo
+
+-Header y footer funcionales
+
+-Funcionalidad del call to action
+
+**Desktop Web Applications**
+
+-Agregar items al inventario
+
+-Header y footer funcionales
+
+-Visualización del dashboard
+
+-Agregar una nueva asistencia
+
+-Visualización de horarios de empleados
+
+
+**No incluidas en esta versión de la evaluación:**
+
+**Desktop landing page**
+
+-Acceso a términos y condiciones
+
+-Política de privacidad y condiciones de uso
+
+**Desktop Web Applications**
+
+-Visualización de Perfil de usuario
+
+-Descripción detallada de creación de asistencias
+
+-Manejo del inventario
+
+-Registro de nuevo usuario
+
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|Nivel|Descripción|
+| :- | :- |
+|1|Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release.|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+
+**TABLA RESUMEN AMBOS SEGMENTOS:**
+
+**Web Application**
+
+|#|Problema|Escala de severidad|Heurística/Principio violado|
+| :- | :- | :- | :- |
+|1|La visualización del dashboard carece de una organización clara, con elementos que parecen fuera de lugar o sin jerarquía visual.|1|Diseño estético y cohesivo           |
+|2|Los usuarios tienen dificultades para encontrar la opción de agregar items al inventario debido a una navegación poco intuitiva.|2|Diseño estético y cohesivo           |
+|3|En la funcionalidad para agregar una nueva asistencia, los formularios no siguen un diseño consistente con el resto de la aplicación, lo que genera confusión.|3|Eficiencia y satisfacción del usuario|
+|4|La visualización de horarios de empleados no incluye un mensaje claro o retroalimentación cuando los datos no están disponibles o la carga falla.|2|Eficiencia y satisfacción del usuario|
+
+**Landing Page**
+
+|#|Problema|Escala de severidad|Heurística/Principio violado|
+| :- | :- | :- | :- |
+|1|Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación.|1|Eficiencia y satisfacción del usuario|
+|2|El texto descriptivo sobre la aplicación no tiene suficiente claridad, lo que dificulta su comprensión.|1|Diseño estético y cohesivo|
+|3|La funcionalidad del call to action no es intuitiva para los usuarios, ya que no comunica claramente la acción esperada al hacer clic.|1|Diseño estético y cohesivo|
+
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**1. Landing Page**
+
+**Problema 1** 
+
+Severidad 1: 
+
+Heurística violada: Eficiencia y satisfacción del usuario 
+
+**Problema:** Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación.
+
+**Recomendación:** Establecer y seguir un conjunto claro de directrices de diseño para mantener la consistencia en toda la aplicación.
+
+
+**Problema 2**
+- **Severidad:** 1
+- **Heurística violada:** Diseño estético y cohesivo
+- **Problema:** El texto descriptivo sobre la aplicación no tiene suficiente claridad, lo que dificulta su comprensión.
+- **Recomendación:** Simplificar y estructurar el contenido en secciones más claras y fáciles de leer, utilizando viñetas o encabezados para destacar información importante.
+
+**Problema 3**
+- **Severidad:** 1
+- **Heurística violada:** Diseño estético y cohesivo
+- **Problema:** La funcionalidad del call to action no es intuitiva para los usuarios, ya que no comunica claramente la acción esperada al hacer clic.
+- **Recomendación:** Mejorar el diseño y el texto del botón de call to action para que sea más atractivo y comprensible, explicando claramente el beneficio de la acción.
+
+---
+
+#### **2. Web Application**
+
+**Problema 1**
+- **Severidad:** 1
+- **Heurística violada:** Diseño estético y cohesivo
+- **Problema:** La visualización del dashboard carece de una organización clara, con elementos que parecen fuera de lugar o sin jerarquía visual.
+- **Recomendación:** Rediseñar el dashboard priorizando los elementos más importantes, aplicando una jerarquía visual clara y agrupar secciones relacionadas.
+
+**Problema 2**
+- **Severidad:** 2
+- **Heurística violada:** Diseño estético y cohesivo
+- **Problema:** Los usuarios tienen dificultades para encontrar la opción de agregar items al inventario debido a una navegación poco intuitiva.
+- **Recomendación:** Reorganizar el menú de navegación para que la opción de agregar items sea más visible y accesible, y añadir etiquetas descriptivas.
+
+**Problema 3**
+- **Severidad:** 3
+- **Heurística violada:** Eficiencia y satisfacción del usuario
+- **Problema:** En la funcionalidad para agregar una nueva asistencia, los formularios no siguen un diseño consistente con el resto de la aplicación, lo que genera confusión.
+- **Recomendación:** Uniformar el diseño de los formularios con un estilo estándar que se aplique en toda la aplicación, manteniendo consistencia en etiquetas, colores y disposición de campos.
+
+**Problema 4**
+- **Severidad:** 2
+- **Heurística violada:**Eficiencia y satisfacción del usuario
+- **Problema:** La visualización de horarios de empleados no incluye un mensaje claro o retroalimentación cuando los datos no están disponibles o la carga falla.
+- **Recomendación:** Implementar mensajes de error o indicadores de carga para mantener informados a los usuarios sobre el estado del sistema en caso de fallos o demoras.
+
+### 5.4 Video About the Product
+
+En este apartado se muestra una pequeña captura concerniente al funcionamiento de nuestro producto. En este se muestra que nuestra aplicación de gestión para restaurantes está diseñada para simplificar y optimizar las operaciones diarias, ofreciendo herramientas intuitivas tanto para el personal de servicio como para los gerentes. Con un enfoque integral, la aplicación facilita la gestión de pedidos, el seguimiento de inventarios, la organización de mesas, la programación del personal y el análisis financiero.
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EeyUXxdy9LNBvfdA_UHILK8BX8fDv9_JRljCKOyUp9RFlg?e=6nYCzt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+![VideoAboutTheProduct](assets/AboutTheProduct.png)
+
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
 * Al evaluar los competidores, pudimos identificar las fortalezas y debilidades de sus productos, lo que nos permitió identificar oportunidades para mejorar y diferenciar FoodSuit. Esto nos ayudó a definir una propuesta de valor única y atractiva para nuestro producto, que destaca sus características clave y beneficios para los usuarios.
+
+## Video About the Team
+
+En este video se puede observar a los cinco integrantes del equipo explicar las responsabilidades que asumieron para desarrollar los bounded contexts en el proyecto, enfocado en el desarrollo tanto del frontend como del backend.
+
+Cada miembro del equipo detalló su responsabilidad en el proyecto, abordando cómo se organizó la comunicación entre el frontend y el backend para asegurar la cohesión del sistema. Utilizaron principios de Domain-Driven Design (DDD) para definir áreas de responsabilidad bien delimitadas, lo que permitió desarrollar de manera más eficiente y escalable.
+
+Los integrantes discutieron cómo se coordinaron para que cada bounded context se alineara con las necesidades del negocio, a la vez que mantenían la independencia técnica necesaria entre las diferentes partes del sistema. Además, destacaron la importancia de la colaboración constante para resolver problemas de integración y garantizar la calidad y usabilidad del producto final.
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EVoNvl3ZFopOtPlNrUk-B0YBnYEmuup5jakEr9wOMl1npg?e=zHkxbC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+![Video About TheTeam](assets/VideoAboutTheTeam.png)
+
 ## Bibliografía
 
 ## Anexos
-Organización en GitHub: https://github.com/Latte-WebApps
-Trello: https://trello.com/w/lattesfoodsuit
-Landing Page: https://latte-webapps.github.io/FoodSuiteLandingPage/
-Frontend: https://foodsuit.netlify.app
+-Organización en GitHub: https://github.com/Latte-WebApps
+-Trello: https://trello.com/w/lattesfoodsuit
+-Landing Page: https://latte-webapps.github.io/FoodSuiteLandingPage/
+-Frontend: https://foodsuit.netlify.app
+-Canvas: https://www.canva.com/design/DAGR_eJ8QOc/naeP_uDP8hDs_s_Hy8y2MQ/edit
