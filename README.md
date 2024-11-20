@@ -2887,3 +2887,4 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EVoNvl3Z
 -Trello: https://trello.com/w/lattesfoodsuit
 -Landing Page: https://latte-webapps.github.io/FoodSuiteLandingPage/
 -Frontend: https://foodsuit.netlify.app
+-Canvas: https://www.canva.com/design/DAGR_eJ8QOc/naeP_uDP8hDs_s_Hy8y2MQ/edit
