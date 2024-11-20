@@ -199,7 +199,33 @@ Velarde Luyo, Piero Alberto (U20211A620)<br>
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-
+        - [5.2.2. Sprint 2](#522-sprint-2)
+            - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+            - [5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
+            - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
+            - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+        - [5.2.3. Sprint 3](#523-sprint-3)
+            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+            - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-3)
+            - [5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
+            - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+        - [5.2.4. Sprint 4](#524-sprint-4)
+            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+            - [5.2.4.2. Sprint Backlog 4](#5242-sprint-backlog-4)
+            - [5.2.4.3. Development Evidence for Sprint Review](#5243-development-evidence-for-sprint-review)
+            - [5.2.4.4. Testing Suite Evidence for Sprint Review](#5244-testing-suite-evidence-for-sprint-review)
+            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -949,7 +975,7 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 ###### Epics
 
 | Epic ID | Título                                                | Descripción                                                                                                                                                                                                     |
-| ------- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|---------|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EP001   | Optimización del Registro y Control de Finanzas       | Implementar un sistema automatizado para registrar y controlar las finanzas del restaurante, incluyendo pedidos, gastos, e informes financieros.                                                                |
 | EP002   | Mejora en la Gestión de Pedidos y Asistencia          | Desarrollar una solución para registrar pedidos desde dispositivos móviles, marcar horas de trabajo y calcular automáticamente las horas trabajadas.                                                            |
 | EP003   | Análisis y Optimización del Desempeño del Restaurante | Proporcionar herramientas para analizar la productividad del personal, ventas de platos y optimización del menú basada en datos.                                                                                |
@@ -960,7 +986,7 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 <br>
 
 | Story ID | Título                                                                          | Descripción                                                                                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Relacionado con (Epic ID) |
-| -------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+|----------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
 | US-01    | Guardar pedidos automáticamente en el historial para análisis                   | Como administrador del restaurante, quiero que los pedidos se guarden automáticamente en el historial del sistema, para poder revisarlos y analizarlos posteriormente.                          | **Escenario 1: Registro exitoso** <br> **Dado** que el trabajador ha completado un pedido, <br> **Cuando** el pedido es confirmado en el sistema, <br> **Entonces** el sistema guarda automáticamente el pedido en el historial y confirma el registro al trabajador. <br><br> **Escenario 2: Registro fallido** <br> **Dado** que el trabajador intenta registrar un pedido, <br> **Cuando** ocurre un error en el sistema, <br> **Entonces** el sistema muestra un mensaje indicando que el registro ha fallado y no guarda el pedido en el historial.                              | EP001                     |
 | US-02    | Recibir alertas de inventario bajo para evitar faltantes                        | Como administrador del inventario, quiero recibir alertas cuando los recursos estén por debajo de la cantidad mínima, para poder reponerlos a tiempo y evitar faltantes en la operación diaria. | **Escenario 1: Alerta generada** <br> **Dado** que un recurso ha alcanzado la cantidad mínima en el inventario, <br> **Cuando** el sistema detecta la cantidad baja, <br> **Entonces** el sistema envía una alerta al administrador y actualiza el estado del inventario. <br><br> **Escenario 2: Sin alerta** <br> **Dado** que el recurso está por encima de la cantidad mínima, <br> **Cuando** el administrador revisa el inventario, <br> **Entonces** no se genera ninguna alerta y el inventario se mantiene actualizado.                                                      | EP001                     |
 | US-03    | Generar reportes financieros detallados para análisis                           | Como administrador financiero, quiero generar reportes detallados de ingresos y gastos, para evaluar el desempeño financiero del restaurante.                                                   | **Escenario 1: Reporte de ingresos** <br> **Dado** que el administrador solicita un reporte de ingresos, <br> **Cuando** el sistema procesa la solicitud, <br> **Entonces** se genera un informe detallado de los ingresos y el administrador recibe una notificación. <br><br> **Escenario 2: Reporte de gastos** <br> **Dado** que el administrador solicita un reporte de gastos, <br> **Cuando** el sistema procesa la solicitud, <br> **Entonces** se genera un informe detallado de los gastos y el administrador recibe una notificación.                                      | EP001                     |
@@ -982,21 +1008,25 @@ Luego de organizar las ideas e identificar las fases, se obtuvo el siguiente res
 | US-19    | Características Principales                                                     | Como visitante, quiero ver las características principales del producto en la landing page para evaluar si cumple con mis necesidades.                                                          | **Escenario 1: Características visibles**<br>Dado que accede a la landing page<br>Cuando visita la sección de características<br>Entonces se muestran las características principales del producto.<br>**Escenario 2: Características no disponibles**<br>Dado que el contenido de características no se carga<br>Cuando visita la sección<br>Entonces se muestra un mensaje indicando que el contenido está temporalmente no disponible.                                                                                                                                             | EP006                     |
 | US-20    | Llamada a la Acción                                                             | Como visitante, quiero encontrar botones de llamada a la acción (CTA) para solicitar una demo o contactar con el equipo de ventas fácilmente.                                                   | **Escenario 1: CTA visible**<br>Dado que accede a la landing page<br>Cuando visita la página<br>Entonces se deben mostrar botones de solicitud de demo y contacto en ubicaciones prominentes.<br>**Escenario 2: CTA no funcional**<br>Dado que un botón de CTA no funciona<br>Cuando intenta usar el botón<br>Entonces el sistema muestra un mensaje de error o no realiza la acción esperada.                                                                                                                                                                                        | EP006                     |
 | US-21    | Accesibilidad en Dispositivos Móviles                                           | Como visitante, quiero que la landing page sea accesible y funcional en dispositivos móviles para asegurarme de que puedo navegar y acceder a la información correctamente.                     | **Escenario 1: Accesibilidad correcta**<br>Dado que accede a la landing page desde un dispositivo móvil<br>Cuando navega por la página<br>Entonces el contenido debe ser accesible y funcional.<br>**Escenario 2: Accesibilidad limitada**<br>Dado que hay problemas con la accesibilidad<br>Cuando navega en un dispositivo móvil<br>Entonces se debe mostrar un mensaje indicando que algunas funciones pueden no estar disponibles.                                                                                                                                                | EP006                     |
+| US-22    | Registro de usuario                                           | Como visitante, quiero registrarme en la aplicación para poder gestionar mi negocio eficientemente.                     | Escenario 1: Given el visitante está en la página de registro, when completa los campos obligatorios y hace clic en "Registrarse", then el sistema debe crear una cuenta. Escenario 2: Given el visitante está en la página de registro, when completa los campos obligatorios con información incorrecta y hace clic en "Registrarse", then el sistema deberá rechazar la operación y pedirle que ingrese sus datos correctamente.                                                                                                                                                                                                                                             | EP001                     |
+| US-23    | Inicio de Sesión                                           | Como usuario, quiero iniciar sesión en la aplicación para acceder a mi cuenta y gestionar mis finanzas.                 | Escenario 1: Given el usuario está registrado, when ingresa sus credenciales correctas, then debe poder acceder a su cuenta. Escenario 2: Given el usuario está registrado, when ingresa sus credenciales de manera incorrecta, then se le indicará volver a ingresar sus datos correctamente.                                                                                                                                                                                                                                                                                                                                                                                     | EP001                     |
 
 <br>
 
 ###### Technical Stories
 
-| Story ID | Título                                                            | Descripción                                                                                                                                                                            | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Relacionado con (Epic ID) |
-| -------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| TS-01    | Implementación de Diseño Responsivo                               | Como desarrollador, quiero asegurar que la landing page esté completamente adaptada para dispositivos móviles, incluyendo la navegación y el contenido.                                | **Escenario 1: Visualización en Dispositivos Móviles** <br> **Dado** que la landing page se visualiza en un dispositivo móvil<br>**Cuando** se accede a la página<br>**Entonces** la navegación debe ser accesible mediante un menú hamburguesa y el contenido debe ajustarse correctamente al tamaño de la pantalla.<br><br>- **Escenario 2: Navegación en Móviles**<br>**Dado que** el menú hamburguesa está implementado<br>**Cuando** un usuario interactúa con el menú en un dispositivo móvil<br>**Entonces** el menú debe desplegarse correctamente y permitir la navegación entre secciones.                                                           | EP005                     |
-| TS-02    | Optimización de SEO Básica                                        | Como desarrolador, quiero aplicar prácticas básicas de SEO en la landing page para mejorar la visibilidad en motores de búsqueda.                                                      | **Escenario 1: Configuración de Etiquetas Meta** <br> **Dado** que se han añadido etiquetas meta relevantes a la landing page<br>**Cuando** se visualiza el código fuente de la página<br>**Entonces** las etiquetas meta deben estar correctamente configuradas y visibles.<br><br>- **Escenario 2: Análisis de SEO**<br>**Dado que** la optimización SEO está configurada<br>**Cuando** se analiza la página con herramientas SEO<br>**Entonces** la página debe mostrar una puntuación mejorada en comparación con la versión anterior.                                                                                                                     | EP005                     |
-| TS-03    | Implementación de Accesibilidad Web                               | Como desarrolador, quiero asegurar que la landing page cumpla con los estándares de accesibilidad web (WCAG) para usuarios con discapacidades.                                         | **Escenario 1: Navegación con Teclado**<br>**Dado** que la landing page está cargada <br> **Cuando** un usuario navega utilizando solo el teclado<br>**Entonces** todos los elementos interactivos deben ser accesibles y enfocados correctamente.<br><br>- **Escenario 2: Uso con Lectores de Pantalla**<br>**Dado que** la landing page está cargada<br>**Cuando** un usuario utiliza un lector de pantalla<br>**Entonces\*\* el contenido debe ser legible y navegable con el lector de pantalla.                                                                                                                                                           | EP005                     |
+| Story ID | Título                                                            | Descripción                                                                                                                                                                            | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Relacionado con (Epic ID) |
+|----------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| TS-01    | Implementación de Diseño Responsivo                               | Como desarrollador, quiero asegurar que la landing page esté completamente adaptada para dispositivos móviles, incluyendo la navegación y el contenido.                                | **Escenario 1: Visualización en Dispositivos Móviles** <br> **Dado** que la landing page se visualiza en un dispositivo móvil<br>**Cuando** se accede a la página<br>**Entonces** la navegación debe ser accesible mediante un menú hamburguesa y el contenido debe ajustarse correctamente al tamaño de la pantalla.<br><br>- **Escenario 2: Navegación en Móviles**<br>**Dado que** el menú hamburguesa está implementado<br>**Cuando** un usuario interactúa con el menú en un dispositivo móvil<br>**Entonces** el menú debe desplegarse correctamente y permitir la navegación entre secciones.                                                             | EP005                     |
+| TS-02    | Optimización de SEO Básica                                        | Como desarrolador, quiero aplicar prácticas básicas de SEO en la landing page para mejorar la visibilidad en motores de búsqueda.                                                      | **Escenario 1: Configuración de Etiquetas Meta** <br> **Dado** que se han añadido etiquetas meta relevantes a la landing page<br>**Cuando** se visualiza el código fuente de la página<br>**Entonces** las etiquetas meta deben estar correctamente configuradas y visibles.<br><br>- **Escenario 2: Análisis de SEO**<br>**Dado que** la optimización SEO está configurada<br>**Cuando** se analiza la página con herramientas SEO<br>**Entonces** la página debe mostrar una puntuación mejorada en comparación con la versión anterior.                                                                                                                       | EP005                     |
+| TS-03    | Implementación de Accesibilidad Web                               | Como desarrolador, quiero asegurar que la landing page cumpla con los estándares de accesibilidad web (WCAG) para usuarios con discapacidades.                                         | **Escenario 1: Navegación con Teclado**<br>**Dado** que la landing page está cargada <br> **Cuando** un usuario navega utilizando solo el teclado<br>**Entonces** todos los elementos interactivos deben ser accesibles y enfocados correctamente.<br><br>- **Escenario 2: Uso con Lectores de Pantalla**<br>**Dado que** la landing page está cargada<br>**Cuando** un usuario utiliza un lector de pantalla<br>**Entonces\*\* el contenido debe ser legible y navegable con el lector de pantalla.                                                                                                                                                             | EP005                     |
 | TS-04    | Creación de Endpoint Simulado para Registro de Pedidos            | Como desarrollador, quiero crear un endpoint simulado con **JSON Server** para registrar nuevos pedidos, de manera que pueda desarrollar y probar el frontend.                         | **Escenario 1: Registro exitoso de pedido simulado** <br> **Dado** que un cliente realiza un pedido a través del frontend<br>**Cuando** los datos del pedido se envían a través del endpoint `/pedidos` simulado con **JSON Server**<br>**Entonces** los datos deben ser guardados correctamente y devolver un código de estado 201 (Created).<br>**Escenario 2: Validación de datos en el pedido**<br>**Dado** que los datos del pedido se reciben incompletos o con errores<br>**Cuando** el cliente envía la solicitud<br>**Entonces** el servidor simulado debe devolver un código de estado 400 (Bad Request) con un mensaje de error simulado.             | EP002                     |
 | TS-05    | Creación de Endpoint Simulado para Consultar el Estado de Pedidos | Como desarrollador, quiero crear un endpoint simulado que permita consultar el estado de los pedidos, para desarrollar y probar el frontend en tiempo real.                            | **Escenario 1: Consulta exitosa del estado de pedido** <br> **Dado** que un cliente ha realizado un pedido<br>**Cuando** consulta el estado a través del endpoint `/pedidos/{id}/estado` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe devolver el estado actual del pedido (por ejemplo, "En preparación", "Enviado", "Entregado") con un código de estado 200 (OK).<br>**Escenario 2: Pedido no encontrado**<br>**Dado** que el cliente ingresa un ID de pedido incorrecto<br>**Cuando** realiza la consulta<br>**Entonces** el servidor simulado debe devolver un código de estado 404 (Not Found) con un mensaje de error simulado. | EP002                     |
 | TS-06    | Creación de Endpoint Simulado para Actualización de Inventario    | Como desarrollador, quiero simular un endpoint para que los administradores puedan actualizar el inventario, de manera que pueda probar el frontend con datos de inventario.           | **Escenario 1: Actualización exitosa de inventario** <br> **Dado** que el administrador desea actualizar la cantidad de un insumo<br>**Cuando** envía la solicitud PUT al endpoint `/inventario/{id}` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe actualizar los datos de inventario y devolver un código de estado 200 (OK).<br>**Escenario 2: Error en la actualización del inventario**<br>**Dado** que el administrador envía datos incompletos o incorrectos<br>**Cuando** se realiza la solicitud de actualización<br>**Entonces** el servidor simulado debe devolver un código de estado 400 (Bad Request).                    | EP004                     |
 | TS-07    | Creación de Endpoint Simulado para Eliminar Pedidos               | Como desarrollador, quiero simular un endpoint que permita eliminar pedidos para que los administradores puedan cancelar o eliminar pedidos incorrectos desde el frontend.             | **Escenario 1: Eliminación exitosa de pedido** <br> **Dado** que el administrador desea eliminar un pedido<br>**Cuando** envía una solicitud DELETE al endpoint `/pedidos/{id}` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe eliminar el pedido y devolver un código de estado 200 (OK).<br>**Escenario 2: Pedido no encontrado**<br>**Dado** que el administrador intenta eliminar un pedido inexistente<br>**Cuando** se realiza la solicitud<br>**Entonces** el servidor simulado debe devolver un código de estado 404 (Not Found).                                                                                                | EP002                     |
 | TS-08    | Creación de Endpoint Simulado para Consulta de Inventario         | Como desarrollador, quiero crear un endpoint simulado que permita consultar el inventario del restaurante, para desarrollar y probar el frontend con datos de inventario actualizados. | **Escenario 1: Consulta exitosa del inventario** <br> **Dado** que un administrador consulta el inventario<br>**Cuando** realiza una solicitud GET al endpoint `/inventario` simulado con **JSON Server**<br>**Entonces** el servidor simulado debe devolver los datos actualizados del inventario con un código de estado 200 (OK).<br>**Escenario 2: Inventario vacío**<br>**Dado** que el inventario no tiene datos cargados<br>**Cuando** se realiza la consulta<br>**Entonces** el servidor simulado debe devolver un código de estado 204 (No Content) si no hay productos en el inventario.                                                               | EP004                     |
+| TS-09    | Registrar Usuarios por una API         | Como desarrollador, quiero implementar una API que permita registrar nuevos usuarios al sistema. | **Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible when se envía una solicitud POST con los datos del usuario ingresados al endpoint, then se recibe una señal de confirmación (201)                                                             | EP001                     |
+| TS-10    | Autenticación de Usuarios        | Como desarrollador, quiero implementar una API que permita autenticar a los usuarios en el sistema. | **Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.                                                               | EP001                     |
 
 ### 3.3. Impact Mapping
 <br><img src="assets/Impact map.png"><br>
@@ -1857,9 +1887,19 @@ Para configurar el despliegue de la landing page en GitHub Pages, seguimos los s
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
 ##### 5.2.1.1. Sprint Planning 1
-| **Sprint #** | **Date**  | **Time** | **Location**          | **Prepared by** | **Attendees (to planning meeting)**                                                | **Sprint 1 Review Summary**                                                                                                                                      | **Sprint 1 Retrospective Summary**                                 | **Sprint 1 Goal**                                                                                                                                                                                         | **Sprint 1 Velocity** | **Sum of Story Points**  |
-|--------------|-----------|----------|-----------------------|-----------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------|
-| 1            | 2024-08-20 | 10:00 AM | Virtual - Google Meet | André Bernaola  | André Bernaola, Jean Pierre Grandez, Sebastian Pacheco, Josue Paiva, Piero Velarde | Se realizó la Landing Page del producto, implementado usando HTML y CSS en base al Figma del diseño de los mockups y wireframes, siguiendo los style guidelines. | Coordinar mejor las ideas para el producto y explicarlas al grupo. | Implementar la Landing Page y preparar el ambiente de desarrollo para presentar un producto con el que los visitantes logren captar la idea. Esto ayuda a que los visitantes se interesen en el producto. | 5 Story Points        | 5 Story Points atendidos |
+| Sprint #                           | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                           | 2024-08-20	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Time**                           | 10:00 AM	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Location**                       | Virtual - Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Prepared By                        | André Bernaola	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Attendees (to planning meeting)    | André Bernaola, Jean Pierre Grandez, Sebastian Pacheco, Josue Paiva, Piero Velarde	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint 1 - 1 Review Summary        | Se realizó la Landing Page del producto, implementado usando HTML y CSS en base al Figma del diseño de los mockups y wireframes, siguiendo los style guidelines. 								                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 1 - 1 Retrospective Summary | Coordinar mejor las ideas para el producto y explicarlas al grupo.                                       															                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Sprint 1 Goal                      | Nuestra prioridad para este sprint es establecer todas las bases requeridas; esto incluye a información de competidores, entrevistas, definiciones de segmentos objetivos, entre otros; para la creación de nuestro proyecto de gestión de restaurantes, al igual que brindarles a los clientes una primera versión de nuestra landing page. Creemos que esto facilitará el establecimiento de metas, requisitos a implementar, al igual que una mejor toma de decisiones al momento de desarrollar nuestra aplicación web de administración de restaurantes, a su vez que llegamos a aproximar a posibles clientes de nuestra propuesta. Esto será confirmado cuando toda la información recabada y ordendada nos permita tener un enfoque preciso sobre las características a desarrollar y nuestra landing page pueda generar el interés esperado en visitantes para que, próximamente, estos puedan transformarse en clientes.															 |
+| Sprint 1 Velocity                  | 5 User Stories                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points                | 5 Story Points Atendidos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+
 ##### 5.2.1.2. Sprint Backlog 1
 <table>
   <tr>
@@ -1930,6 +1970,7 @@ Para configurar el despliegue de la landing page en GitHub Pages, seguimos los s
 Se omite esta sección, dado que aún no se tiene el conocimiento necesario para realizar pruebas automatizadas. Esto se llevara a cabo en futuros sprints.
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 En esta entrega, nuestro equipo ha desplegado con éxito la landing page.
+Link: https://latte-webapps.github.io/FoodSuiteLandingPage/
 ![Landing Page](assets/execution-foodsuit-landing.png)
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Se omite esta sección ya que aún no contamos con Web Application, la cual se desarrollará en Sprints futuros.
@@ -1942,21 +1983,22 @@ A continuación, se muestra la página de insights proporcionada por Github.
 
 #### 5.2.2. Sprint 2
 ##### 5.2.2.1. Sprint Planning 2
-| Sprint #                           | Sprint 2                                                                                                                                                                                                                              |
-|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Date**                           | 2024-09-26                                                                                                                                                                                                                            |
-| **Time**                           | 6:00 PM                                                                                                                                                                                                                               |
-| **Location**                       | Virtual - Google Meet                                                                                                                                                                                                                 |
-| Prepared By                        | Sebastian Pacheco                                                                                                                                                                                                                     |
-| Attendees (to planning meeting)    | Sebastian Pacheco, Andre Bernaola, Josue Paiva, Jean Grandez, Piero Velarde                                                                                                                                                           |
-| Sprint 2 - 1 Review Summary        | Se ha mejorado varios puntos con respecto al reporte con los cambios que el profesor sugirió, además de crear una primera versión y desarrollo de nuestra aplicación Front End, el cual se seguirá desarrollando en futuras entregas. |
-| Sprint 2 - 1 Retrospective Summary | Tuvimos complicaciones con respecto a la coordinación, por lo que tuvimos que corregir colisiones durante los merges. Esto es un punto a mejorar entre todos y servirá como punto de reflexión.                                       |
-| Sprint 2 Goal                      | Mejoramiento de información del reporte e implementar la primera versión de la aplicación Front End, con las funcionalidades básicas y el diseño visual de la aplicación.                                                             |
-| Sprint 2 Velocity                  | 16 User Stories                                                                                                                                                                                                                       |
-| Sum of Story Points                | 10 Story Points Atendidos                                                                                                                                                                                                             |
+| Sprint #                           | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                           | 2024-09-26                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Time**                           | 6:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Location**                       | Virtual - Google Meet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Prepared By                        | Sebastian Pacheco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Attendees (to planning meeting)    | Sebastian Pacheco, Andre Bernaola, Josue Paiva, Jean Grandez, Piero Velarde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 2 - 1 Review Summary        | Se ha mejorado varios puntos con respecto al reporte con los cambios que el profesor sugirió, además de crear una primera versión y desarrollo de nuestra aplicación Front End, el cual se seguirá desarrollando en futuras entregas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint 2 - 1 Retrospective Summary | Tuvimos complicaciones con respecto a la coordinación, por lo que tuvimos que corregir colisiones durante los merges. Esto es un punto a mejorar entre todos y servirá como punto de reflexión.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sprint 2 Goal                      | Nuestra prioridad para este sprint es poder brindar una primera versión de la interfaz de usuario de nuestra propuesta de gestión de restaurantes. Dicha interfaz contendría múltiples características, tales como una pestaña principal, otra dedicada a la administración de finanzas, gestión de empleados, registro de horarios, gestión de inventarios y registro de órdenes. A su vez, se finiquitarán, ciertos detalles concernientes al reporte sobre las bases previamente establecidas. Creemos que al entregar una versión funcional de la interfaz de usuario, el equipo y los futuros clientes podrán visualizar y validar las funcionalidades clave, lo que permitirá iterar más rápidamente en futuras versiones y mejorar la usabilidad del sistema para los usuarios finales. Esto será confirmado cuando se haya completado la interfaz de usuario con las siguientes pantallas interactivas: pestaña principal, administración de finanzas, gestión de empleados, registro de horarios, gestión de inventario y registro de órdenes, y cuando se haya realizado una validación por parte de las personas interesadas que confirme que las interacciones principales son coherentes y comprensibles. |
+| Sprint 2 Velocity                  | 16 User Stories                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sum of Story Points                | 10 Story Points Atendidos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ##### 5.2.2.2. Sprint Backlog 2
 En el Sprint 2 el equipo se ha enfocado en las correcciones del reporte y la implementación del Front End Application. Se presenta el backlog de tareas para las correcciones del reporte en el Sprint 2.
+Link: https://trello.com/b/Zw4vNmna/correcciones
 ![Sprint Backlog 2](assets/sprint-2/sprint-2-trello.png)
 
 ##### 5.2.2.3. Development Evidence for Sprint Review
@@ -1976,27 +2018,51 @@ Se omite esta sección, dado que aún no se tiene el conocimiento necesario para
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 En esta entrega, no se realizaron cambios con relación al Landing Page. Por el momento, la Landing Page queda igual a la versión realizada en el Sprint 2.
+Link: https://latte-webapps.github.io/FoodSuiteLandingPage/
 Se ha desarrollado un avance con respecto al Frontend.
+Link: https://foodsuit.netlify.app
 ![Execution-Evidence-Frontend-1](assets/sprint-2/testing-1.png)
 ![Execution-Evidence-Frontend-2](assets/sprint-2/testing-2.png)
 
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Hemos logrado desplegar una aplicación web, la cual consume un servicio Json-Server, de esta manera simulando un Backend. A continuación se muestra la documentación de la API.
+
+| **Endpoint Name** | **Implemented Actions** | **Call Syntax**                          | **Parameters Specification** | **Call Example**                                                   | **Response Explanation**                              |
+|-------------------|-------------------------|------------------------------------------|------------------------------|--------------------------------------------------------------------|-------------------------------------------------------|
+| /reports          | GET, POST               | `return http.get(this.resourceEndpoint)` | reportResource               | `getAll() { return http.get('http://localhost:3000/reports'); }`   | Devuelve un array con todos los reportes.             |
+| /inventory        | GET, POST, PUT, DELETE  | `return http.get(this.resourceEndpoint)` | id, itemResource, name       | `getAll() { return http.get('http://localhost:3000/inventory'); }` | Devuelve un array con todos los items del inventario. |
+| /employees        | GET, POST               | `return http.get(this.resourceEndpoint)` | id, employeeResource         | `getAll() { return http.get('http://localhost:3000/employees'); }` | Devuelve un array con todos los empleados.            |
+
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
-En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
+En esta sección, se presentará la evidencia de los despliegues realizados para los diferentes productos desarrollados durante el sprint. El sprint actual únicamente incluye el deploy de la landing page. Este deploy se ha realizado siguiendo las mejores prácticas y utilizando las herramientas adecuadas para asegurar su correcto funcionamiento y accesibilidad en línea.
 
-Para configurar el despliegue de la landing page en GitHub Pages, seguimos los siguientes pasos:
+**Landing Page Deployment**
 
-1. **Crear un Repositorio de GitHub**:  
-   Creamos un repositorio de GitHub para el proyecto de la landing page.
-2. **Clonar el Repositorio**:  
-   Clonamos el repositorio en nuestra máquina local utilizando Git.
-3. **Crear la Estructura del Proyecto**:  
-   Creamos la estructura de archivos y carpetas para la landing page, incluyendo el archivo `index.html` y los archivos CSS y JavaScript necesarios.
-4. **Desplegar en GitHub Pages**:  
-   Para desplegar la landing page en GitHub Pages, seguimos estos pasos:
-    - Navegamos a la pestaña `Settings` del repositorio en GitHub.
-    - En la sección `GitHub Pages`, seleccionamos la rama `master` como fuente para el despliegue.
-    - Guardamos la configuración y esperamos a que GitHub Pages publique la landing page.
-    - Una vez publicada, accedemos a la URL proporcionada por GitHub Pages para ver la landing page en línea.
+Para el despliegue de la landing page se utilizó Github Pages y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó un nuevo repositorio en Github con el nombre de `FoodSuiteLandingPage`. Luego se clonó el repositorio en el directorio del proyecto, de manera que vinculamos nuestra rama local a la del repositorio, finalmente se subió el contenido de la landing page en el repositorio.
+
+<img src="assets/deployment/repositorio.jpeg"/>
+
+<br>
+Paso 2:
+Después nos dirigimos a la pestaña de `Settings` y luego a la sección de `Pages`, se procede a seleccionar la rama `main` para el despliegue de la landing page.
+<img src="assets/deployment/settings.jpeg"/>
+
+<br>
+
+Paso 3:
+Luego procedemos a ver que el despliegue fue exitoso en la sección de `Deployments` y se nos proporciona un enlace para acceder a la landing page.
+
+<img src="assets/deployment/deploy.jpeg"/>
+
+
+Paso 4:
+Finalmente se accede a la landing page mediante el enlace proporcionado por Github Pages.
+
+<img src="assets/deployment/landing.jpeg"/>
+
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
@@ -2004,22 +2070,22 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning 3
-| Sprint #                           | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Date**                           | 2024-10-17                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Time**                           | 6:00 PM                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Location**                       | Virtual - Discord                                                                                                                                                                                                                                                                                                                                                                                           |
-| Prepared By                        | Sebastian Pacheco                                                                                                                                                                                                                                                                                                                                                                                           |
-| Attendees (to planning meeting)    | Sebastian Pacheco, Andre Bernaola, Josue Paiva, Jean Grandez, Piero Velarde                                                                                                                                                                                                                                                                                                                                 |
-| Sprint 3 - 1 Review Summary        | En el Sprint 3, logramos mejorar los puntos faltantes del Frontend, además de implementar una versión inicial de nuestro Backend. Se han formulado nuevamente la estructura de la base de datos para poder incorporar funcionalidades que requieren de datos adicionales.                                                                                                                                   |
-| Sprint 3 - 1 Retrospective Summary | Hemos estructurado las tareas para que sean más fáciles de implementar y delegar, mientras que se aplicó también una estrategia de revisión colaborativa, de esta manera aprobando varios cambios y fortaleciendo la comunicación en el equipo.                                                                                                                                                             |
-| Sprint 3 Goal                      | Nuestra prioridad en este sprint es completar el Frontend e implementar la primera versión del Backend para la aplicación FoodSuit. Creemos que con esto podemos presentar un producto completo en el ámbito visual con que se podrá interactuar con las funciones principales de la aplicación. Esto se confirmará cuando tengamos una implementación exitosa del Frontend y pasen las pruebas necesarias. |
-| Sprint 3 Velocity                  | La velocity calculada para este sprint es de 83 story points.                                                                                                                                                                                                                                                                                                                                               |
-| Sum of Story Points                | La suma de story points atendidos es de 83 story points.                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint #                           | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                           | 2024-10-17                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Time**                           | 6:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Location**                       | Virtual - Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                        | Sebastian Pacheco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Attendees (to planning meeting)    | Sebastian Pacheco, Andre Bernaola, Josue Paiva, Jean Grandez, Piero Velarde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint 3 - 1 Review Summary        | En el Sprint 3, logramos mejorar los puntos faltantes del Frontend, además de implementar una versión inicial de nuestro Backend. Se han formulado nuevamente la estructura de la base de datos para poder incorporar funcionalidades que requieren de datos adicionales.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Sprint 3 - 1 Retrospective Summary | Hemos estructurado las tareas para que sean más fáciles de implementar y delegar, mientras que se aplicó también una estrategia de revisión colaborativa, de esta manera aprobando varios cambios y fortaleciendo la comunicación en el equipo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sprint 3 Goal                      | Nuestra prioridad para este sprint es desarrollar las funcionalidades esenciales del backend para la gestión de un restaurante, lo que incluirá la creación de APIs para la administración de finanzas, la gestión de empleados, el registro de horarios, la gestión de inventarios y el manejo de órdenes. Además, se implementarán las integraciones necesarias con la base de datos para soportar estas operaciones. Creemos que al contar con las APIs y las estructuras de datos necesarias para cada una de estas funcionalidades, se garantizará que el frontend pueda interactuar correctamente con el sistema, permitiendo que los usuarios gestionen eficazmente los aspectos clave del restaurante. Esto también facilitará la escalabilidad y el mantenimiento a largo plazo de la aplicación. Esto será confirmado cuando se hayan creado las APIs para cada funcionalidad (finanzas, empleados, horarios, inventarios, órdenes) y se haya validado que los datos se gestionan correctamente en la base de datos.											 |
+| Sprint 3 Velocity                  | La velocity calculada para este sprint es de 83 story points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sum of Story Points                | La suma de story points atendidos es de 83 story points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 ##### 5.2.3.2. Sprint Backlog 3
 En este sprint hemos desarrollado una tabla o Board mediante Trello para presentar un resumen del objetivo principal del Sprint 3 y las tareas o Tasks a desarrollar. Presentamos una captura de pantalla del Board del sprint, con un enlace de acceso a la tabla.
-
+Link: https://trello.com/b/6rXuUWgn/si730-2402-ws53-foodsuit-sprint-3
 ![Sprint Backlog 3](assets/sprint-3/sprint-3-trello.png)
 
 | User Story ID | User Story                                                 | Work-Item / Task ID | Work-Item / Task Title                                       | Description                                                                                                                                           | Estimation (Hrs) | Assigned To       | Status |
@@ -2092,32 +2158,107 @@ Cada historia de usuario tiene desarrollado criterios de aceptación. A continua
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review
 La Landing Page tuvo un rediseño, teniendo en cuenta la retroalimentación recibida.
+Link: https://latte-webapps.github.io/FoodSuiteLandingPage/
 ![Execution-Evidence-Landing-Page](assets/sprint-3/sprint-execution-landing.png)
 
 Se desplegó la aplicación Frontend con los cambios respectivos
+Link: https://foodsuit.netlify.app
 ![Execution-Evidence-Frontend](assets/sprint-3/sprint-execution-frontend.png)
 
-Se ejecutó el backend con swagger.
+Se ejecutó el backend con swagger. 
+Esta ejecución fue localmente, no se ha desplegado en este sprint.
 ![Execution-Evidence-Backend](assets/sprint-3/sprint-execution-backend.png)
 
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+Se ha desarrollado una API RESTful para el Backend de la aplicación FoodSuit. A continuación se muestra la documentación de los servicios implementados.
+
+| **Endpoint Name** | **Implemented Actions** | **Call Syntax**                                                       | **Parameters Specification**                                                                    | **Call Example**                               | **Response Explanation**                                    |
+|-------------------|-------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------------------------------|-------------------------------------------------------------|
+| Orders            | POST, GET, DELETE       | POST: `/api/v1/orders`, GET/DELETE: `/api/v1/orders/{orderId}`        | POST: `id, table, status, date, total`, GET/DELETE: `orderId`                                   | GET `http://localhost:3000/api/v1/orders/1`    | Devuelve un objeto con la orden correspondiente al ID.      |
+| Products          | POST, GET, PUT, DELETE  | POST/GET: `/api/v1/products`, PUT/GET/DELETE: `/api/v1/products/{id}` | POST/GET: `name, quantity, imageUrl, price`, PUT/GET/DELETE: `id`                               | GET `http://localhost:3000/api/v1/products`    | Devuelve un array con todos los productos en el inventario. |
+| Reports           | POST, GET               | POST/GET: `/api/v1/reports`, GET: `/api/v1/reports/{reportId}         | POST/GET: `description, reportType, date, amount, ordersId, productsId`, GET: `reportId`        | GET `http://localhost:3000/api/v1/reports/1`   | Devuelve un objeto con el reporte correspondiente al ID.    |
+| Employee          | GET, POST, PUT, DELETE  | POST: `/api/v1/employees`, GET/PUT/DELETE: `/api/v1/employees/{id}`   | POST: `firstName, lastName, entryHour, entryMinute, exitHour, exitMinute`, GET/PUT/DELETE: `id` | GET `http://localhost:3000/api/v1/employees/1` | Devuelve un objeto con el empleado correspondiente al ID.   |
+| Dishes            | POST, GET, DELETE       | POST: `/api/v1/dishes`, GET/DELETE: `/api/v1/dishes/{dishId}`         | POST: `name, price, category`, GET/DELETE: `dishId`                                             | GET `http://localhost:3000/api/v1/dishes/1`    | Devuelve un objeto con el plato correspondiente al ID.      |
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
-En este proyecto, utilizamos GitHub Pages para desplegar la landing page y las aplicaciones web. GitHub Pages es un servicio de alojamiento web gratuito que permite publicar sitios web estáticos directamente desde un repositorio de GitHub.
 
-Para configurar el despliegue de la landing page en GitHub Pages, seguimos los siguientes pasos:
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-1. **Crear un Repositorio de GitHub**:  
-   Creamos un repositorio de GitHub para el proyecto de la landing page.
-2. **Clonar el Repositorio**:  
-   Clonamos el repositorio en nuestra máquina local utilizando Git.
-3. **Crear la Estructura del Proyecto**:  
-   Creamos la estructura de archivos y carpetas para la landing page, incluyendo el archivo `index.html` y los archivos CSS y JavaScript necesarios.
-4. **Desplegar en GitHub Pages**:  
-   Para desplegar la landing page en GitHub Pages, seguimos estos pasos:
-    - Navegamos a la pestaña `Settings` del repositorio en GitHub.
-    - En la sección `GitHub Pages`, seleccionamos la rama `master` como fuente para el despliegue.
-    - Guardamos la configuración y esperamos a que GitHub Pages publique la landing page.
-    - Una vez publicada, accedemos a la URL proporcionada por GitHub Pages para ver la landing page en línea.
+En esta sección, se presentará la evidencia de los despliegues realizados para los diferentes productos desarrollados durante el sprint. Esto incluye la landing page, la aplicación frontend y la aplicación backend. Cada uno de estos despliegues se ha realizado siguiendo las mejores prácticas y utilizando las herramientas adecuadas para asegurar su correcto funcionamiento y accesibilidad en línea.
+
+
+**Backend Deployment**
+
+**Frontend Deployment**
+
+Para el despliegue de la aplicación frontend se utilizó Netlify y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó una cuenta en Netlify, seleccionamos `Import an existing project`.
+
+<img src="assets/deployment/front-1.jpeg"/>
+
+<br>
+
+Paso 2:
+Luego se selecciona a github como git provider, conectamos nuestra cuenta de github con Netlify.
+
+<img src="assets/deployment/front-2.jpeg"/>
+
+<br>
+
+Paso 3:
+Después se procede a seleccionar la organización y repositorio con el proyecto a desplegar. 
+
+<img src="assets/deployment/front-3.jpeg"/>
+
+<br>
+
+Paso 4:
+Luego se termina de configurar el despliegue añadiendo el comando de construcción y la carpeta de despliegue.
+
+
+<img src="assets/deployment/front-4.jpeg"/>
+
+Paso 5:
+Finalmente netlify nos proporciona un enlace para acceder a la aplicación frontend desplegada.
+<img src="assets/deployment/front-5.jpeg"/>
+
+Evidenciamos que el despliegue fue exitoso y se puede acceder a la aplicación frontend mediante el enlace proporcionado por Netlify.
+
+<img src="assets/deployment/front-6.jpeg"/>
+
+Enlace al frontend: [https://foodsuit.netlify.app/](https://foodsuit.netlify.app/)
+
+**Landing Page Deployment**
+
+Para el despliegue de la landing page se utilizó Github Pages y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó un nuevo repositorio en Github con el nombre de `FoodSuiteLandingPage`. Luego se clonó el repositorio en el directorio del proyecto, de manera que vinculamos nuestra rama local a la del repositorio, finalmente se subió el contenido de la landing page en el repositorio.
+
+<img src="assets/deployment/repositorio.jpeg"/>
+
+<br>
+Paso 2:
+Después nos dirigimos a la pestaña de `Settings` y luego a la sección de `Pages`, se procede a seleccionar la rama `main` para el despliegue de la landing page.
+<img src="assets/deployment/settings.jpeg"/>
+
+<br>
+
+Paso 3:
+Luego procedemos a ver que el despliegue fue exitoso en la sección de `Deployments` y se nos proporciona un enlace para acceder a la landing page.
+
+<img src="assets/deployment/deploy.jpeg"/>
+
+
+Paso 4:
+Finalmente se accede a la landing page mediante el enlace proporcionado por Github Pages.
+
+<img src="assets/deployment/landing.jpeg"/>
+
+
+Enlace a la landing page: [https://latte-webapps.github.io/FoodSuiteLandingPage/](https://latte-webapps.github.io/FoodSuiteLandingPage/)
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
@@ -2126,6 +2267,242 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 
 **Backend**
 ![Sprint 3 Insights Backend](assets/sprint-3/sprint-insights-backend.png)
+
+#### 5.2.4. Sprint 4
+
+##### 5.2.4.1. Sprint Planning 4
+
+| Sprint #                        | Sprint 4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                        | 2024-11-10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Time**                        | 6:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Location**                    | Virtual - Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Prepared By                     | Sebastian Pacheco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Attendees (to planning meeting) | Sebastian Pacheco, Andre Bernaola, Josue Paiva, Jean Grandez, Piero Velarde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Sprint 3 Review Summary         | En el Sprint 3, se ha completado la implementación de las funcionalidades del backend, incluyendo la gestión de empleados, la administración de finanzas, el registro de horarios, la gestión de inventarios y el manejo de órdenes. Además, se ha realizado la integración con la base de datos para soportar estas operaciones. Se ha validado que los datos se gestionan correctamente en la base de datos y que las APIs funcionan correctamente.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Sprint 3 Retrospective Summary  | Durante el Sprint 3, hemos logrado completar la implementación de las funcionalidades del backend y la integración con la base de datos. Hemos aplicado una estrategia de revisión colaborativa para validar que las APIs funcionan correctamente y que los datos se gestionan adecuadamente en la base de datos. También hemos fortalecido la comunicación en el equipo y hemos mejorado la estructura de las tareas para que sean más fáciles de implementar y delegar.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Sprint 4 Goal                   | Nuestra prioridad en este sprint es desarrollar funcionalidades más eficientes con relación a cómo manejamos los productos con las órdenes y cómo se generan los reportes para el backend, además de implementar funcionalidades en el frontend como la modificación de cantidad de productos, los horarios de empleados, y la actualización de las órdenes sobre el inventario. Creemos que al llevar a cabo estos cambios la administración lleva un registro más sencillo para que se facilite su uso, garantizando la satisfacción de la administración, además de que nosotros como desarrolladores podamos revisar de manera más eficaz posibles ajustes a partir de sugerencias para perfeccionar la aplicación. Esto será confirmado cuando los administradores logren manejar diferentes funciones como el inventario, el horario de empleados y otros con el uso de estas nuevas funciones, y los desarrolladores implementen mejoras a la aplicación a partir de la reinterpretación de los endpoints como productos, órdenes, reportes y empleados. |
+| Sprint 4 Velocity               | La velocity calculada para este sprint es de X story points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points             | La suma de story points atendidos es de X story points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+##### 5.2.4.2. Sprint Backlog 4
+
+##### 5.2.4.3. Development Evidence for Sprint Review
+
+<table>
+  <tr>
+    <th>Epic / Story ID</th>
+    <th>Título</th>
+    <th>Criterios de Aceptación</th>
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Guardar pedidos automáticamente en el historial para análisis</td>
+    <td>Escenario 1:
+Dado que el trabajador ha completado un pedido,
+Cuando el pedido es confirmado en el sistema,
+Entonces el sistema guarda automáticamente el pedido en el historial y confirma el registro al trabajador.
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Generar reportes financieros detallados para análisis</td>
+    <td>Escenario 1:
+Dado que el administrador solicita un reporte de ingresos,
+Cuando el sistema procesa la solicitud,
+Entonces se genera un informe detallado de los ingresos y el administrador recibe una notificación.  <tr>
+    <td>US04</td>
+    <td>Registrar gastos imprevistos para control financiero</td>
+    <td>Escenario 1:
+Dado que el administrador necesita registrar un gasto imprevisto,
+Cuando ingresa los detalles del gasto en el sistema,
+Entonces el sistema lo guarda en la categoría correspondiente y actualiza el balance de gastos.  <tr>
+    <td>US14</td>
+    <td>Monitorear la asistencia del personal</td>
+    <td>Escenario 1:
+Dado que el administrador accede al módulo de asistencia,
+Cuando consulta la asistencia de un empleado,
+Entonces el sistema muestra los registros de ausencias y tardanzas.  </tr>
+  <tr>
+    <td>US16</td>
+    <td>Optimizar la carta de platos según la demanda histórica</td>
+    <td>Escenario 1:
+Dado que el sistema analiza las estadísticas de ventas,
+Cuando se generan recomendaciones,
+Entonces el sistema presenta una carta personalizada para días específicos.
+  </tr>
+  <tr>
+    <td>TS03</td>
+    <td>Implementación de Accesibilidad Web</td>
+    <td>Escenario 1:
+Dado que la landing page está cargada
+Cuando un usuario navega utilizando solo el teclado
+Entonces todos los elementos interactivos deben ser accesibles y enfocados correctamente.  </tr>
+  <tr>
+    <td>TS14</td>
+    <td>Deployment del Backend</td>
+    <td>Escenario 1:
+Given el usuario accede a la documentacion de Swagger, puede interactuar con todos los endpoints y sus respectivos requests.</td>
+  </tr>
+    <tr>
+    <td>US22</td>
+    <td>Registro de usuario</td>
+    <td>Escenario 1:
+Given el visitante está en la página de registro, when completa los campos obligatorios y hace clic en "Registrarse", then el sistema debe crear una cuenta.</tr>
+    <tr>
+    <td>US23</td>
+    <td>Inicio de Sesión</td>
+    <td>Escenario 1:
+Given el usuario está registrado, when ingresa sus credenciales correctas, then debe poder acceder a su cuenta.  </tr>
+    <tr>
+    <td>TS09</td>
+    <td>Registrar Usuarios por una API</td>
+    <td>Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible when se envía una solicitud POST con los datos del usuario ingresados al endpoint, then se recibe una señal de confirmación (201)</td>
+  </tr>
+    <tr>
+    <td>TS10</td>
+    <td>Autenticación de Usuarios</td>
+    <td>Escenario 1:
+ Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.  </tr>
+  </table>
+
+
+
+##### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+##### 5.2.4.5. Execution Evidence for Sprint Review
+
+##### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+##### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+
+En esta sección, se presentará la evidencia de los despliegues realizados para los diferentes productos desarrollados durante el sprint. Esto incluye la landing page, la aplicación frontend y la aplicación backend. Cada uno de estos despliegues se ha realizado siguiendo las mejores prácticas y utilizando las herramientas adecuadas para asegurar su correcto funcionamiento y accesibilidad en línea.
+
+
+**Landing Page Deployment**
+
+Para el despliegue de la landing page se utilizó Github Pages y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó un nuevo repositorio en Github con el nombre de `FoodSuiteLandingPage`. Luego se clonó el repositorio en el directorio del proyecto, de manera que vinculamos nuestra rama local a la del repositorio, finalmente se subió el contenido de la landing page en el repositorio.
+
+<img src="assets/deployment/repositorio.jpeg"/>
+
+<br>
+Paso 2:
+Después nos dirigimos a la pestaña de `Settings` y luego a la sección de `Pages`, se procede a seleccionar la rama `main` para el despliegue de la landing page.
+<img src="assets/deployment/settings.jpeg"/>
+
+<br>
+
+Paso 3:
+Luego procedemos a ver que el despliegue fue exitoso en la sección de `Deployments` y se nos proporciona un enlace para acceder a la landing page.
+
+<img src="assets/deployment/deploy.jpeg"/>
+
+
+Paso 4:
+Finalmente se accede a la landing page mediante el enlace proporcionado por Github Pages.
+
+<img src="assets/deployment/landing.jpeg"/>
+
+
+Enlace a la landing page: [https://latte-webapps.github.io/FoodSuiteLandingPage/](https://latte-webapps.github.io/FoodSuiteLandingPage/)
+
+
+**Frontend Deployment**
+
+Para el despliegue de la aplicación frontend se utilizó Netlify y se siguieron los siguientes pasos:
+
+Paso 1:
+Primero se creó una cuenta en Netlify, seleccionamos `Import an existing project`.
+
+<img src="assets/deployment/front-1.jpeg"/>
+
+<br>
+
+Paso 2:
+Luego se selecciona a github como git provider, conectamos nuestra cuenta de github con Netlify.
+
+<img src="assets/deployment/front-2.jpeg"/>
+
+<br>
+
+Paso 3:
+Después se procede a seleccionar la organización y repositorio con el proyecto a desplegar.
+
+<img src="assets/deployment/front-3.jpeg"/>
+
+<br>
+
+Paso 4:
+Luego se termina de configurar el despliegue añadiendo el comando de construcción y la carpeta de despliegue.
+
+
+<img src="assets/deployment/front-4.jpeg"/>
+
+Paso 5:
+Finalmente netlify nos proporciona un enlace para acceder a la aplicación frontend desplegada.
+<img src="assets/deployment/front-5.jpeg"/>
+
+Evidenciamos que el despliegue fue exitoso y se puede acceder a la aplicación frontend mediante el enlace proporcionado por Netlify.
+
+<img src="assets/deployment/front-6.jpeg"/>
+
+Enlace al frontend: [https://foodsuit.netlify.app/](https://foodsuit.netlify.app/)
+
+**Backend Deployment**
+
+Para el despliegue de la aplicación backend se utilizó Azure y se siguieron los siguientes pasos:
+
+
+Paso 1:
+Primero se creó una cuenta en Azure y se inició sesión, Al iniciar sesión el navegador nos redirige a la página principal, nos posicionamos en el buscador  e ingresamos lo siguiente: `mysql` y seleccionamos `Servidores flexibles de Azure Database for MySQL`.
+
+<img src="assets/deployment/back-1.jpeg"/>
+
+Paso 2:
+Luego se procede a crear un nuevo servidor de base de datos MySQL, se selecciona la opción de `Crear` y se llena el formulario con los datos necesarios.
+
+<img src="assets/deployment/back-2.jpeg"/>
+
+Paso 3:
+Después de crear el servidor de la base de datos,  nos aparece este menú, ahora nos dirigimos a la opción de `conectar`, situada en el dashboard del lado izquierdo.
+
+<img src="assets/deployment/back-3.jpeg"/>
+
+Paso 4:
+Esta sección nos proporciona los datos necesarios para la conexión a la base de datos, como el `nombre del servidor`, `nombre de usuario` y `puerto`.
+
+<img src="assets/deployment/back-4.jpeg"/>
+
+Paso 5:
+Luego procedemos a configurar la conexión a la base de datos en el archivo de configuración del backend, añadiendo los datos proporcionados por Azure.
+
+<img src="assets/deployment/back-10.jpeg"/>
+
+Paso 6:
+Después de configurar la conexión a la base de datos, se procede a descargar un plugin de Azure para rider, que nos permitirá desplegar la aplicación backend en Azure.
+
+<img src="assets/deployment/back-5.jpeg"/>
+
+Paso 7:
+Luego de instalar el plugin, nos dirigimos a las herramientas y seleccionamos la opción de `Azure`, luego seleccionamos la opción de `Deploy to Azure Web Apps`.
+
+<img src="assets/deployment/back-6.jpeg"/>
+
+Paso 8:
+Finalmente seleccionamos la opción `Run`  y el servicio procede a crearse automáticamente, inmediatamente después se nos proporciona por consola un enlace para acceder a la aplicación.
+
+<img src="assets/deployment/back-7.jpeg"/>
+<img src="assets/deployment/back-8.jpeg"/>
+
+Evidenciamos haciendo uso de Postman que el despliegue fue exitoso y se puede acceder a la aplicación backend mediante el enlace proporcionado por Azure.
+<img src="assets/deployment/back-9.jpeg"/>
+
+Enlace al backend: [https://foodsuit.azurewebsites.net/](https://foodsuit.azurewebsites.net/) 
+
+##### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ### 5.3 Validation Interviews
 #### 5.3.1 Diseño de entrevistas
@@ -2324,9 +2701,6 @@ Alejandro comenta en la primera parte de la entrevista, en la cual se le fue mos
 
 **UX Heuristics & Principles Evaluation**
 
-
-
-
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
@@ -2334,3 +2708,7 @@ Alejandro comenta en la primera parte de la entrevista, en la cual se le fue mos
 ## Bibliografía
 
 ## Anexos
+Organización en GitHub: https://github.com/Latte-WebApps
+Trello: https://trello.com/w/lattesfoodsuit
+Landing Page: https://latte-webapps.github.io/FoodSuiteLandingPage/
+Frontend: https://foodsuit.netlify.app
