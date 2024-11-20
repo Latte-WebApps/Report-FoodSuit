@@ -316,6 +316,59 @@ del ABET – EAC - Student Outcome 5.
 
 ## Project Report Collaboration Insights
 
+URL de la organización del proyecto: [https://github.com/Latte-WebApps]
+
+URL del reporte dentro de la organización: [https://github.com/Latte-WebApps/Report-FoodSuit]
+
+**TB1**
+
+|Integrante| Tareas Asignadas                                                                                          |
+|-|-----------------------------------------------------------------------------------------------------------|
+|Jean Pierre Grandez Mansilla| Elaboración de Needfinding e Impact Mapping                                                               |
+|Sebastian Pacheco Astiguetta| Elaboración de Análisis competitivo, Estrategias y tácticas frente a competidores, entrevistas y análisis |
+|Josue Gonzalo Paiva Quispe| Elaboración de User Stories y Product Backlog                                                             |
+|Piero Alberto Velarde Luyo| Elaboración de Lean UX Canvas y Wireframes                                                                |
+|André Arturo Bernaola Pérez| Elaboración de Style Guidelines y Landing Page                                                            |
+
+**TP**
+
+|Integrante|Tareas Asignadas|
+|-|-|
+|Jean Pierre Grandez Mansilla| Desarrollo del Needfinding e Impact Mapping |
+|Sebastian Pacheco Astiguetta| Desarrollo del Análisis competitivo, Estrategias y tácticas frente a competidores, entrevistas y análisis |
+|Josue Gonzalo Paiva Quispe| Desarrollo de Application Mockups |
+|Piero Alberto Velarde Luyo| Desarrollo de Software Configuration Management |
+|André Arturo Bernaola Pérez| Desarrollo de User Stories y Product Backlog |
+
+**TB2**
+
+|Integrante| Tareas Asignadas                                                                                          |
+|-|-----------------------------------------------------------------------------------------------------------|
+|Jean Pierre Grandez Mansilla| Desarrollo de endpoints para el bounded context de attendance en backend y frontend                                           |
+|Sebastian Pacheco Astiguetta| Desarrollo de endpoints para el bounded context de reports en backend y frontend       |
+|Josue Gonzalo Paiva Quispe| Implementación de funcionalidades en el bounded context del frontend                                                                         |
+|Piero Alberto Velarde Luyo| Desarrollo de endpoints para el bounded context de registro de órdenes en backend y frontend                                                            |
+|André Arturo Bernaola Pérez| Desarrollo de endpoints para el bounded context de inventory en backend y frontend                                                                         |
+
+**TF**
+
+| Integrante                        | Tareas Asignadas |
+|-----------------------------------|------------------|
+| Jean Pierre Grandez Mansilla      |            Elaboración de Heurísticas y análisis de entrevistas    |
+| Sebastian Pacheco Astiguetta      |      Elaboración de    Testing Suite Evidence for Sprint Review  y registro de entrevistas      |
+| Josue Gonzalo Paiva Quispe        |         Elaboración de  Testing Suite Evidence for Sprint Review y Services Documentation Evidence for Sprint Review       |
+| Piero Alberto Velarde Luyo        |       Elaboración de  Testing Suite Evidence for Sprint Review    y development evidence for sprint review      |
+| André Arturo Bernaola Pérez       |         Elaboración de deployment evidence, Execution Evidence for Sprint Review        |
+
+**TF evidence**
+
+<img  src="assets/collab-insights/report-tf-insight.jpeg">
+
+
+***
+
+
+
 ## Capítulo I: Introducción <a id="cap1"></a>
 
 
@@ -371,6 +424,7 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
     <td> Soy Josue Paiva, tengo 21 años y soy de la carrera de Ingenieria de Software, tengo conocimiento de C++, Python y SQL, me gusta mantener buena comunicación con mis commpañeros de equipo, cumplir con mis tareas y apoyar al resto cuando se requiera. </td>
   </tr>
 </table>
+
 ### 1.2. Solution Profile
 Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administracion de un restaurante proporcionando diversas herramientas y caracteristicas que detallamos a continuacion:
 
@@ -391,8 +445,11 @@ Como ya se menciono FoodSuit busca hacer eficiente la logistica de la administra
 |Why?| ¿Porqué sucede el problema?|Es la naturaleza misma de este tipo de negocio, al ser un sector orientado a la atencion al cliente, siempre surgen situaciones y problematicas|
 |How?| ¿Como?|Los negocion no cuentan con herramientas especificas para ellos, mas que las tradicionales pizarras y agendas que suelen acumular mucho registro y son complicadas de consultar|
 |How much?| Cuanto?|Segun el INE cerca del 60% de restaurantes cierran en su primer año de vida y el 70% no pasa de los 5 años, estas son estadisticas preocupantes si tomamos en cuenta la gran cantidad de inversion que requiere un negocio de este estilo|
+
 #### 1.2.2 Lean UX Process
+
 ##### 1.2.2.1. Lean UX Problem Statements
+
 Nuestro producto busca ser una herramienta que facilite el flujo de trabajo en un restaurante u negocio similar, mediante nuestro producto tanto administradores como empleados encontraran un espacio donde consultar informacion pertinente para sus funciones del día. Mediante investigación hemos observado como los administradores tienen dificultades para llevar una logistica ordenada de su inventario, horarios de trabajo, etc. Asi como los empleados que muchas veces no cuentan con un sistema de marcado de ingreso y salida, no tienen acceso a información importante como inventariado, etc. Como podremos facilitar el flujo de trabajo de un restaurante, para poder mejorar el desempeño de todo el personal?
 
 ##### 1.2.2.2. Lean UX Assumptions
