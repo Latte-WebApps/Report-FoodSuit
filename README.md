@@ -2287,85 +2287,34 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 
 ##### 5.2.4.3. Development Evidence for Sprint Review
 
-<table>
-  <tr>
-    <th>Epic / Story ID</th>
-    <th>Título</th>
-    <th>Criterios de Aceptación</th>
-  </tr>
-  <tr>
-    <td>US01</td>
-    <td>Guardar pedidos automáticamente en el historial para análisis</td>
-    <td>Escenario 1:
-Dado que el trabajador ha completado un pedido,
-Cuando el pedido es confirmado en el sistema,
-Entonces el sistema guarda automáticamente el pedido en el historial y confirma el registro al trabajador.
-  </tr>
-  <tr>
-    <td>US03</td>
-    <td>Generar reportes financieros detallados para análisis</td>
-    <td>Escenario 1:
-Dado que el administrador solicita un reporte de ingresos,
-Cuando el sistema procesa la solicitud,
-Entonces se genera un informe detallado de los ingresos y el administrador recibe una notificación.  <tr>
-    <td>US04</td>
-    <td>Registrar gastos imprevistos para control financiero</td>
-    <td>Escenario 1:
-Dado que el administrador necesita registrar un gasto imprevisto,
-Cuando ingresa los detalles del gasto en el sistema,
-Entonces el sistema lo guarda en la categoría correspondiente y actualiza el balance de gastos.  <tr>
-    <td>US14</td>
-    <td>Monitorear la asistencia del personal</td>
-    <td>Escenario 1:
-Dado que el administrador accede al módulo de asistencia,
-Cuando consulta la asistencia de un empleado,
-Entonces el sistema muestra los registros de ausencias y tardanzas.  </tr>
-  <tr>
-    <td>US16</td>
-    <td>Optimizar la carta de platos según la demanda histórica</td>
-    <td>Escenario 1:
-Dado que el sistema analiza las estadísticas de ventas,
-Cuando se generan recomendaciones,
-Entonces el sistema presenta una carta personalizada para días específicos.
-  </tr>
-  <tr>
-    <td>TS03</td>
-    <td>Implementación de Accesibilidad Web</td>
-    <td>Escenario 1:
-Dado que la landing page está cargada
-Cuando un usuario navega utilizando solo el teclado
-Entonces todos los elementos interactivos deben ser accesibles y enfocados correctamente.  </tr>
-  <tr>
-    <td>TS14</td>
-    <td>Deployment del Backend</td>
-    <td>Escenario 1:
-Given el usuario accede a la documentacion de Swagger, puede interactuar con todos los endpoints y sus respectivos requests.</td>
-  </tr>
-    <tr>
-    <td>US22</td>
-    <td>Registro de usuario</td>
-    <td>Escenario 1:
-Given el visitante está en la página de registro, when completa los campos obligatorios y hace clic en "Registrarse", then el sistema debe crear una cuenta.</tr>
-    <tr>
-    <td>US23</td>
-    <td>Inicio de Sesión</td>
-    <td>Escenario 1:
-Given el usuario está registrado, when ingresa sus credenciales correctas, then debe poder acceder a su cuenta.  </tr>
-    <tr>
-    <td>TS09</td>
-    <td>Registrar Usuarios por una API</td>
-    <td>Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible when se envía una solicitud POST con los datos del usuario ingresados al endpoint, then se recibe una señal de confirmación (201)</td>
-  </tr>
-    <tr>
-    <td>TS10</td>
-    <td>Autenticación de Usuarios</td>
-    <td>Escenario 1:
- Escenario 1: Dado que el endpoint destinado al registro de usuarios este disponible, when se envía una solicitud POST con las credenciales del usuario al endpoint, then se recibe una señal de confirmación (200) and el sistema permite el acceso al usuario.  </tr>
-  </table>
+| Repository                      | Branch                     | Commit ID | Commit Message                                                       | Commit Message Body | Commited on (Date) |
+|---------------------------------|----------------------------|-----------|----------------------------------------------------------------------|---------------------|--------------------|
+| Latte-WebApps/FoodSuit-Frontend | feat/orders		       | f9c325f   | Merge pull request #24 from Latte-WebApps/feat/orders 	          |                     | 2024-11-04         |
+| Latte-WebApps/FoodSuit-Frontend | fix/report-entity          | ea31507   | Merge pull request #25 from Latte-WebApps/fix/report-entity	  |                     | 2024-11-13         |
+| Latte-WebApps/FoodSuit-Frontend | fix/report-entity	       | a00c47d   | Merge pull request #26 from Latte-WebApps/fix/report-entity	  |                     | 2024-11-19         |
+| Latte-WebApps/FoodSuit-Frontend | feat/iam		       | 3c54f4a   | Merge pull request #27 from Latte-WebApps/feat/iam		          |                     | 2024-11-19         |
+| Latte-WebApps/FoodSuit-Frontend | feat/report-generation     | b8b029a   | Merge pull request #28 from Latte-WebApps/feat/report-generation     |                     | 2024-11-20         |
+| Latte-WebApps/FoodSuit-Frontend | fix/report-generation-inventory| cf74ce8   | Merge pull request #29 from Latte-WebApps/fix/report-generation-inventory|                     | 2024-11-20  |
+| Latte-WebApps/FoodSuit-Frontend | feat/dish-creation         | e77be7d   | Merge pull request #30 from Latte-WebApps/feat/dish-creation         |                     | 2024-11-20         |
+| Latte-WebApps/FoodSuit-Frontend | fix/report-table-design    | f048049   | Merge pull request #31 from Latte-WebApps/fix/report-table-design    |                     | 2024-11-20         |
+| Latte-WebApps/FoodSuit_Backend  | feat/employees-schedule    | 7c339d9   | Merge pull request #8 from Latte-WebApps/feat/employees-schedule     |                     | 2024-11-13         |
+| Latte-WebApps/FoodSuit_Backend  | feat/finance               | 4e3ebc7   | Merge pull request #9 from Latte-WebApps/feat/finance                |                     | 2024-11-12         |
+| Latte-WebApps/FoodSuit_Backend  | develop	               | 2341dd3   | Merge pull request #10 from Latte-WebApps/develop             	  |                     | 2024-11-13         |
+| Latte-WebApps/FoodSuit_Backend  | feat/employees-schedule    | 7997654   | Merge pull request #11 from Latte-WebApps/feat/employees-schedule    |                     | 2024-11-13         |
+| Latte-WebApps/FoodSuit_Backend  | feat/inventory             | beb96bd   | Merge pull request #12 from Latte-WebApps/feat/inventory             |                     | 2024-11-15         |
+| Latte-WebApps/FoodSuit_Backend  | feat/get-all-dishes	       | a432008   | Merge pull request #13 from Latte-WebApps/feat/IAM		          |                     | 2024-11-19         |
+| Latte-WebApps/FoodSuit_Backend  | feat/orders                | 16cc97c   | Merge pull request #14 from Latte-WebApps/feat/get-all-dishes        |                     | 2024-11-20         |
 
 
 
 ##### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+| Repository                      | Branch                     | Commit ID | Commit Message                                                       | Commit Message Body | Commited on (Date) |
+|---------------------------------|----------------------------|-----------|----------------------------------------------------------------------|---------------------|--------------------|
+| Latte-WebApps/Acceptance-Test   | develop		       | 98978b0   | feat: added gherkin tests 	     					  |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test   | develop		       | 4655407   | feat: added gherkin tests 	     					  |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test   | develop		       | 1805f9a   | feat: added sprint 3 features     					  |                     | 2024-11-20         |
+| Latte-WebApps/Acceptance-Test   | develop		       | 931e7a3   | Merge branch 'develop' of https://github.com/Latte-WebApps/Acceptance-Test into develop|                     | 2024-11-20         |
 
 ##### 5.2.4.5. Execution Evidence for Sprint Review
 
