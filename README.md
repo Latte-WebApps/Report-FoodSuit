@@ -2861,6 +2861,8 @@ En este apartado se muestra una pequeña captura concerniente al funcionamiento 
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EeyUXxdy9LNBvfdA_UHILK8BX8fDv9_JRljCKOyUp9RFlg?e=6nYCzt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
+![VideoAboutTheProduct](assets/AboutTheProduct.png)
+
 ## Conclusiones
 * En el desarrollo de FoodSuit, los segmentos objetivos nos ayudaron a comprender lo que los administradores de restaurantes esperan de un producto de gestión de restaurantes. Esto nos permitió identificar las características clave que debemos incluir en FoodSuit para satisfacer sus necesidades. Gracias a esto, podemos ofrecer un producto como solución práctica y eficiente que promueve una organización cómoda de un restaurante.
 * El diseño de entrevistas nos ha resultado útil para recopilar información valiosa sobre las necesidades y expectativas de los administradores de restaurantes. Nos permitió obtener información detallada sobre los problemas y desafíos que enfrentan en la gestión de sus restaurantes, lo que nos ayudó a identificar las características clave que deben incluirse en FoodSuit.
@@ -2875,6 +2877,8 @@ Cada miembro del equipo detalló su responsabilidad en el proyecto, abordando c�
 Los integrantes discutieron cómo se coordinaron para que cada bounded context se alineara con las necesidades del negocio, a la vez que mantenían la independencia técnica necesaria entre las diferentes partes del sistema. Además, destacaron la importancia de la colaboración constante para resolver problemas de integración y garantizar la calidad y usabilidad del producto final.
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110291_upc_edu_pe/EVoNvl3ZFopOtPlNrUk-B0YBnYEmuup5jakEr9wOMl1npg?e=zHkxbC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+![Video About TheTeam](assets/VideoAboutTheTeam.png)
 
 ## Bibliografía
 
