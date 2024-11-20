@@ -282,6 +282,9 @@ del ABET – EAC - Student Outcome 5.
                 Desarrollé el Lean UX Canvas, participé en los wireframes del prototipo y supervisé la información de la arquitectura, asegurando su correcto diseño.<br>
 		TB2<br>
                Finiquité los últimos cambios necesarios en el aspecto del frontend del bounded context que se me fue asignado, siendo este el de registro de órdenes, a su vez también desarrollé el backend de dicho bounded context.<br>
+		TP<br>
+  		Realicé algunos cambios requeridos en mi bounded context, esto con la finalidad de poder actualizar el bounded context de inventario al momento de terminar una order. A la par, fueron implementados más aspectos en el backend para su funcionamiento.<br> 
+			</td>
             </td>
 			<td>Al analizar todos los segmentos importantes de un proyecto de este nivel, y recibir todo tipo de retroalimentación, es posible poder fijar la base de lo que se desea del producto y por tanto se logra definir un producto confiable y con las suficientes funcionalidades para solventar la problemática.</td>
 		</tr>
@@ -312,7 +315,6 @@ Grandez Mansilla, Jean Pierre<br>
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
-                Velarde Luyo, Piero Alberto<br>
                 TB2<br>
                 Cree el entorno de trabajo para facilitar el desarrollo de mis compañeros, ademas de asistir sin falta a las reuniones programadas y terminar con los pendientes de cada una el mismo dia<br>
                 Velarde Luyo, Piero Alberto<br>
@@ -320,6 +322,8 @@ Grandez Mansilla, Jean Pierre<br>
                 Planifiqué los objetivos que se asignaron, desarrollándolos con eficiencia y respetando las decisiones que mis compañeros realizaron.<br>
 		TB2<br>
                 Facilité una reunión inicial para definir los objetivos del proyecto y establecer metas claras, asegurando que todas las voces del equipo fueran escuchadas.<br>
+		TF<br>
+                Verifiqué los objetivos a alcanzar para esta entrega y realicé mis actividades asignadas, a su vez, estuve pendiente de cada avancde de mis compañeros.<br>
             </td>
 			<td>Al establecer metas claras y planificar las tareas de manera eficiente, se logra cumplir con los objetivos propuestos y se mantiene un ambiente de trabajo colaborativo e inclusivo, lo que permite alcanzar los objetivos propuestos.</td>
 		</tr>
@@ -420,11 +424,11 @@ En el presente informe presentamos la start-up: “Latte” y la solucion que bu
     <td> Soy Sebastian Pacheco, tengo 21 años y soy alumno de Ingeniería de Software en la UPC. Me considero una persona trabajadora y activa, priorizando las responsabilidades ante todo, pero también destaco en trabajo en equipo, permitiendo a todos que participen. Tengo conocimiento de C++ y Python, los cuales pongo en práctica mediante proyectos personales. </td>
   </tr>
 <tr>
-    <th colspan="2"> Integrante 3</th>
+    <th colspan="2"> Piero Velarde Luyo </th>
   </tr>
   <tr>
-    <td>FOTO</td>
-    <td></td>
+    <td><img src="assets/profile-pics/pierovelarde.jpg" alt="Piero Velarde" style="width: 300px"></td>
+    <td>Soy Piero, estudio la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. Escogí esta carrera por mi facilidad en el uso de las computadoras. Asímismo, por mi interés en el funcionamiento de las anteriores mencionadas y todo respecto a la programación y las tecnologías emergentes. </td>
   </tr>
 <tr>
     <th colspan="2">Josue Paiva</th>
