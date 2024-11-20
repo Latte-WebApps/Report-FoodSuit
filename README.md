@@ -2781,17 +2781,18 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 |#|Problema|Escala de severidad|Heurística/Principio violado|
 | :- | :- | :- | :- |
-|1||1|IA - Is it clear?|
-|2||2|IA - Is it findable?|
-|3||1|Usability - Consistency and standards|
+|1|La visualización del dashboard carece de una organización clara, con elementos que parecen fuera de lugar o sin jerarquía visual.|1|Diseño estético y cohesivo           |
+|2|Los usuarios tienen dificultades para encontrar la opción de agregar items al inventario debido a una navegación poco intuitiva.|2|Diseño estético y cohesivo           |
+|3|En la funcionalidad para agregar una nueva asistencia, los formularios no siguen un diseño consistente con el resto de la aplicación, lo que genera confusión.|3|Eficiencia y satisfacción del usuario|
+|4|La visualización de horarios de empleados no incluye un mensaje claro o retroalimentación cuando los datos no están disponibles o la carga falla.|2|Eficiencia y satisfacción del usuario|
 
 **Landing Page**
 
 |#|Problema|Escala de severidad|Heurística/Principio violado|
 | :- | :- | :- | :- |
-|1||1|IA - Is it clear?|
-|2||1|IA - Is it usable?|
-|3||1|IA - Is it usable?|
+|1|Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación.|1|Eficiencia y satisfacción del usuario|
+|2|El texto descriptivo sobre la aplicación no tiene suficiente claridad, lo que dificulta su comprensión.|1|Diseño estético y cohesivo|
+|3|La funcionalidad del call to action no es intuitiva para los usuarios, ya que no comunica claramente la acción esperada al hacer clic.|1|Diseño estético y cohesivo|
 
 
 **DESCRIPCIÓN DE PROBLEMAS:**
@@ -2802,7 +2803,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Severidad 1: 
 
-Heurística violada: Usability - Consistency and standards 
+Heurística violada: Eficiencia y satisfacción del usuario 
 
 **Problema:** Hay inconsistencias en el diseño y los estándares utilizados en diferentes secciones de la aplicación.
 
@@ -2811,13 +2812,13 @@ Heurística violada: Usability - Consistency and standards
 
 **Problema 2**
 - **Severidad:** 1
-- **Heurística violada:** IA - Is it clear?
+- **Heurística violada:** Diseño estético y cohesivo
 - **Problema:** El texto descriptivo sobre la aplicación no tiene suficiente claridad, lo que dificulta su comprensión.
 - **Recomendación:** Simplificar y estructurar el contenido en secciones más claras y fáciles de leer, utilizando viñetas o encabezados para destacar información importante.
 
 **Problema 3**
 - **Severidad:** 1
-- **Heurística violada:** IA - Is it usable?
+- **Heurística violada:** Diseño estético y cohesivo
 - **Problema:** La funcionalidad del call to action no es intuitiva para los usuarios, ya que no comunica claramente la acción esperada al hacer clic.
 - **Recomendación:** Mejorar el diseño y el texto del botón de call to action para que sea más atractivo y comprensible, explicando claramente el beneficio de la acción.
 
@@ -2827,25 +2828,25 @@ Heurística violada: Usability - Consistency and standards
 
 **Problema 1**
 - **Severidad:** 1
-- **Heurística violada:** IA - Is it clear?
+- **Heurística violada:** Diseño estético y cohesivo
 - **Problema:** La visualización del dashboard carece de una organización clara, con elementos que parecen fuera de lugar o sin jerarquía visual.
 - **Recomendación:** Rediseñar el dashboard priorizando los elementos más importantes, aplicando una jerarquía visual clara y agrupar secciones relacionadas.
 
 **Problema 2**
 - **Severidad:** 2
-- **Heurística violada:** IA - Is it findable?
+- **Heurística violada:** Diseño estético y cohesivo
 - **Problema:** Los usuarios tienen dificultades para encontrar la opción de agregar items al inventario debido a una navegación poco intuitiva.
 - **Recomendación:** Reorganizar el menú de navegación para que la opción de agregar items sea más visible y accesible, y añadir etiquetas descriptivas.
 
 **Problema 3**
 - **Severidad:** 3
-- **Heurística violada:** Usability - Consistency and standards
+- **Heurística violada:** Eficiencia y satisfacción del usuario
 - **Problema:** En la funcionalidad para agregar una nueva asistencia, los formularios no siguen un diseño consistente con el resto de la aplicación, lo que genera confusión.
 - **Recomendación:** Uniformar el diseño de los formularios con un estilo estándar que se aplique en toda la aplicación, manteniendo consistencia en etiquetas, colores y disposición de campos.
 
 **Problema 4**
 - **Severidad:** 2
-- **Heurística violada:** Usability - Feedback and system status
+- **Heurística violada:**Eficiencia y satisfacción del usuario
 - **Problema:** La visualización de horarios de empleados no incluye un mensaje claro o retroalimentación cuando los datos no están disponibles o la carga falla.
 - **Recomendación:** Implementar mensajes de error o indicadores de carga para mantener informados a los usuarios sobre el estado del sistema en caso de fallos o demoras.
 
