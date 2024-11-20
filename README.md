@@ -263,8 +263,12 @@ del ABET – EAC - Student Outcome 5.
                 Pacheco Astiguetta, Sebastian<br>
                 TB1<br>
                 Desarrollé el análisis de competidores, estrategias y tácticas frente a competidores, entrevistas y análisis, además del diseño de la arquitectura de software.<br>
+                TP<br>
+                Realicé correcciones con respecto a la entrega anterior, además de presentar la primera versión del frontend con respecto a la generación de reportes. Esta actividad me permitió poder comprender cómo queremos que el usuario lleve cuenta de qué movimientos se realizan en el negocio.<br>
                 TB2<br>
-                Desarrollé la parte del backend de reports, este último siendo mi bounded context asignado. A la vez que realicé las correcciones necesarias de dicho bounded context en el frontend para, de esta manera, dejar este aspecto culminado.
+                Desarrollé la parte del backend de reports, este último siendo mi bounded context asignado. A la vez que realicé las correcciones necesarias de dicho bounded context en el frontend para, de esta manera, dejar este aspecto culminado.<br>
+                TF<br>
+                Corregí los errores que se presentaron en la entrega anterior, además de presentar culminado el prototipo de reportes para el frontend y backend. La funcionalidad culminada ha permitido como lógica de negocio que el usuario pueda llevar un control de los movimientos que se realizan en el negocio.<br>
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Realicé el análisis de la startup, el perfil de la solución, el lean UX process y participé en la elaboración del prototipo, especialmente en la elaboración de la landing page como mockup.<br>
@@ -295,8 +299,12 @@ del ABET – EAC - Student Outcome 5.
                 Pacheco Astiguetta, Sebastian<br>
                 TB1<br>
                 Establecí los objetivos a alcanzar del equipo y supervisé el avance de todos los integrantes.<br>
+                TP<br>
+                Repartí las tareas a cada integrante con respecto a quién logra destacar más en cada aspecto, además de supervisar el avance de cada uno.<br>
                 TB2<br>
-                Organicé sesiones de retroalimentación regulares, permitiendo al equipo revisar el progreso y ajustar las estrategias mientras todos contribuían al desarrollo de tareas específicas.
+                Organicé sesiones de retroalimentación regulares, permitiendo al equipo revisar el progreso y ajustar las estrategias mientras todos contribuían al desarrollo de tareas específicas.<br>
+                TF<br>
+                Para la entrega final, se ha considerado retroalimentación de los integrantes como grupo con respecto a las tareas asignadas, por tanto he organizado las tareas de manera equitativa mediante reuniones regulares. Llevé un seguimiento de las actividades a desarrollar, supervisando que el avance sea el más eficiente posible.<br>
                 Paiva Quispe, Josue Gonzalo<br>
                 TB1<br>
                 Analicé mis objetivos con el proyecto, realicé las actividades propuestas y asistí en el avance de los objetivos de mis compañeros.<br>
