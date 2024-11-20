@@ -2284,6 +2284,10 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 | Sum of Story Points             | La suma de story points atendidos es de X story points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 ##### 5.2.4.2. Sprint Backlog 4
+Para el ultimo sprint, creamos tasks para subsanar elementos faltantes del anterior sprint, como desorganizacion en la landing page, inconsistencias entre el front y el back que pudiera perjudicar la conexion, etc. Del mismo modo se incluyeron todas las historias de usuario que se trabajaron, todas siendo relacionadas a la conexion Front y Back, las cuales se encargan de cumplir con el core de negocio de cada uno de los bounded context trabajados.
+![Sprint Backlog 4](assets/sprint4/trelloSprint4.png)
+
+
 
 ##### 5.2.4.3. Development Evidence for Sprint Review
 
